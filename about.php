@@ -75,21 +75,34 @@
 
 
     <!-- Leadership Section -->
+    <!-- Leadership Section -->
     <section class="leadership-section mb-5">
         <div class="container">
-            <div class="notched-container  p-5">
-                <div class="row p-5">
+            <div class="notched-container">
+                <div class="row align-items-center gy-4">
 
-                    <div class="profile-image col-3 ">
-                        <img src="./public/assets/img/ceo1.png" alt="Mrs. Sneha Jain">
-                        <h6 class="mt-3"> <strong>Mrs. Sneha Jain </strong><br>Founder & CEO</h6>
+                    <div class="col-12 col-md-4 text-center">
+                        <div class="profile-image">
+                            <img src="./public/assets/img/ceo1.png" alt="Mrs. Sneha Jain" class="img-fluid rounded-circle mb-3" style="max-width: 150px;">
+                            <h6 class="mt-2">
+                                <strong>Mrs. Sneha Jain</strong><br>
+                                Founder & CEO
+                            </h6>
+                        </div>
                     </div>
-                    <div class="leadership-content col-8 m-auto">
-                        <h2 class="text-decoration-underline">Leadership</h2>
-                        <p>Mrs. Sneha Jain, Founder & CEO, has 10+ years of rich experience across wealth management, equity research, corporate finance, and investment banking. She brings a rare blend of strategic insight and on-ground expertise.Backed by a Master's in Accounting and Finance and tenures at leading institutions like HSBC and PGIM, she has built a solid reputation for delivering impactful financial solutions.<br>Since launching WealthTrust Capital Services, she has guided 500+ clients toward their financial goals through a holistic, personalised planning approach.Beyond leading the firm, she's passionate about financial education and has conducted 70+ workshops.</p>
+
+                    <div class="col-12 col-md-8">
+                        <div class="leadership-content">
+                            <h2 class="text-decoration-underline text-center text-md-start mb-3">Leadership</h2>
+                            <p class="text-justify">
+                                Mrs. Sneha Jain, Founder & CEO, has 10+ years of rich experience across wealth management, equity research, corporate finance, and investment banking. She brings a rare blend of strategic insight and on-ground expertise. Backed by a Master's in Accounting and Finance and tenures at leading institutions like HSBC and PGIM, she has built a solid reputation for delivering impactful financial solutions.
+                                <br><br>
+                                Since launching WealthTrust Capital Services, she has guided 500+ clients toward their financial goals through a holistic, personalised planning approach. Beyond leading the firm, she's passionate about financial education and has conducted 70+ workshops.
+                            </p>
+                        </div>
                     </div>
+
                 </div>
-
             </div>
         </div>
     </section>
@@ -119,12 +132,21 @@
             </div>
 
             <!-- Background journey image as visual layout -->
+            <!-- Desktop View CTA (inside background image) -->
             <div class="journey-bg-image position-relative mx-auto">
-                <!-- Centered call to action text -->
-                <div class="position-absolute top-50 start-50 translate-middle">
-                    <div class="p-3 px-4 text-white rounded-pill fw-semibold text-center shadow-sm" style="background: var(--primary-color)">
+                <div class="position-absolute top-50 start-50 translate-middle d-none d-md-block">
+                    <div class="p-3 px-4 text-white rounded-pill fw-semibold text-center shadow-sm"
+                        style="background: var(--primary-color)">
                         Your goals are one call away.
                     </div>
+                </div>
+            </div>
+
+            <!-- Mobile View CTA (outside background image) -->
+            <div class="d-block d-md-none mt-3 text-center">
+                <div class="p-3 px-4 text-white rounded-pill fw-semibold text-center shadow-sm mx-auto"
+                    style="background: var(--primary-color); max-width: 90%;">
+                    Your goals are one call away.
                 </div>
             </div>
         </div>

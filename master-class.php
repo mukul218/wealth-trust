@@ -35,34 +35,42 @@
                         <h5 class="text-white mb-3 text-center">Join our 2-hour investment masterclass</h5>
                         <div class="row text-start mb-3">
                             <div class="col-sm-6 mb-2">
-                                <div class="d-flex align-items-center bg-white text-dark p-2 rounded">
-                                    <i class="fas fa-calendar-alt me-2"></i>
+                                <div class="d-flex align-items-center bg-white text-dark p-2 rounded fs-5">
+                                <div class="bg-success px-2 me-2 fs-3 text-center text-white" style="width: 3rem;">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>    
                                     <strong>Date:</strong>&nbsp; Sun, 5th July 25
                                 </div>
                             </div>
 
                             <div class="col-sm-6 mb-2">
-                                <div class="d-flex align-items-center bg-white text-dark p-2 rounded">
-                                    <i class="fas fa-clock me-2"></i>
+                                <div class="d-flex align-items-center bg-white text-dark p-2 rounded fs-5">
+                                <div class="bg-success px-2 me-2 fs-3 text-center text-white" style="width: 3rem;">
+                                    <i class="fas fa-clock"></i>
+                                </div>    
                                     <strong>Time:</strong>&nbsp; 12:00pm
                                 </div>
                             </div>
 
                             <div class="col-sm-6 mb-2">
-                                <div class="d-flex align-items-center bg-white text-dark p-2 rounded">
-                                    <i class="fas fa-language me-2"></i>
+                                <div class="d-flex align-items-center bg-white text-dark p-2 rounded fs-5">
+                                <div class="bg-success px-2 me-2 fs-3 text-center text-white" style="width: 3rem;">
+                                    <i class="fas fa-language"></i>
+                                </div>    
                                     <strong>Language:</strong>&nbsp; English
                                 </div>
                             </div>
 
                             <div class="col-sm-6 mb-2">
-                                <div class="d-flex align-items-center bg-white text-dark p-2 rounded">
-                                    <i class="fas fa-video me-2"></i>
+                                <div class="d-flex align-items-center bg-white text-dark p-2 rounded fs-5">
+                                <div class="bg-success px-2 me-2 fs-3 text-center text-white" style="width: 3rem;">
+                                    <i class="fas fa-video"></i>
+                                </div>    
                                     <strong>Recorded in:</strong>&nbsp; Zoom
                                 </div>
                             </div>
                         </div>
-                        <p class="mb-3 text-white text-center">Transform your life</p>
+                        <p class="mb-3 text-white text-center fs-4">Transform your life</p>
                     </div>
                     <div class="text-center my-3">
                         <a href="#" class="btn btn-light text-light" style="background-color: #227c6b; border-radius: 5px;">Book my Seat</a>
@@ -167,36 +175,36 @@
 
             <div class="row justify-content-center g-4">
                 <div class="col-md-2 col-sm-6">
-                    <div class="p-3 border rounded h-100">
-                        <img src="./public/assets/img/why1.png" alt="Personalised Planning" class="img-fluid mb-2">
+                    <div class="p-3 rounded h-100 bg-white">
+                        <img src="./public/assets/img/ml1.png" alt="Personalised Planning" class="img-fluid mb-2">
                         <p class="mb-0">Personalised planning for your unique goals</p>
                         <p class="mb-0">Guidance when you are stuck</p>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-6">
-                    <div class="p-3 border rounded h-100">
-                        <img src="./public/assets/img/why1.png" alt="Personalised Planning" class="img-fluid mb-2">
+                    <div class="p-3 rounded h-100 bg-white">
+                        <img src="./public/assets/img/ml2.png" alt="Personalised Planning" class="img-fluid mb-2">
                         <p class="mb-0">Personalised planning for your unique goals</p>
                         <p class="mb-0">Over 200 Cr. under management</p>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-6">
-                    <div class="p-3 border rounded h-100">
-                        <img src="./public/assets/img/why1.png" alt="Personalised Planning" class="img-fluid mb-2">
+                    <div class="p-3 rounded h-100 bg-white">
+                        <img src="./public/assets/img/ml3.png" alt="Personalised Planning" class="img-fluid mb-2">
                         <p class="mb-0">Personalised planning for your unique goals</p>
                         <p class="mb-0">Veterans with 15+ years of experience</p>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-6">
-                    <div class="p-3 border rounded h-100">
-                        <img src="./public/assets/img/why1.png" alt="Personalised Planning" class="img-fluid mb-2">
+                    <div class="p-3 rounded h-100 bg-white">
+                        <i class="bi bi-people-fill fs-1 color-primary"></i>
                         <p class="mb-0">Personalised planning for your unique goals</p>
                         <p class="mb-0">Trusted by 500+ families</p>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-6">
-                    <div class="p-3 border rounded h-100">
-                        <img src="./public/assets/img/why1.png" alt="Personalised Planning" class="img-fluid mb-2">
+                    <div class="p-3 rounded h-100 bg-white">
+                        <img src="./public/assets/img/ml5.png" alt="Personalised Planning" class="img-fluid mb-2">
                         <p class="mb-0">Personalised planning for your unique goals</p>
                         <p class="mb-0">80+ workshops delivered & counting</p>
                     </div>
@@ -214,25 +222,25 @@
             <h2 class="fw-bold mb-4 color-primary">Who should attend?</h2>
             <div class="row justify-content-center g-4">
                 <div class="col-md-3 col-sm-6">
-                    <div class="p-3 border rounded h-100">
+                    <div class="p-3 border rounded h-100 bg-white">
                         <img src="./public/assets/img/o1.png" alt="Professional" class="img-fluid mb-2">
                         <p class="mb-0">People who want professional management</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="p-3 border rounded h-100">
+                    <div class="p-3 border rounded h-100 bg-white">
                         <img src="./public/assets/img/o2.png" alt="Passion Focus" class="img-fluid mb-2">
                         <p class="mb-0">People who want money to grow & they focus on their passion</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="p-3 border rounded h-100">
+                    <div class="p-3 border rounded h-100 bg-white">
                         <img src="./public/assets/img/o3.png" alt="Secure Future" class="img-fluid mb-2">
                         <p class="mb-0">Individuals who want a secure financial future</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="p-3 border rounded h-100">
+                    <div class="p-3 border rounded h-100 bg-white">
                         <img src="./public/assets/img/o4.png" alt="Money Work" class="img-fluid mb-2">
                         <p class="mb-0">Anyone who wants to make their money work for them</p>
                     </div>

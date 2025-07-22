@@ -8,6 +8,7 @@
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./public/assets/css/style.css">
 </head>
 
@@ -23,9 +24,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="hero-content">
-                        <h1>Invest with Confidence<br>
-                            <small>Achieve Your Life Goals on Time</small>
-                        </h1>
+                        <h1>Invest with Confidence. Achieve Your <span class="color-primary">Financial Goals</span> On Time.</h1>
                         <p>We simplify investing with expert guidance, so you can focus on what matters most.</p>
 
                         <div class="trust-badge">
@@ -34,12 +33,14 @@
                         </div>
 
                         <div class="trust-badge">
-                            <i class="fas fa-check-circle me-2"></i>
-                            Free, No Obligations
+                            <a href="#services" class="color-primary text-decoration-none">
+                                <i class="fas fa-check-circle me-2"></i>
+                                Explore More
+                            </a>
                         </div>
 
                         <div class="mt-4">
-                            <a href="#contact" class="btn btn-primary btn-lg">Book a Call</a>
+                            <a href="#contact" class="btn btn-primary btn-lg">Schedule a Call</a>
                         </div>
                     </div>
                 </div>
@@ -53,35 +54,33 @@
     <!-- About Section -->
     <section class="stats-bar">
         <div class="container my-5">
-            <div class="row justify-content-lg-between justify-content-center align-items-center stat-row">
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="stat-item">
-                        <h6>Boutique Wealth</h6>
-                        <h5>Management</h5>
+            <div class="row stat-row flex-nowrap justify-content-center align-items-center">
+                <div class="col-auto">
+                    <div class="stat-item color-primary">
+                        <h5>
+                            SEBI Registered<br><small class="text-black fs-4">Research Analyst</small>
+                        </h5>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="stat-item">
-                        <h6>SEBI Registered</h6>
-                        <h5>Research Analyst</h5>
+                <div class="col-auto">
+                    <div class="stat-item color-primary">
+                        <h5>
+                            16 Years<br><small class="text-black fs-4">of Market Wisdom</small>
+                        </h5>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="stat-item">
-                        <h6>16 Years of Market</h6>
-                        <h5>Wisdom</h5>
+                <div class="col-auto">
+                    <div class="stat-item color-primary">
+                        <h5>
+                            200cr.+<br><small class="text-black fs-4">Under Management</small>
+                        </h5>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="stat-item">
-                        <h6>200 cr.+ Under</h6>
-                        <h5>Management</h5>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="stat-item">
-                        <h6>2000+ Equity Pack</h6>
-                        <h5>subscribers</h5>
+                <div class="col-auto">
+                    <div class="stat-item color-primary">
+                        <h5>
+                            2000+<br><small class="text-black fs-4">Equity Pack subscribers</small>
+                        </h5>
                     </div>
                 </div>
             </div>
@@ -104,12 +103,8 @@
                     <!-- Content -->
                     <div class="col-lg-6">
                         <div class="about-content" style="color: #424242;">
-                            <p>Confused about which stocks to pick? Does tax planning feel like a maze? We’re here to simplify it all.</p>
-                            <p>At WealthTrust Capital Services, we’ve helped 500+ families invest confidently and achieve financial freedom.</p>
-                            <p>Founded by Sneha Jain, our mission is to make wealth creation stress-free and accessible.</p>
-                            <p>Sneha Jain has a Master’s in Accounting & Finance from the London School of Economics.</p>
-                            <p>She has worked with reputed asset management companies, such as Pramerica Asset Managers Private Limited and HSBC Global Asset Management, India.</p>
-                            <p>She has more than a decade of work experience in investment management.</p>
+                            <h3>More than 500+ families trust our services</h3>
+                            <p>At WealthTrust Capital Services, our commitment to excellence has earned the trust of over 500 families who rely on our services for their financial well-being. We take immense pride in being the trusted partner on the financial journey for a diverse community of individuals and families. Our holistic approach to wealth management, personalized strategies, and unwavering dedication to our clients' success have solidified our reputation as a reliable and transparent financial partner. Join the growing number of families who have entrusted their financial futures to us, and experience the difference that a dedicated and trustworthy financial ally can make in achieving your long-term goals.</p>
                             <div class="mt-4">
                                 <a href="#services" class="btn" style="background: #399082; color: #fff; border-radius: 25px; padding: 10px 28px; font-weight: 500;">
                                     Know More
@@ -125,8 +120,8 @@
     <!-- Our Offerings Section -->
     <section id="services" class="offerings-section">
         <div class="container">
-            <h2>Our Offerings</h2>
-            <p class="offerings-subtitle">Want a roadmap to financial freedom, need research-backed stocks or mutual fund curations? We have got your back:</p>
+            <h2 class="text-center">Our Offerings</h2>
+            <p class="offerings-subtitle fs-5">Want a roadmap to financial freedom, need research-backed stocks or mutual fund curations? We have got your back:</p>
 
             <div class="row">
                 <div class="col-lg-6 mb-4">
@@ -134,7 +129,7 @@
                         <div class="d-flex justify-content-between align-items-start mb-3">
                             <h4>Wealth Management: Your Gateway to Financial Freedom</h4>
                             <div style="font-size: 2rem; color: var(--primary-color);">
-                                <i class="fas fa-coins"></i>
+                                <img src="./public/assets/img/growth.gif" alt="" class="img-fluid" style="width: 8rem;">
                             </div>
                         </div>
                         <ul>
@@ -148,7 +143,7 @@
                             <h3>01</h3>
                         </div>
                         <button class="card-arrow-btn">
-                            <i class="fas fa-arrow-up-right"></i>
+                            <i class="fas fa-arrow-right"></i>
                         </button>
                     </div>
                 </div>
@@ -158,21 +153,22 @@
                         <div class="d-flex justify-content-between align-items-start mb-3">
                             <h4>SEBI-Registered Research Analyst</h4>
                             <div style="font-size: 2rem; color: var(--primary-color);">
-                                <i class="fas fa-search-dollar"></i>
+                                <img src="./public/assets/img/search.gif" alt="" class="img-fluid" style="width: 6rem;">
                             </div>
                         </div>
                         <ul>
-                            <li>Expert curated portfolios</li>
-                            <li>Choose portfolio, subscribe, invest, repeat</li>
+                            <li>Expert-curated portfolios</li>
                             <li>Periodic rebalancing, in line with the strategy</li>
-                            <li>Designed for your goals</li>
                             <li>No lock-in</li>
+                            <li>Transparent and research-backed approach</li>
+                            <li>Equity research reports for informed decision-making</li>
+                            <li>Tailored to market conditions</li>
                         </ul>
                         <div class="mt-4">
                             <h3>02</h3>
                         </div>
                         <button class="card-arrow-btn">
-                            <i class="fas fa-arrow-up-right"></i>
+                            <i class="fas fa-arrow-right"></i>
                         </button>
                     </div>
                 </div>
@@ -181,7 +177,7 @@
     </section>
 
     <!-- Why Us Section -->
-    <section class="why-us-section">
+    <!-- <section class="why-us-section bg-white">
         <div class="container">
             <h2>Why Us?</h2>
             <div class="row align-items-center">
@@ -198,16 +194,16 @@
                     <a href="#contact" class="btn btn-primary">Book Now</a>
                 </div>
                 <div class="col-lg-6">
-                    <img src="./public/assets/img/herothree.gif" alt="imag" srcset="">
+                    <img src="./public/assets/img/herothree.gif" alt="imag" class="img-fluid">
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Testimonials Section -->
     <section class="testimonials-section">
         <div class="container">
-            <h2>Hear from Happy Investors</h2>
+            <h2 class="text-center">Hear from Happy Investors</h2>
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <div class="testimonial-card light-green">
@@ -248,12 +244,6 @@
                     <h4 style="color: var(--primary-color);">Join our 2-hour Investment Masterclass</h4>
                     <p class="mb-4">Clear all your doubts and take charge of your finances to live a stress-free life. Register for free (a gift for scrolling to the bottom).</p>
                     <a href="#masterclass" class="btn btn-outline-primary me-3">Book Your Seat</a>
-
-                    <div class="mt-3">
-                        <h4 style="color: var(--primary-color);">Stay Updated</h4>
-                        <p>Get monthly market insights to your inbox</p>
-                        <a href="#newsletter" class="btn btn-primary">Subscribe</a>
-                    </div>
                 </div>
                 <div class="col-lg-6">
                     <img src="./public/assets/img/indexThree.png" alt="CTA Image" class="img-fluid">
@@ -264,7 +254,7 @@
 
     <section class="faq-section py-5" style="background: var(--section-bg-light);">
         <div class="container">
-            <h2 class="text-center fw-bold mb-5" style="color: var(--primary-color); font-size: 2.7rem;">Have Questions?</h2>
+            <h2 class="text-center fw-bold mb-5" style="color: var(--primary-color); font-size: 2.7rem;">FAQ’s</h2>
             <div class="row align-items-center">
                 <!-- Bot illustration (left) -->
                 <div class="col-lg-5 mb-4 mb-lg-0 text-center">
@@ -348,24 +338,26 @@
 
     <section class="featured-section">
         <div class="container">
-            <h2 class="section-title">Featured With:</h2>
-            <div class="row media-logos mb-4">
-                <div class="col-lg-3 col-md-6 mb-3">
+            <div class="row media-logos mb-4 text-center">
+                <div class="col-lg-auto col-md-6 mb-3">
+                    <h2 class="section-title">Featured With:</h2>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-3">
                     <div class="media-logo-item">
                         <img src="./public/assets/img/plogo1.png" alt="Logo 1" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-3">
+                <div class="col-lg-2 col-md-6 mb-3">
                     <div class="media-logo-item">
                         <img src="./public/assets/img/plogo2.png" alt="Logo 1" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-3">
+                <div class="col-lg-2 col-md-6 mb-3">
                     <div class="media-logo-item">
                         <img src="./public/assets/img/plogo3.png" alt="Logo 1" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-3">
+                <div class="col-lg-2 col-md-6 mb-3">
                     <div class="media-logo-item">
                         <img src="./public/assets/img/plogo4.png" alt="Logo 1" class="img-fluid">
                     </div>

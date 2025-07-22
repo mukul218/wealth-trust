@@ -5,13 +5,7 @@
         <!-- Left: Logo -->
         <a class="navbar-brand" href="./">
             <div class="d-block align-items-center">
-                <div style="font-size: 1.5rem; font-weight: bold; color: var(--primary-color);">
-                    <span style="color: var(--secondary-color);">W</span>EALTHTRUST
-                </div>
-                <div class="text-center" style="font-size: 0.8rem; color: var(--text-light); line-height: 13px;">
-                    CAPITAL SERVICES<br>
-                    <small><b>WISELY • TIMELY • CORRECTLY</b></small>
-                </div>
+                <img src="./public//assets//img/logo.png" alt="">
             </div>
         </a>
         <!-- Hamburger Button -->
@@ -28,8 +22,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./about.php">About</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./services.php">Services</a>
+
+                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="./equity.php">Equity Basket</a></li>
+                        <!-- <li><a class="dropdown-item" href="./wealth.php">Wealh (Mutual Fund)</a></li> -->
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./master-class.php">Masterclass</a>

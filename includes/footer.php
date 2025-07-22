@@ -8,18 +8,13 @@
                         <a class="navbar-brand" href="./">
                             <!-- Your logo markup here -->
                             <div class="d-block align-items-center">
-                                <div style="font-size: 1.5rem; font-weight: bold; color: var(--primary-color);">
-                                    <span style="color: var(--secondary-color);">W</span>EALTHTRUST
-                                </div>
-                                <div style="font-size: 0.8rem; color: var(--text-light); line-height: 13px;">
-                                    CAPITAL SERVICES<br>
-                                    <small><b>WISELY • TIMELY • CORRECTLY</b></small>
-                                </div>
+                                <img src="./public//assets//img/logo.png" alt="">
+
                             </div>
                         </a>
                     </div>
                     <div class="contact-info mb-3">
-                        <span class="footer-label">10 - 6:30 Call us At</span>
+                        <span class="footer-label">Contact us at</span>
                         <p class="footer-phone">+91 98190 39345</p>
                     </div>
                     <div class="location-info mb-3">
@@ -72,13 +67,69 @@
 
                 <!-- Right: Get Updates -->
                 <div class="col-lg-2 col-md-12 mb-4 pt-5">
-                    <h5>Get Updates</h5>
+                    <div class="mt-3">
+                        <h4 style="color: var(--primary-color);">Stay Updated</h4>
+                        <p>Get monthly market insights to your inbox</p>
+                    </div>
                     <form class="newsletter-form d-flex flex-column gap-2">
                         <input type="email" class="form-control" placeholder="Email:" aria-label="Email for updates">
                         <button class="btn btn-subscribe" type="submit">Subscribe</button>
                     </form>
                 </div>
             </div>
+            <section class="certification-section">
+                <div class="container text-white">
+                    <h6 class="mb-4">we are well certified –</h6>
+                    <div class="row g-4">
+                        <!-- Card 1 -->
+                        <div class="col-md-4">
+                            <div class="cert-card p-3 h-100 d-flex flex-column justify-content-center">
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="./public/assets/img/cert1.jpg" alt="AMFI Logo" style="width: 40px; height: auto;">
+                                    <p class="mb-0 small">
+                                        <strong>WealthTrust Capital Services LLP</strong> |
+                                        CIN – AAF–3245 |
+                                        GSTIN – 27AACFW1937A1ZG |
+                                        ARN No. – 109017
+                                        <br>(AMFI Registered Mutual Fund Distributor)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="col-md-4">
+                            <div class="cert-card p-3 h-100 d-flex flex-column justify-content-center">
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="./public/assets/img/cert3.jpg" alt="SEBI Logo" style="width: 40px; height: auto;">
+                                    <p class="mb-0 small">
+                                        <strong>WealthTrust Capital Services (Proprietorship)</strong> –
+                                        Bank and Financial Institution DSA
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col-md-4">
+                            <div class="cert-card p-3 h-100 d-flex flex-column justify-content-center">
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="./public/assets/img/cert2.png" alt="SEBI Logo" style="width: 40px; height: auto;">
+                                    <p class="mb-0 small">
+                                        <strong>WealthTrust Capital Services (Partnership Firm)</strong> –
+                                        SEBI Registered Research Analyst – INH000011149 |
+                                        GSTIN – 27AADFW8285G1ZO |
+                                        Member of BSE With Membership Number – 5705
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Risk Disclaimer -->
+                    <p class="text-center text-muted mt-4 small">
+                        Mutual fund investments are subject to market risks. Read the scheme information and other related documents carefully, before investing. Past performance is not indicative of future returns.
+                    </p>
+                </div>
+            </section>
             <div class="col-12 text-center mt-4">
                 <p class="copyright-text">&copy; 2025 WealthTrustCap. All Rights Reserved</p>
             </div>

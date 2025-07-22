@@ -60,7 +60,7 @@
     <!-- Why Consult With an Expert Section -->
     <section class="py-5" style="background-color: #fcf8f5;">
         <div class="container text-center">
-            <h2 class="fw-bold mb-3">Why consult with an expert?</h2>
+            <h2 class="fw-bold mb-3 color-primary fs-1">Why consult with an expert?</h2>
             <p class="mb-4">Ask yourself these 3 questions:</p>
 
             <div class="row justify-content-center g-4">
@@ -93,14 +93,14 @@
     <!-- Financial Planning Goals Section -->
     <section class="py-5" style="background-color: #fcf8f5;">
         <div class="container text-center">
-            <h2 class="fw-bold mb-2">You will end up at your destination when you plan right.</h2>
-            <p class="mb-5">What is your priority?</p>
+            <h2 class="fw-bold mb-2 color-primary fs-1">You will end up at your destination when you plan right.</h2>
+            <p class="mb-5 fs-4">What is your priority?</p>
 
             <div class="row g-4 justify-content-center">
 
                 <!-- Retirement -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="p-4 border rounded h-100">
+                    <div class="p-4 border rounded h-100 bg-white">
                         <img src="./public/assets/img/o21.png" alt="Retirement Icon" class="mb-3" style="width: 40px;">
                         <h5 class="fw-bold">Retirement</h5>
                         <p>Build a plan that lasts as long as you do. No running out of money.</p>
@@ -109,7 +109,7 @@
 
                 <!-- Wealth Building -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="p-4 border rounded h-100">
+                    <div class="p-4 border rounded h-100 bg-white">
                         <img src="./public/assets/img/o22.png" alt="Wealth Icon" class="mb-3" style="width: 40px;">
                         <h5 class="fw-bold">Wealth Building</h5>
                         <p>Create a long-term investment strategy that compounds meaningfully.</p>
@@ -118,7 +118,7 @@
 
                 <!-- Child Education -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="p-4 border rounded h-100">
+                    <div class="p-4 border rounded h-100 bg-white">
                         <img src="./public/assets/img/o23.png" alt="Child Education Icon" class="mb-3" style="width: 40px;">
                         <h5 class="fw-bold">Child Education</h5>
                         <p>Estimate costs, set timelines, and invest accordingly.</p>
@@ -127,7 +127,7 @@
 
                 <!-- Child Marriage -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="p-4 border rounded h-100">
+                    <div class="p-4 border rounded h-100 bg-white">
                         <img src="./public/assets/img/o24.png" alt="Child Marriage Icon" class="mb-3" style="width: 40px;">
                         <h5 class="fw-bold">Child Marriage</h5>
                         <p>Plan a worry-free wedding fund that doesn’t strain your future.</p>
@@ -136,7 +136,7 @@
 
                 <!-- Dream Home -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="p-4 border rounded h-100">
+                    <div class="p-4 border rounded h-100 bg-white">
                         <i class="bi bi-house-door-fill text-success fs-3 mb-2"></i>
                         <h5 class="fw-bold">Dream Home</h5>
                         <p>Buy without regrets or EMI burdens.</p>
@@ -145,7 +145,7 @@
 
                 <!-- Dream Car -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="p-4 border rounded h-100">
+                    <div class="p-4 border rounded h-100 bg-white">
                         <img src="./public/assets/img/o26.png" alt="Dream Car Icon" class="mb-3" style="width: 40px;">
                         <h5 class="fw-bold">Dream Car</h5>
                         <p>Make your lifestyle goals a reality.</p>
@@ -154,7 +154,7 @@
 
             </div>
 
-            <p class="mt-5">Let’s help you plan</p>
+            <p class="mt-5 fs-4">Let’s help you plan</p>
             <a href="#" class="btn btn-success rounded-pill px-4">Schedule a call</a>
         </div>
     </section>
@@ -162,8 +162,8 @@
     <!-- Expert Value Section -->
     <section class="py-5" style="background-color: #fcf8f5;">
         <div class="container text-center">
-            <h2 class="fw-bold mb-2">What value does an expert provide?</h2>
-            <p class="mb-4">Vanguard estimates that advisors can add up to 3% in net returns</p>
+            <h2 class="fw-bold mb-2 color-primary fs-1">What value does an expert provide?</h2>
+            <p class="mb-4 fs-4">Vanguard estimates that advisors can add up to 3% in net returns</p>
             <p class="fw-semibold mb-5">Compound growth of ₹100 after 35 years</p>
 
             <!-- Graph Image or Canvas Placeholder -->
@@ -180,7 +180,7 @@
         <div class="container text-center">
 
             <!-- Success Stories -->
-            <h2 class="fw-bold mb-4">Success stories</h2>
+            <h2 class="fw-bold mb-4 color-primary fs-1">Success stories</h2>
             <div class="row g-3 justify-content-center mb-5">
 
                 <div class="col-md-4">
@@ -207,23 +207,23 @@
             </div>
 
             <!-- CTA Heading -->
-            <h2 class="fw-bold mb-2">Let’s help you make the right choices</h2>
-            <p class="mb-4">What you get on the call:</p>
+            <h2 class="fw-bold mb-2 color-primary fs-1">Let’s help you make the right choices</h2>
+            <p class="mb-4 fs-4">What you get on the call:</p>
 
             <!-- Features List -->
             <div class="row g-3 justify-content-center mb-4">
                 <div class="col-md-3 col-sm-6">
-                    <div class="p-3 border rounded d-flex align-items-center justify-content-center h-100">
+                    <div class="px-2 py-3 border rounded d-flex align-items-center justify-content-center h-100 bg-white fs-5">
                         <i class="bi bi-check-circle text-success me-2"></i> Expert consultation
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="p-3 border rounded d-flex align-items-center justify-content-center h-100">
+                    <div class="px-2 py-3 border rounded d-flex align-items-center justify-content-center h-100 bg-white fs-5">
                         <i class="bi bi-check-circle text-success me-2"></i> Your financial health check
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="p-3 border rounded d-flex align-items-center justify-content-center h-100">
+                    <div class="px-2 py-3 border rounded d-flex align-items-center justify-content-center h-100 bg-white fs-5">
                         <i class="bi bi-check-circle text-success me-2"></i> Goal mapping and guidance
                     </div>
                 </div>
