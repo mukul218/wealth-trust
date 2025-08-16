@@ -149,13 +149,13 @@ h6 {
     text-align: center;
 }
 
-.stat-row .col-auto {
+.stat-row .col-md-3 {
     position: relative;
     padding: 0 2.5rem;
     /* Consistent spacing on both sides */
 }
 
-.stat-row .col-auto:not(:last-child)::after {
+.stat-row .col-md-3:not(:last-child)::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -171,25 +171,18 @@ h6 {
     padding: 12px 0;
 }
 
-.stat-item h6 {
-    font-size: 0.9rem;
-    margin-bottom: 5px;
-    opacity: 0.9;
+.stat-item image {
+    width: 5rem;
 }
 
-.stat-item h5 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin: 0;
-}
 
 @media (max-width: 767.98px) {
-    .stat-row .col-auto {
-        border-right: none;
+    .stat-row .col-md-3 {
+        border-right: none !important;
         border-bottom: 1px solid #e6e6e6;
     }
 
-    .stat-row .col-auto:last-child {
+    .stat-row .col-md-3:last-child {
         border-bottom: none;
     }
 }
@@ -213,7 +206,7 @@ h6 {
 .who-are-we-section h2,
 .leadership-card .leadership-content h2,
 .investor-journey-section h2 {
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
     font-size: 4rem;
     font-weight: 700;
     margin-bottom: 30px;

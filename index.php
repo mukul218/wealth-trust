@@ -24,7 +24,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="hero-content">
-                        <h1>Invest with Confidence. Achieve Your <span class="color-primary">Financial Goals</span> On Time.</h1>
+                        <h1>Invest with <span class="color-primary">Confidence</span>. Achieve Your <span class="color-primary">Financial Goals</span> On Time.</h1>
                         <p>We simplify investing with expert guidance, so you can focus on what matters most.</p>
 
                         <div class="trust-badge">
@@ -54,67 +54,60 @@
     <!-- About Section -->
     <section class="stats-bar">
         <div class="container my-5">
-            <div class="row stat-row flex-nowrap justify-content-center align-items-center">
-                <div class="col-auto">
-                    <div class="stat-item color-primary">
-                        <h5>
-                            SEBI Registered<br><small class="text-black fs-4">Research Analyst</small>
-                        </h5>
+            <div class="container">
+                <div class="row justify-content-center align-items-center text-center stat-row">
+                    <div class="col-12 col-sm-6 col-md-3 mb-4">
+                        <div class="stat-item color-primary">
+                            <img class="img-fluid w-75" src="./public/assets/image/ii1.png" alt="SEBI Registered">
+                        </div>
                     </div>
-                </div>
-                <div class="col-auto">
-                    <div class="stat-item color-primary">
-                        <h5>
-                            16 Years<br><small class="text-black fs-4">of Market Wisdom</small>
-                        </h5>
+                    <div class="col-12 col-sm-6 col-md-3 mb-4">
+                        <div class="stat-item color-primary">
+                            <img class="img-fluid w-75" src="./public/assets/image/ii2.png" alt="SEBI Registered">
+                        </div>
                     </div>
-                </div>
-                <div class="col-auto">
-                    <div class="stat-item color-primary">
-                        <h5>
-                            200cr.+<br><small class="text-black fs-4">Under Management</small>
-                        </h5>
+                    <div class="col-12 col-sm-6 col-md-3 mb-4">
+                        <div class="stat-item color-primary">
+                            <img class="img-fluid w-75" src="./public/assets/image/ii3.png" alt="SEBI Registered">
+                        </div>
                     </div>
-                </div>
-                <div class="col-auto">
-                    <div class="stat-item color-primary">
-                        <h5>
-                            2000+<br><small class="text-black fs-4">Equity Pack subscribers</small>
-                        </h5>
+                    <div class="col-12 col-sm-6 col-md-3 mb-4">
+                        <div class="stat-item color-primary">
+                            <img class="img-fluid w-75" src="./public/assets/image/ii4.png" alt="SEBI Registered">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="about-section py-5">
-            <div class="container">
-                <!-- Centered heading -->
-                <h2 class="fw-bold text-center mb-5" style="color: #399082; font-size: 2.8rem;">
-                    About WealthTrust Capital Services
-                </h2>
-                <div class="row align-items-center">
-                    <!-- Illustration -->
-                    <div class="col-lg-6 mb-4 mb-lg-0">
-                        <div class="about-illustration text-center">
-                            <img src="./public/assets/img/indexSec.png" alt="Wealth advisor illustration"
-                                style="max-width: 80%; height: auto;">
-                            <!-- Replace src with your actual illustration image file -->
+            <div class="about-section py-5">
+                <div class="container">
+                    <!-- Centered heading -->
+                    <h2 class="fw-bold text-center mb-5 text-dark" style="font-size: 2.8rem;">
+                        About <span class="color-primary">Wealth Trust</span> Capital Services
+                    </h2>
+                    <div class="row align-items-center">
+                        <!-- Illustration -->
+                        <div class="col-lg-6 mb-4 mb-lg-0">
+                            <div class="about-illustration text-center">
+                                <img src="./public/assets/image//our_services_5.gif" alt="Wealth advisor illustration"
+                                    style=" height: auto;">
+                                <!-- Replace src with your actual illustration image file -->
+                            </div>
                         </div>
-                    </div>
-                    <!-- Content -->
-                    <div class="col-lg-6">
-                        <div class="about-content" style="color: #424242;">
-                            <h3>More than 500+ families trust our services</h3>
-                            <p>At WealthTrust Capital Services, our commitment to excellence has earned the trust of over 500 families who rely on our services for their financial well-being. We take immense pride in being the trusted partner on the financial journey for a diverse community of individuals and families. Our holistic approach to wealth management, personalized strategies, and unwavering dedication to our clients' success have solidified our reputation as a reliable and transparent financial partner. Join the growing number of families who have entrusted their financial futures to us, and experience the difference that a dedicated and trustworthy financial ally can make in achieving your long-term goals.</p>
-                            <div class="mt-4">
-                                <a href="#services" class="btn" style="background: #399082; color: #fff; border-radius: 25px; padding: 10px 28px; font-weight: 500;">
-                                    Know More
-                                </a>
+                        <!-- Content -->
+                        <div class="col-lg-6">
+                            <div class="about-content" style="color: #424242;">
+                                <h3>More than 500+ families trust our services</h3>
+                                <p>At WealthTrust Capital Services, our commitment to excellence has earned the trust of over 500 families who rely on our services for their financial well-being. We take immense pride in being the trusted partner on the financial journey for a diverse community of individuals and families. Our holistic approach to wealth management, personalized strategies, and unwavering dedication to our clients' success have solidified our reputation as a reliable and transparent financial partner. Join the growing number of families who have entrusted their financial futures to us, and experience the difference that a dedicated and trustworthy financial ally can make in achieving your long-term goals.</p>
+                                <div class="mt-4">
+                                    <a href="#services" class="btn" style="background: #399082; color: #fff; border-radius: 25px; padding: 10px 28px; font-weight: 500;">
+                                        Know More
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- Our Offerings Section -->
@@ -236,29 +229,29 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="cta-section">
+    <section class="cta-section bg-white">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h2 class="text-start">Not convinced yet?</h2>
+                    <h2 class="text-center text-md-start">Not convinced yet?</h2>
                     <h4 style="color: var(--primary-color);">Join our 2-hour Investment Masterclass</h4>
                     <p class="mb-4">Clear all your doubts and take charge of your finances to live a stress-free life. Register for free (a gift for scrolling to the bottom).</p>
                     <a href="#masterclass" class="btn btn-outline-primary me-3">Book Your Seat</a>
                 </div>
                 <div class="col-lg-6">
-                    <img src="./public/assets/img/indexThree.png" alt="CTA Image" class="img-fluid">
+                    <img src="./public/assets/img/index1.gif" alt="CTA Image" class="img-fluid">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="faq-section py-5" style="background: var(--section-bg-light);">
+    <section class="faq-section py-5 bg-white">
         <div class="container">
             <h2 class="text-center fw-bold mb-5" style="color: var(--primary-color); font-size: 2.7rem;">FAQ’s</h2>
             <div class="row align-items-center">
                 <!-- Bot illustration (left) -->
                 <div class="col-lg-5 mb-4 mb-lg-0 text-center">
-                    <img src="./public/assets/img/haveQuestion.png" alt="Have Questions Bot" style="max-width: 350px; width: 80%;">
+                    <img src="./public/assets/img/faq.gif" alt="Have Questions Bot" style="max-width: 350px; width: 80%;">
                     <!-- Replace with your SVG/PNG -->
                 </div>
                 <!-- FAQ Accordion (right) -->
