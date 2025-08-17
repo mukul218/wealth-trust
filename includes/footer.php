@@ -61,6 +61,11 @@
                             <li><a href="#">Masterclass</a></li>
                             <li><a href="#">1-1 Call</a></li>
                         </ul>
+                        <h5 class="mt-4">Download Our App</h5>
+                        <ul class="social-icons p-0">
+                            <a href="#" class="social-icon-link"><i class="fab fa-android"></i></a>
+                            <a href="#" class="social-icon-link"><i class="fa-brands fa-apple"></i></a>
+                        </ul>
                     </div>
 
                 </div>

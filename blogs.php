@@ -20,15 +20,17 @@
     include_once 'includes/header.php';
     ?>
 
-    <!-- BLOG SECTION -->
-    <section class="py-5" style="background-color: #fcf8f5;">
+    <!-- BLOGS -->
+    <section class="hero-section" style="background-color:#fcf8f5;">
         <div class="container">
-            <h2 class="text-center fw-bold mb-5">BLOGS</h2>
+            <h2 class="section-title text-center fw-bold mb-4">
+                <span class=" text-dark">Latest</span> <span class="text-primary">Blogs</span>
+            </h2>
+            <p class="text-center text-muted mb-5">Insights, ideas, and explainers to help you invest smarter.</p>
 
-            <div class="row g-4" id="blogList">
-                <!-- Dynamic blog cards will be appended here -->
-            </div>
+            <div class="row g-4" id="blogList"></div>
 
+            <!-- Empty/Fallback -->
             <div id="noBlogs" class="text-center text-muted d-none">No blogs available at the moment.</div>
         </div>
     </section>
@@ -41,39 +43,64 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        $(document).ready(function() {
+        $(function() {
             $.getJSON('./functions/get_blogs.php', function(res) {
-                const blogs = res.data;
-                const container = $('#blogList');
-                const fallback = $('#noBlogs');
+                const blogs = (res && res.data) ? res.data : [];
+                const $list = $('#blogList');
+                const $fallback = $('#noBlogs');
 
-                if (blogs.length === 0) {
-                    fallback.removeClass('d-none');
+                if (!blogs.length) {
+                    $fallback.removeClass('d-none');
                     return;
                 }
 
-                blogs.forEach(blog => {
-                    
-                    const imageHTML = blog.image_url ?
-                        `<img src="${blog.image_url}" class="card-img-top" alt="${blog.title}">` :
-                        `<div class="bg-light d-flex align-items-center justify-content-center" style="height:200px;">No Image</div>`;
+                const truncate = (html, n = 140) => {
+                    const tmp = document.createElement('div');
+                    tmp.innerHTML = html || '';
+                    const text = (tmp.textContent || tmp.innerText || '').trim();
+                    return text.length > n ? text.slice(0, n).trim() + '…' : text;
+                };
+
+                const fmtDate = (d) => {
+                    try {
+                        return new Date(d).toLocaleDateString('en-IN', {
+                            day: '2-digit',
+                            month: 'short',
+                            year: 'numeric'
+                        });
+                    } catch (e) {
+                        return '';
+                    }
+                };
+
+                blogs.forEach(b => {
+                    const title = (b.title || 'Untitled').toString();
+                    const slug = encodeURIComponent(b.slug || '');
+                    const excerpt = truncate(b.content || '', 140);
+                    const when = fmtDate(b.created_at);
+
+                    const thumb = b.image_url ?
+                        `<div class="blog-thumb"><img src="${b.image_url}" alt="${title}"></div>` :
+                        `<div class="blog-thumb"><div class="thumb-fallback">BLOG</div></div>`;
 
                     const card = `
-          <div class="col-md-4">
-            <div class="card border-0 shadow-sm h-100">
-              <div class="ratio ratio-4x3">${imageHTML}</div>
-              <div class="card-body">
-                <h5 class="card-title fw-bold">${blog.title}</h5>
-                <p class="card-text">${blog.content.substring(0, 100)}...</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <small class="text-success fw-semibold">${new Date(blog.created_at).toLocaleDateString()}</small>
-                  <a href="blog-detail.php?slug=${blog.slug}" class="btn btn-sm btn-outline-success">View More</a>
+          <div class="col-md-6 col-lg-4 d-flex">
+            <article class="blog-card w-100">
+              ${thumb}
+              <div class="blog-body">
+                <h5 class="blog-title">${title}</h5>
+                <p class="blog-excerpt">${excerpt}</p>
+
+                <div class="blog-meta">
+                  <span class="blog-date">${when}</span>
+                  <a href="blog-detail.php?slug=${slug}" class="btn btn-outline-primary blog-read">Read More</a>
                 </div>
               </div>
-            </div>
+            </article>
           </div>
         `;
-                    container.append(card);
+
+                    $list.append(card);
                 });
             });
         });

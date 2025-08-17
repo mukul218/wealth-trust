@@ -20,293 +20,269 @@
     include_once 'includes/header.php';
     ?>
 
-    <!-- Invest Like the Pros Section -->
-    <section class="cta-section hero-section">
+    <!-- Invest Like a Pro Section -->
+    <section class=" hero-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6">
-                    <h2>Want To Invest Like The Pros</h2>
-                    <h4>Without Spending Hours In Research?</h4>
-                    <p>Get personalised stock advice. All you do is invest, we handle the rest.</p>
-                    <a href="#" class="btn btn-primary mt-3">Invest Now</a>
+
+                <!-- Left Content -->
+                <div class="col-md-6 text-center text-md-start">
+                    <h2 class="fw-bold display-5 mb-3">
+                        Want To Invest <span class="text-primary">Like A Pro</span><br>
+                        Without Spending Hours <br>
+                        <span class="text-primary">In Research?</span>
+                    </h2>
+
+                    <p class="text-muted mb-4">
+                        Get personalised stock advice. All you do is invest, we handle the rest.
+                    </p>
+
+                    <a href="#" class="btn btn-primary rounded-pill px-4 py-2">
+                        Invest Now
+                    </a>
                 </div>
-                <div class="col-md-6 text-center">
-                    <img src="./public/assets/img/services1.png" class="img-fluid" alt="Invest" />
+
+                <!-- Right Image -->
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="./public/assets/image/invest-like.gif"
+                        class="img-fluid"
+                        alt="Invest illustration"
+                        style="max-width: 420px;">
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Pick Your Portfolio Section -->
-    <section class="offerings-section">
+    <section class="offerings-section py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="row g-4">
-                        <!-- Portfolio Card -->
-                        <div class="col-md-6">
-                            <div class="offering-card custom-offering-card d-flex flex-column justify-content-between h-100 p-3">
-                                <div>
-                                    <div class="d-flex justify-content-between align-items-start mb-2">
-                                        <h5 class="fw-bold mb-0">Multi-dimensional <br>Portfolio Fundamental</h5>
-                                        <span class="card-icon">
-                                            <img src="./public/assets/img/ser1.png" alt="">
-                                        </span>
-                                    </div>
-                                    <p class="mt-3 mb-2 small-text">Invest in high growth companies<br>that can give multibagger returns</p>
-                                    <p class="mb-2"><span class="text-dark">Minimum investment:</span>
-                                        <span class="fw-bold" style="color: var(--primary-color);">₹30,856</span>
-                                    </p>
-                                    <p class="mb-0">Get access at just
-                                        <span class="fw-bold" style="color: var(--primary-color);">₹836/month</span>
-                                    </p>
-                                </div>
 
-                                <!-- Bottom right aligned button -->
-                                <div class="mt-auto text-end pt-3">
-                                    <button class="btn btn-outline-primary subscribed-btn px-3 py-2" disabled>Subscribed</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-4">
-                            <div class="offering-card custom-offering-card d-flex flex-column justify-content-between h-100 p-3">
-                                <div>
-                                    <div class="d-flex justify-content-between align-items-start mb-2">
-                                        <h5 class="fw-bold mb-0">Value Multicap<br>Equities Fundamental</h5>
-                                        <span class="card-icon">
-                                            <img src="./public/assets/img/ser2.png" alt="">
-                                        </span>
-                                    </div>
-                                    <p class="mt-3 mb-2 small-text">Beat inflation even in bear markets</p>
-                                    <p class="mb-2">
-                                        <span class="text-dark">Minimum investment:</span>
-                                        <span class="fw-bold" style="color: var(--primary-color);">₹94,869</span>
-                                    </p>
-                                    <p class="mb-0">
-                                        Get access at just <span class="fw-bold" style="color: var(--primary-color);">₹688/month</span>
-                                    </p>
-                                </div>
-                                <div class="mt-auto text-end pt-3">
-                                    <button class="btn btn-outline-primary subscribed-btn px-3 py-2" disabled>Subscribed</button>
-                                </div>
-                            </div>
-                        </div>
+            <!-- Title + subtitle -->
+            <h2 class="section-title text-center m-0 mb-2">
+                Pick Your <span class="text-primary">Portfolio</span>
+            </h2>
+            <p class="text-muted text-center mb-5">Transparent Pricing. No Hidden Fees.</p>
 
-                        <div class="col-md-6 mb-4">
-                            <div class="offering-card custom-offering-card d-flex flex-column justify-content-between h-100 p-3">
-                                <div>
-                                    <div class="d-flex justify-content-between align-items-start mb-2">
-                                        <h5 class="fw-bold mb-0">Inflation Resistant<br>Fundamental</h5>
-                                        <span class="card-icon">
-                                            <img src="./public/assets/img/ser3.png" alt="">
-                                        </span>
-                                    </div>
-                                    <p class="mt-3 mb-2 small-text">Undervalued stocks with growth potential</p>
-                                    <p class="mb-2">
-                                        <span class="text-dark">Minimum investment:</span>
-                                        <span class="fw-bold" style="color: var(--primary-color);">₹48,656</span>
-                                    </p>
-                                    <p class="mb-0">
-                                        Get access at just <span class="fw-bold" style="color: var(--primary-color);">₹590/month</span>
-                                    </p>
-                                </div>
-                                <div class="mt-auto text-end pt-3">
-                                    <button class="btn btn-outline-primary subscribed-btn px-3 py-2" disabled>Subscribed</button>
-                                </div>
-                            </div>
-                        </div>
+            <!-- Cards -->
+            <div class="row g-4">
 
-                        <div class="col-md-6 mb-4">
-                            <div class="offering-card custom-offering-card d-flex flex-column justify-content-between h-100 p-3">
-                                <div>
-                                    <div class="d-flex justify-content-between align-items-start mb-2">
-                                        <h5 class="fw-bold mb-0">Balance 25<br>Fundamental</h5>
-                                        <span class="card-icon">
-                                            <img src="./public/assets/img/ser4.png" alt="">
-                                        </span>
-                                    </div>
-                                    <p class="mt-3 mb-2 small-text">Strong fundamentals and momentum</p>
-                                    <p class="mb-2">
-                                        <span class="text-dark">Minimum investment:</span>
-                                        <span class="fw-bold" style="color: var(--primary-color);">₹2,39,413</span>
-                                    </p>
-                                    <p class="mb-0">
-                                        Get access at just <span class="fw-bold" style="color: var(--primary-color);">₹688/month</span>
-                                    </p>
-                                </div>
-                                <div class="mt-auto text-end pt-3">
-                                    <button class="btn btn-outline-primary subscribed-btn px-3 py-2" disabled>Subscribed</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex flex-column justify-content-center">
-                    <h2>Pick Your Portfolio</h2>
-                    <p>Transparent Pricing. No Hidden Fees.</p>
-                    <a href="#" class="btn btn-primary w-50">Start Investing</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="why-us-section what-you-get-section py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">What You Get?</h2>
-            <div class="row gx-4 gy-4 justify-content-center">
                 <!-- Card 1 -->
-                <div class="col-md-4 d-flex">
-                    <div class="what-card flex-grow-1 d-flex justify-content-between align-items-center">
-                        <div class="p-3">
-                            <h5>Personalised Portfolio Construction</h5>
-                            <p>Because your money should work for you</p>
+                <div class="col-12 col-lg-4 mb-md-0 mb-5 mt-0">
+                    <div class="offering-card offering--green h-100 p-4 border rounded d-flex flex-column">
+                        <div>
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <img src="./public/assets/img/logo.png" alt="" class="portfolio-badge" style="height: 50px; width: 50px;">
+                                <div>
+                                    <h5 class="m-0 fw-bold">Curated Portfolio</h5>
+                                    <small class="text-muted">Ready stocks baskets</small>
+                                </div>
+                            </div>
+
+                            <ul class="offering-list">
+                                <li>Custom-built portfolio</li>
+                                <li>Updates on company fundamentals, triggers and valuations</li>
+                                <li>Clear investment rationale to support long-term decisions</li>
+                            </ul>
                         </div>
-                        <div class="card-visual">
-                            <img src="./public/assets/img/ss1.png" alt="" />
+
+                        <!-- Bottom section -->
+                        <div class="mt-auto">
+                            <hr class="offering-sep my-4">
+                            <p class="m-0 fw-semibold text-success">
+                                Recommended Investment: Rs. 20 lakhs
+                            </p>
+                            <p class="m-0 text-success">Contact us for more details</p>
                         </div>
                     </div>
+                    <div class="text-center mt-3">
+                        <button class="btn btn-outline-primary rounded-pill px-4">Subscribe</button>
+                    </div>
                 </div>
+
                 <!-- Card 2 -->
-                <div class="col-md-4 d-flex">
-                    <div class="what-card flex-grow-1 d-flex justify-content-between align-items-center">
-                        <div class="p-3">
-                            <h5>Actionable Stock Recommendations</h5>
-                            <p>No more random stock tips</p>
+                <div class="col-12 col-lg-4 my-md-0 my-5">
+                    <div class="offering-card offering--blue h-100 p-4 border rounded d-flex flex-column">
+                        <div>
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <img src="./public/assets/image/icon/small-cap.png" alt="" class="portfolio-badge">
+                                <div>
+                                    <h5 class="m-0 fw-bold">Small Case</h5>
+                                    <small class="text-muted">Ready stocks baskets</small>
+                                </div>
+                            </div>
+
+                            <ul class="offering-list">
+                                <li>Multiple curated baskets, each with 10–15 high-conviction stocks</li>
+                                <li>Built for long-term growth across themes &amp; sectors</li>
+                                <li>Periodic rebalancing based on company performance and macro trends</li>
+                            </ul>
                         </div>
-                        <div class="card-visual">
-                            <img src="./public/assets/img/ss2.png" alt="" />
+
+                        <!-- Bottom section -->
+                        <div class="mt-auto">
+                            <hr class="offering-sep my-4">
+                            <p class="m-0 fw-semibold text-primary">
+                                Minimum Investment: Rs. 50,000
+                            </p>
+                            <p class="m-0 text-primary">Fees: Rs. 7,500 per year</p>
                         </div>
                     </div>
+                    <div class="text-center mt-3">
+                        <button class="btn btn-outline-primary rounded-pill px-4">Subscribe</button>
+                    </div>
                 </div>
+
                 <!-- Card 3 -->
-                <div class="col-md-4 d-flex">
-                    <div class="what-card flex-grow-1 d-flex justify-content-between align-items-center">
-                        <div class="p-3">
-                            <h5>Regular Portfolio Reviews</h5>
-                            <p>So you don’t miss any opportunities.</p>
+                <div class="col-12 col-lg-4 mt-md-0 mt-5">
+                    <div class="offering-card offering--cream h-100 p-4 border rounded d-flex flex-column">
+                        <div>
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <img src="./public/assets/image/icon/right-check.png" alt="" class="portfolio-badge">
+                                <div>
+                                    <h5 class="m-0 fw-bold">Pickright</h5>
+                                    <small class="text-muted">Ready stocks baskets</small>
+                                </div>
+                            </div>
+
+                            <ul class="offering-list">
+                                <li>Positional trading calls across equities and F&amp;O</li>
+                                <li>Automated portfolio updates based on market trends</li>
+                                <li>Easy tracking with a user-friendly app and timely alerts</li>
+                            </ul>
                         </div>
-                        <div class="card-visual">
-                            <img src="./public/assets/img/ss3.png" alt="" />
+
+                        <!-- Bottom section -->
+                        <div class="mt-auto">
+                            <hr class="offering-sep my-4">
+                            <p class="m-0 fw-semibold text-warning">
+                                Recommended Investment: &gt; Rs. 50,000
+                            </p>
+                            <p class="m-0 text-warning">Fees: Rs. 7,500 per year</p>
                         </div>
                     </div>
-                </div>
-                <!-- Card 4 (bottom left) -->
-                <div class="col-md-4 d-flex">
-                    <div class="what-card flex-grow-1 d-flex justify-content-between align-items-center">
-                        <div class="p-3">
-                            <h5>Research-Backed Picks</h5>
-                            <p>No guesswork.</p>
-                        </div>
-                        <div class="card-visual">
-                            <img src="./public/assets/img/ss4.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-                <!-- Card 5 (bottom right) -->
-                <div class="col-md-4 d-flex">
-                    <div class="what-card flex-grow-1 d-flex justify-content-between align-items-center">
-                        <div class="p-3">
-                            <h5>Real Human Guidance</h5>
-                            <p>Because when you are stuck, Google doesn’t talk back.</p>
-                        </div>
-                        <div class="card-visual">
-                            <img src="./public/assets/img/ss5.png" alt="" />
-                        </div>
+                    <div class="text-center mt-3">
+                        <button class="btn btn-outline-primary rounded-pill px-4">Subscribe</button>
                     </div>
                 </div>
             </div>
+
+            <!-- Big CTA (always visible, with extra spacing) -->
+            <div class="text-center mt-5 pt-4">
+                <a href="#" class="btn btn-primary btn-lg rounded-pill px-5">
+                    Invest Now
+                </a>
+            </div>
         </div>
     </section>
+
 
     <section class="how-works-section py-5">
         <div class="container">
-            <div class="row align-items-center">
-                <!-- Left Side: Heading and Button -->
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <h2 class="how-works-title mb-4">How It Works</h2>
-                    <a href="#" class="btn btn-primary how-works-btn">Get Started</a>
-                </div>
-                <!-- Right Side: 2x2 Grid -->
-                <div class="col-lg-8">
-                    <div class="row gy-4 gx-4">
-                        <div class="col-md-6">
-                            <div class="how-card d-flex justify-content-between align-items-center">
-                                <div class="p-3">
-                                    <h5 class="mb-1 fw-bold">Discovery Call</h5>
-                                    <p class="mb-0">We understand your goals, lifestyle, income, and risk profile.</p>
-                                </div>
-                                <div class="how-card-visual">
-                                    <img src="./public/assets/img/st1.png" alt="" style="width: 100%;"/>
-                                </div>
-                            </div>
+            <!-- Heading -->
+            <h2 class="section-title text-center mb-5">
+                How It <span class="text-primary">Works</span>
+            </h2>
+
+            <!-- 4 Cards in a Row -->
+            <div class="row gx-4 gy-4 justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-md-3">
+                    <div class="how-card text-center p-4 h-100 rounded shadow-sm">
+                        <div class="mb-3">
+                            <img src="./public/assets/image/icon/discovery-call.png" alt="Discovery Call" class="img-fluid mx-auto d-block" style="max-width:80px;">
                         </div>
-                        <div class="col-md-6">
-                            <div class="how-card d-flex justify-content-between align-items-center">
-                                <div class="p-3">
-                                    <h5 class="mb-1 fw-bold">Customised Strategy</h5>
-                                    <p class="mb-0">We build a tailored equity strategy for you.</p>
-                                </div>
-                                <div class="how-card-visual">
-                                    <img src="./public/assets/img/st2.png" alt="" style="width: 100%;"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="how-card d-flex justify-content-between align-items-center">
-                                <div class="p-3">
-                                    <h5 class="mb-1 fw-bold">Stock Advisory</h5>
-                                    <p class="mb-0">Handpicked stocks with rationale on when to enter, exit, and why.</p>
-                                </div>
-                                <div class="how-card-visual">
-                                    <img src="./public/assets/img/st3.png" alt="" style="width: 100%;"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="how-card d-flex justify-content-between align-items-center">
-                                <div class="p-3">
-                                    <h5 class="mb-1 fw-bold">Regular Portfolio Review</h5>
-                                    <p class="mb-0">Assess performance, rebalance if needed.</p>
-                                </div>
-                                <div class="how-card-visual">
-                                    <img src="./public/assets/img/st4.png" alt="" style="width: 100%;"/>
-                                </div>
-                            </div>
-                        </div>
+                        <h5 class="fw-bold">Discovery Call</h5>
+                        <p class="text-muted mb-0">We understand your goals, lifestyle, income, and risk profile.</p>
                     </div>
-                </div> <!-- end col-lg-8 -->
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-3">
+                    <div class="how-card text-center p-4 h-100 rounded shadow-sm">
+                        <div class="mb-3">
+                            <img src="./public/assets/image/icon/customised-strategy.png" alt="Customised Strategy" class="img-fluid mx-auto d-block" style="max-width:80px;">
+                        </div>
+                        <h5 class="fw-bold">Customised Strategy</h5>
+                        <p class="text-muted mb-0">We build a tailored equity strategy for you.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-3">
+                    <div class="how-card text-center p-4 h-100 rounded shadow-sm">
+                        <div class="mb-3">
+                            <img src="./public/assets/image/icon/stock-advisory.png" alt="Stock Advisory" class="img-fluid mx-auto d-block" style="max-width:80px;">
+                        </div>
+                        <h5 class="fw-bold">Stock Advisory</h5>
+                        <p class="text-muted mb-0">Handpicked stocks with rationale on when to enter, exit, and why.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-md-3">
+                    <div class="how-card text-center p-4 h-100 rounded shadow-sm">
+                        <div class="mb-3">
+                            <img src="./public/assets/image/icon/regular-portfolio.png" alt="Regular Portfolio Review" class="img-fluid mx-auto d-block" style="max-width:80px;">
+                        </div>
+                        <h5 class="fw-bold">Regular Portfolio Review</h5>
+                        <p class="text-muted mb-0">Assess performance, and rebalance if needed.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Centered Button -->
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-primary rounded-pill px-5">Get Started</a>
             </div>
         </div>
     </section>
 
-
     <!-- Who Is This For Section -->
-    <section class="who-is-this-for-section py-5">
+    <section class="who-is-this-for-section py-5 bg-light-green">
         <div class="container">
+            <!-- Centered Heading -->
+            <h2 class="section-title text-center mb-5 fw-bold">
+                Who Is This <span class="text-primary">For?</span>
+            </h2>
+
             <div class="row align-items-center">
                 <!-- Left: Bullet points and CTA -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <div class="who-for-list-wrap">
-                        <p class="mb-2">If you don't know:</p>
-                        <ul class="who-for-list mb-3">
-                            <li>Which stocks to buy</li>
-                            <li>How much to invest</li>
-                            <li>When to exit</li>
-                            <li>Don’t have time to research</li>
-                            <li>And you can’t control your emotions</li>
+                        <p class="fw-semibold mb-3">If you don't know:</p>
+                        <ul class="list-unstyled who-for-list mb-3">
+                            <li class="who-for-item mb-2">
+                                <i class="fa-solid fa-check text-primary me-2"></i> Which stocks to buy
+                            </li>
+                            <li class="who-for-item mb-2">
+                                <i class="fa-solid fa-check text-primary me-2"></i> How much to invest
+                            </li>
+                            <li class="who-for-item mb-2">
+                                <i class="fa-solid fa-check text-primary me-2"></i> When to exit
+                            </li>
+                            <li class="who-for-item mb-2">
+                                <i class="fa-solid fa-check text-primary me-2"></i> Don’t have time to research
+                            </li>
+                            <li class="who-for-item mb-0">
+                                <i class="fa-solid fa-check text-primary me-2"></i> And you can’t control your emotions
+                            </li>
                         </ul>
-                        <p class="mb-3">This is made for you.</p>
-                        <a href="#" class="btn btn-outline-primary who-for-btn">Invest Now</a>
+                        <p class="fw-semibold mb-4">This is made for you.</p>
+                        <a href="#" class="btn btn-outline-primary rounded-pill px-4">Invest Now</a>
                     </div>
                 </div>
-                <!-- Right: Heading and illustration -->
+
+                <!-- Right: Illustration -->
                 <div class="col-md-6 text-center">
-                    <h2 class="who-for-title mb-4">Who Is This For?</h2>
-                    <img src="./public/assets/img/services4.png" class="img-fluid" style="max-width: 320px;" alt="Investor Guide" />
+                    <img src="./public/assets/image/who-is-this-for.gif"
+                        class="img-fluid mx-auto d-block"
+                        alt="Investor Guide"
+                        style="max-width: 400px;">
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- Testimonial CTA -->
     <section class="testimonial-cta-section text-center py-5">
@@ -322,8 +298,7 @@
         </div>
     </section>
 
-
-
+    <!-- FAQ Section -->
     <section class="faq-section py-5" style="background: var(--section-bg-light);">
         <div class="container">
             <h2 class="text-center fw-bold mb-5" style="color: var(--primary-color); font-size: 2.7rem;">Still Have Questions?</h2>
@@ -402,21 +377,12 @@
                 </div>
                 <!-- Bot illustration (left) -->
                 <div class="col-lg-5 mb-4 mb-lg-0 text-center">
-                    <img src="./public/assets/img/haveQuestion.png" alt="Have Questions Bot" class="img-fluid" >
+                    <img src="./public/assets/image//FAQ3.gif" alt="Have Questions Bot" class="img-fluid mx-auto d-block" style="max-width: 350px;">
                     <!-- Replace with your SVG/PNG -->
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="cta-section ready-invest-section text-center py-5">
-        <div class="container">
-            <h2 class="fw-bold mb-2">Ready to Invest Smart?</h2>
-            <p class="mb-4" style="font-size: 1.13rem;">Let’s put your money to work — the right way.</p>
-            <a href="#" class="btn btn-outline-primary px-4 py-2">Invest Now</a>
-        </div>
-    </section>
-
 
     <!-- Footer Section (from previous response) -->
     <?php

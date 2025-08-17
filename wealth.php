@@ -19,115 +19,142 @@
     <?php
     include_once 'includes/header.php';
     ?>
+
     <!-- Financial Goals Hero Section -->
-    <section class="cta-section py-5 hero-section bg-white">
+    <section class="hero-section bg-white">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6">
-                    <h2><strong>BIG OR SMALL,</strong></h2>
-                    <h3>Accomplish All Your Financial Goals</h3>
-                    <p>We are your CFO, managing everything from mutual funds to insurance, taxes to real estate, so you can live stress-free.</p>
-                    <a href="#" class="btn btn-primary mt-3">Book a call</a>
+
+                <!-- Left Content -->
+                <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+                    <h2 class="fw-bold display-5 mb-3">
+                        <span class="text-primary">Big Or Small,</span><br>
+                        <span class="text-dark">Accomplish All Your<br>Financial Goals</span>
+                    </h2>
+
+                    <p class="text-muted mb-4">
+                        We are your CFO, managing everything from mutual funds to insurance,
+                        taxes to real estate, so you can live stress-free.
+                    </p>
+
+                    <a href="#" class="btn btn-primary rounded-pill px-4 py-2">
+                        Book a call
+                    </a>
                 </div>
+
+                <!-- Right Image -->
                 <div class="col-md-6 text-center">
-                    <img src="./public/assets/img/v1.png class=" img-fluid" alt="Financial Goals">
+                    <img src="./public/assets/image/big-small-goals.gif"
+                        alt="Financial Goals"
+                        class="img-fluid mx-auto d-block"
+                        style="max-width: 100%">
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- What Do We Offer -->
+    <!-- What You Get Section -->
     <section class="why-us-section py-5 text-center">
         <div class="container">
-            <h2>What do we offer?</h2>
-            <p>Multiple solutions under one roof</p>
-            <div class="row g-3 mt-4">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="offering-card">
-                            <div class="icon-wrapper">
-                                <img src="./public/assets/img/v1.png alt=" Icon" />
-                            </div>
-                            <div class="offering-text">
-                                Mutual Funds<br />
-                                <small>Inflation-beating wealth creation</small>
-                            </div>
-                        </div>
-                    </div>
+            <h2 class="section-title m-0 mb-2">
+                What do <span class="text-primary">we offer?</span>
+            </h2>
+            <p class="text-muted mb-5">Multiple solutions under one roof</p>
 
-                    <div class="col-md-3">
-                        <div class="offering-card">
-                            <div class="icon-wrapper">
-                                <img src="./public/assets/img/v1.png alt=" Icon" />
-                            </div>
-                            <div class="offering-text">
-                                Insurance<br />
-                                <small>Shield during emergencies</small>
-                            </div>
+            <!-- Row 1: 4 cards -->
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="offer-grid-card">
+                        <div class="offer-corner">
+                            <img src="./public/assets/image/icon/wl1.png" alt="Mutual funds" class="offer-corner-icon">
                         </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="offering-card">
-                            <div class="icon-wrapper">
-                                <img src="./public/assets/img/v1.png alt=" Icon" />
-                            </div>
-                            <div class="offering-text">
-                                Tax Planning<br />
-                                <small>Strategic and smart saving</small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="offering-card">
-                            <div class="icon-wrapper">
-                                <img src="./public/assets/img/v1.png alt=" Icon" />
-                            </div>
-                            <div class="offering-text">
-                                Fixed Income<br />
-                                <small>For safety-first investors</small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="offering-card">
-                            <div class="icon-wrapper">
-                                <img src="./public/assets/img/v1.png alt=" Icon" />
-                            </div>
-                            <div class="offering-text">
-                                Real Estate<br />
-                                <small>Invest smartly in real estate</small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="offering-card">
-                            <div class="icon-wrapper">
-                                <img src="./public/assets/img/v1.png alt=" Icon" />
-                            </div>
-                            <div class="offering-text">
-                                Loans<br />
-                                <small>Unlock cash for financial needs</small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="offering-card">
-                            <div class="icon-wrapper">
-                                <img src="./public/assets/img/v1.png alt=" Icon" />
-                            </div>
-                            <div class="offering-text">
-                                Private Equity, AIFs, PMS<br />
-                                <small>Advanced options for diversification</small>
-                            </div>
+                        <div class="offer-text">
+                            <strong>Mutual funds</strong>
+                            <small>Inflation-beating wealth creation</small>
                         </div>
                     </div>
                 </div>
 
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="offer-grid-card">
+                        <div class="offer-corner">
+                            <img src="./public/assets/image/icon/wl2.png" alt="Insurance" class="offer-corner-icon">
+                        </div>
+                        <div class="offer-text">
+                            <strong>Insurance</strong>
+                            <small>Shield during emergencies</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="offer-grid-card">
+                        <div class="offer-corner">
+                            <img src="./public/assets/image/icon/wl3.png" alt="Tax planning" class="offer-corner-icon">
+                        </div>
+                        <div class="offer-text">
+                            <strong>Tax planning</strong>
+                            <small>Strategic and smart saving</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="offer-grid-card">
+                        <div class="offer-corner">
+                            <img src="./public/assets/image/icon/wl4.png" alt="Fixed income" class="offer-corner-icon">
+                        </div>
+                        <div class="offer-text">
+                            <strong>Fixed income</strong>
+                            <small>For safety-first investors</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 2: 3 cards -->
+            <div class="row g-4 justify-content-center mt-1">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="offer-grid-card">
+                        <div class="offer-corner">
+                            <img src="./public/assets/image/icon/wl5.png" alt="REITS" class="offer-corner-icon">
+                        </div>
+                        <div class="offer-text">
+                            <strong>REITS</strong>
+                            <small>Invest smartly in real estate</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="offer-grid-card">
+                        <div class="offer-corner">
+                            <img src="./public/assets/image/icon/wl6.png" alt="Loans" class="offer-corner-icon">
+                        </div>
+                        <div class="offer-text">
+                            <strong>Loans</strong>
+                            <small>Unlock cash for financial needs</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="offer-grid-card">
+                        <div class="offer-corner">
+                            <img src="./public/assets/image/icon/wl7.png" alt="Private equity, AIFs, PMS" class="offer-corner-icon">
+                        </div>
+                        <div class="offer-text">
+                            <strong>Private equity, AIFs, PMS</strong>
+                            <small>Advanced options for diversification</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-primary rounded-pill px-5">Get Started</a>
             </div>
         </div>
     </section>
@@ -135,158 +162,344 @@
     <!-- Goal Planner -->
     <section class="why-us-section py-5 text-center">
         <div class="container">
-            <h2>Your Personal Goal Planner</h2>
-            <p>Choose your goal</p>
-            <div class="row justify-content-center my-4">
-                <div class="col-md-2 goal-box">Emergency</div>
-                <div class="col-md-2 goal-box">Dream Car</div>
-                <div class="col-md-2 goal-box">Dream Home</div>
-                <div class="col-md-2 goal-box">Wealth Building</div>
-                <div class="col-md-2 goal-box">Retirement</div>
-                <div class="col-md-2 goal-box selected-goal">Child Education</div>
-                <div class="col-md-2 goal-box">Child Marriage</div>
-            </div>
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-6">
-                    <p>Having a fund to depend on, allows your child to dream high and achieve those dreams without financial constraints.</p>
-                    <img src="./public/assets/img/v1.png" alt="Child Education" class="img-fluid">
-                    <a href="#" class="btn btn-primary mt-3">Plan Goal</a>
+            <h2 class="section-title m-0 mb-2">
+                Your Personal <span class="text-primary">Goal Planner</span>
+            </h2>
+            <p class="text-muted mb-4">Choose your goal</p>
+
+            <div class="row justify-content-center g-4 py-3">
+                <div class="col-12 col-lg-4">
+                    <div class="d-grid gap-3">
+                        <button type="button" class="goal-box btn text-start selected-goal"
+                            data-goal='{"title":"Child Education","desc":"Prepare a financial ladder for your child to achieve their dreams.","img":"./public/assets/image/dream.gif"}'>
+                            <img src="./public/assets/image/icon/education.png" alt="" class="goal-icon"> Child Education
+                        </button>
+                    </div>
                 </div>
+            </div>
+
+            <div class="row g-4 align-items-start">
+                <!-- Left column -->
+                <div class="col-12 col-lg-4">
+                    <div class="d-grid gap-3">
+                        <button type="button" class="goal-box btn text-start"
+                            data-goal='{"title":"Emergency","desc":"Build a buffer to handle unforeseen expenses without selling investments.","img":"./public/assets/image/dream.gif"}'>
+                            <img src="./public/assets/image/icon/emergency.png" alt="" class="goal-icon"> Emergency
+                        </button>
+
+                        <button type="button" class="goal-box btn text-start"
+                            data-goal='{"title":"Dream Car","desc":"Plan your car purchase with a smart saving and investing path.","img":"./public/assets/image/dream.gif"}'>
+                            <img src="./public/assets/image/icon/car.png" alt="" class="goal-icon"> Dream Car
+                        </button>
+
+                        <button type="button" class="goal-box btn text-start"
+                            data-goal='{"title":"Dream Home","desc":"Move towards your home goal with a disciplined, goal-based plan.","img":"./public/assets/image/dream.gif"}'>
+                            <img src="./public/assets/image/icon/home.png" alt="" class="goal-icon"> Dream Home
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Center card -->
+                <div class="col-12 col-lg-4">
+                    <div class="goal-center card shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title mb-3" id="goalTitle">Child Education</h5>
+                            <img id="goalImg" src="./public/assets/image/dream.gif" alt="Child Education" class="img-fluid mb-3 rounded">
+                            <p class="card-text text-muted" id="goalDesc">
+                                Prepare a financial ladder for your child to achieve their dreams.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right column -->
+                <div class="col-12 col-lg-4">
+                    <div class="d-grid gap-3">
+                        <button type="button" class="goal-box btn text-start"
+                            data-goal='{"title":"Wealth building","desc":"Systematic, compounding-led wealth creation aligned to your time horizon.","img":"./public/assets/image/dream.gif"}'>
+                            <img src="./public/assets/image/icon/wealth.png" alt="" class="goal-icon"> Wealth building
+                        </button>
+
+                        <button type="button" class="goal-box btn text-start"
+                            data-goal='{"title":"Retirement","desc":"Secure your post-work life with inflation-aware, risk-fit allocation.","img":"./public/assets/image/dream.gif"}'>
+                            <img src="./public/assets/image/icon/retirement.png" alt="" class="goal-icon"> Retirement
+                        </button>
+
+                        <button type="button" class="goal-box btn text-start"
+                            data-goal='{"title":"Child’s Marriage","desc":"Plan large future expenses with a balanced, milestone-based plan.","img":"./public/assets/image/dream.gif"}'>
+                            <img src="./public/assets/image/icon/marriage.png" alt="" class="goal-icon"> Child’s Marriage
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA under grid (optional) -->
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary rounded-pill px-5">Plan Goal</a>
             </div>
         </div>
     </section>
 
-    <!-- How It Works -->
-    <section class="py-5" style="background-color: var(--section-bg-light);">
+    <section class="howitworks-section py-5 bg-white">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-2">
+                How It <span class="text-primary">Works</span>
+            </h2>
+            <p class="text-muted mb-5">
+                Uncomplicate your financial life. Here is how we work:
+            </p>
+
+            <!-- Background with steps -->
+            <div class="hiw-wrapper position-relative mx-auto">
+                <!-- Background with Discovery, Goal Mapping, etc. -->
+                <img src="./public/assets/image/bg.png"
+                    alt="Steps background"
+                    class="img-fluid">
+
+                <!-- Center animated GIF -->
+                <img src="./public/assets/image/dream.gif"
+                    alt="Central process"
+                    class="hiw-center-gif">
+            </div>
+
+            <!-- CTA -->
+            <div class="mt-4">
+                <a href="#" class="btn btn-primary rounded-pill px-4">
+                    Book a call
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who Is This For -->
+    <section class="who-for-section py-5">
         <div class="container">
-            <h2 class="fw-bold" style="color: var(--primary-color);">How It Works</h2>
-            <p class="mb-4" style="color: var(--text-light);">Uncomplicate your financial life. Here is how we work:</p>
-            <div class="row align-items-start">
-                <div class="col-md-6">
-                    <div class="row">
-
-                        <div class="col-md-6">
-                            <div class="d-flex mb-4">
-                                <div class="me-3">
-                                    <img src="./public/assets/img/v1.png" alt="Discovery Icon">
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold mb-1">Discovery Call</h5>
-                                    <p class="mb-0 text-muted">Understand your life goals and current financial picture</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="d-flex mb-4">
-                                <div class="me-3">
-                                    <img src="./public/assets/img/v1.png" alt="Portfolio Icon">
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold mb-1">Portfolio Design</h5>
-                                    <p class="mb-0 text-muted">Choose the right mix of MFs, insurance, and other tools</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="d-flex mb-4">
-                                <div class="me-3">
-                                    <img src="./public/assets/img/v1.png" alt="Review Icon">
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold mb-1">Annual Wealth Review</h5>
-                                    <p class="mb-0 text-muted">Life evolves. So does your plan.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="d-flex mb-4">
-                                <div class="me-3">
-                                    <img src="./public/assets/img/v1.png" alt="Goal Mapping Icon">
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold mb-1">Goal Mapping</h5>
-                                    <p class="mb-0 text-muted">Break down each goal into a timeline, value, and monthly investment</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="d-flex mb-4">
-                                <div class="me-3">
-                                    <img src="./public/assets/img/v1.png" alt="Execution Icon">
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold mb-1">Execution & Monitoring</h5>
-                                    <p class="mb-0 text-muted">We invest, track, and rebalance regularly</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <a href="#" class="btn" style="background-color: var(--primary-color); color: white; border-radius: 8px;">Book a call</a>
+            <h2 class="section-title text-center mb-5">
+                Who Is This <span class="text-primary">For?</span>
+            </h2>
+            <div class="row align-items-center">
+                <!-- Left: Illustration -->
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <img src="./public/assets/image/who-is-this-for-2.gif"
+                        alt="Who is this for"
+                        class="img-fluid mx-auto d-block"
+                        style="max-width:400px;">
                 </div>
+
+                <!-- Right: Checklist -->
                 <div class="col-md-6">
-                    <div class="text-center">
-                        <img src="./public/assets/img/hiw.png" class="img-fluid mb-3" alt="How It Works Illustration">
-                    </div>
+                    <p class="mb-3">Whether you're a:</p>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-center mb-3 p-2 bg-white rounded border-start border-3 border-success shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-check2-circle text-success fw-bold me-3"
+                                viewBox="0 0 16 16" style="min-width:20px;">
+                                <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0" />
+                                <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z" />
+                            </svg>
+                            <span class="fw-semibold">Salaried professional planning retirement or kids’ education</span>
+                        </li>
+
+                        <li class="d-flex align-items-center mb-3 p-2 bg-white rounded border-start border-3 border-success shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-check2-circle text-success fw-bold me-3"
+                                viewBox="0 0 16 16" style="min-width:20px;">
+                                <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0" />
+                                <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z" />
+                            </svg>
+                            <span class="fw-semibold">Business owner looking to optimise taxes and diversify wealth</span>
+                        </li>
+
+                        <li class="d-flex align-items-center mb-3 p-2 bg-white rounded border-start border-3 border-success shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-check2-circle text-success fw-bold me-3"
+                                viewBox="0 0 16 16" style="min-width:20px;">
+                                <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0" />
+                                <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z" />
+                            </svg>
+                            <span class="fw-semibold">NRI managing India-based assets</span>
+                        </li>
+
+                        <li class="d-flex align-items-center p-2 bg-white rounded border-start border-3 border-success shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-check2-circle text-success fw-bold me-3"
+                                viewBox="0 0 16 16" style="min-width:20px;">
+                                <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0" />
+                                <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z" />
+                            </svg>
+                            <span class="fw-semibold">HNI aiming to preserve and grow intergenerational wealth</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section><!-- Who Is This For -->
+    </section>
 
     <!-- Testimonials -->
     <section class="testimonials-section py-5">
         <div class="container">
-            <h2 class="text-center">What do our happy investors say?</h2>
-            <div class="row mt-4 g-3">
-                <div class="col-md-4 testimonial-card">
-                    <strong>— Ritu Sharma, Senior IT Professional, Pune</strong><br>
-                    “My SIPs are aligned with my daughter’s education, and I no longer stress over market noise.”
+            <h2 class="text-center mb-5">
+                What do our <span class="text-primary">happy investors</span> say?
+            </h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="testimonial-card p-3 rounded h-100 shadow-sm">
+                        <strong>— Ritu Sharma, Senior IT Professional, Pune</strong>
+                        <p class="mb-0 mt-2">
+                            “I always thought I could manage my finances on my own. But once I started working with Sneha and her team, I realised what true goal-based planning feels like. My SIPs are aligned with my daughter’s education, and I no longer stress over market noise.”
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-4 testimonial-card">
-                    <strong>— Rakesh Sinha, MSME Entrepreneur, Indore</strong><br>
-                    “A flexible investment plan with MFs and insurance that adjusts with my cash flow.”
+                <div class="col-md-4">
+                    <div class="testimonial-card p-3 rounded h-100 shadow-sm">
+                        <strong>— Rakesh Sinha, MSME Entrepreneur, Indore</strong>
+                        <p class="mb-0 mt-2">
+                            “As a business owner, my income is irregular, which makes long-term planning hard. WealthTrust helped me create a flexible yet disciplined investment plan with mutual funds and insurance that adjusts with my cash flow.”
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-4 testimonial-card">
-                    <strong>— Neha L., NRI Client, UAE</strong><br>
-                    “Structured plan to manage India-based assets and NPS contributions.”
+                <div class="col-md-4">
+                    <div class="testimonial-card p-3 rounded h-100 shadow-sm">
+                        <strong>— Neha L., NRI Client, UAE</strong>
+                        <p class="mb-0 mt-2">
+                            “I live in Dubai but wanted a structured plan to manage my India-based assets and NPS contributions. WealthTrust gave me one advisor, one plan, and complete peace of mind.”
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- FAQs -->
-    <section class="cta-section py-5">
+    <!-- FAQ Section -->
+    <section class="faq-section py-5 ">
         <div class="container">
-            <h2 class="text-center mb-4">FAQs</h2>
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="accordion" id="faqAccordion2">
+            <h2 class="text-center fw-bold mb-5" style="color: var(--primary-color); font-size: 2.7rem;">FAQ’s</h2>
+            <div class="row align-items-center">
+                <!-- FAQ Accordion (right) -->
+                <div class="col-lg-7">
+                    <div class="accordion custom-accordion" id="faqAccordion">
+
+                        <!-- Q1 -->
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="faqHeading1">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true">
+                            <h2 class="accordion-header" id="faq1-heading">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
                                     1. How is wealth management different from stock or mutual fund advice?
                                 </button>
                             </h2>
-                            <div id="faqCollapse1" class="accordion-collapse collapse show">
+                            <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="faq1-heading" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     Wealth management covers everything: your goals, taxes, insurance, real estate, and investments — all under one umbrella.
                                 </div>
                             </div>
                         </div>
-                        <!-- Add more accordion items as needed -->
-                    </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq2-heading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                    2. Is this only for high-net-worth individuals?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    No. Our services are for professionals, business owners, NRIs, and families of all sizes who want to manage money smarter and plan for the future.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq3-heading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                    3. Will I get dedicated expert support?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes. You get direct access to experienced advisors who understand your unique goals and guide you with personalized strategies.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq4-heading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                    4. How are you compensated?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faq4-heading" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We charge transparent, flat advisory fees. Our recommendations are unbiased, with no hidden commissions or product pushes.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq5-heading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                    5. Can I include my spouse or parents in the planning?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" aria-labelledby="faq5-heading" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Absolutely. We encourage family-based financial planning so that your entire household’s goals are aligned and secure.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Q6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq6-heading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                                    6. Do you offer online/virtual support?
+                                </button>
+                            </h2>
+                            <div id="faq6" class="accordion-collapse collapse" aria-labelledby="faq6-heading" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes. Most of our consultations and reviews are virtual, so you can connect with us anytime, anywhere in the world.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> <!-- /.custom-accordion -->
                 </div>
-                <div class="col-md-4 text-center">
-                    <img src="./public/assets/img/v1.png.png" class="img-fluid" alt="FAQ Bot">
+
+                <!-- Bot illustration (left) -->
+                <div class="col-lg-5 mb-4 mb-lg-0 text-center">
+                    <img src="./public/assets/image/FAQ3.gif" alt="FAQ Bot" class="h-100 mx-auto d-block">
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Footer Section (from previous response) -->
     <?php
     include_once 'includes/footer.php';
     ?>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const titleEl = document.getElementById('goalTitle');
+            const descEl = document.getElementById('goalDesc');
+            const imgEl = document.getElementById('goalImg');
+
+            const boxes = document.querySelectorAll('.goal-box');
+            boxes.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // update selected state
+                    boxes.forEach(b => b.classList.remove('selected-goal'));
+                    btn.classList.add('selected-goal');
+
+                    // read payload
+                    const data = JSON.parse(btn.getAttribute('data-goal'));
+                    titleEl.textContent = data.title;
+                    descEl.textContent = data.desc;
+                    imgEl.src = data.img;
+                    imgEl.alt = data.title;
+                });
+            });
+        });
+    </script>
 
 </body>
 

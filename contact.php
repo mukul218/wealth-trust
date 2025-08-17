@@ -21,7 +21,7 @@
     ?>
 
     <!-- Masterclass Promo Section -->
-    <section class="cta-section py-5" style="background-color: #fdfdfb; border-radius: 12px; box-shadow: 0 0 12px rgba(0,0,0,0.05);">
+    <section class="hero-section" style="background-color: #fdfdfb; border-radius: 12px; box-shadow: 0 0 12px rgba(0,0,0,0.05);">
         <div class="container">
             <div class="row align-items-center text-center text-md-start">
                 <div class="col-md-5 mb-4 mb-md-0">

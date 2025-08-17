@@ -21,21 +21,21 @@
     <!-- Hero Section -->
     <section id="home" class="hero-section">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-6 pe-md-5 pe-0">
                     <div class="hero-content">
-                        <h1>Invest with <span class="color-primary">Confidence</span>. Achieve Your <span class="color-primary">Financial Goals</span> On Time.</h1>
+                        <h1>Invest with <span class="color-primary">Confidence</span>. <small><span class="color-primary">Achieve</span> Your <span class="color-primary">Life Goals</span> On Time.</small></h1>
                         <p>We simplify investing with expert guidance, so you can focus on what matters most.</p>
 
                         <div class="trust-badge">
                             <i class="fas fa-shield-alt me-2"></i>
-                            Trusted by 500+ Families.
+                            Trusted by <b>500+ Families.</b>
                         </div>
 
                         <div class="trust-badge">
                             <a href="#services" class="color-primary text-decoration-none">
                                 <i class="fas fa-check-circle me-2"></i>
-                                Explore More
+                                Certified <b>Expert</b>
                             </a>
                         </div>
 
@@ -45,7 +45,57 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="./public/assets/img/indexHero.png" alt="Hero Image" class="img-fluid">
+                    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+
+                            <!-- Slide 1: primary bg, white text -->
+                            <div class="carousel-item active">
+                                <div class="carousel-pane bg-primary-slide text-white">
+                                    <div>
+                                        <h2>8%</h2>
+                                        <p>Indian Investors in the Market</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 2: white bg, primary text -->
+                            <div class="carousel-item">
+                                <div class="carousel-pane bg-white-slide text-primary">
+                                    <div>
+                                        <h2>14%</h2>
+                                        <p>is what the equity markets returned on average in the past 20 Years</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 3: primary bg, white text -->
+                            <div class="carousel-item">
+                                <div class="carousel-pane bg-primary-slide text-white">
+                                    <div>
+                                        <h2>Hurry Up</h2>
+                                        <p>Delay and lack of knowledge can cost you thousands crores. Start today, safe tomorrow.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -96,7 +146,7 @@
                         <!-- Content -->
                         <div class="col-lg-6">
                             <div class="about-content" style="color: #424242;">
-                                <h3>More than 500+ families trust our services</h3>
+                                <h3 class="color-primary"><b>Where trust meet experties in Wealth Management</b></h3>
                                 <p>At WealthTrust Capital Services, our commitment to excellence has earned the trust of over 500 families who rely on our services for their financial well-being. We take immense pride in being the trusted partner on the financial journey for a diverse community of individuals and families. Our holistic approach to wealth management, personalized strategies, and unwavering dedication to our clients' success have solidified our reputation as a reliable and transparent financial partner. Join the growing number of families who have entrusted their financial futures to us, and experience the difference that a dedicated and trustworthy financial ally can make in achieving your long-term goals.</p>
                                 <div class="mt-4">
                                     <a href="#services" class="btn" style="background: #399082; color: #fff; border-radius: 25px; padding: 10px 28px; font-weight: 500;">
@@ -113,12 +163,14 @@
     <!-- Our Offerings Section -->
     <section id="services" class="offerings-section">
         <div class="container">
-            <h2 class="text-center">Our Offerings</h2>
+            <h2 class="text-center">Our <span class="color-primary">Offerings</span></h2>
             <p class="offerings-subtitle fs-5">Want a roadmap to financial freedom, need research-backed stocks or mutual fund curations? We have got your back:</p>
 
-            <div class="row">
-                <div class="col-lg-6 mb-4">
-                    <div class="offering-card">
+
+
+            <div class="row align-items-stretch">
+                <div class="col-lg-6 mb-4 d-flex">
+                    <div class="offering-card flex-fill">
                         <div class="d-flex justify-content-between align-items-start mb-3">
                             <h4>Wealth Management: Your Gateway to Financial Freedom</h4>
                             <div style="font-size: 2rem; color: var(--primary-color);">
@@ -132,17 +184,20 @@
                             <li>Constant support at every stage</li>
                             <li>15+ years of track record</li>
                         </ul>
-                        <div class="mt-4">
-                            <h3>01</h3>
+                        <div class="mt-auto d-flex align-items-center">
+
+                            <div class="metrics">
+                                <h3>01</h3>
+                            </div>
+                            <button class="card-arrow-btn">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
                         </div>
-                        <button class="card-arrow-btn">
-                            <i class="fas fa-arrow-right"></i>
-                        </button>
                     </div>
                 </div>
 
-                <div class="col-lg-6 mb-4">
-                    <div class="offering-card">
+                <div class="col-lg-6 mb-4 d-flex">
+                    <div class="offering-card flex-fill">
                         <div class="d-flex justify-content-between align-items-start mb-3">
                             <h4>SEBI-Registered Research Analyst</h4>
                             <div style="font-size: 2rem; color: var(--primary-color);">
@@ -157,12 +212,14 @@
                             <li>Equity research reports for informed decision-making</li>
                             <li>Tailored to market conditions</li>
                         </ul>
-                        <div class="mt-4">
-                            <h3>02</h3>
+                        <div class="mt-auto d-flex align-items-center">
+                            <div class="metrics">
+                                <h3>02</h3>
+                            </div>
+                            <button class="card-arrow-btn">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
                         </div>
-                        <button class="card-arrow-btn">
-                            <i class="fas fa-arrow-right"></i>
-                        </button>
                     </div>
                 </div>
             </div>
@@ -196,7 +253,7 @@
     <!-- Testimonials Section -->
     <section class="testimonials-section">
         <div class="container">
-            <h2 class="text-center">Hear from Happy Investors</h2>
+            <h2 class="text-center">Hear from <span class="color-primary">Happy Investors</span></h2>
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <div class="testimonial-card light-green">
@@ -233,13 +290,13 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h2 class="text-center text-md-start">Not convinced yet?</h2>
+                    <h2 class="text-center text-md-start">Not convinced <span class="color-primary">yet?</span></h2>
                     <h4 style="color: var(--primary-color);">Join our 2-hour Investment Masterclass</h4>
                     <p class="mb-4">Clear all your doubts and take charge of your finances to live a stress-free life. Register for free (a gift for scrolling to the bottom).</p>
                     <a href="#masterclass" class="btn btn-outline-primary me-3">Book Your Seat</a>
                 </div>
                 <div class="col-lg-6">
-                    <img src="./public/assets/img/index1.gif" alt="CTA Image" class="img-fluid">
+                    <img src="./public/assets/image/not-convinced-gif.gif" alt="CTA Image" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -251,7 +308,7 @@
             <div class="row align-items-center">
                 <!-- Bot illustration (left) -->
                 <div class="col-lg-5 mb-4 mb-lg-0 text-center">
-                    <img src="./public/assets/img/faq.gif" alt="Have Questions Bot" style="max-width: 350px; width: 80%;">
+                    <img src="./public/assets/image/faq.gif" alt="Have Questions Bot" style="max-width: 350px; width: 80%;">
                     <!-- Replace with your SVG/PNG -->
                 </div>
                 <!-- FAQ Accordion (right) -->
@@ -331,50 +388,53 @@
 
     <section class="featured-section">
         <div class="container">
-            <div class="row media-logos mb-4 text-center">
-                <div class="col-lg-auto col-md-6 mb-3">
-                    <h2 class="section-title">Featured With:</h2>
+            <!-- Logos -->
+            <div class="row align-items-center text-center gy-3 mb-4 justify-content-center">
+                <div class="col-12 mb-3">
+                    <h2 class="section-title mb-2">Featured With:</h2>
                 </div>
-                <div class="col-lg-2 col-md-6 mb-3">
+
+                <!-- logos auto-center on small, inline on large -->
+                <div class="col-6 col-md-3 col-lg-2">
                     <div class="media-logo-item">
-                        <img src="./public/assets/img/plogo1.png" alt="Logo 1" class="img-fluid">
+                        <img src="./public/assets/img/plogo1.png" alt="Logo 1" class="img-fluid mx-auto d-block">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 mb-3">
+                <div class="col-6 col-md-3 col-lg-2">
                     <div class="media-logo-item">
-                        <img src="./public/assets/img/plogo2.png" alt="Logo 1" class="img-fluid">
+                        <img src="./public/assets/img/plogo2.png" alt="Logo 2" class="img-fluid mx-auto d-block">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 mb-3">
+                <div class="col-6 col-md-3 col-lg-2">
                     <div class="media-logo-item">
-                        <img src="./public/assets/img/plogo3.png" alt="Logo 1" class="img-fluid">
+                        <img src="./public/assets/img/plogo3.png" alt="Logo 3" class="img-fluid mx-auto d-block">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 mb-3">
+                <div class="col-6 col-md-3 col-lg-2">
                     <div class="media-logo-item">
-                        <img src="./public/assets/img/plogo4.png" alt="Logo 1" class="img-fluid">
+                        <img src="./public/assets/img/plogo4.png" alt="Logo 4" class="img-fluid mx-auto d-block">
                     </div>
                 </div>
             </div>
 
+            <!-- Articles -->
             <div class="row article-cards">
-                <div class="col-lg-3 col-md-6 mb-3">
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
                     <div class="article-card">
                         <h6>Why is the Global Economy nearing recession in 2023?</h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-3">
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
                     <div class="article-card">
                         <h6>Planning For Your Retirement</h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-3">
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
                     <div class="article-card">
-                        <h6>Shiksha Se Samriddhi: क्या Share Market में आप बिना तैयारी का निवेश करने का सोच रहे हैं? |
-                            CNBC Awaaz</h6>
+                        <h6>Shiksha Se Samriddhi: क्या Share Market में आप बिना तैयारी का निवेश करने का सोच रहे हैं? | CNBC Awaaz</h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-3">
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
                     <div class="article-card">
                         <h6>Sneha's guide to financial freedom</h6>
                     </div>

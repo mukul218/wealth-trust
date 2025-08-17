@@ -20,228 +20,313 @@
     <?php
     include_once 'includes/header.php';
     ?>
-
-    <!-- Masterclass Promo Section -->
-    <section class="cta-section hero-section" style="background-color: #fdfdfb; border-radius: 12px; box-shadow: 0 0 12px rgba(0,0,0,0.05);">
+    <!-- Masterclass Promo (Hero) -->
+    <section class="hero-section master-hero">
         <div class="container">
-            <h2><strong>Never Think twice Before Spending</strong></h2>
-            <div class="row align-items-center text-center text-md-start">
-                <div class="col-md-5 mb-4 mb-md-0 text-center">
-                    <img src="./public/assets/img/ceo1.png" class="img-fluid rounded-4 border pt-3 ps-3 pe-3" alt="Masterclass Host">
-                </div>
-                <div class="col-md-7">
-                    <h4 class="mb-4 text-center">Unlock the life you dream of with smart investing</h4>
-                    <div class="p-4 rounded" style="background-color: #227c6b; color: #fff;">
-                        <h5 class="text-white mb-3 text-center">Join our 2-hour investment masterclass</h5>
-                        <div class="row text-start mb-3">
-                            <div class="col-sm-6 mb-2">
-                                <div class="d-flex align-items-center bg-white text-dark p-2 rounded fs-5">
-                                <div class="bg-success px-2 me-2 fs-3 text-center text-white" style="width: 3rem;">
-                                    <i class="fas fa-calendar-alt"></i>
-                                </div>    
-                                    <strong>Date:</strong>&nbsp; Sun, 5th July 25
-                                </div>
-                            </div>
 
-                            <div class="col-sm-6 mb-2">
-                                <div class="d-flex align-items-center bg-white text-dark p-2 rounded fs-5">
-                                <div class="bg-success px-2 me-2 fs-3 text-center text-white" style="width: 3rem;">
-                                    <i class="fas fa-clock"></i>
-                                </div>    
-                                    <strong>Time:</strong>&nbsp; 12:00pm
-                                </div>
-                            </div>
+            <!-- Split heading like the reference -->
+            <h1 class="display-5 fw-bold text-center mb-4">
+                Never Think Twice <span class="text-primary">Before Spending</span><br>
+                <span class="text-dark">Unlock the life you dream of with</span>
+                <span class="text-primary"> smart investing</span>
+            </h1>
 
-                            <div class="col-sm-6 mb-2">
-                                <div class="d-flex align-items-center bg-white text-dark p-2 rounded fs-5">
-                                <div class="bg-success px-2 me-2 fs-3 text-center text-white" style="width: 3rem;">
-                                    <i class="fas fa-language"></i>
-                                </div>    
-                                    <strong>Language:</strong>&nbsp; English
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6 mb-2">
-                                <div class="d-flex align-items-center bg-white text-dark p-2 rounded fs-5">
-                                <div class="bg-success px-2 me-2 fs-3 text-center text-white" style="width: 3rem;">
-                                    <i class="fas fa-video"></i>
-                                </div>    
-                                    <strong>Recorded in:</strong>&nbsp; Zoom
-                                </div>
-                            </div>
+            <div class="soft-frame p-4 p-md-5">
+                <div class="row align-items-center g-4">
+                    <!-- Left: photo -->
+                    <div class="col-md-5 text-center">
+                        <div class="photo-card p-3">
+                            <img src="./public/assets/img/ceo1.png" class="img-fluid mx-auto d-block" alt="Masterclass Host">
                         </div>
-                        <p class="mb-3 text-white text-center fs-4">Transform your life</p>
-                    </div>
-                    <div class="text-center my-3">
-                        <a href="#" class="btn btn-light text-light" style="background-color: #227c6b; border-radius: 5px;">Book my Seat</a>
                     </div>
 
+                    <!-- Right: green panel with tiles -->
+                    <div class="col-md-7">
+                        <div class="mc-panel p-4 p-md-4 rounded-4">
+                            <h5 class="text-white text-center mb-4">Join our 2-hour investment masterclass</h5>
+
+                            <div class="row g-3">
+                                <!-- Date -->
+                                <div class="col-sm-6">
+                                    <div class="mc-tile d-flex align-items-center">
+                                        <span class="icon-chip">
+                                            <i class="fas fa-calendar-alt"></i>
+                                        </span>
+                                        <div>
+                                            <div class="mc-label">Date</div>
+                                            <div class="mc-value">Sun, 5th July 25</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Time -->
+                                <div class="col-sm-6">
+                                    <div class="mc-tile d-flex align-items-center">
+                                        <span class="icon-chip">
+                                            <i class="fas fa-clock"></i>
+                                        </span>
+                                        <div>
+                                            <div class="mc-label">Time</div>
+                                            <div class="mc-value">12:00pm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Language -->
+                                <div class="col-sm-6">
+                                    <div class="mc-tile d-flex align-items-center">
+                                        <span class="icon-chip">
+                                            <i class="fas fa-language"></i>
+                                        </span>
+                                        <div>
+                                            <div class="mc-label">Language</div>
+                                            <div class="mc-value">English</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Recorded -->
+                                <div class="col-sm-6">
+                                    <div class="mc-tile d-flex align-items-center">
+                                        <span class="icon-chip">
+                                            <i class="fas fa-video"></i>
+                                        </span>
+                                        <div>
+                                            <div class="mc-label">Recorded in</div>
+                                            <div class="mc-value">Zoom</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p class="text-white text-center mt-4 mb-0 fw-semibold">Transform your life</p>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a href="#" class="btn btn-primary rounded-pill px-4">Book my Seat</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <!-- Overwhelmed Questions Section -->
-    <section class="py-5" style="background-color: #fcf8f5;">
+    <section class="py-5" style="background-color:#fcf8f5;">
         <div class="container text-center">
-            <h2 class="mb-4 fw-bold color-primary">Are you overwhelmed by these questions?</h2>
+
+            <!-- split-colored heading like the mock -->
+            <h2 class="section-title mb-4 fw-bold">
+                Are you overwhelmed <span class="text-primary">by these questions?</span>
+            </h2>
 
             <div class="row justify-content-center">
+                <!-- 1 -->
                 <div class="col-md-5 mb-3">
-                    <div class="fs-4 h-100 border rounded p-3 d-flex align-items-center text-start justify-content-start bg-white color-primary">
-                        <i class="bi bi-check-circle me-2 text-success fs-2 pe-2"></i>
-                        <span>Am I investing the right way?</span>
+                    <div class="q-card">
+                        <span class="q-icon">
+                            <img src="./public/assets/image/icon/mc1.png" alt="" />
+                        </span>
+                        <span class="q-text">Am I investing the right way?</span>
                     </div>
                 </div>
+
+                <!-- 2 -->
                 <div class="col-md-5 mb-3">
-                    <div class="fs-4 h-100 border rounded p-3 d-flex align-items-center text-start justify-content-start bg-white color-primary">
-                        <i class="bi bi-check-circle me-2 text-success fs-2 pe-2"></i>
-                        <span>Is my portfolio diversified enough?</span>
+                    <div class="q-card">
+                        <span class="q-icon">
+                            <img src="./public/assets/image/icon/mc2.png" alt="" />
+                        </span>
+                        <span class="q-text">Is my portfolio diversified enough?</span>
                     </div>
                 </div>
+
+                <!-- 3 -->
                 <div class="col-md-5 mb-3">
-                    <div class="fs-4 h-100 border rounded p-3 d-flex align-items-center text-start justify-content-start bg-white color-primary">
-                        <i class="bi bi-check-circle me-2 text-success fs-2 pe-2"></i>
-                        <span>Will I have enough to retire comfortably?</span>
+                    <div class="q-card">
+                        <span class="q-icon">
+                            <img src="./public/assets/image/icon/mc3.png" alt="" />
+                        </span>
+                        <span class="q-text">Will I have enough to retire comfortably?</span>
                     </div>
                 </div>
+
+                <!-- 4 -->
                 <div class="col-md-5 mb-3">
-                    <div class="fs-4 h-100 border rounded p-3 d-flex align-items-center text-start justify-content-start bg-white color-primary">
-                        <i class="bi bi-check-circle me-2 text-success fs-2 pe-2"></i>
-                        <span>How do I plan my exit?</span>
+                    <div class="q-card">
+                        <span class="q-icon">
+                            <img src="./public/assets/image/icon/mc4.png" alt="" />
+                        </span>
+                        <span class="q-text">How do I plan my exit?</span>
                     </div>
                 </div>
+
+                <!-- 5 — wide tile -->
                 <div class="col-md-10 mb-4">
-                    <div class="fs-4 h-100 border rounded p-3 d-flex align-items-center text-start justify-content-center bg-white color-primary">
-                        <i class="bi bi-check-circle me-2 text-success fs-2 pe-2"></i>
-                        <span>Why aren't my returns matching my expectations?</span>
+                    <div class="q-card q-card-wide">
+                        <span class="q-icon">
+                            <img src="./public/assets/image/icon/mc5.png" alt="" />
+                        </span>
+                        <span class="q-text">Why aren’t my returns matching my expectations?</span>
                     </div>
                 </div>
             </div>
 
-            <p class="mb-3 fs-5">Get answers to each of these in simple language</p>
-            <a href="#" class="btn btn-success px-4">Book Now</a>
+            <p class="mb-3 fs-6 text-muted">Get answers to each of these in simple language</p>
+            <a href="#" class="btn btn-primary rounded-pill px-4">Book Now</a>
         </div>
     </section>
 
     <!-- What You'll Learn in the Masterclass -->
-    <section class="py-5" style="background-color: #fcf8f5;">
+    <section class="py-5" style="background-color:#fcf8f5;">
         <div class="container text-center">
-            <h2 class="fw-bold mb-4 color-primary">What you’ll learn in the masterclass?</h2>
+            <h2 class="section-title fw-bold mb-5">
+                What Will You Learn <span class="text-primary">In The Masterclass?</span>
+            </h2>
 
-            <div class="row justify-content-center g-3">
+            <div class="row justify-content-center g-4">
+                <!-- 1 -->
                 <div class="col-md-4">
-                    <div class="border rounded p-3 text-start align-items-start bg-white fs-3">
-                        <i class="bi bi-check-circle text-success me-2 mt-1 fs-2"></i><br>
-                        <span class="fs-4">5 costly mistakes people make with their money & how to avoid them?</span>
+                    <div class="q-card">
+                        <span class="q-icon">
+                            <img src="./public/assets/image/icon/ml1.png" alt="Mistakes Icon" />
+                        </span>
+                        <span class="q-text">5 costly mistakes people make with their money &amp; how to avoid them?</span>
                     </div>
                 </div>
+
+                <!-- 2 -->
                 <div class="col-md-4">
-                    <div class="border rounded p-3 text-start align-items-start bg-white fs-3">
-                        <i class="bi bi-check-circle text-success me-2 mt-1 fs-2"></i><br>
-                        <span class="fs-4">How should you calculate the retirement corpus needed?</span>
+                    <div class="q-card">
+                        <span class="q-icon">
+                            <img src="./public/assets/image/icon/ml2.png" alt="Retirement Icon" />
+                        </span>
+                        <span class="q-text">How should you calculate the retirement corpus needed?</span>
                     </div>
                 </div>
+
+                <!-- 3 -->
                 <div class="col-md-4">
-                    <div class="border rounded p-3 text-start align-items-start bg-white fs-3">
-                        <i class="bi bi-check-circle text-success me-2 mt-1 fs-2"></i><br>
-                        <span class="fs-4">Where to invest and how much for different life goals?</span>
+                    <div class="q-card">
+                        <span class="q-icon">
+                            <img src="./public/assets/image/icon/ml3.png" alt="Goals Icon" />
+                        </span>
+                        <span class="q-text">Where to invest and how much for different life goals?</span>
                     </div>
                 </div>
+
+                <!-- 4 -->
                 <div class="col-md-4">
-                    <div class="border rounded p-3 text-start align-items-start bg-white fs-3">
-                        <i class="bi bi-check-circle text-success me-2 mt-1 fs-2"></i><br>
-                        <span class="fs-4">Why does exit planning matter & how to do it right?</span>
+                    <div class="q-card">
+                        <span class="q-icon">
+                            <img src="./public/assets/image/icon/ml4.png" alt="Exit Icon" />
+                        </span>
+                        <span class="q-text">Why does exit planning matter &amp; how to do it right?</span>
                     </div>
                 </div>
+
+                <!-- 5 -->
                 <div class="col-md-4">
-                    <div class="border rounded p-3 text-start align-items-start bg-white fs-3">
-                        <i class="bi bi-check-circle text-success me-2 mt-1 fs-2"></i><br>
-                        <span class="fs-4">The secret formula to turn your goals into reality.</span>
+                    <div class="q-card">
+                        <span class="q-icon">
+                            <img src="./public/assets/image/icon/ml5.png" alt="Formula Icon" />
+                        </span>
+                        <span class="q-text">The secret formula to turn your goals into reality.</span>
                     </div>
                 </div>
             </div>
 
-            <p class="mt-4 fs-5">Stop guessing, start building a secure future</p>
-            <a href="#" class="btn btn-success mt-2">Reserve Seat</a>
+            <p class="mt-4 fs-6 text-muted">Stop guessing, start building a secure future</p>
+            <a href="#" class="btn btn-primary rounded-pill px-4">Reserve Seat</a>
         </div>
     </section>
 
     <!-- Why Choose WealthTrust -->
     <section class="py-5" style="background-color: #fcf8f5;">
         <div class="container text-center">
-            <h2 class="fw-bold mb-4 color-primary">Why choose WealthTrust?</h2>
+            <h2 class="section-title fw-bold mb-5">
+                Why choose <span class="text-primary">WealthTrust?</span>
+            </h2>
 
             <div class="row justify-content-center g-4">
-                <div class="col-md-2 col-sm-6">
-                    <div class="p-3 rounded h-100 bg-white">
-                        <img src="./public/assets/img/ml1.png" alt="Personalised Planning" class="img-fluid mb-2">
-                        <p class="mb-0">Personalised planning for your unique goals</p>
-                        <p class="mb-0">Guidance when you are stuck</p>
+                <!-- 1 -->
+                <div class="col-6 col-md-4 col-lg">
+                    <div class="q-card text-center d-block h-100 pt-4">
+                        <span class="q-icon">
+                            <img src="./public/assets/image/icon/g1.png" alt="Guidance">
+                        </span><br>
+                        <span class="q-text">Guidance when you are stuck</span>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-6">
-                    <div class="p-3 rounded h-100 bg-white">
-                        <img src="./public/assets/img/ml2.png" alt="Personalised Planning" class="img-fluid mb-2">
-                        <p class="mb-0">Personalised planning for your unique goals</p>
-                        <p class="mb-0">Over 200 Cr. under management</p>
+
+                <!-- 2 -->
+                <div class="col-6 col-md-4 col-lg">
+                    <div class="q-card text-center d-block h-100 pt-4">
+                        <span class="q-icon">
+                            <img src="./public/assets/image/icon/g2.png" alt="200 Cr">
+                        </span><br>
+                        <span class="q-text">Over 200 Cr. under management</span>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-6">
-                    <div class="p-3 rounded h-100 bg-white">
-                        <img src="./public/assets/img/ml3.png" alt="Personalised Planning" class="img-fluid mb-2">
-                        <p class="mb-0">Personalised planning for your unique goals</p>
-                        <p class="mb-0">Veterans with 15+ years of experience</p>
+
+                <!-- 3 -->
+                <div class="col-6 col-md-4 col-lg">
+                    <div class="q-card text-center d-block h-100 pt-4">
+                        <span class="q-icon">
+                            <img src="./public/assets/image/icon/g3.png" alt="Experience">
+                        </span><br>
+                        <span class="q-text">Veterans with 15+ years of experience</span>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-6">
-                    <div class="p-3 rounded h-100 bg-white">
-                        <i class="bi bi-people-fill fs-1 color-primary"></i>
-                        <p class="mb-0">Personalised planning for your unique goals</p>
-                        <p class="mb-0">Trusted by 500+ families</p>
+
+                <!-- 4 -->
+                <div class="col-6 col-md-4 col-lg">
+                    <div class="q-card text-center d-block h-100 pt-4">
+                        <span class="q-icon">
+                            <img src="./public/assets/image/icon/g4.png" alt="Families">
+                        </span><br>
+                        <span class="q-text">Trusted by 500+ families</span>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-6">
-                    <div class="p-3 rounded h-100 bg-white">
-                        <img src="./public/assets/img/ml5.png" alt="Personalised Planning" class="img-fluid mb-2">
-                        <p class="mb-0">Personalised planning for your unique goals</p>
-                        <p class="mb-0">80+ workshops delivered & counting</p>
+
+                <!-- 5 -->
+                <div class="col-6 col-md-4 col-lg">
+                    <div class="q-card text-center d-block h-100 pt-4">
+                        <span class="q-icon">
+                            <img src="./public/assets/image/icon/g5.png" alt="Workshops">
+                        </span><br>
+                        <span class="q-text">80+ workshops delivered &amp; counting</span>
                     </div>
                 </div>
             </div>
 
-            <p class="mt-4">We don’t just tell you where to invest. We help you understand why.</p>
-            <a href="#" class="btn btn-success mt-2">Book my seat</a>
+            <p class="mt-4 text-muted">We don’t just tell you where to invest. We help you understand why.</p>
+            <a href="#" class="btn btn-primary rounded-pill px-4">Book my seat</a>
         </div>
     </section>
 
     <!-- Who Should Attend -->
     <section class="py-5" style="background-color: #fcf8f5;">
         <div class="container text-center">
-            <h2 class="fw-bold mb-4 color-primary">Who should attend?</h2>
+            <h2 class="section-title fw-bold mb-4">Who should <span class="color-primary">attend?</span></h2>
             <div class="row justify-content-center g-4">
                 <div class="col-md-3 col-sm-6">
                     <div class="p-3 border rounded h-100 bg-white">
-                        <img src="./public/assets/img/o1.png" alt="Professional" class="img-fluid mb-2">
+                        <img src="./public/assets/img/o1.png" alt="Professional" class="img-fluid mb-2 mx-auto d-block">
                         <p class="mb-0">People who want professional management</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="p-3 border rounded h-100 bg-white">
-                        <img src="./public/assets/img/o2.png" alt="Passion Focus" class="img-fluid mb-2">
+                        <img src="./public/assets/img/o2.png" alt="Passion Focus" class="img-fluid mb-2 mx-auto d-block">
                         <p class="mb-0">People who want money to grow & they focus on their passion</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="p-3 border rounded h-100 bg-white">
-                        <img src="./public/assets/img/o3.png" alt="Secure Future" class="img-fluid mb-2">
+                        <img src="./public/assets/img/o3.png" alt="Secure Future" class="img-fluid mb-2 mx-auto d-block">
                         <p class="mb-0">Individuals who want a secure financial future</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="p-3 border rounded h-100 bg-white">
-                        <img src="./public/assets/img/o4.png" alt="Money Work" class="img-fluid mb-2">
+                        <img src="./public/assets/img/o4.png" alt="Money Work" class="img-fluid mb-2 mx-auto d-block">
                         <p class="mb-0">Anyone who wants to make their money work for them</p>
                     </div>
                 </div>
@@ -250,9 +335,9 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section class="py-5 bg-light">
+    <section class="py-5">
         <div class="container text-center">
-            <h2 class="fw-bold mb-5 color-primary">Hear From Past Attendees</h2>
+            <h2 class="section-title fw-bold mb-5">Hear From <span class="color-primary">Past Attendees</span></h2>
             <div class="row justify-content-center g-4">
                 <div class="col-md-4">
                     <div class="p-4 border rounded text-start h-100 bg-white">
@@ -279,25 +364,31 @@
     <!-- Meet Your Speaker -->
     <section class="py-5" style="background-color: #fcf8f5;">
         <div class="container">
-            <h2 class="text-center fw-bold mb-4 color-primary">Meet Your Speaker</h2>
-            <div class="row align-items-center justify-content-center">
+            <h2 class="section-title text-center fw-bold mb-5">
+                Meet <span class="color-primary">Your Speaker</span>
+            </h2>
 
+            <div class="row align-items-center justify-content-center g-4">
                 <!-- Speaker Image & Name -->
-                <div class="col-md-4 text-center mb-4 mb-md-0">
-                    <img src="./public/assets/img/ceo1.png" class="img-fluid rounded-4 border pt-3 ps-3 pe-3" alt="Masterclass Host">
+                <div class="col-md-4 text-center">
+                    <img src="./public/assets/img/ceo1.png"
+                        class="img-fluid rounded-4 border p-3 mx-auto"
+                        alt="Masterclass Host" style="max-width: 280px;">
                     <h5 class="mt-3 fw-bold">Sneha Jain</h5>
-                    <p class="text-muted">CEO/ Founder</p>
+                    <p class="text-muted mb-0">CEO / Founder</p>
                 </div>
 
                 <!-- Speaker Details -->
                 <div class="col-md-6">
-                    <blockquote class="fs-5 fst-italic text-success">“It’s not just about returns. It’s about life goals, freedom, and confidence.” — Sneha Jain</blockquote>
-                    <ul class="mt-3">
-                        <li>SEBI Registered Research Analyst</li>
-                        <li>Founder, WealthTrust Capital Services</li>
-                        <li>16+ years of experience in financial markets</li>
-                        <li>Has helped 500+ families build wealth</li>
-                        <li>Known for making finance relatable and human</li>
+                    <blockquote class="fs-5 fst-italic text-success mb-4">
+                        “It’s not just about returns. It’s about life goals, freedom, and confidence.”
+                    </blockquote>
+                    <ul class="list-unstyled fs-5">
+                        <li class="mb-2">✔ SEBI Registered Research Analyst</li>
+                        <li class="mb-2">✔ Founder, WealthTrust Capital Services</li>
+                        <li class="mb-2">✔ 16+ years of experience in financial markets</li>
+                        <li class="mb-2">✔ Helped 500+ families build wealth</li>
+                        <li class="mb-2">✔ Known for making finance relatable and human</li>
                     </ul>
                 </div>
             </div>
@@ -307,7 +398,7 @@
     <!-- FAQs Section -->
     <section class="py-5" style="background-color: #fcf8f5;">
         <div class="container">
-            <h2 class="text-center fw-bold mb-4">FAQs</h2>
+            <h2 class="section-title text-center fw-bold mb-4">FAQs</h2>
 
             <div class="custom-accordion" id="faqAccordion">
 

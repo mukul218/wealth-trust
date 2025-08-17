@@ -20,14 +20,18 @@
     include_once 'includes/header.php';
     ?>
 
-    <div class="container py-5 hero-section">
-        <div class="row mx-3">
-            <div class="col-lg-7">
-                <h1 class="fw-bold" style="color: #399082; font-size: 3rem;">Monthly Market Updates</h1>
-                <p class="mt-4" style="font-size: 1.2rem;">
-                    Provides you with an encompassing view of the current economy, equity and debt markets for the month along with the likely impact on investments.
-                </p>
-                <button class="btn btn-success btn-lg rounded-pill mt-3 px-4">Subscribe</button>
+    <div class="hero-section d-flex align-items-center"
+        style="background: url('./public/assets/img/mu-bg.png') center/cover no-repeat; min-height: 80vh; border-radius: 12px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 ">
+                    <h1 class="fw-bold" style="font-size: 3rem;">Monthly Market Updates</h1>
+                    <p class="mt-4" style="font-size: 1.2rem;">
+                        Provides you with an encompassing view of the current economy, equity and debt markets
+                        for the month along with the likely impact on investments.
+                    </p>
+                    <button class="btn btn-success btn-lg rounded-pill mt-3 px-4 shadow">Subscribe</button>
+                </div>
             </div>
         </div>
     </div>
