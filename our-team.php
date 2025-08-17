@@ -95,7 +95,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="/public/assets/img/team/research-shubham.jpg" alt="Shubham Jha" class="img-fluid rounded">
+                                <img src="./public/assets/image/team/research-shubham.png" alt="Shubham Jha" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Shubham Jha</h6>
@@ -118,7 +118,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="/public/assets/img/team/research-parth.jpg" alt="Parth More" class="img-fluid rounded">
+                                <img src="./public/assets/image/team/research-parth.jpeg" alt="Parth More" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Parth More</h6>
@@ -140,7 +140,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="/public/assets/img/team/research-akshay.jpg" alt="Akshay Madhasu" class="img-fluid rounded">
+                                <img src="./public/assets/image/team/research-akshay.png" alt="Akshay Madhasu" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Akshay Madhasu</h6>
@@ -175,7 +175,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="/public/assets/img/team/jeel.jpg" alt="Jeel Shah" class="img-fluid rounded">
+                                <img src="./public/assets/image/team/jeel.png" alt="Jeel Shah" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Jeel Shah</h6>
@@ -196,7 +196,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="/public/assets/img/team/purvi.jpg" alt="Purvi Dodiya" class="img-fluid rounded">
+                                <img src="./public/assets/image/team/purvi.png" alt="Purvi Dodiya" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Purvi Dodiya</h6>
@@ -217,7 +217,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="/public/assets/img/team/vignesh.jpg" alt="Vignesh Venkatesh" class="img-fluid rounded">
+                                <img src="./public/assets/image/team/vignesh.png" alt="Vignesh Venkatesh" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Vignesh Venkatesh</h6>
@@ -238,7 +238,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="/public/assets/img/team/purva.jpg" alt="Purva Bohara" class="img-fluid rounded">
+                                <img src="./public/assets/image/team/purva.png" alt="Purva Bohara" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Purva Bohara</h6>
@@ -273,7 +273,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="/public/assets/img/team/shivaji.jpg" alt="Shivaji Shinde" class="img-fluid rounded">
+                                <img src="./public/assets/image/team/shivaji.png" alt="Shivaji Shinde" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Shivaji Shinde</h6>
@@ -296,7 +296,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="/public/assets/img/team/ankita.jpg" alt="Ankita Yadav" class="img-fluid rounded">
+                                <img src="./public/assets/image/team/ankita.png" alt="Ankita Yadav" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Ankita Yadav</h6>
@@ -319,7 +319,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="/public/assets/img/team/pranali.jpg" alt="Pranali Chalke" class="img-fluid rounded">
+                                <img src="./public/assets/image/team/pranali.png" alt="Pranali Chalke" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Pranali Chalke</h6>
