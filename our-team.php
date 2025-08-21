@@ -356,7 +356,7 @@
     <!-- ====== HOW TO JOIN ====== -->
     <section class="py-5">
         <div class="container">
-            <h2 class="section-title text-center m-0 mb-4">How To Join ?</h2>
+            <h2 class="section-title color-primary text-center m-0 mb-4">How To Join ?</h2>
 
             <div class="row g-4">
                 <!-- FORM -->

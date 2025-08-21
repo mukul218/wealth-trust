@@ -418,7 +418,7 @@ video {
 .btn-primary:hover {
     background: var(--dark-green);
     border-color: var(--dark-green);
-    transform: translateY(-2px);
+    transform: translateX(0px2px);
 }
 
 .btn-outline-primary {
@@ -464,7 +464,7 @@ video {
 }
 
 .navbar-brand img {
-    height: 60px;
+    height: 75px;
 }
 
 .nav-link {
@@ -584,11 +584,11 @@ video {
 .stat-row .col-md-3:not(:last-child)::after {
     content: "";
     position: absolute;
-    top: 50%;
+    top: 10%;
     right: 0;
-    transform: translateY(-50%);
-    height: 60%;
-    border-right: 1px solid #131313;
+    transform: translateX(0px50%);
+    height: 80%;
+    border-right: 1px solid #13131326;
 }
 
 .stat-item {
@@ -619,10 +619,6 @@ video {
 .about-section {
     background: #fff;
     border-radius: 5em 5em 0 0;
-}
-
-.offerings-section {
-    background: var(--section-bg-light);
 }
 
 .investor-journey-section {
@@ -744,11 +740,10 @@ video {
 ----------------------------------------------------------------------------*/
 .testimonial-card {
     background: var(--light-green);
-    border-radius: 15px;
-    padding: 30px;
-    margin: 15px;
+    border-radius: 7px;
+    padding: 15px;
+    /* margin: 15px; */
     box-shadow: var(--shadow-md);
-    height: 300px;
     overflow: hidden;
 }
 
@@ -815,7 +810,7 @@ video {
 }
 
 .media-logo:hover {
-    transform: translateY(-3px);
+    transform: translateX(0px3px);
 }
 
 .media-logo .logo-text {
@@ -836,7 +831,7 @@ video {
 }
 
 .article-card:hover {
-    transform: translateY(-5px);
+    transform: translateX(0px5px);
 }
 
 .article-card h6 {
@@ -932,7 +927,7 @@ video {
     text-align: center;
     margin: auto;
     color: #000;
-    background: #fff;
+    /* background: #fff; */
     border-radius: 13px;
 }
 
@@ -1286,6 +1281,10 @@ video {
     background: var(--section-bg-light);
 }
 
+.footer-bg {
+    border-radius: 50px 50px 0 0;
+}
+
 .footer {
     padding: 60px 0 30px;
     color: var(--text-dark);
@@ -1346,7 +1345,7 @@ video {
 }
 
 .footer-links a {
-    color: var(--text-dark);
+    color: var(--primary-color);
     text-decoration: none;
     transition: color .2s;
 }
@@ -1361,7 +1360,7 @@ video {
 
 .footer-col-left .footer-label {
     color: var(--primary-color);
-    font-weight: var(--fw-semibold);
+    font-weight: var(--fw-bolder);
     display: block;
     margin-bottom: 4px;
 }
@@ -1734,7 +1733,7 @@ video {
 
     .stat-row .col-md-3 {
         border-right: 0;
-        border-bottom: 1px solid rgba(14, 14, 14, .3);
+        /* border-bottom: 1px solid rgba(14, 14, 14, .3); */
     }
 
     .stat-row .col-md-3:last-child {
@@ -1834,6 +1833,79 @@ video {
     background: #faf6df;
 }
 
+/* soft backgrounds per card */
+.offering--mint {
+    background: #dbf5e1;
+}
+
+.offering--blue {
+    background: #e8f0fb;
+}
+
+.offering--cream {
+    background: #faf6df;
+}
+
+/* Flex container setup */
+.offering-card {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Bottom section sticks to bottom */
+.offering-bottom {
+    margin-top: auto;
+}
+
+/* Button style */
+:root {
+    --mint-accent: #1fa06c;
+    --blue-accent: #3f6ecf;
+    --cream-accent: #d4a017;
+}
+
+.btn-pill {
+    border-radius: 50rem;
+    padding: .5rem 1.5rem;
+    font-weight: 600;
+}
+
+/* Mint */
+.btn-mint {
+    color: var(--mint-accent);
+    border: 1px solid var(--mint-accent);
+    background: transparent;
+}
+
+.btn-mint:hover {
+    background: var(--mint-accent);
+    color: #fff;
+}
+
+/* Blue */
+.btn-blue {
+    color: var(--blue-accent);
+    border: 1px solid var(--blue-accent);
+    background: transparent;
+}
+
+.btn-blue:hover {
+    background: var(--blue-accent);
+    color: #fff;
+}
+
+/* Cream */
+.btn-cream {
+    color: var(--cream-accent);
+    border: 1px solid var(--cream-accent);
+    background: transparent;
+}
+
+.btn-cream:hover {
+    background: var(--cream-accent);
+    color: #fff;
+}
+
 /* list & divider style to match screenshot */
 .offering-list {
     list-style: disc;
@@ -1870,7 +1942,7 @@ video {
 .who-for-item {
     background: #fff;
     /* White box background */
-    border-left: 9px solid var(--primary-color);
+    border-left: 8px solid var(--primary-color);
     /* Green border (your theme color) */
     padding: 10px 15px;
     /* Space inside */
@@ -1945,21 +2017,13 @@ video {
 .offer-grid-card::before {
     content: "";
     position: absolute;
-    top: -60px;
-    /* tuck slightly into top edge */
-    left: -60px;
-    /* tuck into left edge */
+    top: -80px;
+    left: -80px;
     width: 180px;
-    /* equal width/height → perfect circle */
     height: 180px;
     border-radius: 50%;
-    /* ensures it’s circular */
-    background: radial-gradient(circle,
-            rgba(58, 139, 127, 0.83) 0%,
-            rgba(58, 139, 127, 0.599) 60%,
-            transparent 100%);
+    background: radial-gradient(circle, rgb(166 215 181) 0%, rgb(179 233 195) 60%, transparent 100%);
     z-index: -1;
-    /* stays behind card */
 }
 
 /* 2) Subtle leaf INSIDE the card, away from the title */
@@ -2051,10 +2115,10 @@ video {
 
 .hiw-center-gif {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 220px;
+    max-width: 150px;
     /* size of the center GIF */
 }
 
@@ -2069,29 +2133,26 @@ video {
 /* Show + by default (collapsed) */
 .custom-accordion .accordion-button::after {
     content: '+';
-    /* visible character */
     background-image: none !important;
     width: auto;
     height: auto;
     font-weight: 900;
     font-size: 1.25rem;
     color: var(--primary-color);
-    /* teal on light bg */
     position: absolute;
     right: 1rem;
     top: 50%;
     transform: translateY(-50%);
+    /* vertically center */
 }
 
-/* When open, swap to − and make it white for contrast on green header */
+/* When open, swap to − and make it white */
 .custom-accordion .accordion-button:not(.collapsed)::after {
     content: '−';
-    /* minus */
     color: #fff;
-    /* contrasts with green header */
 }
 
-/* Optional: your open-state styling */
+/* Optional: open-state styling */
 .custom-accordion .accordion-button:not(.collapsed) {
     background: var(--primary-color);
     color: #fff;
@@ -2101,7 +2162,7 @@ video {
 
 /* Section shell + subtle background */
 .master-hero {
-    background: #fdfdfb;
+    /* background: #fdfdfb; */
     border-radius: 12px;
 }
 
@@ -2109,16 +2170,24 @@ video {
 .soft-frame {
     border: 1px solid rgba(58, 139, 127, .25);
     border-radius: 12px;
-    box-shadow:
-        0 0 0 6px rgba(58, 139, 127, .06) inset,
-        0 6px 16px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 0 20px rgba(58, 139, 127, 0.15),
+        inset 0 0 8px rgba(0, 0, 0, 0.05);
 }
 
 /* Left image card (rounded rect with thin border) */
 .photo-card {
+    /* border: 1px solid #e4efe9; */
+    border-radius: 20px;
+    background: #fff;
+}
+
+.photo-card img {
     border: 1px solid #e4efe9;
     border-radius: 20px;
     background: #fff;
+    /* optional: keeps white bg if image has transparency */
+    display: block;
+    height: 17rem;
 }
 
 /* Right green panel */
@@ -2177,12 +2246,12 @@ video {
     align-items: center;
     gap: 12px;
     background: #fff;
-    border: 1px solid #dbe9e4;
+    /* border: 1px solid #dbe9e4; */
     /* subtle teal line */
-    border-radius: 12px;
+    /* border-radius: 12px; */
     padding: 14px 18px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, .05);
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
     text-align: left;
 }
 
@@ -2215,7 +2284,7 @@ video {
     font-size: 1.25rem;
     /* close to fs-4 but tighter */
     font-weight: 600;
-    color: #3a8b7f;
+    /* color: #3a8b7f; */
     /* keep within palette */
     line-height: 1.2;
 }
@@ -2228,6 +2297,16 @@ video {
 
     .q-card-wide {
         justify-content: flex-start;
+    }
+
+    .stat-row .col-md-3:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        top: 10%;
+        right: 0;
+        transform: translateX(0px50%);
+        height: 80%;
+        border-right: 0px solid rgba(58, 139, 127, .15);
     }
 }
 
@@ -2246,7 +2325,7 @@ video {
 }
 
 .blog-card:hover {
-    transform: translateY(-4px);
+    transform: translateX(0px4px);
     box-shadow: 0 10px 24px rgba(0, 0, 0, .10);
 }
 
@@ -2345,7 +2424,7 @@ video {
 
 /* Contact panel & bits */
 .contact-card {
-    background: rgba(168, 213, 199, .25);
+    background: var(--light-green);
     /* soft secondary tint */
     border: 1px solid rgba(58, 139, 127, .20);
     /* primary-tinted border */
@@ -2503,4 +2582,186 @@ video {
 
 .accordion-body {
     background: #fff;
+}
+
+
+
+/* base look for the small goal boxes (optional if you already have styles) */
+.goal-box {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    padding: .9rem 1.1rem;
+    border: 1px solid rgba(0, 0, 0, .08);
+    border-radius: .75rem;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+}
+
+/* keep them narrow so columns don't look full width */
+.goal-stack-left .goal-box,
+.goal-stack-right .goal-box {
+    max-width: 260px;
+    /* tweak to taste */
+    width: 100%;
+}
+
+.goal-icon {
+    width: 38px;
+    height: 38px;
+}
+
+/* Desktop/lg+: radial/circular alignment */
+@media (min-width: 992px) {
+
+    /* align to outer edges */
+    .goal-stack-left {
+        display: grid;
+        align-items: start;
+        justify-items: start;
+    }
+
+    .goal-stack-right {
+        display: grid;
+        align-items: start;
+        justify-items: end;
+    }
+
+    /* Only apply on large screens and up */
+    @media (min-width: 992px) {
+
+        /* Left stack */
+        .goal-stack-left .goal-box:nth-child(1) {
+            transform: translateX(60px) translateY(0px);
+            /* top-left closer */
+        }
+
+        .goal-stack-left .goal-box:nth-child(2) {
+            transform: translateX(0px) translateY(40px);
+            /* middle-left */
+        }
+
+        .goal-stack-left .goal-box:nth-child(3) {
+            transform: translateX(60px) translateY(80px);
+            /* bottom-left */
+        }
+
+        /* Right stack */
+        .goal-stack-right .goal-box:nth-child(1) {
+            transform: translateX(-60px) translateY(0px);
+            /* top-right closer */
+        }
+
+        .goal-stack-right .goal-box:nth-child(2) {
+            transform: translateX(0px) translateY(40px);
+            /* middle-right */
+        }
+
+        .goal-stack-right .goal-box:nth-child(3) {
+            transform: translateX(-60px) translateY(80px);
+            /* bottom-right */
+        }
+    }
+
+    /* Reset on mobile */
+    @media (max-width: 991.98px) {
+
+        .goal-stack-left .goal-box,
+        .goal-stack-right .goal-box {
+            transform: none !important;
+        }
+    }
+}
+
+/* Mobile/tablet: no offsets (stacked neatly) */
+@media (max-width: 991.98px) {
+
+    .goal-stack-left .goal-box,
+    .goal-stack-right .goal-box {
+        transform: none;
+        max-width: 100%;
+    }
+}
+
+/* Desktop: show background image wrapper; Mobile timeline hidden */
+.hiw-wrapper {
+    display: block;
+    max-width: 720px;
+}
+
+/* adjust width if needed */
+.hiw-center-gif {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    /* tune for your bg artwork */
+}
+
+.hiw-mobile {
+    display: none;
+}
+
+/* Mobile / Tablet */
+@media (max-width: 991.98px) {
+
+    /* Hide bg image on mobile and show timeline */
+    .hiw-wrapper {
+        display: none;
+    }
+
+    .hiw-mobile {
+        display: block;
+        max-width: 680px;
+    }
+
+    /* Vertical timeline look */
+    .hiw-mobile {
+        position: relative;
+        padding-left: 28px;
+        /* room for line + dots */
+    }
+
+    .hiw-mobile::before {
+        content: "";
+        position: absolute;
+        left: 12px;
+        top: 6px;
+        bottom: 6px;
+        width: 2px;
+        background: rgba(0, 0, 0, .08);
+    }
+
+    .hiw-step {
+        position: relative;
+        display: flex;
+        gap: .75rem;
+        padding: 12px 8px 12px 0;
+        margin: 0 0 12px 0;
+        border-radius: .5rem;
+        background: #fff;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+    }
+
+    /* Dot on the line for each step */
+    .hiw-step::before {
+        content: "";
+        position: absolute;
+        left: -18px;
+        top: 18px;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #2f9469;
+        /* primary accent for dots */
+        box-shadow: 0 0 0 4px #e6f5ee;
+        /* soft halo */
+    }
+
+    .hiw-ico {
+        width: 40px;
+        height: 40px;
+        flex: 0 0 40px;
+    }
 }

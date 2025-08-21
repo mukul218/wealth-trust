@@ -68,14 +68,12 @@
             <!-- Cards -->
             <div class="row g-4">
                 <!-- Card 1 -->
-                <div class="col-12 col-lg-4 mb-md-0 mb-5 mt-0">
+                <div class="col-12 col-lg-4 mb-md-0 mb-5 mt-0 d-flex flex-column">
                     <div class="offering-card offering--mint h-100 p-4 border rounded d-flex flex-column">
                         <div>
                             <div class="d-flex align-items-start gap-3 mb-3">
                                 <img src="./public/assets/img/logo.png" alt="" class="portfolio-badge bg-white rounded">
-                                <div>
-                                    <h5 class="m-0 fw-bold">Curated Portfolio</h5>
-                                </div>
+                                <h5 class="m-0 fw-bold">Curated Portfolio</h5>
                             </div>
                             <small class="text-muted"><b> Ready stocks baskets </b></small>
                             <hr class="offering-sep my-2">
@@ -87,29 +85,26 @@
                             </ul>
                         </div>
 
-                        <!-- Bottom section -->
-                        <div class="mt-auto">
-                            <hr class="offering-sep my-4">
-                            <p class="m-0 fw-semibold text-success">
-                                Recommended Investment: Rs. 20 lakhs
-                            </p>
+                        <!-- Bottom section pinned -->
+                        <div class="offering-bottom mt-auto">
+                            <hr class="offering-sep my-3">
+                            <p class="m-0 fw-semibold text-success">Recommended Investment: Rs. 20 lakhs</p>
                             <p class="m-0 text-success">Contact us for more details</p>
                         </div>
                     </div>
+                    <!-- Subscribe button OUTSIDE card -->
                     <div class="text-center mt-3">
-                        <button class="btn btn-outline-primary rounded-pill px-4">Subscribe</button>
+                        <button class="btn btn-pill btn-mint">Subscribe</button>
                     </div>
                 </div>
 
                 <!-- Card 2 -->
-                <div class="col-12 col-lg-4 my-md-0 my-5">
+                <div class="col-12 col-lg-4 my-md-0 my-5 d-flex flex-column">
                     <div class="offering-card offering--blue h-100 p-4 border rounded d-flex flex-column">
                         <div>
                             <div class="d-flex align-items-start gap-3 mb-3">
                                 <img src="./public/assets/image/icon/small-cap.png" alt="" class="portfolio-badge">
-                                <div>
-                                    <h5 class="m-0 fw-bold">Small Case</h5>
-                                </div>
+                                <h5 class="m-0 fw-bold">Small Case</h5>
                             </div>
                             <small class="text-muted"><b> Ready stocks baskets </b></small>
                             <hr class="offering-sep my-2">
@@ -121,29 +116,24 @@
                             </ul>
                         </div>
 
-                        <!-- Bottom section -->
-                        <div class="mt-auto">
-                            <hr class="offering-sep my-4">
-                            <p class="m-0 fw-semibold text-primary">
-                                Minimum Investment: Rs. 50,000
-                            </p>
+                        <div class="offering-bottom mt-auto">
+                            <hr class="offering-sep my-3">
+                            <p class="m-0 fw-semibold text-primary">Minimum Investment: Rs. 50,000</p>
                             <p class="m-0 text-primary">Fees: Rs. 7,500 per year</p>
                         </div>
                     </div>
                     <div class="text-center mt-3">
-                        <button class="btn btn-outline-primary rounded-pill px-4">Subscribe</button>
+                        <button class="btn btn-pill btn-blue">Subscribe</button>
                     </div>
                 </div>
 
                 <!-- Card 3 -->
-                <div class="col-12 col-lg-4 mt-md-0 mt-5">
+                <div class="col-12 col-lg-4 mt-md-0 mt-5 d-flex flex-column">
                     <div class="offering-card offering--cream h-100 p-4 border rounded d-flex flex-column">
                         <div>
                             <div class="d-flex align-items-start gap-3 mb-3">
                                 <img src="./public/assets/image/icon/right-check.png" alt="" class="portfolio-badge">
-                                <div>
-                                    <h5 class="m-0 fw-bold">Pickright</h5>
-                                </div>
+                                <h5 class="m-0 fw-bold">Pickright</h5>
                             </div>
                             <small class="text-muted"><b> Ready stocks baskets </b></small>
                             <hr class="offering-sep my-2">
@@ -155,17 +145,14 @@
                             </ul>
                         </div>
 
-                        <!-- Bottom section -->
-                        <div class="mt-auto">
-                            <hr class="offering-sep my-4">
-                            <p class="m-0 fw-semibold text-warning">
-                                Recommended Investment: &gt; Rs. 50,000
-                            </p>
+                        <div class="offering-bottom mt-auto">
+                            <hr class="offering-sep my-3">
+                            <p class="m-0 fw-semibold text-warning">Recommended Investment: &gt; Rs. 50,000</p>
                             <p class="m-0 text-warning">Fees: Rs. 7,500 per year</p>
                         </div>
                     </div>
                     <div class="text-center mt-3">
-                        <button class="btn btn-outline-primary rounded-pill px-4">Subscribe</button>
+                        <button class="btn btn-pill btn-cream">Subscribe</button>
                     </div>
                 </div>
             </div>

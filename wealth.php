@@ -11,6 +11,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
+    <style>
+        .custom-accordion .accordion-button:not(.collapsed) {
+            background: var(--secondary-color);
+            color: #000;
+            box-shadow: none;
+        }
+
+        .custom-accordion .accordion-button:not(.collapsed)::after {
+            content: '−';
+            color: #000;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,7 +38,7 @@
             <div class="row align-items-center">
 
                 <!-- Left Content -->
-                <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+                <div class="col-md-6 text-center text-md-start mb-4 mb-md-0 ps-md-5">
                     <h2 class="fw-bold display-5 mb-3">
                         <span class="text-primary">Big Or Small,</span><br>
                         <span class="text-dark">Accomplish All Your<br>Financial Goals</span>
@@ -171,8 +183,8 @@
                 <div class="col-12 col-lg-4">
                     <div class="d-grid gap-3">
                         <button type="button" class="goal-box btn text-start selected-goal"
-                            data-goal='{"title":"Child Education","desc":"Prepare a financial ladder for your child to achieve their dreams.","img":"./public/assets/image/dream.gif"}'>
-                            <img src="./public/assets/image/icon/education.png" alt="" class="goal-icon"> Child Education
+                            data-goal='{"title":"Wealth building","desc":"Systematic, compounding-led wealth creation aligned to your time horizon.","img":"./public/assets/image/dream.gif"}'>
+                            <img src="./public/assets/image/icon/wealth.png" alt="" class="goal-icon"> Wealth building
                         </button>
                     </div>
                 </div>
@@ -181,7 +193,7 @@
             <div class="row g-4 align-items-start">
                 <!-- Left column -->
                 <div class="col-12 col-lg-4">
-                    <div class="d-grid gap-3">
+                    <div class="d-grid gap-3 goal-stack-left">
                         <button type="button" class="goal-box btn text-start"
                             data-goal='{"title":"Emergency","desc":"Build a buffer to handle unforeseen expenses without selling investments.","img":"./public/assets/image/dream.gif"}'>
                             <img src="./public/assets/image/icon/emergency.png" alt="" class="goal-icon"> Emergency
@@ -203,10 +215,10 @@
                 <div class="col-12 col-lg-4">
                     <div class="goal-center card shadow-sm border-0">
                         <div class="card-body">
-                            <h5 class="card-title mb-3" id="goalTitle">Child Education</h5>
-                            <img id="goalImg" src="./public/assets/image/dream.gif" alt="Child Education" class="img-fluid mb-3 rounded">
+                            <h5 class="card-title mb-3" id="goalTitle">Wealth building</h5>
+                            <img id="goalImg" src="./public/assets/image/dream.gif" alt="Wealth building" class="img-fluid mb-3 rounded">
                             <p class="card-text text-muted" id="goalDesc">
-                                Prepare a financial ladder for your child to achieve their dreams.
+                                Systematic, compounding-led wealth creation aligned to your time horizon.
                             </p>
                         </div>
                     </div>
@@ -214,15 +226,15 @@
 
                 <!-- Right column -->
                 <div class="col-12 col-lg-4">
-                    <div class="d-grid gap-3">
-                        <button type="button" class="goal-box btn text-start"
-                            data-goal='{"title":"Wealth building","desc":"Systematic, compounding-led wealth creation aligned to your time horizon.","img":"./public/assets/image/dream.gif"}'>
-                            <img src="./public/assets/image/icon/wealth.png" alt="" class="goal-icon"> Wealth building
-                        </button>
-
+                    <div class="d-grid gap-3 goal-stack-right">
                         <button type="button" class="goal-box btn text-start"
                             data-goal='{"title":"Retirement","desc":"Secure your post-work life with inflation-aware, risk-fit allocation.","img":"./public/assets/image/dream.gif"}'>
                             <img src="./public/assets/image/icon/retirement.png" alt="" class="goal-icon"> Retirement
+                        </button>
+
+                        <button type="button" class="goal-box btn text-start"
+                            data-goal='{"title":"Child Education","desc":"Prepare a financial ladder for your child to achieve their dreams.","img":"./public/assets/image/dream.gif"}'>
+                            <img src="./public/assets/image/icon/education.png" alt="" class="goal-icon"> Child Education
                         </button>
 
                         <button type="button" class="goal-box btn text-start"
@@ -240,11 +252,9 @@
         </div>
     </section>
 
-    <section class="howitworks-section py-5 bg-white">
+    <section class="howitworks-section py-5">
         <div class="container text-center">
-            <h2 class="fw-bold mb-2">
-                How It <span class="text-primary">Works</span>
-            </h2>
+            <h2 class="fw-bold mb-2 section-title">How It <span class="text-primary">Works</span></h2>
             <p class="text-muted mb-5">
                 Uncomplicate your financial life. Here is how we work:
             </p>
@@ -257,10 +267,53 @@
                     class="img-fluid">
 
                 <!-- Center animated GIF -->
-                <img src="./public/assets/image/dream.gif"
+                <img src="./public/assets/image/how-it-work.gif"
                     alt="Central process"
                     class="hiw-center-gif">
             </div>
+
+            <!-- Mobile/Tablet timeline (hidden on desktop) -->
+            <ol class="hiw-mobile list-unstyled text-start mx-auto">
+                <li class="hiw-step">
+                    <img src="./public/assets/image/icon/dc.png" alt="" class="hiw-ico mx-3 my-2">
+                    <div>
+                        <h6 class="mb-1 fw-semibold">Discovery Call</h6>
+                        <p class="mb-0 text-muted">Understand your life goals and current financial picture</p>
+                    </div>
+                </li>
+
+                <li class="hiw-step">
+                    <img src="./public/assets/image/icon/gm.png" alt="" class="hiw-ico mx-3 my-2">
+                    <div>
+                        <h6 class="mb-1 fw-semibold">Goal Mapping</h6>
+                        <p class="mb-0 text-muted">Break goals into a timeline, value, and monthly investment</p>
+                    </div>
+                </li>
+
+                <li class="hiw-step">
+                    <img src="./public/assets/image/icon/execute.png" alt="" class="hiw-ico mx-3 my-2">
+                    <div>
+                        <h6 class="mb-1 fw-semibold">Execution &amp; Monitoring</h6>
+                        <p class="mb-0 text-muted">We invest, track, and rebalance regularly</p>
+                    </div>
+                </li>
+
+                <li class="hiw-step">
+                    <img src="./public/assets/image/icon/design.png" alt="" class="hiw-ico mx-3 my-2">
+                    <div>
+                        <h6 class="mb-1 fw-semibold">Portfolio Design</h6>
+                        <p class="mb-0 text-muted">Choose the right mix of MFs, insurance, and other tools</p>
+                    </div>
+                </li>
+
+                <li class="hiw-step">
+                    <img src="./public/assets/image/icon/review.png" alt="" class="hiw-ico mx-3 my-2">
+                    <div>
+                        <h6 class="mb-1 fw-semibold">Annual Wealth Review</h6>
+                        <p class="mb-0 text-muted">Life evolves. So does your plan.</p>
+                    </div>
+                </li>
+            </ol>
 
             <!-- CTA -->
             <div class="mt-4">
@@ -290,7 +343,7 @@
                 <div class="col-md-6">
                     <p class="mb-3">Whether you're a:</p>
                     <ul class="list-unstyled">
-                        <li class="d-flex align-items-center mb-3 p-2 bg-white rounded border-start border-3 border-success shadow-sm">
+                        <li class="d-flex align-items-center mb-3 p-2 bg-white rounded shadow-sm who-for-item">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                 fill="currentColor" class="bi bi-check2-circle text-success fw-bold me-3"
                                 viewBox="0 0 16 16" style="min-width:20px;">
@@ -300,7 +353,7 @@
                             <span class="fw-semibold">Salaried professional planning retirement or kids’ education</span>
                         </li>
 
-                        <li class="d-flex align-items-center mb-3 p-2 bg-white rounded border-start border-3 border-success shadow-sm">
+                        <li class="d-flex align-items-center mb-3 p-2 bg-white rounded shadow-sm who-for-item">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                 fill="currentColor" class="bi bi-check2-circle text-success fw-bold me-3"
                                 viewBox="0 0 16 16" style="min-width:20px;">
@@ -310,7 +363,7 @@
                             <span class="fw-semibold">Business owner looking to optimise taxes and diversify wealth</span>
                         </li>
 
-                        <li class="d-flex align-items-center mb-3 p-2 bg-white rounded border-start border-3 border-success shadow-sm">
+                        <li class="d-flex align-items-center mb-3 p-2 bg-white rounded shadow-sm who-for-item">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                 fill="currentColor" class="bi bi-check2-circle text-success fw-bold me-3"
                                 viewBox="0 0 16 16" style="min-width:20px;">
@@ -320,7 +373,7 @@
                             <span class="fw-semibold">NRI managing India-based assets</span>
                         </li>
 
-                        <li class="d-flex align-items-center p-2 bg-white rounded border-start border-3 border-success shadow-sm">
+                        <li class="d-flex align-items-center p-2 bg-white rounded shadow-sm who-for-item">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                 fill="currentColor" class="bi bi-check2-circle text-success fw-bold me-3"
                                 viewBox="0 0 16 16" style="min-width:20px;">

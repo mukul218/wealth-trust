@@ -13,6 +13,18 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
+    <style>
+        .custom-accordion .accordion-button:not(.collapsed) {
+            background: var(--secondary-color);
+            color: #000;
+            box-shadow: none;
+        }
+
+        .custom-accordion .accordion-button:not(.collapsed)::after {
+            content: '−';
+            color: #000;
+        }
+    </style>
 </head>
 
 <body>
@@ -28,10 +40,12 @@
             <div class="row align-items-center g-5">
 
                 <!-- Text Content -->
-                <div class="col-md-6 text-center text-md-start">
+                <div class="col-md-6 text-center text-md-start ps-md-5">
                     <h2 class="fw-bold mb-3" style="font-size: 3rem;">
-                        You Might Be <span class="color-primary">Investing</span><br>
-                        Your <span class="color-primary">Money Well.</span>
+                        <b>
+                            You Might Be <span class="color-primary">Investing</span><br>
+                            Your <span class="color-primary">Money Well.</span>
+                        </b>
                     </h2>
                     <p class="mb-4 fs-5">But a financial expert can add more.</p>
 
@@ -71,31 +85,31 @@
     <!-- Why Consult With an Expert Section -->
     <section class="py-5" style="background-color: #fcf8f5;">
         <div class="container text-center">
-            <h2 class="fw-bold mb-3 sction-title fs-1">Why consult <span class="color-primary">with an expert?</span></h2>
+            <h2 class="fw-bold mb-3 sction-title fs-1"> <b>Why consult <span class="color-primary">with an expert?</span> </b></h2>
             <p class="mb-4">Ask yourself these 3 questions:</p>
 
             <div class="row justify-content-center g-4">
                 <div class="col-md-4">
                     <div class="border rounded p-4 h-100 bg-white">
                         <img src="./public/assets/image/icon/oo1.png" alt="Time Icon" class="mb-3 mx-auto d-block" style="width:50px; height:50px;">
-                        <p class="mb-0">Do you have the time to manage your investments actively?</p>
+                        <p class="mb-0 fw-bold">Do you have the time to manage your investments actively?</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="border rounded p-4 h-100 bg-white">
                         <img src="./public/assets/image/icon/oo2.png" alt="Expertise Icon" class="mb-3 mx-auto d-block" style="width:50px; height:50px;">
-                        <p class="mb-0">Do you have the expertise to pick the right products?</p>
+                        <p class="mb-0 fw-bold">Do you have the expertise to pick the right products?</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="border rounded p-4 h-100 bg-white">
                         <img src="./public/assets/image/icon/oo3.png" alt="Calm Decision Icon" class="mb-3 mx-auto d-block" style="width:50px; height:50px;">
-                        <p class="mb-0">Can you stay calm and make rational decisions in a volatile market?</p>
+                        <p class="mb-0 fw-bold">Can you stay calm and make rational decisions in a volatile market?</p>
                     </div>
                 </div>
             </div>
 
-            <p class="mt-4">Even if one answer is "no," it's time to talk to an expert.</p>
+            <p class="mt-4 fw-bold">Even if one answer is "no," it's time to talk to an expert.</p>
             <a href="#" class="btn btn-success mt-2 px-4 rounded-pill">Book a call</a>
         </div>
     </section>
@@ -105,7 +119,9 @@
     <section class="py-5" style="background-color: #fcf8f5;">
         <div class="container text-center">
             <h2 class="fw-bold mb-2 section-title">
-                You will end up at <span class="color-primary">your destination</span> when you <span class="color-primary">plan right.</span>
+                <b>
+                    You will end up at <span class="color-primary">your destination</span> when you <span class="color-primary">plan right.</span>
+                </b>
             </h2>
             <p class="mb-5 fs-4">What is your priority?</p>
 
@@ -115,7 +131,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="p-4 border rounded h-100 bg-white text-center">
                         <img src="./public/assets/image/icon/kk1.png" alt="Retirement Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
-                        <h5 class="fw-bold">Retirement</h5>
+                        <h4 class="fw-bold">Retirement</h4>
                         <p>Build a plan that lasts as long as you do. No running out of money.</p>
                     </div>
                 </div>
@@ -124,7 +140,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="p-4 border rounded h-100 bg-white text-center">
                         <img src="./public/assets/image/icon/kk2.png" alt="Wealth Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
-                        <h5 class="fw-bold">Wealth Building</h5>
+                        <h4 class="fw-bold">Wealth Building</h4>
                         <p>Create a long-term investment strategy that compounds meaningfully.</p>
                     </div>
                 </div>
@@ -133,7 +149,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="p-4 border rounded h-100 bg-white text-center">
                         <img src="./public/assets/image/icon/kk3.png" alt="Child Education Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
-                        <h5 class="fw-bold">Child Education</h5>
+                        <h4 class="fw-bold">Child Education</h4>
                         <p>Estimate costs, set timelines, and invest accordingly.</p>
                     </div>
                 </div>
@@ -142,7 +158,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="p-4 border rounded h-100 bg-white text-center">
                         <img src="./public/assets/image/icon/kk4.png" alt="Child Marriage Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
-                        <h5 class="fw-bold">Child Marriage</h5>
+                        <h4 class="fw-bold">Child Marriage</h4>
                         <p>Plan a worry-free wedding fund that doesn’t strain your future.</p>
                     </div>
                 </div>
@@ -151,7 +167,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="p-4 border rounded h-100 bg-white text-center">
                         <img src="./public/assets/image/icon/kk5.png" alt="Dream Home Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
-                        <h5 class="fw-bold">Dream Home</h5>
+                        <h4 class="fw-bold">Dream Home</h4>
                         <p>Buy without regrets or EMI burdens.</p>
                     </div>
                 </div>
@@ -160,7 +176,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="p-4 border rounded h-100 bg-white text-center">
                         <img src="./public/assets/image/icon/kk6.png" alt="Dream Car Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
-                        <h5 class="fw-bold">Dream Car</h5>
+                        <h4 class="fw-bold">Dream Car</h4>
                         <p>Make your lifestyle goals a reality.</p>
                     </div>
                 </div>
@@ -172,10 +188,15 @@
         </div>
     </section>
 
-    <!-- Expert Value Section -->
+    <!-- Expert Value SectionSuccess stories
+ -->
     <section class="py-5" style="background-color: #fcf8f5;">
         <div class="container text-center">
-            <h2 class="section-title fw-bold mb-2">What value does an <span class="color-primary">expert provide?</span></h2>
+            <h2 class="section-title fw-bold mb-2">
+                <b>
+                    What value does an <span class="color-primary">expert provide?</span>
+            </h2>
+            </b>
             <p class="mb-4 fs-4">Vanguard estimates that advisors can add up to 3% in net returns</p>
             <p class="fw-semibold mb-5">Compound growth of ₹100 after 35 years</p>
 
@@ -193,12 +214,16 @@
         <div class="container text-center">
 
             <!-- Success Stories -->
-            <h2 class="section-title fw-bold mb-4 color-primary">Success stories</h2>
+            <h2 class="section-title fw-bold mb-4 color-primary">
+                <b>
+                    Success stories
+                </b>
+            </h2>
 
-            <div class="row g-4 justify-content-center mb-5">
+            <div class="row g-3 justify-content-center mb-5">
                 <!-- Card 1 -->
-                <div class="col-md-4 d-flex">
-                    <div class="testimonial-card light-green shadow-sm flex-grow-1 text-start">
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="testimonial-card light-green shadow-sm text-start h-100 w-100">
                         <strong class="d-block mb-2">Sameer Kulkarni, 34, Marketing Manager, Pune</strong>
                         <p class="testimonial-text mb-0">
                             “I thought I had everything figured out with SIPs. But after my call with Sneha, I realised how scattered my investments
@@ -208,8 +233,8 @@
                 </div>
 
                 <!-- Card 2 -->
-                <div class="col-md-4 d-flex">
-                    <div class="testimonial-card light-green shadow-sm flex-grow-1 text-start">
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="testimonial-card light-green shadow-sm text-start h-100 w-100">
                         <strong class="d-block mb-2">Neha Arora, 42, Entrepreneur, Mumbai</strong>
                         <p class="testimonial-text mb-0">
                             “My call with WealthTrust changed the way I view money. It was like therapy for my finances.”
@@ -218,8 +243,8 @@
                 </div>
 
                 <!-- Card 3 -->
-                <div class="col-md-4 d-flex">
-                    <div class="testimonial-card light-green shadow-sm flex-grow-1 text-start">
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="testimonial-card light-green shadow-sm text-start h-100 w-100">
                         <strong class="d-block mb-2">Ashish Patel, 39, NRI, Dubai</strong>
                         <p class="testimonial-text mb-0">
                             “I was over-diversified and underprepared. Now I have a focused plan for retirement and my daughter’s future.”
@@ -229,24 +254,28 @@
             </div>
 
             <!-- CTA Heading -->
-            <h2 class="fw-bold mb-2 section-title">Let’s help you make <span class="color-primary">the right choices</span></h2>
+            <h2 class="fw-bold mb-2 section-title pt-5">
+                <b>
+                    Let’s help you make <span class="color-primary">the right choices</span>
+                </b>
+            </h2>
             <p class="mb-4 fs-4">What you get on the call:</p>
 
             <!-- Features List -->
             <div class="row g-3 justify-content-center mb-4">
-                <div class="col-md-3 col-sm-6 d-flex">
+                <div class="col-md-4 col-sm-6 d-flex">
                     <div class="feature-pill border bg-white rounded d-flex align-items-center justify-content-center gap-2 h-100 w-100 p-2">
                         <img src="./public/assets/image/icon/lk1.png" alt="Expert consultation" style="width:35px; height:35px;">
                         <span class="fw-semibold">Expert consultation</span>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 d-flex">
+                <div class="col-md-4 col-sm-6 d-flex">
                     <div class="feature-pill border bg-white rounded d-flex align-items-center justify-content-center gap-2 h-100 w-100 p-2">
                         <img src="./public/assets/image/icon/lk2.png" alt="Financial health check" style="width:35px; height:35px;">
                         <span class="fw-semibold">Your financial health check</span>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 d-flex">
+                <div class="col-md-4 col-sm-6 d-flex">
                     <div class="feature-pill border bg-white rounded d-flex align-items-center justify-content-center gap-2 h-100 w-100 p-2">
                         <img src="./public/assets/image/icon/lk3.png" alt="Goal mapping" style="width:35px; height:35px;">
                         <span class="fw-semibold">Goal mapping and guidance</span>
@@ -262,7 +291,7 @@
     <!-- Final FAQs (refactored) -->
     <section class="faq-section py-5" style="background-color:#fcf8f5;">
         <div class="container">
-            <h2 class="text-center fw-bold mb-5 section-title" style="color:var(--primary-color);">FAQ’s</h2>
+            <h2 class="text-center fw-bold mb-5 section-title" style="color:var(--primary-color);"><b>FAQ’s</b></h2>
 
             <div class="row align-items-center g-4">
                 <!-- Accordion -->

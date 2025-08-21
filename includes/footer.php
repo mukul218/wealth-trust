@@ -1,5 +1,5 @@
 <footer class="site-footer color-primary mt-5">
-    <div class="footer-bg container-fluid bg-white rounded-5">
+    <div class="footer-bg container-fluid bg-white">
         <div class="container">
             <div class="row gy-5 align-items-start">
 
@@ -35,7 +35,7 @@
                     <div class="row">
                         <div class="col-6 pt-4">
                             <h4 class="footer-heading">Our Services</h4>
-                            <ul class="footer-links">
+                            <ul class="footer-links color-primary">
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">About</a></li>
                                 <li><a href="#">Services</a></li>

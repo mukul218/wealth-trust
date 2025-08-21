@@ -110,7 +110,7 @@
                                 </div>
                             </div>
                             <!-- Submit -->
-                            <div class="text-center text-sm-start ps-sm-3">
+                            <div class="text-center ps-sm-3">
                                 <button type="submit" class="btn btn-primary rounded-pill px-4">Submit</button>
                             </div>
                         </form>

@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
+    <style>
+        .about-title {
+            text-shadow: 4px 4px 5px rgb(0 0 0 / 50%);
+        }
+    </style>
 </head>
 
 <body>
@@ -24,15 +29,15 @@
 
         <!-- here come main content -->
         <!-- ====== ABOUT HERO ====== -->
-        <section class="hero-section pt-5">
-            <div class="container pt-5">
+        <section class="hero-section">
+            <div class="container">
                 <div class="position-relative">
                     <!-- Background Image -->
                     <img src="./public/assets/image/about-us.png" alt="About Us" class="w-100 rounded shadow-sm">
 
                     <!-- Overlay for desktop -->
                     <div class="d-none d-md-block position-absolute top-50 start-50 translate-middle bg-white bg-opacity-75 rounded-2 shadow-sm p-4 text-center" style="width:75%;">
-                        <h2 class="section-title m-0 mb-3 text-primary">ABOUT US</h2>
+                        <h2 class="about-title section-title m-0 mb-3 text-primary">ABOUT US</h2>
                         <p class="text-muted mb-0">
                             At WealthTrust Capital Services, we are more than wealth managers.
                             We are your partners in prosperity with a commitment to transparency,
@@ -59,7 +64,7 @@
         <section class="py-5">
             <div class="container">
                 <div class="bg-light-green rounded-5 p-5 text-center">
-                    <h2 class="section-title text-center m-0 mb-4">Mission</h2>
+                    <h2 class="section-title text-center m-0 mb-4 about-title">Mission</h2>
 
                     <p class="mb-2">
                         To be the extension and reason for the financial wellness of our clients.
@@ -80,7 +85,7 @@
         <section class="py-4">
             <div class="container">
                 <div class="bg-light-green rounded-5 p-5 text-center">
-                    <h2 class="section-title text-center m-0 mb-4">Vision</h2>
+                    <h2 class="section-title text-center m-0 mb-4 about-title">Vision</h2>
                     <p class="mb-0">
                         To map, manage, and multiply clients investment by providing appropriate
                         advice and excellent service. To be the hallmark of brilliance with
@@ -93,8 +98,8 @@
         <!-- ====== OUR VALUES ====== -->
         <section class="py-5">
             <div class="container">
-                <h2 class="section-title text-center m-0 mb-4">
-                    <span class="text-dark">Our</span> <span class="text-primary">Values</span>
+                <h2 class="section-title text-center m-0 mb-4 about-title">
+                    <span class="text-dark ">Our</span> <span class="text-primary">Values</span>
                 </h2>
 
                 <div class="row g-4 text-center">
@@ -148,8 +153,8 @@
         <!-- ====== OUR HISTORY ====== -->
         <section class="py-5">
             <div class="container">
-                <h2 class="section-title text-center m-0 mb-4">
-                    <span class="text-dark">Our</span> <span class="text-primary">History</span>
+                <h2 class="section-title text-center m-0 mb-4 about-title">
+                    <span class="text-dark ">Our</span> <span class="text-primary">History</span>
                 </h2>
                 <div class="d-flex justify-content-center">
                     <img src="./public/assets/image/our-history.gif"
@@ -169,7 +174,7 @@
                         class="w-100 rounded shadow-sm">
 
                     <!-- centered CTA button -->
-                    <div class="position-absolute top-100 start-50 translate-middle pb-3">
+                    <div class="position-absolute start-50 translate-middle pb-3" style="top: 90%;">
                         <a href="./our-team.php" class="btn btn-primary rounded-pill">MEET OUR TEAM</a>
                     </div>
                 </div>
@@ -179,8 +184,8 @@
         <!-- ====== OUR OFFICE ====== -->
         <section class="py-5">
             <div class="container">
-                <h2 class="section-title text-center m-0 mb-4">
-                    <span class="text-dark">Our</span> <span class="text-primary">Office</span>
+                <h2 class="section-title text-center m-0 mb-4 about-title">
+                    <span class="text-dark ">Our</span> <span class="text-primary">Office</span>
                 </h2>
 
                 <div class="row g-4 align-items-stretch">

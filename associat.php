@@ -23,54 +23,53 @@
     <section class="hero-section" style="background-color:#fcf8f5;">
         <div class="container">
             <!-- Title -->
-            <h2 class="section-title text-center mb-4">
+            <h2 class="section-title my-4">
                 <span class="text-dark">Become</span> <span class="text-primary">A Business Associate</span>
             </h2>
 
-            <div class="row g-4">
+            <div class="">
                 <!-- Left: Illustration -->
-                <div class="col-lg-5 text-center">
+                <div class="col-12 col-md-4 text-center">
                     <img src="./public/assets/image/hand-shake.gif"
                         alt="WealthTrust Partnership"
-                        class="img-fluid ba-hero-img">
+                        class="img-fluid ba-hero-img ">
                 </div>
 
                 <!-- Right: Copy -->
-                <div class="col-lg-7">
-                    <div class="ba-copy card border-0 bg-white rounded-4 shadow-sm p-4 p-md-5">
-                        <p class="m-0 text-uppercase fw-semibold letter-1 text-muted">Start your own business –
-                            <span class="text-primary">Become a Business Associate with WealthTrust</span>
-                        </p>
+                <div class="">
+                    <div class="ba-copy p-3">
+                        <h4 class="m-0 text-uppercase fw-bold letter-1 ">
+                            <b>Start your own business –<span class="text-primary">Become a Business Associate with WealthTrust</span></b>
+                        </h4>
 
                         <div class="mt-4">
-                            <h6 class="mb-2 text-primary fw-bold">What to Expect?</h6>
-                            <p class="mb-3">Embark on a valuable, long-lasting partnership with WealthTrust Capital.</p>
-
-                            <h6 class="mb-2 text-primary fw-bold">What you need: Drive to run your own business</h6>
-                            <ul class="ba-list">
-                                <li>If you are a progressive entrepreneur who wishes to make large strides in business.</li>
-                                <li>Credibility, strong values and strong network of contacts in your community.</li>
-                                <li>Professional licenses as per applicability (e.g., Mutual Fund: AMFI certification).</li>
-                                <li>This innovative franchising program pairs the strength of experienced, service-oriented financial
+                            <h4 class="mb-3 text-primary fw-bold mb-5">What to Expect? <br>
+                                Embark on a valuable, long-lasting partnership with WealthTrust Capital. <br>What you need: Drive to run your own business:</h4>
+                            <ul class="ba-list mb-4">
+                                <li class="mb-3">If you are a progressive entrepreneur who wishes to make large strides in business.</li>
+                                <li class="mb-3">Credibility, strong values and strong network of contacts in your community.</li>
+                                <li class="mb-3">Professional licenses as per applicability (e.g., Mutual Fund: AMFI certification).</li>
+                                <li class="mb-3">
+                                    This innovative franchising program pairs the strength of experienced, service-oriented financial
                                     professionals with multiple products under one roof, robust operations, product know-how, and an
-                                    investor-first philosophy of WealthTrust Capital Services.</li>
+                                    investor-first philosophy of WealthTrust Capital Services.
+                                </li>
                             </ul>
 
-                            <h6 class="mb-2 text-primary fw-bold">Our Role</h6>
+                            <h4 class="mb-3 text-primary fw-bold mb-4">Our Role</h4>
+
                             <ul class="ba-list">
-                                <li>Become the trusted face and voice of WealthTrust Capital Services in your community.</li>
-                                <li>End-to-end product level trainings with back-end and front-end support to expedite growth.</li>
-                                <li>Operational support with technology to ensure economies of scale.</li>
-                                <li>On-field support and periodic portfolio reviews for your clients.</li>
-                                <li>Client acquisition support and management events.</li>
-                                <li>Wide suite of products – Mutual Funds, Insurance, Home/Business/Loan solutions, Fixed Income,
+                                <li class="mb-3">Become the trusted face and voice of WealthTrust Capital Services in your community.</li>
+                                <li class="mb-3">End-to-end product level trainings with back-end and front-end support to expedite growth.</li>
+                                <li class="mb-3">Operational support with technology to ensure economies of scale.</li>
+                                <li class="mb-3">On-field support and periodic portfolio reviews for your clients.</li>
+                                <li class="mb-3">Client acquisition support and management events.</li>
+                                <li class="mb-3">
+                                    Wide suite of products – Mutual Funds, Insurance, Home/Business/Loan solutions, Fixed Income,
                                     Bonds, Real Estate Products & Services, Gold, PMS, Estate & Tax Planning, and Private Equity
-                                    integrated into the financial plan.</li>
+                                    integrated into the financial plan.
+                                </li>
                             </ul>
-
-                            <div class="mt-4">
-                                <a href="#contact" class="btn btn-primary rounded-pill px-4">Apply to Partner</a>
-                            </div>
                         </div>
                     </div>
                 </div><!-- /Right -->
@@ -79,7 +78,7 @@
     </section>
 
     <!-- ====== PARTNER QUICK SIGNUP ====== -->
-    <section class="py-5" style="background-color:#fcf8f5;">
+    <section style="background-color:#fcf8f5;">
         <div class="container">
             <!-- Headline -->
             <h2 class="fw-bold mb-4 text-uppercase lh-sm" style="letter-spacing:.3px;">

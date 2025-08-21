@@ -10,6 +10,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./public/assets/css/style.css">
+
+    <style>
+        .site-footer {
+            background-color: var(--primary-color);
+        }
+    </style>
 </head>
 
 <body>
@@ -22,7 +28,7 @@
     <section id="home" class="hero-section">
         <div class="container mt-5">
             <div class="row align-items-center justify-content-between">
-                <div class="col-lg-6 pe-md-5 pe-0">
+                <div class="col-lg-6 px-md-5">
                     <div class="hero-content">
                         <h1><b> Invest with <span class="color-primary">Confidence</span></b> <small><span class="color-primary">Achieve</span> Your <span class="color-primary">Life Goals</span> On Time.</small></h1>
                         <p>We simplify investing with expert guidance, so you can focus on what matters most.</p>
@@ -290,7 +296,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="cta-section bg-white">
+    <section class="cta-section">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -306,7 +312,7 @@
         </div>
     </section>
 
-    <section class="faq-section py-5 bg-white">
+    <section class="faq-section py-5">
         <div class="container">
             <h2 class="text-center fw-bold mb-5" style="color: var(--primary-color); font-size: 2.7rem;">FAQ’s</h2>
             <div class="row align-items-center">
