@@ -44,7 +44,7 @@
                         <span class="text-dark">Accomplish All Your<br>Financial Goals</span>
                     </h2>
 
-                    <p class="text-muted mb-4">
+                    <p class="mb-4">
                         We are your CFO, managing everything from mutual funds to insurance,
                         taxes to real estate, so you can live stress-free.
                     </p>
@@ -72,7 +72,7 @@
             <h2 class="section-title m-0 mb-2">
                 What do <span class="text-primary">we offer?</span>
             </h2>
-            <p class="text-muted mb-5">Multiple solutions under one roof</p>
+            <p class="mb-5">Multiple solutions under one roof</p>
 
             <!-- Row 1: 4 cards -->
             <div class="row g-4 justify-content-center">
@@ -177,9 +177,9 @@
             <h2 class="section-title m-0 mb-2">
                 Your Personal <span class="text-primary">Goal Planner</span>
             </h2>
-            <p class="text-muted mb-4">Choose your goal</p>
+            <p class="mb-4">Choose your goal</p>
 
-            <div class="row justify-content-center g-4 py-3">
+            <div class="row justify-content-center g-4 py-3 mb-5">
                 <div class="col-12 col-lg-4">
                     <div class="d-grid gap-3">
                         <button type="button" class="goal-box btn text-start selected-goal"
@@ -255,7 +255,7 @@
     <section class="howitworks-section py-5">
         <div class="container text-center">
             <h2 class="fw-bold mb-2 section-title">How It <span class="text-primary">Works</span></h2>
-            <p class="text-muted mb-5">
+            <p class="mb-5">
                 Uncomplicate your financial life. Here is how we work:
             </p>
 
@@ -335,8 +335,7 @@
                 <div class="col-md-6 text-center mb-4 mb-md-0">
                     <img src="./public/assets/image/who-is-this-for-2.gif"
                         alt="Who is this for"
-                        class="img-fluid mx-auto d-block"
-                        style="max-width:400px;">
+                        class="img-fluid mx-auto d-block">
                 </div>
 
                 <!-- Right: Checklist -->
@@ -429,7 +428,7 @@
             <h2 class="text-center fw-bold mb-5" style="color: var(--primary-color); font-size: 2.7rem;">FAQ’s</h2>
             <div class="row align-items-center">
                 <!-- FAQ Accordion (right) -->
-                <div class="col-lg-7">
+                <div class="col-lg-7 order-2 order-md-1">
                     <div class="accordion custom-accordion" id="faqAccordion">
 
                         <!-- Q1 -->
@@ -520,7 +519,7 @@
                 </div>
 
                 <!-- Bot illustration (left) -->
-                <div class="col-lg-5 mb-4 mb-lg-0 text-center">
+                <div class="col-lg-5 mb-4 mb-lg-0 text-center order-1 order-md-2">
                     <img src="./public/assets/image/FAQ3.gif" alt="FAQ Bot" class="h-100 mx-auto d-block">
                 </div>
             </div>

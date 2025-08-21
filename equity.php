@@ -26,7 +26,7 @@
             <div class="row align-items-center">
 
                 <!-- Left Content -->
-                <div class="col-md-6 text-center text-md-start ps-0 ps-md-5">
+                <div class="col-md-6 text-center text-md-start ps-0 ps-md-5 pt-3 pt-md-0">
                     <h2 class="fw-bold display-5 mb-3">
                         <b>
                             Want To Invest <span class="text-primary">Like A Pro</span>
@@ -35,7 +35,7 @@
                         </b>
                     </h2>
 
-                    <p class="text-muted mb-4">
+                    <p class="mb-4">
                         Get personalised stock advice. All you do is invest, we handle the rest.
                     </p>
 
@@ -63,7 +63,7 @@
             <h2 class="section-title text-center m-0 mb-2">
                 Pick Your <span class="text-primary">Portfolio</span>
             </h2>
-            <p class="text-muted text-center mb-5"><b>Transparent Pricing. No Hidden Fees.</b></p>
+            <p class="text-center mb-5"><b>Transparent Pricing. No Hidden Fees.</b></p>
 
             <!-- Cards -->
             <div class="row g-4">
@@ -159,7 +159,6 @@
         </div>
     </section>
 
-
     <section class="how-works-section py-5">
         <div class="container">
             <h2 class="section-title text-center mb-5">
@@ -168,56 +167,66 @@
 
             <!-- Row 1 -->
             <div class="row gx-4 gy-4 justify-content-center">
-                <div class="col-12 col-sm-6 col-lg-4 d-flex">
+                <div class="col-12 col-lg-4 d-flex">
                     <div class="what-card flex-grow-1 d-flex align-items-center justify-content-between">
                         <div class="px-3">
-                            <h5 class="text-primary mb-1"><b> Personalised Portfolio Construction</b></h5>
+                            <h5 class="text-primary mb-1"><b>Personalised Portfolio Construction</b></h5>
                             <p class="mb-0 text-muted">Because your money should work for you</p>
                         </div>
-                        <div class="card-visual"><img src="./public/assets/img/ss1.png" alt="Personalised Portfolio Construction"></div>
+                        <div class="card-visual">
+                            <img src="./public/assets/img/ss1.png" class="img-fluid" alt="Personalised Portfolio Construction">
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-lg-4 d-flex">
+                <div class="col-12 col-lg-4 d-flex">
                     <div class="what-card flex-grow-1 d-flex align-items-center justify-content-between">
                         <div class="px-3">
-                            <h5 class="text-primary mb-1"><b> Actionable Stock Recommendations</b></h5>
+                            <h5 class="text-primary mb-1"><b>Actionable Stock Recommendations</b></h5>
                             <p class="mb-0 text-muted">No more random stock tips</p>
                         </div>
-                        <div class="card-visual"><img src="./public/assets/img/ss2.png" alt="Actionable Stock Recommendations"></div>
+                        <div class="card-visual">
+                            <img src="./public/assets/img/ss2.png" class="img-fluid" alt="Actionable Stock Recommendations">
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-lg-4 d-flex">
+                <div class="col-12 col-lg-4 d-flex">
                     <div class="what-card flex-grow-1 d-flex align-items-center justify-content-between">
                         <div class="px-3">
-                            <h5 class="text-primary mb-1"><b> Regular Portfolio Reviews</b></h5>
+                            <h5 class="text-primary mb-1"><b>Regular Portfolio Reviews</b></h5>
                             <p class="mb-0 text-muted">So you don’t miss any opportunities.</p>
                         </div>
-                        <div class="card-visual"><img src="./public/assets/img/ss3.png" alt="Regular Portfolio Reviews"></div>
+                        <div class="card-visual">
+                            <img src="./public/assets/img/ss3.png" class="img-fluid" alt="Regular Portfolio Reviews">
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Row 2 -->
             <div class="row gx-4 gy-4 justify-content-center mt-2">
-                <div class="col-12 col-sm-6 col-lg-4 d-flex">
+                <div class="col-12 col-lg-4 d-flex">
                     <div class="what-card flex-grow-1 d-flex align-items-center justify-content-between">
                         <div class="px-3">
-                            <h5 class="text-primary mb-1"><b> Research-Backed Picks</b></h5>
+                            <h5 class="text-primary mb-1"><b>Research-Backed Picks</b></h5>
                             <p class="mb-0 text-muted">No guesswork.</p>
                         </div>
-                        <div class="card-visual"><img src="./public/assets/img/ss4.png" alt="Research-Backed Picks"></div>
+                        <div class="card-visual">
+                            <img src="./public/assets/img/ss4.png" class="img-fluid" alt="Research-Backed Picks">
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-lg-4 d-flex">
+                <div class="col-12 col-lg-4 d-flex">
                     <div class="what-card flex-grow-1 d-flex align-items-center justify-content-between">
                         <div class="px-3">
-                            <h5 class="text-primary mb-1"><b> Real Human Guidance</b></h5>
+                            <h5 class="text-primary mb-1"><b>Real Human Guidance</b></h5>
                             <p class="mb-0 text-muted">Because when you are stuck, Google doesn’t talk back.</p>
                         </div>
-                        <div class="card-visual"><img src="./public/assets/img/ss5.png" alt="Real Human Guidance"></div>
+                        <div class="card-visual">
+                            <img src="./public/assets/img/ss5.png" class="img-fluid" alt="Real Human Guidance">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -247,7 +256,7 @@
                             <img src="./public/assets/image/icon/discovery-call.png" alt="Discovery Call" class="img-fluid mx-auto d-block" style="max-width:110px;">
                         </div>
                         <h5 class="fw-bold">Discovery Call</h5>
-                        <p class="text-muted mb-0">We understand your goals, lifestyle, income, and risk profile.</p>
+                        <p class="mb-0">We understand your goals, lifestyle, income, and risk profile.</p>
                     </div>
                 </div>
 
@@ -258,7 +267,7 @@
                             <img src="./public/assets/image/icon/customised-strategy.png" alt="Customised Strategy" class="img-fluid mx-auto d-block" style="max-width:110px;">
                         </div>
                         <h5 class="fw-bold">Customised Strategy</h5>
-                        <p class="text-muted mb-0">We build a tailored equity strategy for you.</p>
+                        <p class="mb-0">We build a tailored equity strategy for you.</p>
                     </div>
                 </div>
 
@@ -269,7 +278,7 @@
                             <img src="./public/assets/image/icon/stock-advisory.png" alt="Stock Advisory" class="img-fluid mx-auto d-block" style="max-width:110px;">
                         </div>
                         <h5 class="fw-bold">Stock Advisory</h5>
-                        <p class="text-muted mb-0">Handpicked stocks with rationale on when to enter, exit, and why.</p>
+                        <p class="mb-0">Handpicked stocks with rationale on when to enter, exit, and why.</p>
                     </div>
                 </div>
 
@@ -280,7 +289,7 @@
                             <img src="./public/assets/image/icon/regular-portfolio.png" alt="Regular Portfolio Review" class="img-fluid mx-auto d-block" style="max-width:110px;">
                         </div>
                         <h5 class="fw-bold">Regular Portfolio Review</h5>
-                        <p class="text-muted mb-0">Assess performance, and rebalance if needed.</p>
+                        <p class="mb-0">Assess performance, and rebalance if needed.</p>
                     </div>
                 </div>
             </div>
@@ -362,10 +371,9 @@
                     <img src="./public/assets/image/who-is-this-for.gif"
                         class="img-fluid mx-auto d-block"
                         alt="Investor Guide"
-                        style="max-width: 400px;">
+                        </div>
                 </div>
             </div>
-        </div>
     </section>
 
 
@@ -389,7 +397,7 @@
             <h2 class="text-center fw-bold mb-5" style="color: var(--primary-color); font-size: 2.7rem;">Still Have Questions?</h2>
             <div class="row align-items-center">
                 <!-- FAQ Accordion (right) -->
-                <div class="col-lg-7">
+                <div class="col-lg-7 order-2 order-md-1">
                     <div class="accordion custom-accordion" id="faqAccordion">
 
                         <!-- Q1 -->
@@ -480,7 +488,7 @@
                 </div>
 
                 <!-- Bot illustration (left) -->
-                <div class="col-lg-5 mb-4 mb-lg-0 text-center">
+                <div class="col-lg-5 mb-4 mb-lg-0 text-center order-1 order-md-2">
                     <img src="./public/assets/image/FAQ3.gif" alt="Have Questions Bot" class="h-100 mx-auto d-block" style="max-width: 350px;">
                 </div>
             </div>

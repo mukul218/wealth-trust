@@ -100,7 +100,7 @@
                             <div class="col">
                                 <h6 class="mb-1">Shubham Jha</h6>
                                 <small class="text-primary d-block mb-2">(Senior Research Analyst)</small>
-                                <p class="text-muted mb-0 text-sm">
+                                <p class="mb-0 text-sm">
                                     Shubham is “Go-To” Research Analyst, a CFP® with experience in equity research, portfolio
                                     management and quant analysis spanning over 5 years. He deciphers market moves and news flow
                                     into actionable insights for current events plays.
@@ -123,7 +123,7 @@
                             <div class="col">
                                 <h6 class="mb-1">Parth More</h6>
                                 <small class="text-primary d-block mb-2">Associate – Research</small>
-                                <p class="text-muted mb-0 text-sm">
+                                <p class="mb-0 text-sm">
                                     Dedicated research associate with strong background in investment analysis. Partners with the
                                     research team to deliver personalised, data-led solutions for clients.
                                 </p>
@@ -145,7 +145,7 @@
                             <div class="col">
                                 <h6 class="mb-1">Akshay Madhasu</h6>
                                 <small class="text-primary d-block mb-2">Associate – Research</small>
-                                <p class="text-muted mb-0 text-sm">
+                                <p class="mb-0 text-sm">
                                     Equity Research Associate with strengths in financial modelling, industry & company analysis,
                                     and macro work. Known for structured approach and ability to uncover actionable insights.
                                 </p>
@@ -180,7 +180,7 @@
                             <div class="col">
                                 <h6 class="mb-1">Jeel Shah</h6>
                                 <small class="text-primary d-block mb-2">(Associate – Mutual Fund Research)</small>
-                                <p class="text-muted mb-0 text-sm">
+                                <p class="mb-0 text-sm">
                                     Dedicated mutual fund expert focused on research & analysis to tailor strategies for client goals.
                                 </p>
                             </div>
@@ -201,7 +201,7 @@
                             <div class="col">
                                 <h6 class="mb-1">Purvi Dodiya</h6>
                                 <small class="text-primary d-block mb-2">(Wealth Manager &amp; Insurance Expert)</small>
-                                <p class="text-muted mb-0 text-sm">
+                                <p class="mb-0 text-sm">
                                     Provides one-to-one guidance across mutual funds, goal planning, and insurance with a data-driven approach.
                                 </p>
                             </div>
@@ -222,7 +222,7 @@
                             <div class="col">
                                 <h6 class="mb-1">Vignesh Venkatesh</h6>
                                 <small class="text-primary d-block mb-2">(Investor Relationship Manager)</small>
-                                <p class="text-muted mb-0 text-sm">
+                                <p class="mb-0 text-sm">
                                     Experienced manager collaborating with clients to identify needs and deliver solutions that meet goals.
                                 </p>
                             </div>
@@ -243,7 +243,7 @@
                             <div class="col">
                                 <h6 class="mb-1">Purva Bohara</h6>
                                 <small class="text-primary d-block mb-2">(Wealth Manager)</small>
-                                <p class="text-muted mb-0 text-sm">
+                                <p class="mb-0 text-sm">
                                     Comprehensive financial planning, goal planning, and wealth management with a client-first mindset.
                                 </p>
                             </div>
@@ -278,7 +278,7 @@
                             <div class="col">
                                 <h6 class="mb-1">Shivaji Shinde</h6>
                                 <small class="text-primary d-block mb-2">(Head of Operations)</small>
-                                <p class="text-muted mb-0 text-sm">
+                                <p class="mb-0 text-sm">
                                     Professionalism and prowess laced with pragmatism and politeness define Shivaji Shinde.
                                     Chief of Client Operations, he has invested his energy since inception in building WealthTrust’s service platform.
                                 </p>
@@ -301,7 +301,7 @@
                             <div class="col">
                                 <h6 class="mb-1">Ankita Yadav</h6>
                                 <small class="text-primary d-block mb-2">(Loan &amp; Insurance Associate)</small>
-                                <p class="text-muted mb-0 text-sm">
+                                <p class="mb-0 text-sm">
                                     Dynamic and results-driven loans and insurance expert at WealthTrust,
                                     supporting clients with tailored financial solutions.
                                 </p>
@@ -324,7 +324,7 @@
                             <div class="col">
                                 <h6 class="mb-1">Pranali Chalke</h6>
                                 <small class="text-primary d-block mb-2">(Junior Operations Executive)</small>
-                                <p class="text-muted mb-0 text-sm">
+                                <p class="mb-0 text-sm">
                                     Keen eye for detail and process optimization, Pranali ensures smooth
                                     and efficient operations while driving excellence across WealthTrust.
                                 </p>
@@ -390,7 +390,7 @@
                 </div>
                 <!-- Side copy -->
                 <div class="col-12 col-lg-4 d-flex align-items-center">
-                    <p class="text-muted text-base mb-0">
+                    <p class="text-base mb-0">
                         We're always on the lookout for exceptional talent. Feel free to express your interest in joining our team by
                         filling out the form, and we'll keep your information on file for future opportunities.
                     </p>

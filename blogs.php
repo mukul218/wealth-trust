@@ -26,12 +26,12 @@
             <h2 class="section-title text-center fw-bold mb-4">
                 <span class=" text-dark">Latest</span> <span class="text-primary">Blogs</span>
             </h2>
-            <p class="text-center text-muted mb-5">Insights, ideas, and explainers to help you invest smarter.</p>
+            <p class="text-center mb-5">Insights, ideas, and explainers to help you invest smarter.</p>
 
             <div class="row g-4" id="blogList"></div>
 
             <!-- Empty/Fallback -->
-            <div id="noBlogs" class="text-center text-muted d-none">No blogs available at the moment.</div>
+            <div id="noBlogs" class="text-center d-none">No blogs available at the moment.</div>
         </div>
     </section>
 

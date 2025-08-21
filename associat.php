@@ -23,8 +23,8 @@
     <section class="hero-section" style="background-color:#fcf8f5;">
         <div class="container">
             <!-- Title -->
-            <h2 class="section-title my-4">
-                <span class="text-dark">Become</span> <span class="text-primary">A Business Associate</span>
+            <h2 class="section-title my-4 text-center text-md-start">
+                <span class="text-dark">Become</span> <span class="text-primary ">A Business Associate</span>
             </h2>
 
             <div class="">

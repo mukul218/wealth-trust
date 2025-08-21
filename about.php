@@ -38,7 +38,7 @@
                     <!-- Overlay for desktop -->
                     <div class="d-none d-md-block position-absolute top-50 start-50 translate-middle bg-white bg-opacity-75 rounded-2 shadow-sm p-4 text-center" style="width:75%;">
                         <h2 class="about-title section-title m-0 mb-3 text-primary">ABOUT US</h2>
-                        <p class="text-muted mb-0">
+                        <p class="mb-0">
                             At WealthTrust Capital Services, we are more than wealth managers.
                             We are your partners in prosperity with a commitment to transparency,
                             expertise, and personalized solutions. We guide you on a journey of
@@ -50,7 +50,7 @@
                 <!-- Normal flow for mobile -->
                 <div class="d-block d-md-none mt-3 bg-white bg-opacity-75 rounded shadow-sm p-4 text-center">
                     <h2 class="section-title m-0 mb-3 text-primary">ABOUT US</h2>
-                    <p class="text-muted mb-0">
+                    <p class="mb-0">
                         At WealthTrust Capital Services, we are more than wealth managers.
                         We are your partners in prosperity with a commitment to transparency,
                         expertise, and personalized solutions. We guide you on a journey of
@@ -68,12 +68,8 @@
 
                     <p class="mb-2">
                         To be the extension and reason for the financial wellness of our clients.
-                    </p>
-                    <p class="mb-2">
                         To be synonymous with precision, hailed as a research-first organisation,
                         and ensure financial independence for all.
-                    </p>
-                    <p class="mb-0">
                         To establish ourselves as the most preferred partner in wealth management,
                         with optimal and exceptional strategic acumen.
                     </p>
@@ -109,7 +105,7 @@
                             <img src="./public/assets/image/icon/integrity.png" alt="Integrity" class="img-fluid" style="max-width: 100px;">
                         </div>
                         <h6 class="text-primary mb-1 fs-5"><b>Integrity</b></h6>
-                        <p class="text-muted text-sm mb-0">
+                        <p class="text-sm mb-0">
                             Conduct the business with the highest grade of ethics. Be morally and professionally correct each and every time.
                         </p>
                     </div>
@@ -120,7 +116,7 @@
                             <img src="./public/assets/image/icon/quality.png" alt="Quality" class="img-fluid" style="max-width: 100px;">
                         </div>
                         <h6 class="text-primary mb-1 fs-5"><b>Quality</b></h6>
-                        <p class="text-muted text-sm mb-0">
+                        <p class="text-sm mb-0">
                             We will always uphold the uppermost standards in all our offerings and services.
                         </p>
                     </div>
@@ -131,7 +127,7 @@
                             <img src="./public/assets/image/icon/honesty.png" alt="Honesty" class="img-fluid" style="max-width: 100px;">
                         </div>
                         <h6 class="text-primary mb-1 fs-5"><b>Honesty</b></h6>
-                        <p class="text-muted text-sm mb-0">
+                        <p class="text-sm mb-0">
                             We will carry out our business with utmost trustworthiness and live up to the confidence associated with us.
                         </p>
                     </div>
@@ -142,7 +138,7 @@
                             <img src="./public/assets/image/icon/commitment.png" alt="Commitment to Customer" class="img-fluid" style="max-width: 100px;">
                         </div>
                         <h6 class="text-primary mb-1 fs-5"><b>Commitment to Customer</b></h6>
-                        <p class="text-muted text-sm mb-0">
+                        <p class="text-sm mb-0">
                             We will always strive to ensure that our customers thrive through our premium service and support at all times.
                         </p>
                     </div>
@@ -198,7 +194,7 @@
                                     class="img-fluid rounded">
                             </div>
                             <h6 class="mb-1">Office Address</h6>
-                            <p class="text-muted mb-0">
+                            <p class="mb-0">
                                 Konark Shram, Office No. 307, 308, 309, 3rd Floor, Janata Nagar, Tardeo Road,<br>
                                 Mumbai Central – 400034
                             </p>

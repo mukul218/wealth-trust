@@ -123,6 +123,10 @@ h6 {
     font-weight: 800;
 }
 
+p {
+    font-weight: 500;
+}
+
 img,
 svg,
 video {
@@ -326,7 +330,7 @@ video {
     text-align: center;
 }
 
-.text-muted {
+. {
     color: var(--text-light);
 }
 
@@ -2053,11 +2057,11 @@ video {
         min-height: 160px;
     }
 
-    .offer-grid-card::after {
+    /* .offer-grid-card::after {
         left: 120px;
         width: 150px;
         height: 105px;
-    }
+    } */
 }
 
 
@@ -2108,20 +2112,10 @@ video {
 }
 
 .hiw-wrapper {
-    max-width: 800px;
+    /* max-width: 800px; */
     /* adjust to match your design */
     position: relative;
 }
-
-.hiw-center-gif {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 150px;
-    /* size of the center GIF */
-}
-
 
 /* Base header */
 .custom-accordion .accordion-button {
@@ -2548,12 +2542,12 @@ video {
 
 @media (max-width: 575.98px) {
     .what-card {
-        flex-direction: column;
+        /* flex-direction: column; */
         text-align: left;
     }
 
     .what-card .card-visual {
-        width: 100%;
+        /* width: 100%; */
         border-left: none;
         border-top: 1.5px solid rgba(7, 94, 84, .25);
         padding: 12px;
@@ -2686,7 +2680,7 @@ video {
 /* Desktop: show background image wrapper; Mobile timeline hidden */
 .hiw-wrapper {
     display: block;
-    max-width: 720px;
+    /* max-width: 720px; */
 }
 
 /* adjust width if needed */
@@ -2705,6 +2699,9 @@ video {
 
 /* Mobile / Tablet */
 @media (max-width: 991.98px) {
+    .footer-left-cont {
+        border-right: none;
+    }
 
     /* Hide bg image on mobile and show timeline */
     .hiw-wrapper {
@@ -2764,4 +2761,16 @@ video {
         height: 40px;
         flex: 0 0 40px;
     }
+}
+
+.goal-box.selected-goal {
+    background-color: var(--secondary-color);
+    /* your theme color */
+    /* color: #fff; */
+    /* make text white */
+    border-color: var(--primary-color);
+}
+
+.footer-left-cont {
+    border-right: 1px solid #ddd;
 }

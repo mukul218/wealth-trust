@@ -4,8 +4,8 @@
             <div class="row gy-5 align-items-start">
 
                 <!-- Left: Logo & Info -->
-                <div class="col-lg-4 col-md-12 footer-col-left pe-lg-4">
-                    <a class="navbar-brand d-inline-flex align-items-center pt-4" href="./">
+                <div class="col-lg-4 col-md-12 footer-col-left pe-lg-4 my-0 footer-left-cont">
+                    <a class="navbar-brand d-inline-flex align-items-center pt-4 mt-5" href="./">
                         <img src="./public/assets/img/logo.png" alt="WealthTrustCap" class="footer-logo-img">
                     </a>
 
@@ -33,7 +33,7 @@
                 <!-- Middle: Menus + Social/App -->
                 <div class="col-lg-6">
                     <div class="row">
-                        <div class="col-6 pt-4">
+                        <div class="col-6 pt-4 ps-0 ps-md-5">
                             <h4 class="footer-heading">Our Services</h4>
                             <ul class="footer-links color-primary">
                                 <li><a href="#">Home</a></li>
@@ -130,7 +130,7 @@
                     </div>
 
                     <!-- Risk Disclaimer -->
-                    <p class="text-center text-muted mt-4 small">
+                    <p class="text-center mt-4 text-black">
                         Mutual fund investments are subject to market risks. Read the scheme information and other related documents carefully, before investing. Past performance is not indicative of future returns.
                     </p>
                 </div>

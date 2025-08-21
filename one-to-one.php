@@ -295,7 +295,7 @@
 
             <div class="row align-items-center g-4">
                 <!-- Accordion -->
-                <div class="col-lg-7">
+                <div class="col-lg-7 order-2 order-md-1">
                     <div class="custom-accordion" id="faqAccordion2">
 
                         <!-- Q1 -->
@@ -402,7 +402,7 @@
                 </div>
 
                 <!-- Bot illustration -->
-                <div class="col-lg-5 text-center">
+                <div class="col-lg-5 text-center order-1 order-md-2">
                     <img src="./public/assets/image/FAQ3.gif"
                         alt="Have Questions Bot"
                         class="img-fluid mb-3 mx-auto d-block"

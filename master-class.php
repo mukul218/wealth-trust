@@ -52,7 +52,7 @@
 
                     <!-- Right: green panel with tiles -->
                     <div class="col-md-7">
-                        <h2 class="text-end fs-1">
+                        <h2 class="text-md-end fs-1 text-center">
                             <span class="text-dark">Unlock the life you dream of with</span><br>
                             <span class="text-primary"> smart investing</span>
                         </h2>
@@ -310,7 +310,7 @@
                 </div>
             </div>
 
-            <p class="mt-4 text-muted fw-bold">We don’t just tell you where to invest. We help you understand why.</p>
+            <p class="mt-4 fw-bold">We don’t just tell you where to invest. We help you understand why.</p>
             <a href="#" class="btn btn-primary rounded-pill px-4">Book my seat</a>
         </div>
     </section>
@@ -389,7 +389,7 @@
                         class="img-fluid rounded-4 border mx-auto"
                         alt="Masterclass Host" style="max-width: 280px;">
                     <h4 class="mt-3 mb-0 fw-bold"><b>Sneha Jain</b></h4>
-                    <p class="text-muted mb-0">CEO / Founder</p>
+                    <p class="mb-0">CEO / Founder</p>
                 </div>
 
                 <!-- Speaker Details -->
