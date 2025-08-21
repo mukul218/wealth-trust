@@ -31,7 +31,7 @@
                     <img src="./public/assets/image/about-us.png" alt="About Us" class="w-100 rounded shadow-sm">
 
                     <!-- Overlay for desktop -->
-                    <div class="d-none d-md-block position-absolute top-50 start-50 translate-middle bg-white bg-opacity-75 rounded shadow-sm p-4 text-center" style="max-width: 800px;">
+                    <div class="d-none d-md-block position-absolute top-50 start-50 translate-middle bg-white bg-opacity-75 rounded-2 shadow-sm p-4 text-center" style="width:75%;">
                         <h2 class="section-title m-0 mb-3 text-primary">ABOUT US</h2>
                         <p class="text-muted mb-0">
                             At WealthTrust Capital Services, we are more than wealth managers.
@@ -58,7 +58,7 @@
         <!-- ====== MISSION ====== -->
         <section class="py-5">
             <div class="container">
-                <div class="bg-light-green rounded p-5 text-center">
+                <div class="bg-light-green rounded-5 p-5 text-center">
                     <h2 class="section-title text-center m-0 mb-4">Mission</h2>
 
                     <p class="mb-2">
@@ -79,7 +79,7 @@
         <!-- ====== VISION ====== -->
         <section class="py-4">
             <div class="container">
-                <div class="bg-light-green rounded p-5 text-center">
+                <div class="bg-light-green rounded-5 p-5 text-center">
                     <h2 class="section-title text-center m-0 mb-4">Vision</h2>
                     <p class="mb-0">
                         To map, manage, and multiply clients investment by providing appropriate
@@ -100,49 +100,45 @@
                 <div class="row g-4 text-center">
                     <!-- Integrity -->
                     <div class="col-12 col-sm-6 col-lg-3">
-
                         <div class="value-icon rounded-pill mx-auto mb-3 d-flex align-items-center justify-content-center">
-                            <img src="./public/assets/image/icon/integrity.png" alt="Integrity" class="img-fluid" style="max-width: 60px;">
+                            <img src="./public/assets/image/icon/integrity.png" alt="Integrity" class="img-fluid" style="max-width: 100px;">
                         </div>
-                        <h6 class="text-primary mb-1 fs-5"><b> Integrity</b></h6>
+                        <h6 class="text-primary mb-1 fs-5"><b>Integrity</b></h6>
                         <p class="text-muted text-sm mb-0">
-                            Conduct business with the highest ethics — moral and professional, every time.
+                            Conduct the business with the highest grade of ethics. Be morally and professionally correct each and every time.
                         </p>
                     </div>
 
                     <!-- Quality -->
                     <div class="col-12 col-sm-6 col-lg-3">
-
                         <div class="value-icon rounded-pill mx-auto mb-3 d-flex align-items-center justify-content-center">
-                            <img src="./public/assets/image/icon/quality.png" alt="Quality" class="img-fluid" style="max-width: 60px;">
+                            <img src="./public/assets/image/icon/quality.png" alt="Quality" class="img-fluid" style="max-width: 100px;">
                         </div>
-                        <h6 class="text-primary mb-1 fs-5"><b> Quality</b></h6>
+                        <h6 class="text-primary mb-1 fs-5"><b>Quality</b></h6>
                         <p class="text-muted text-sm mb-0">
-                            Uphold the uppermost standards in our offerings and services.
+                            We will always uphold the uppermost standards in all our offerings and services.
                         </p>
                     </div>
 
                     <!-- Honesty -->
                     <div class="col-12 col-sm-6 col-lg-3">
-
                         <div class="value-icon rounded-pill mx-auto mb-3 d-flex align-items-center justify-content-center">
-                            <img src="./public/assets/image/icon/honesty.png" alt="Honesty" class="img-fluid" style="max-width: 60px;">
+                            <img src="./public/assets/image/icon/honesty.png" alt="Honesty" class="img-fluid" style="max-width: 100px;">
                         </div>
-                        <h6 class="text-primary mb-1 fs-5"><b> Honesty</b></h6>
+                        <h6 class="text-primary mb-1 fs-5"><b>Honesty</b></h6>
                         <p class="text-muted text-sm mb-0">
-                            Be trustworthy and live up to the confidence clients place in us.
+                            We will carry out our business with utmost trustworthiness and live up to the confidence associated with us.
                         </p>
                     </div>
 
                     <!-- Commitment -->
                     <div class="col-12 col-sm-6 col-lg-3">
-
                         <div class="value-icon rounded-pill mx-auto mb-3 d-flex align-items-center justify-content-center">
-                            <img src="./public/assets/image/icon/commitment.png" alt="Commitment to Customer" class="img-fluid" style="max-width: 60px;">
+                            <img src="./public/assets/image/icon/commitment.png" alt="Commitment to Customer" class="img-fluid" style="max-width: 100px;">
                         </div>
-                        <h6 class="text-primary mb-1 fs-5"><b> Commitment to Customer</b></h6>
+                        <h6 class="text-primary mb-1 fs-5"><b>Commitment to Customer</b></h6>
                         <p class="text-muted text-sm mb-0">
-                            Ensure clients thrive through premium service and support at all times.
+                            We will always strive to ensure that our customers thrive through our premium service and support at all times.
                         </p>
                     </div>
                 </div>
@@ -168,7 +164,7 @@
         <section class="py-4">
             <div class="container p-0">
                 <div class="position-relative m-auto">
-                    <img src="./public/assets/img/about-hero-bg.png"
+                    <img src="./public/assets/image/team/group.jpg"
                         alt="WealthTrust team"
                         class="w-100 rounded shadow-sm">
 
@@ -190,9 +186,9 @@
                 <div class="row g-4 align-items-stretch">
                     <!-- Office photo + address -->
                     <div class="col-12 col-lg-6">
-                        <div class="bg-surface rounded shadow-sm p-4 h-100 text-center">
+                        <div class="bg-surface rounded p-4 h-100 text-center">
                             <div class="mb-3">
-                                <img src="./public/assets/img/about-hero-bg.png"
+                                <img src="./public/assets/image/team/title.jpg"
                                     alt="WealthTrust office plate"
                                     class="img-fluid rounded">
                             </div>
@@ -206,7 +202,7 @@
 
                     <!-- Google Map -->
                     <div class="col-12 col-lg-6">
-                        <div class="bg-surface rounded shadow-sm p-2 h-100">
+                        <div class="bg-surface rounded p-2 h-100">
                             <div class="ratio ratio-16x9">
                                 <!-- replace src with your Maps embed URL -->
                                 <iframe

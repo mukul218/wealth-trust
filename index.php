@@ -20,23 +20,27 @@
     ?>
     <!-- Hero Section -->
     <section id="home" class="hero-section">
-        <div class="container">
+        <div class="container mt-5">
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-6 pe-md-5 pe-0">
                     <div class="hero-content">
-                        <h1>Invest with <span class="color-primary">Confidence</span>. <small><span class="color-primary">Achieve</span> Your <span class="color-primary">Life Goals</span> On Time.</small></h1>
+                        <h1><b> Invest with <span class="color-primary">Confidence</span></b> <small><span class="color-primary">Achieve</span> Your <span class="color-primary">Life Goals</span> On Time.</small></h1>
                         <p>We simplify investing with expert guidance, so you can focus on what matters most.</p>
 
                         <div class="trust-badge">
-                            <i class="fas fa-shield-alt me-2"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-check" viewBox="0 0 16 16">
+                                <path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56" />
+                                <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                            </svg>
                             Trusted by <b>500+ Families.</b>
                         </div>
 
                         <div class="trust-badge">
-                            <a href="#services" class="color-primary text-decoration-none">
-                                <i class="fas fa-check-circle me-2"></i>
-                                Certified <b>Expert</b>
-                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-check" viewBox="0 0 16 16">
+                                <path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56" />
+                                <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                            </svg>
+                            Certified <b>Expert</b>
                         </div>
 
                         <div class="mt-4">
@@ -131,7 +135,7 @@
             <div class="about-section py-5">
                 <div class="container">
                     <!-- Centered heading -->
-                    <h2 class="fw-bold text-center mb-5 text-dark" style="font-size: 2.8rem;">
+                    <h2 class="fw-bold text-center mb-5 text-dark section-title">
                         About <span class="color-primary">Wealth Trust</span> Capital Services
                     </h2>
                     <div class="row align-items-center">
@@ -147,7 +151,7 @@
                         <div class="col-lg-6">
                             <div class="about-content" style="color: #424242;">
                                 <h3 class="color-primary"><b>Where trust meet experties in Wealth Management</b></h3>
-                                <p>At WealthTrust Capital Services, our commitment to excellence has earned the trust of over 500 families who rely on our services for their financial well-being. We take immense pride in being the trusted partner on the financial journey for a diverse community of individuals and families. Our holistic approach to wealth management, personalized strategies, and unwavering dedication to our clients' success have solidified our reputation as a reliable and transparent financial partner. Join the growing number of families who have entrusted their financial futures to us, and experience the difference that a dedicated and trustworthy financial ally can make in achieving your long-term goals.</p>
+                                <p>At WealthTrust Capital Services, our commitment to excellence has earned the trust of over 500 families who rely on our services for their financial well-being. <p></p> We take immense pride in being the trusted partner on the financial journey for a diverse community of individuals and families.<p></p> Our holistic approach to wealth management, personalized strategies, and unwavering dedication to our clients' success have solidified our reputation as a reliable and transparent financial partner.<p></p> Join the growing number of families who have entrusted their financial futures to us, and experience the difference that a dedicated and trustworthy financial ally can make in achieving your long-term goals.</p>
                                 <div class="mt-4">
                                     <a href="#services" class="btn" style="background: #399082; color: #fff; border-radius: 25px; padding: 10px 28px; font-weight: 500;">
                                         Know More
@@ -164,20 +168,20 @@
     <section id="services" class="offerings-section">
         <div class="container">
             <h2 class="text-center">Our <span class="color-primary">Offerings</span></h2>
-            <p class="offerings-subtitle fs-5">Want a roadmap to financial freedom, need research-backed stocks or mutual fund curations? We have got your back:</p>
+            <p class="offerings-subtitle fs-5">Want a roadmap to financial freedom, need research-backed stocks or mutual fund curations?<br>We have got your back:</p>
 
 
 
             <div class="row align-items-stretch">
                 <div class="col-lg-6 mb-4 d-flex">
                     <div class="offering-card flex-fill">
-                        <div class="d-flex justify-content-between align-items-start mb-3">
+                        <div class="d-flex justify-content-between align-items-start">
                             <h4>Wealth Management: Your Gateway to Financial Freedom</h4>
                             <div style="font-size: 2rem; color: var(--primary-color);">
-                                <img src="./public/assets/img/growth.gif" alt="" class="img-fluid" style="width: 8rem;">
+                                <img src="./public/assets/img/growth.gif" alt="" class="img-fluid" style="width: 6rem;">
                             </div>
                         </div>
-                        <ul>
+                        <ul class="p-0">
                             <li>AMFI-registered mutual fund distributor</li>
                             <li>Helping you grow, protect, & preserve wealth</li>
                             <li>Mutual funds, insurance, tax planning, & more.</li>
@@ -198,13 +202,13 @@
 
                 <div class="col-lg-6 mb-4 d-flex">
                     <div class="offering-card flex-fill">
-                        <div class="d-flex justify-content-between align-items-start mb-3">
+                        <div class="d-flex justify-content-between align-items-start">
                             <h4>SEBI-Registered Research Analyst</h4>
                             <div style="font-size: 2rem; color: var(--primary-color);">
-                                <img src="./public/assets/img/search.gif" alt="" class="img-fluid" style="width: 6rem;">
+                                <img src="./public/assets/img/search.gif" alt="" class="img-fluid" style="width: 4rem;">
                             </div>
                         </div>
-                        <ul>
+                        <ul class="p-0">
                             <li>Expert-curated portfolios</li>
                             <li>Periodic rebalancing, in line with the strategy</li>
                             <li>No lock-in</li>
@@ -292,7 +296,7 @@
                 <div class="col-lg-6">
                     <h2 class="text-center text-md-start">Not convinced <span class="color-primary">yet?</span></h2>
                     <h4 style="color: var(--primary-color);">Join our 2-hour Investment Masterclass</h4>
-                    <p class="mb-4">Clear all your doubts and take charge of your finances to live a stress-free life. Register for free (a gift for scrolling to the bottom).</p>
+                    <p class="mb-4">Clear all your doubts and take charge of your finances to live a stress-free life. Register for free.</p>
                     <a href="#masterclass" class="btn btn-outline-primary me-3">Book Your Seat</a>
                 </div>
                 <div class="col-lg-6">
@@ -391,7 +395,7 @@
             <!-- Logos -->
             <div class="row align-items-center text-center gy-3 mb-4 justify-content-center">
                 <div class="col-12 mb-3">
-                    <h2 class="section-title mb-2">Featured With:</h2>
+                    <h2 class="section-title mb-2">Featured In:</h2>
                 </div>
 
                 <!-- logos auto-center on small, inline on large -->

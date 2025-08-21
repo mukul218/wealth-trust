@@ -25,7 +25,7 @@
     <!-- ====== HERO TEAM ====== -->
     <section class="hero-section hero-team text-center">
         <div class="container position-relative">
-            <div class="hero-content bg-white bg-opacity-75 rounded p-4 shadow">
+            <div class="hero-content bg-white bg-opacity-75 rounded-5 p-4 shadow">
                 <h2 class="section-title m-0 mb-3">
                     MEET OUR <span class="text-primary">TEAM</span>
                 </h2>

@@ -6,7 +6,7 @@
 :root {
     /* palette */
     --primary-color: #3a8b7f;
-    --secondary-color: #a8d5c7;
+    --secondary-color: #c9f5d6;
     --light-green: #bdf5ce;
     --dark-green: #2d5a4f;
 
@@ -51,6 +51,7 @@
     --fw-medium: 500;
     --fw-semibold: 600;
     --fw-bold: 700;
+    --fw-bolder: 900;
 
     /* spacing (4px base) */
     --sp-0: 0;
@@ -119,6 +120,7 @@ h4,
 h5,
 h6 {
     font-family: var(--ff-serif);
+    font-weight: 800;
 }
 
 img,
@@ -508,21 +510,19 @@ video {
 .hero-content h1 {
     font-size: var(--fs-5xl);
     font-weight: var(--fw-bold);
-    margin-bottom: 20px;
     line-height: 1.2;
 }
 
 .hero-content p {
     font-size: 1.2rem;
     color: var(--text-light);
-    margin-bottom: 30px;
 }
 
 .trust-badge {
     background: color-mix(in srgb, var(--primary-color) 10%, transparent);
     border: 2px solid var(--secondary-color);
     border-radius: var(--radius-sm);
-    padding: 15px 25px;
+    padding: 5px 25px;
     margin: 10px 0;
     font-weight: var(--fw-semibold);
     color: var(--primary-color);
@@ -642,8 +642,8 @@ video {
 .who-are-we-section h2,
 .leadership-card .leadership-content h2,
 .investor-journey-section h2 {
-    font-size: var(--fs-6xl);
-    font-weight: var(--fw-bold);
+    font-size: var(--fs-5xl);
+    font-weight: var(--fw-bolder);
     margin-bottom: 30px;
 }
 
@@ -674,7 +674,7 @@ video {
 
 .offering-card h4 {
     color: var(--primary-color);
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-bolder);
     font-size: 1.35rem;
     margin-bottom: 0;
 }
@@ -1154,6 +1154,7 @@ video {
     background: #f4faf7;
     color: var(--primary-color);
     border-radius: 7px;
+    border: 1px solid #e3eee8;
 }
 
 .custom-accordion .accordion-body {
@@ -1186,7 +1187,7 @@ video {
   WHO IS THIS FOR
 ----------------------------------------------------------------------------*/
 .who-is-this-for-section {
-    background: #bcf2d6;
+    background: var(--light-green);
     padding: 0;
 }
 
@@ -1433,7 +1434,7 @@ video {
 .copyright-text {
     font-size: .8rem;
     color: var(--text-light);
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding-top: 15px;
     border-top: 1px solid #ddd;
 }
@@ -1821,7 +1822,7 @@ video {
 
 /* soft backgrounds per card (from your palette) */
 .offering--mint {
-    background: #e9f8f0;
+    background: #dbf5e1;
 }
 
 /* close to your light-green vibe */
@@ -1869,7 +1870,7 @@ video {
 .who-for-item {
     background: #fff;
     /* White box background */
-    border-left: 4px solid var(--primary-color);
+    border-left: 9px solid var(--primary-color);
     /* Green border (your theme color) */
     padding: 10px 15px;
     /* Space inside */
@@ -2408,7 +2409,7 @@ video {
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        max-width: 900px;
+        width: 75%;
     }
 }
 
@@ -2421,4 +2422,85 @@ video {
         /* space below image */
         text-align: center;
     }
+}
+
+.trust-badge {
+    display: flex;
+    align-items: center;
+    /* vertical alignment */
+    gap: 6px;
+    /* space between icon and text */
+}
+
+.trust-badge svg {
+    flex-shrink: 0;
+    /* keeps icon from shrinking */
+}
+
+/* Card look */
+.what-card {
+    border: 1.5px solid rgba(7, 94, 84, .35);
+    /* border-radius: 8px; */
+    background: #fff;
+    width: 100%;
+    min-height: 120px;
+}
+
+.what-card .card-visual {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 8px 10px; */
+    height: 100%;
+    background-color: #faf7f5;
+}
+
+/* ✅ Consistent image size */
+.what-card .card-visual img {
+    width: 100px;
+    /* fixed width */
+    height: 100px;
+    /* fixed height */
+    object-fit: contain;
+    /* keeps proportion inside box */
+    display: block;
+}
+
+@media (max-width: 575.98px) {
+    .what-card {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .what-card .card-visual {
+        width: 100%;
+        border-left: none;
+        border-top: 1.5px solid rgba(7, 94, 84, .25);
+        padding: 12px;
+    }
+
+    .what-card .card-visual img {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+    }
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    /* light gray background */
+    color: #333;
+    font-weight: 500;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--primary-color);
+    /* Bootstrap green */
+    color: #fff;
+}
+
+.accordion-body {
+    background: #fff;
 }
