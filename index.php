@@ -156,8 +156,9 @@
                         <!-- Content -->
                         <div class="col-lg-6">
                             <div class="about-content" style="color: #424242;">
-                                <h3 class="color-primary"><b>Where trust meet experties in Wealth Management</b></h3>
-                                <p>At WealthTrust Capital Services, our commitment to excellence has earned the trust of over 500 families who rely on our services for their financial well-being. <p></p> We take immense pride in being the trusted partner on the financial journey for a diverse community of individuals and families.<p></p> Our holistic approach to wealth management, personalized strategies, and unwavering dedication to our clients' success have solidified our reputation as a reliable and transparent financial partner.<p></p> Join the growing number of families who have entrusted their financial futures to us, and experience the difference that a dedicated and trustworthy financial ally can make in achieving your long-term goals.</p>
+                                <h3 class="color-primary"><b>Where trust meets experties in Wealth Management</b></h3>
+                                <p>At WealthTrust Capital Services, our commitment to excellence has earned the trust of over 500 families who rely on our services for their financial well-being.
+                                <p></p> We take immense pride in being the trusted partner on the financial journey for a diverse community of individuals and families.<p></p> Our holistic approach to wealth management, personalized strategies, and unwavering dedication to our clients' success have solidified our reputation as a reliable and transparent financial partner.<p></p> Join the growing number of families who have entrusted their financial futures to us, and experience the difference that a dedicated and trustworthy financial ally can make in achieving your long-term goals.</p>
                                 <div class="mt-4">
                                     <a href="#services" class="btn" style="background: #399082; color: #fff; border-radius: 25px; padding: 10px 28px; font-weight: 500;">
                                         Know More
@@ -215,12 +216,11 @@
                             </div>
                         </div>
                         <ul class="p-0">
-                            <li>Expert-curated portfolios</li>
+                            <li>Expertly curated portfolios</li>
+                            <li>Choose a portfolio, subscribe, invest, repeat</li>
                             <li>Periodic rebalancing, in line with the strategy</li>
+                            <li>In-depth research</li>
                             <li>No lock-in</li>
-                            <li>Transparent and research-backed approach</li>
-                            <li>Equity research reports for informed decision-making</li>
-                            <li>Tailored to market conditions</li>
                         </ul>
                         <div class="mt-auto d-flex align-items-center">
                             <div class="metrics">

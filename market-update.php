@@ -25,7 +25,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 ">
-                    <h1 class="fw-bold" style="font-size: 3rem;">Monthly Market Updates</h1>
+                    <h1 class="fw-bold" style="font-size: 3rem;">Monthly Outlook</h1>
                     <p class="mt-4" style="font-size: 1.2rem;">
                         Provides you with an encompassing view of the current economy, equity and debt markets
                         for the month along with the likely impact on investments.

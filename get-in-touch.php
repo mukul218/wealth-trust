@@ -60,7 +60,7 @@
                                 <h5 class="mb-1 color-primary">Get directions here</h5>
                                 <p class="mb-0 text-muted">
                                     WealthTrust Capital Services<br>
-                                    Konark Shram, Office No.307, 308, 309, 3rd Floor, Janata Nagar, Tardeo Road,<br>
+                                    Konark Shram, Office No. 309, 3rd Floor, Janata Nagar, Tardeo Road,<br>
                                     Mumbai Central – 400034
                                 </p>
                             </div>

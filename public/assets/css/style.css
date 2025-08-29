@@ -330,7 +330,7 @@ video {
     text-align: center;
 }
 
-. {
+.text-light{
     color: var(--text-light);
 }
 
@@ -474,7 +474,7 @@ video {
 .nav-link {
     color: var(--text-dark) !important;
     font-weight: var(--fw-medium);
-    margin: 0 15px;
+    margin: 0 10px;
     transition: color .3s, text-decoration-color .3s;
 }
 
@@ -590,7 +590,7 @@ video {
     position: absolute;
     top: 10%;
     right: 0;
-    transform: translateX(0px50%);
+    transform: translateX(50%);
     height: 80%;
     border-right: 1px solid #13131326;
 }
@@ -2298,7 +2298,7 @@ video {
         position: absolute;
         top: 10%;
         right: 0;
-        transform: translateX(0px50%);
+        transform: translateX(50%);
         height: 80%;
         border-right: 0px solid rgba(58, 139, 127, .15);
     }

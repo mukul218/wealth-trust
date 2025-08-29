@@ -15,7 +15,7 @@
         </button>
         <!-- Collapsible Links -->
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mx-auto">
+            <ul class="navbar-nav mx-auto fs-6">
                 <li class="nav-item">
                     <a class="nav-link" href="./">Home</a>
                 </li>
@@ -38,6 +38,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./one-to-one.php">1-1 Call</a>
                 </li>
+                
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="learningDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Learning
@@ -45,7 +46,11 @@
                     <ul class="dropdown-menu" aria-labelledby="learningDropdown">
                         <li><a class="dropdown-item" href="./blogs.php">Blogs</a></li>
                         <li><a class="dropdown-item" href="./market-update.php">Market Update</a></li>
+                        <li><a class="dropdown-item" href="./youtube.php">YouTube</a></li>
                     </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./associate.php">Be An Associate</a>
                 </li>
             </ul>
             <div class="navbar-btn-wrap ms-lg-3 mt-3 mt-lg-0 d-flex gap-2">

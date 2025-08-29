@@ -122,7 +122,7 @@
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Parth More</h6>
-                                <small class="text-primary d-block mb-2">Associate – Research</small>
+                                <small class="text-primary d-block mb-2">(Associate – Research)</small>
                                 <p class="mb-0 text-sm">
                                     Dedicated research associate with strong background in investment analysis. Partners with the
                                     research team to deliver personalised, data-led solutions for clients.
@@ -144,7 +144,7 @@
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Akshay Madhasu</h6>
-                                <small class="text-primary d-block mb-2">Associate – Research</small>
+                                <small class="text-primary d-block mb-2">(Associate – Research)</small>
                                 <p class="mb-0 text-sm">
                                     Equity Research Associate with strengths in financial modelling, industry & company analysis,
                                     and macro work. Known for structured approach and ability to uncover actionable insights.

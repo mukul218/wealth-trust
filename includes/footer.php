@@ -18,7 +18,7 @@
                         <h5 class="footer-label">Our Location</h5>
                         <address class="mb-0 text-black">
                             WealthTrust Capital Services LLP<br>
-                            Konark Shram, Office No.307, 308, 309,<br>
+                            Konark Shram, Office No. 309,<br>
                             3rd Floor, Janata Nagar, Tardeo Road,<br>
                             Mumbai Central – 400034
                         </address>
@@ -56,11 +56,16 @@
                         <div class="col-6 pt-4">
                             <h4 class="footer-heading">Calculators</h4>
                             <ul class="footer-links">
-                                <li><a href="#">Lumpsum Calculator</a></li>
-                                <li><a href="#">SIP (Classic)</a></li>
-                                <li><a href="#">SIP (Advanced)</a></li>
-                                <li><a href="#">Education Calculator</a></li>
-                                <li><a href="#">Retirement Calculator</a></li>
+                                <li><a href="sip-calculator.php">SIP Calculator</a></li>
+                                <li><a href="lumpsum-calculator.php">Lumpsum Calculator</a></li>
+                                <li><a href="target-sip-calculator.php">Target SIP Calculator</a></li>
+                                <li><a href="lumpsum-target-calculator.php">Lumpsum Target Calculator</a></li>
+                                <li><a href="crorepati-calculator.php">Crorepati Calculator</a></li>
+                                <li><a href="retirement-calculator.php">Retirement Calculator</a></li>
+                                <li><a href="vacation-calculator.php">Vacation Calculator</a></li>
+                                <li><a href="car-calculator.php">Car Calculator</a></li>
+                                <li><a href="house-calculator.php">House Calculator</a></li>
+                                <li><a href="marriage-calculator.php">Marriage Calculator</a></li>
                             </ul>
 
                             <h4 class="footer-heading mt-4">Download our app</h4>

@@ -11,6 +11,87 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
+
+    <style>
+        /* for  EQUITY ▸ Regulatory Disclosure (NEW SECTION) only  */
+
+        #equity-regulatory-disclosure {
+            background: var(--secondary-color);
+        }
+
+        #equity-regulatory-disclosure .brand-title {
+            color: var(--dark-green);
+            font-weight: 700;
+        }
+
+        #equity-regulatory-disclosure .subtle {
+            color: #1b1b1b;
+            opacity: .9;
+        }
+
+        /* Tab (pill) styles to match the screenshot */
+        #equity-regulatory-disclosure .disclosure-pills .nav-link {
+            border-radius: .6rem;
+            background: #e8fff1;
+            color: #4a4a4a;
+            font-weight: 600;
+            padding: .5rem 1rem;
+            border: 1px solid rgba(0, 0, 0, .06);
+        }
+
+        #equity-regulatory-disclosure .disclosure-pills .nav-link.active {
+            background: #fff;
+            color: #000;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, .02) inset;
+        }
+
+        /* Card-like table wrapper */
+        #equity-regulatory-disclosure .table-wrap {
+            background: #fff;
+            border-radius: .8rem;
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, .05) inset;
+        }
+
+        /* Table styling to echo design */
+        #equity-regulatory-disclosure table {
+            margin: 0;
+        }
+
+        #equity-regulatory-disclosure thead th {
+            font-weight: 600;
+            background: #f7fff9;
+            white-space: nowrap;
+        }
+
+        #equity-regulatory-disclosure tbody td,
+        #equity-regulatory-disclosure thead th {
+            padding: .95rem .75rem;
+            vertical-align: middle;
+            font-size: .95rem;
+        }
+
+        #equity-regulatory-disclosure .muted-note {
+            color: #333;
+            opacity: .8;
+            font-size: .95rem;
+        }
+
+        /* Responsive tweaks */
+        @media (max-width: 767.98px) {
+            #equity-regulatory-disclosure .brand-title {
+                font-size: 1.35rem;
+            }
+
+            #equity-regulatory-disclosure .table-responsive {
+                border-radius: .8rem;
+                background: #fff;
+            }
+
+            #equity-regulatory-disclosure tbody td:first-child {
+                min-width: 180px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -75,11 +156,11 @@
                                 <img src="./public/assets/img/logo.png" alt="" class="portfolio-badge bg-white rounded">
                                 <h5 class="m-0 fw-bold">Curated Portfolio</h5>
                             </div>
-                            <small class="text-muted"><b> Ready stocks baskets </b></small>
+                            <small class="text-muted"><b>Detailed Research Reports</b></small>
                             <hr class="offering-sep my-2">
 
                             <ul class="offering-list">
-                                <li>Custom-built portfolio</li>
+                                <li>Monthly Performance Reviews</li>
                                 <li>Updates on company fundamentals, triggers and valuations</li>
                                 <li>Clear investment rationale to support long-term decisions</li>
                             </ul>
@@ -106,7 +187,7 @@
                                 <img src="./public/assets/image/icon/small-cap.png" alt="" class="portfolio-badge">
                                 <h5 class="m-0 fw-bold">Small Case</h5>
                             </div>
-                            <small class="text-muted"><b> Ready stocks baskets </b></small>
+                            <small class="text-muted"><b> Ready stock baskets </b></small>
                             <hr class="offering-sep my-2">
 
                             <ul class="offering-list">
@@ -135,7 +216,7 @@
                                 <img src="./public/assets/image/icon/right-check.png" alt="" class="portfolio-badge">
                                 <h5 class="m-0 fw-bold">Pickright</h5>
                             </div>
-                            <small class="text-muted"><b> Ready stocks baskets </b></small>
+                            <small class="text-muted"><b> Ready stock baskets </b></small>
                             <hr class="offering-sep my-2">
 
                             <ul class="offering-list">
@@ -390,6 +471,192 @@
             </div>
         </div>
     </section>
+
+    <!-- ===== EQUITY ▸ Regulatory Disclosure (NEW SECTION) ===== -->
+    <section id="equity-regulatory-disclosure" class="py-4 py-md-5">
+
+        <div class="container">
+
+            <h2 class="brand-title mb-2">WealthTrust Capital Services</h2>
+            <p class="subtle mb-4">Aikya Signature, Naushir Barucha Marg, Sleater Road, Tardeo, Mumbai – 400007</p>
+
+            <h4 class="fw-bold mb-3">Regulatory Disclosure</h4>
+            <p class="mb-3">
+                <span class="fw-semibold">WealthTrust Capital Services</span> is a SEBI registered
+                <span class="fw-semibold">Research Analyst</span> (Registration Number:
+                <span class="fw-semibold">INH000011149</span>). SEBI requires <span class="fw-semibold">RA</span> to disclose
+                complaint status on their homepage. Pursuant to the same, please note:
+            </p>
+
+            <!-- Tabs -->
+            <ul class="nav nav-pills gap-2 disclosure-pills mb-3" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-current-tab" data-bs-toggle="pill" data-bs-target="#pills-current" type="button" role="tab" aria-controls="pills-current" aria-selected="true">Current Month</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-monthly-tab" data-bs-toggle="pill" data-bs-target="#pills-monthly" type="button" role="tab" aria-controls="pills-monthly" aria-selected="false">Monthly</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-annual-tab" data-bs-toggle="pill" data-bs-target="#pills-annual" type="button" role="tab" aria-controls="pills-annual" aria-selected="false">Annual</button>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <!-- Current Month -->
+                <div class="tab-pane fade show active" id="pills-current" role="tabpanel" aria-labelledby="pills-current-tab" tabindex="0">
+                    <div class="table-wrap p-2">
+                        <div class="table-responsive">
+                            <table class="table align-middle mb-0">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Received from</th>
+                                        <th scope="col">Pending last month</th>
+                                        <th scope="col">Received</th>
+                                        <th scope="col">Resolved</th>
+                                        <th scope="col">Total pending</th>
+                                        <th scope="col">Pending &gt; 3M</th>
+                                        <th scope="col">Avg resolution time (in days)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Investors</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SEBI (Scores)</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Others</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Monthly -->
+                <div class="tab-pane fade" id="pills-monthly" role="tabpanel" aria-labelledby="pills-monthly-tab" tabindex="0">
+                    <div class="table-wrap p-2">
+                        <div class="table-responsive">
+                            <table class="table align-middle mb-0">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Received from</th>
+                                        <th scope="col">Pending last month</th>
+                                        <th scope="col">Received</th>
+                                        <th scope="col">Resolved</th>
+                                        <th scope="col">Total pending</th>
+                                        <th scope="col">Pending &gt; 3M</th>
+                                        <th scope="col">Avg resolution time (in days)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Investors</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SEBI (Scores)</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Others</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Annual -->
+                <div class="tab-pane fade" id="pills-annual" role="tabpanel" aria-labelledby="pills-annual-tab" tabindex="0">
+                    <div class="table-wrap p-2">
+                        <div class="table-responsive">
+                            <table class="table align-middle mb-0">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Received from</th>
+                                        <th scope="col">Pending last month</th>
+                                        <th scope="col">Received</th>
+                                        <th scope="col">Resolved</th>
+                                        <th scope="col">Total pending</th>
+                                        <th scope="col">Pending &gt; 3M</th>
+                                        <th scope="col">Avg resolution time (in days)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Investors</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SEBI (Scores)</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Others</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <p class="muted-note mt-3">Regulatory Disclosures data shown above is provided monthly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== /EQUITY SECTION ===== -->
 
     <!-- FAQ Section -->
     <section class="faq-section py-5 ">
