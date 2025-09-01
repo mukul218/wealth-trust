@@ -118,7 +118,7 @@
 
               <!-- Actions -->
               <div class="d-flex gap-2 align-items-center">
-                <button class="btn btn-success px-4 d-flex align-items-center justify-content-center" type="submit">
+                <button class="btn btn-success px-4 d-flex align-items-center justify-content-center" type="submit" id="calculator-submit-btn">
                   <span class="calc-text">Calculate</span>
                   <span class="calc-loader spinner-border spinner-border-sm text-light ms-2 d-none"
                     role="status" aria-hidden="true"></span>
@@ -127,7 +127,7 @@
               </div>
             </form>
             <!-- Quick links to other calculators -->
-                      <div class="calc-links mt-4">
+                      <div class="calc-links mt-4 d-none d-md-block">
               <div class="small text-muted mb-2">Explore other calculators</div>
 
               <div class="row row-cols-1 row-cols-md-3 g-2">

@@ -61,16 +61,11 @@
                                 <li><a href="target-sip-calculator.php">Target SIP Calculator</a></li>
                                 <li><a href="lumpsum-target-calculator.php">Lumpsum Target Calculator</a></li>
                                 <li><a href="crorepati-calculator.php">Crorepati Calculator</a></li>
-                                <li><a href="retirement-calculator.php">Retirement Calculator</a></li>
-                                <li><a href="vacation-calculator.php">Vacation Calculator</a></li>
-                                <li><a href="car-calculator.php">Car Calculator</a></li>
-                                <li><a href="house-calculator.php">House Calculator</a></li>
-                                <li><a href="marriage-calculator.php">Marriage Calculator</a></li>
                             </ul>
 
                             <h4 class="footer-heading mt-4">Download our app</h4>
                             <div class="d-flex gap-2">
-                                <a aria-label="Android" href="#" class="social-icon-link"><i class="fab fa-android"></i></a>
+                                <a aria-label="Android" href="#" class="social-icon-link"><i class="fa-brands fa-google-play"></i></a>
                                 <a aria-label="Apple" href="#" class="social-icon-link"><i class="fab fa-apple"></i></a>
                             </div>
                         </div>

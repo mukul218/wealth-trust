@@ -106,7 +106,7 @@
                             </div>
 
                             <div class="d-flex gap-2 align-items-center">
-                                <button class="btn btn-success px-4 d-flex align-items-center justify-content-center" type="submit">
+                                <button class="btn btn-success px-4 d-flex align-items-center justify-content-center" type="submit" id="calculator-submit-btn">
                                     <span class="calc-text">Calculate</span>
                                     <span class="calc-loader spinner-border spinner-border-sm text-light ms-2 d-none"
                                         role="status" aria-hidden="true"></span>
@@ -116,7 +116,7 @@
 
                         </form>
 
-                        <div class="calc-links mt-4">
+                        <div class="calc-links mt-4 d-none d-md-block">
                             <div class="small text-muted mb-2">Explore other calculators</div>
 
                             <div class="row row-cols-1 row-cols-md-3 g-2">
@@ -202,15 +202,17 @@
             </div>
         </div>
     </div>
+    
+    <!-- Footer Section (from previous response) -->
+    <?php
+    include_once './includes/footer.php';
+    ?>
 
     <script src="./calculator/calculator-api.js"></script>
     <script src="./calculator/calculator-ui.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 
-    <!-- Footer Section (from previous response) -->
-    <?php
-    include_once './includes/footer.php';
-    ?>
+
     <script>
         $(function() {
             // sync initial values

@@ -38,9 +38,10 @@
                             </span>
                             <div>
                                 <h5 class="mb-1 color-primary">Give us a call</h5>
-                                <p class="mb-0 text-muted">+91 98190 39345</p>
+                                <a href="tel:+919819039345" class="mb-0 text-black text-decoration-none">+91 98190 39345</a>
                             </div>
                         </li>
+
                         <!-- Mail -->
                         <li class="d-flex align-items-start mb-4">
                             <span class="contact-badge me-3">
@@ -48,9 +49,13 @@
                             </span>
                             <div>
                                 <h5 class="mb-1 color-primary">Mail us at</h5>
-                                <p class="mb-0 text-muted">enquiry@wealthtrustcap.com</p>
+                                <a href="mailto:enquiry@wealthtrustcap.com" class="mb-0 text-black text-decoration-none">enquiry@wealthtrustcap.com</a>
+                                <!-- Or with a preset subject:
+    <a href="mailto:enquiry@wealthtrustcap.com?subject=Website%20Enquiry" class="mb-0 text-muted text-decoration-none">enquiry@wealthtrustcap.com</a>
+    -->
                             </div>
                         </li>
+
                         <!-- Address / Directions -->
                         <li class="d-flex align-items-start">
                             <span class="contact-badge me-3">

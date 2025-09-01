@@ -13,83 +13,180 @@
     <link rel="stylesheet" href="./public/assets/css/style.css">
 
     <style>
-        /* for  EQUITY ▸ Regulatory Disclosure (NEW SECTION) only  */
-
+        /* ===== Regulatory Disclosure styles (scoped) ===== */
         #equity-regulatory-disclosure {
-            background: var(--secondary-color);
+            /* mint backdrop like screenshot (uses your palette if present) */
+            background: var(--secondary-color, #c9f5d6);
         }
 
-        #equity-regulatory-disclosure .brand-title {
-            color: var(--dark-green);
-            font-weight: 700;
-        }
-
-        #equity-regulatory-disclosure .subtle {
-            color: #1b1b1b;
-            opacity: .9;
-        }
-
-        /* Tab (pill) styles to match the screenshot */
+        /* tab pills */
         #equity-regulatory-disclosure .disclosure-pills .nav-link {
-            border-radius: .6rem;
-            background: #e8fff1;
-            color: #4a4a4a;
-            font-weight: 600;
+            border-radius: 0.9rem;
             padding: .5rem 1rem;
-            border: 1px solid rgba(0, 0, 0, .06);
+            background: #e9ecef;
+            color: #495057;
+            border: 1px solid transparent;
         }
 
         #equity-regulatory-disclosure .disclosure-pills .nav-link.active {
             background: #fff;
-            color: #000;
-            box-shadow: 0 1px 0 rgba(0, 0, 0, .02) inset;
+            color: #111;
+            border-color: rgba(13, 110, 253, .35);
+            /* subtle blue border */
+            box-shadow: 0 0 0 .18rem rgba(13, 110, 253, .20);
+            /* blue focus ring */
         }
 
-        /* Card-like table wrapper */
+        /* card-like table wrapper */
         #equity-regulatory-disclosure .table-wrap {
             background: #fff;
-            border-radius: .8rem;
-            box-shadow: 0 0 0 1px rgba(0, 0, 0, .05) inset;
+            border-radius: 1rem;
+            border: 1px solid rgba(0, 0, 0, .06);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, .08);
         }
 
-        /* Table styling to echo design */
-        #equity-regulatory-disclosure table {
+        /* header bar (single soft strip with rounded ends) */
+        #equity-regulatory-disclosure thead {
+            background: #f4f6f8;
+        }
+
+        #equity-regulatory-disclosure thead th {
+            border: 0 !important;
+            color: #6c757d;
+            font-weight: 600;
+            padding-top: .9rem;
+            padding-bottom: .9rem;
+        }
+
+        #equity-regulatory-disclosure thead th:first-child {
+            border-top-left-radius: .6rem;
+            border-bottom-left-radius: .6rem;
+        }
+
+        #equity-regulatory-disclosure thead th:last-child {
+            border-top-right-radius: .6rem;
+            border-bottom-right-radius: .6rem;
+        }
+
+        /* body rows — very light separators, no heavy borders */
+        #equity-regulatory-disclosure .table> :not(caption)>*>* {
+            border-bottom: 1px solid rgba(0, 0, 0, .04);
+            padding-top: .9rem;
+            padding-bottom: .9rem;
+        }
+
+        /* tiny footnote text */
+        #equity-regulatory-disclosure .muted-note {
+            color: #6c757d;
+            font-size: .9rem;
+        }
+
+        /* responsive container width (optional) */
+        #equity-regulatory-disclosure .container {
+            max-width: 1200px;
+        }
+
+
+        /* ===== Tabs group: rounded white background like screenshot ===== */
+        #equity-regulatory-disclosure .disclosure-pills {
+            display: inline-flex;
+            /* sit as one compact group */
+            align-items: center;
+            padding: .375rem;
+            /* inner gutter around pills */
+            gap: .25rem;
+            /* small gap between pills */
+            background: #fff;
+            /* group background */
+            border: 1px solid rgba(0, 0, 0, .06);
+            border-radius: 12px;
+            /* big rounded corners */
+            box-shadow: 0 6px 18px rgba(0, 0, 0, .08);
+        }
+
+        /* reset li spacing inside */
+        #equity-regulatory-disclosure .disclosure-pills .nav-item {
             margin: 0;
         }
 
-        #equity-regulatory-disclosure thead th {
+        /* base tab pill */
+        #equity-regulatory-disclosure .disclosure-pills .nav-link {
+            border: 0;
+            background: transparent;
+            /* inactive pills sit on group bg */
+            color: #6b7280 !important;
+            text-decoration: none;
+            /* muted text */
+            padding: .5rem 1rem;
+            line-height: 1;
+            border-radius: 6px;
+            /* pill shape */
+            transition: color .15s ease, background-color .15s ease, box-shadow .15s ease;
+        }
+
+        /* active tab pill (grey chip) */
+        #equity-regulatory-disclosure .disclosure-pills .nav-link.active {
+            background: #d9dbe1;
+            color: #111 !important;
+            box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .06);
+            text-decoration: none;
+        }
+
+        /* focus ring for keyboard nav */
+        #equity-regulatory-disclosure .disclosure-pills .nav-link:focus {
+            box-shadow: 0 0 0 .2rem rgba(13, 110, 253, .20);
+        }
+
+        /* small tweak on phones */
+        @media (max-width: 576px) {
+            #equity-regulatory-disclosure .disclosure-pills {
+                width: 100%;
+                /* let group span width if needed */
+                padding: .3rem;
+            }
+
+            #equity-regulatory-disclosure .disclosure-pills .nav-link {
+                padding: .5rem .75rem;
+            }
+        }
+
+
+        /* light grey header bar */
+        #equity-regulatory-disclosure .table-wrap .table thead th {
+            background-color: #f4f5f7 !important;
+            /* ultra-light grey */
+            color: #6c757d;
             font-weight: 600;
-            background: #f7fff9;
-            white-space: nowrap;
+            border: 0 !important;
+            /* no borders in header */
+            padding-top: .9rem;
+            padding-bottom: .9rem;
         }
 
-        #equity-regulatory-disclosure tbody td,
-        #equity-regulatory-disclosure thead th {
-            padding: .95rem .75rem;
-            vertical-align: middle;
-            font-size: .95rem;
+        /* rounded ends for the header strip */
+        #equity-regulatory-disclosure .table-wrap .table thead th:first-child {
+            border-top-left-radius: .75rem;
+            border-bottom-left-radius: .75rem;
         }
 
-        #equity-regulatory-disclosure .muted-note {
-            color: #333;
-            opacity: .8;
-            font-size: .95rem;
+        #equity-regulatory-disclosure .table-wrap .table thead th:last-child {
+            border-top-right-radius: .75rem;
+            border-bottom-right-radius: .75rem;
         }
 
-        /* Responsive tweaks */
-        @media (max-width: 767.98px) {
-            #equity-regulatory-disclosure .brand-title {
-                font-size: 1.35rem;
-            }
+        /* ensure cells touch (no gap between th backgrounds) */
+        #equity-regulatory-disclosure .table-wrap .table {
+            border-collapse: separate;
+            border-spacing: 0;
+        }
 
-            #equity-regulatory-disclosure .table-responsive {
-                border-radius: .8rem;
-                background: #fff;
-            }
-
-            #equity-regulatory-disclosure tbody td:first-child {
-                min-width: 180px;
-            }
+        /* keep header labels on a single line */
+        #equity-regulatory-disclosure .table thead th {
+            white-space: nowrap !important;
+            overflow: hidden;
+            /* optional: prevent spill */
+            text-overflow: ellipsis;
+            /* optional: show … if too narrow */
         }
     </style>
 </head>
@@ -474,7 +571,6 @@
 
     <!-- ===== EQUITY ▸ Regulatory Disclosure (NEW SECTION) ===== -->
     <section id="equity-regulatory-disclosure" class="py-4 py-md-5">
-
         <div class="container">
 
             <h2 class="brand-title mb-2">WealthTrust Capital Services</h2>
@@ -491,22 +587,29 @@
             <!-- Tabs -->
             <ul class="nav nav-pills gap-2 disclosure-pills mb-3" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-current-tab" data-bs-toggle="pill" data-bs-target="#pills-current" type="button" role="tab" aria-controls="pills-current" aria-selected="true">Current Month</button>
+                    <button class="nav-link active" id="pills-current-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-current" type="button" role="tab"
+                        aria-controls="pills-current" aria-selected="true">Current Month</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-monthly-tab" data-bs-toggle="pill" data-bs-target="#pills-monthly" type="button" role="tab" aria-controls="pills-monthly" aria-selected="false">Monthly</button>
+                    <button class="nav-link" id="pills-monthly-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-monthly" type="button" role="tab"
+                        aria-controls="pills-monthly" aria-selected="false">Monthly</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-annual-tab" data-bs-toggle="pill" data-bs-target="#pills-annual" type="button" role="tab" aria-controls="pills-annual" aria-selected="false">Annual</button>
+                    <button class="nav-link" id="pills-annual-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-annual" type="button" role="tab"
+                        aria-controls="pills-annual" aria-selected="false">Annual</button>
                 </li>
             </ul>
 
             <div class="tab-content">
+
                 <!-- Current Month -->
                 <div class="tab-pane fade show active" id="pills-current" role="tabpanel" aria-labelledby="pills-current-tab" tabindex="0">
                     <div class="table-wrap p-2">
                         <div class="table-responsive">
-                            <table class="table align-middle mb-0">
+                            <table class="table table-borderless align-middle mb-0">
                                 <thead>
                                     <tr>
                                         <th scope="col">Received from</th>
@@ -514,38 +617,11 @@
                                         <th scope="col">Received</th>
                                         <th scope="col">Resolved</th>
                                         <th scope="col">Total pending</th>
-                                        <th scope="col">Pending &gt; 3M</th>
+                                        <th scope="col">Pending &gt;3M</th>
                                         <th scope="col">Avg resolution time (in days)</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>Investors</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>SEBI (Scores)</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Others</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -556,46 +632,17 @@
                 <div class="tab-pane fade" id="pills-monthly" role="tabpanel" aria-labelledby="pills-monthly-tab" tabindex="0">
                     <div class="table-wrap p-2">
                         <div class="table-responsive">
-                            <table class="table align-middle mb-0">
+                            <table class="table table-borderless align-middle mb-0">
                                 <thead>
                                     <tr>
-                                        <th scope="col">Received from</th>
-                                        <th scope="col">Pending last month</th>
+                                        <th scope="col">Month</th>
+                                        <th scope="col">Carried Forward</th>
                                         <th scope="col">Received</th>
                                         <th scope="col">Resolved</th>
-                                        <th scope="col">Total pending</th>
-                                        <th scope="col">Pending &gt; 3M</th>
-                                        <th scope="col">Avg resolution time (in days)</th>
+                                        <th scope="col">Pending</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>Investors</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>SEBI (Scores)</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Others</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -606,46 +653,17 @@
                 <div class="tab-pane fade" id="pills-annual" role="tabpanel" aria-labelledby="pills-annual-tab" tabindex="0">
                     <div class="table-wrap p-2">
                         <div class="table-responsive">
-                            <table class="table align-middle mb-0">
+                            <table class="table table-borderless align-middle mb-0">
                                 <thead>
                                     <tr>
-                                        <th scope="col">Received from</th>
-                                        <th scope="col">Pending last month</th>
+                                        <th scope="col">Year</th>
+                                        <th scope="col">Carried Forward</th>
                                         <th scope="col">Received</th>
                                         <th scope="col">Resolved</th>
-                                        <th scope="col">Total pending</th>
-                                        <th scope="col">Pending &gt; 3M</th>
-                                        <th scope="col">Avg resolution time (in days)</th>
+                                        <th scope="col">Pending</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>Investors</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>SEBI (Scores)</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Others</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -653,10 +671,12 @@
 
                     <p class="muted-note mt-3">Regulatory Disclosures data shown above is provided monthly.</p>
                 </div>
+
             </div>
         </div>
     </section>
     <!-- ===== /EQUITY SECTION ===== -->
+
 
     <!-- FAQ Section -->
     <section class="faq-section py-5 ">
@@ -766,6 +786,292 @@
     <?php
     include_once 'includes/footer.php';
     ?>
+
+    <script>
+        // ===== 1) Data (replace with your real numbers) =====
+
+        // Current Month rows
+        const cmRows = [{
+                source: 'Investors',
+                pending_last_month: 0,
+                received: 0,
+                resolved: 0,
+                total_pending: 0,
+                pending_over_3m: 0,
+                avg_days: 0
+            },
+            {
+                source: 'SEBI (Scores)',
+                pending_last_month: 0,
+                received: 0,
+                resolved: 0,
+                total_pending: 0,
+                pending_over_3m: 0,
+                avg_days: 0
+            },
+            {
+                source: 'Others',
+                pending_last_month: 0,
+                received: 0,
+                resolved: 0,
+                total_pending: 0,
+                pending_over_3m: 0,
+                avg_days: 0
+            },
+        ];
+
+        // Monthly rows: DEC 2025 → JAN 2024 (newest first), extended to include all of 2024
+        const monthlyRows = [
+            // 2025
+            {
+                month: 'DEC 2025',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'NOV 2025',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'OCT 2025',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'SEP 2025',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'AUG 2025',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'JUL 2025',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'JUN 2025',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'MAY 2025',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'APR 2025',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'MAR 2025',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'FEB 2025',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'JAN 2025',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+
+            // 2024
+            {
+                month: 'DEC 2024',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'NOV 2024',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'OCT 2024',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'SEP 2024',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'AUG 2024',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'JUL 2024',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'JUN 2024',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'MAY 2024',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'APR 2024',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'MAR 2024',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'FEB 2024',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                month: 'JAN 2024',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            }
+        ];
+
+        // Annual rows
+        const annualRows = [{
+                year: '2025–2024',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                year: '2024–2023',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                year: '2023–2022',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                year: '2022–2021',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+            {
+                year: '2021–2020',
+                carried_forward: 0,
+                received: 0,
+                resolved: 0,
+                pending: 0
+            },
+        ];
+
+        // ===== 2) Tiny renderer =====
+        function renderTable(tbodyEl, rows, cols) {
+            if (!tbodyEl) return;
+            // clear existing
+            while (tbodyEl.firstChild) tbodyEl.removeChild(tbodyEl.firstChild);
+
+            rows.forEach(r => {
+                const tr = document.createElement('tr');
+                cols.forEach(key => {
+                    const td = document.createElement('td');
+                    const val = r[key] ?? '';
+                    td.textContent = val;
+                    tr.appendChild(td);
+                });
+                tbodyEl.appendChild(tr);
+            });
+        }
+
+        // ===== 3) Hook up to your existing markup =====
+        document.addEventListener('DOMContentLoaded', () => {
+            const currentTBody = document.querySelector('#pills-current tbody');
+            const monthlyTBody = document.querySelector('#pills-monthly tbody');
+            const annualTBody = document.querySelector('#pills-annual tbody');
+
+            // Define column orders (must match your THEADs)
+            renderTable(currentTBody, cmRows, [
+                'source', 'pending_last_month', 'received', 'resolved', 'total_pending', 'pending_over_3m', 'avg_days'
+            ]);
+
+            renderTable(monthlyTBody, monthlyRows, [
+                'month', 'carried_forward', 'received', 'resolved', 'pending'
+            ]);
+
+            renderTable(annualTBody, annualRows, [
+                'year', 'carried_forward', 'received', 'resolved', 'pending'
+            ]);
+        });
+    </script>
+
 
 </body>
 

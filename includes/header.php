@@ -1,7 +1,7 @@
 <!-- Navigation -->
 
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <div class="container custom-navbar">
+    <div class="container-fluid custom-navbar mx-0 mx-md-5 ">
         <!-- Left: Logo -->
         <a class="navbar-brand" href="./">
             <div class="d-block align-items-center">
@@ -38,7 +38,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./one-to-one.php">1-1 Call</a>
                 </li>
-                
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="learningDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Learning
@@ -52,6 +52,25 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./associate.php">Be An Associate</a>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="calculatorDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Calculators
+                    </a>
+                    <ul class="dropdown-menu text-nowrap" aria-labelledby="calculatorDropdown">
+                        <li><a class="dropdown-item" href="./sip-calculator.php">SIP Calculator</a></li>
+                        <li><a class="dropdown-item" href="./lumpsum-calculator.php">Lumpsum Calculator</a></li>
+                        <li><a class="dropdown-item" href="./target-sip-calculator.php">Target SIP Calculator</a></li>
+                        <li><a class="dropdown-item" href="./lumpsum-target-calculator.php">Lumpsum Target Calculator</a></li>
+                        <li><a class="dropdown-item" href="./crorepati-calculator.php">Crorepati Calculator</a></li>
+                        <li><a class="dropdown-item" href="./retirement-calculator.php">Retirement Calculator</a></li>
+                        <li><a class="dropdown-item" href="./vacation-calculator.php">Vacation Calculator</a></li>
+                        <li><a class="dropdown-item" href="./car-calculator.php">Car Calculator</a></li>
+                        <li><a class="dropdown-item" href="./house-calculator.php">House Calculator</a></li>
+                        <li><a class="dropdown-item" href="./marriage-calculator.php">Marriage Calculator</a></li>
+                    </ul>
+                </li>
+
             </ul>
             <div class="navbar-btn-wrap ms-lg-3 mt-3 mt-lg-0 d-flex gap-2">
                 <!-- Call icon button -->

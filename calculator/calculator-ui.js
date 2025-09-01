@@ -85,3 +85,20 @@ function setupReset(
     if (onReset) onReset();
   });
 }
+
+// Auto-run calculator once the page has fully loaded (images, css, etc.)
+$(window).on("load", function () {
+  const $btn = $("#calculator-submit-btn");
+
+  if ($btn.length && !$btn.prop("disabled")) {
+    // Give any DOM-ready bindings (setupCalculatorForm) a tick to attach
+    setTimeout(() => $btn.trigger("click"), 0);
+    return;
+  }
+
+  // Fallback: if the ID isn't present, submit the first .calc-form
+  const $form = $(".calc-form").first();
+  if ($form.length) {
+    setTimeout(() => $form.trigger("submit"), 0);
+  }
+});
