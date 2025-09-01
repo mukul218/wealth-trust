@@ -94,7 +94,7 @@
                         <!-- Card 1 -->
                         <div class="col-md-4">
                             <div class="cert-card p-3 h-100 d-flex flex-column justify-content-center">
-                                <div class="d-flex align-items-center gap-2">
+                                <div class="input-group input-group-sm w-auto">
                                     <img src="./public/assets/img/cert1.jpg" alt="AMFI Logo" style="width: 60px; height: auto;">
                                     <p style="line-height: 15px;font-size: 12px;" class="mb-0 small">
                                         <strong>WealthTrust Capital Services LLP</strong> |
@@ -109,7 +109,7 @@
                         <!-- Card 2 -->
                         <div class="col-md-4">
                             <div class="cert-card p-3 h-100 d-flex flex-column justify-content-center">
-                                <div class="d-flex align-items-center gap-2">
+                                <div class="input-group input-group-sm w-auto">
                                     <img src="./public/assets/image/icon/Bank1.png" alt="SEBI Logo" style="width: 60px; height: auto;">
                                     <p style="line-height: 15px;font-size: 12px;" class="mb-0 small">
                                         <strong>WealthTrust Capital Services (Proprietorship)</strong> –
@@ -121,7 +121,7 @@
                         <!-- Card 3 -->
                         <div class="col-md-4">
                             <div class="cert-card p-3 h-100 d-flex flex-column justify-content-center">
-                                <div class="d-flex align-items-center gap-2">
+                                <div class="input-group input-group-sm w-auto">
                                     <img src="./public/assets/image/icon/sebi.png" alt="SEBI Logo" style="width: 60px; height: auto;">
                                     <p style="line-height: 15px;font-size: 12px;" class="mb-0 small">
                                         <strong>WealthTrust Capital Services (Partnership Firm)</strong> –
