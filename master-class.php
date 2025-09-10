@@ -400,6 +400,7 @@
                     <ul class=" fs-5">
                         <li class="mb-2">SEBI Registered Research Analyst</li>
                         <li class="mb-2">Founder, WealthTrust Capital Services</li>
+                        <li class="mb-2">AMFI-Registered Mutual Fund Distributor</li>
                         <li class="mb-2">16+ years of experience in financial markets</li>
                         <li class="mb-2">Helped 500+ families build wealth</li>
                         <li class="mb-2">Known for making finance relatable and human</li>

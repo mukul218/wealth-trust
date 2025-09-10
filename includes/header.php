@@ -29,7 +29,7 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
                         <li><a class="dropdown-item" href="./equity.php">Equity Basket</a></li>
-                        <li><a class="dropdown-item" href="./wealth.php">Wealh (Mutual Fund)</a></li>
+                        <li><a class="dropdown-item" href="./wealth.php">Wealth Management</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -80,8 +80,16 @@
                     </svg>
                 </a>
                 <!-- Login button -->
-                <a href="./associat.php" class="btn btn-primary w-100 w-lg-auto">Login</a>
-
+                <div class="nav-item dropdown">
+                    <a class="btn btn-primary w-100 w-lg-auto" href="#" id="loginDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Login
+                    </a>
+                    <ul class="dropdown-menu text-nowrap" aria-labelledby="loginDropdown">
+                        <li><a class="dropdown-item" href="https://mf.wealthtrustcap.com/client/login.asp?arnid=wealthtrust">Client</a></li>
+                        <li><a class="dropdown-item" href="https://mf.wealthtrustcap.com/broker/login.asp?arnid=wealthtrust">Associate</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

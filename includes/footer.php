@@ -36,20 +36,22 @@
                         <div class="col-6 pt-4 ps-0 ps-md-5">
                             <h4 class="footer-heading">Our Services</h4>
                             <ul class="footer-links color-primary">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Masterclass</a></li>
-                                <li><a href="#">1-1 Call</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="about.php">About</a></li>
+                                <li><a href="equity.php">Services</a></li>
+                                <li><a href="master-class.php">Masterclass</a></li>
+                                <li><a href="one-to-one.php">1-1 Call</a></li>
+                                <li><a href="disabilities.php">Disability Act</a></li>
+                                <li><a href="disclosure.php">Disclosure</a></li>
                             </ul>
 
                             <h4 class="footer-heading mt-4">Follow us on</h4>
                             <div class="d-flex flex-wrap gap-2">
-                                <a aria-label="Twitter" href="#" class="social-icon-link"><i class="fab fa-twitter"></i></a>
-                                <a aria-label="LinkedIn" href="#" class="social-icon-link"><i class="fab fa-linkedin-in"></i></a>
-                                <a aria-label="Facebook" href="#" class="social-icon-link"><i class="fab fa-facebook-f"></i></a>
-                                <a aria-label="Instagram" href="#" class="social-icon-link"><i class="fab fa-instagram"></i></a>
-                                <a aria-label="YouTube" href="#" class="social-icon-link"><i class="fab fa-youtube"></i></a>
+                                <a aria-label="Twitter" href="https://x.com/wealthtrustcap?s=21&t=eOUzT264wNr7BUKc3YYFEQ" class="social-icon-link"><i class="fab fa-twitter"></i></a>
+                                <a aria-label="LinkedIn" href="https://www.linkedin.com/company/wealthtrust-capital-services/ " class="social-icon-link"><i class="fab fa-linkedin-in"></i></a>
+                                <a aria-label="Facebook" href="https://www.facebook.com/share/1F8ghGJPBE/?mibextid=wwXIfr " class="social-icon-link"><i class="fab fa-facebook-f"></i></a>
+                                <a aria-label="Instagram" href="https://www.instagram.com/wealthtrustcapital?igsh=MWlpYTFraTZpd2ExMQ== " class="social-icon-link"><i class="fab fa-instagram"></i></a>
+                                <a aria-label="YouTube" href="https://youtube.com/@wealthtrustcapital?si=n8RJ6pi_2XUr1JEb" class="social-icon-link"><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
 

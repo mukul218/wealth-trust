@@ -39,7 +39,7 @@
                 <div class="">
                     <div class="ba-copy p-3">
                         <h4 class="m-0 text-uppercase fw-bold letter-1 ">
-                            <b>Start your own business –<span class="text-primary">Become a Business Associate with WealthTrust</span></b>
+                            <b>Start your own business –<span class="text-primary">Become a Business Associate with Wealthtrust Capital Services</span></b>
                         </h4>
 
                         <div class="mt-4">

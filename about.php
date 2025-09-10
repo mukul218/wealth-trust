@@ -206,10 +206,7 @@
                         <div class="bg-surface rounded p-2 h-100">
                             <div class="ratio ratio-16x9">
                                 <!-- replace src with your Maps embed URL -->
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!...your-map-id..."
-                                    style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                                    allowfullscreen></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.117015387896!2d72.814249!3d18.970438899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf465d27a889%3A0x567c17b69e7d49f!2sWealthtrust%20Capital%20Services!5e0!3m2!1sen!2sin!4v1756990012887!5m2!1sen!2sin" width="" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>

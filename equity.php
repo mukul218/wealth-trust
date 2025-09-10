@@ -214,7 +214,7 @@
                     </h2>
 
                     <p class="mb-4">
-                        Get personalised stock advice. All you do is invest, we handle the rest.
+                        All you do is invest, we handle the rest.
                     </p>
 
                     <a href="#" class="btn btn-primary rounded-pill px-4 py-2">
@@ -348,11 +348,11 @@
                 <div class="col-12 col-lg-4 d-flex">
                     <div class="what-card flex-grow-1 d-flex align-items-center justify-content-between">
                         <div class="px-3">
-                            <h5 class="text-primary mb-1"><b>Personalised Portfolio Construction</b></h5>
+                            <h5 class="text-primary mb-1"><b>Portfolio Construction</b></h5>
                             <p class="mb-0 text-muted">Because your money should work for you</p>
                         </div>
                         <div class="card-visual">
-                            <img src="./public/assets/img/ss1.png" class="img-fluid" alt="Personalised Portfolio Construction">
+                            <img src="./public/assets/img/ss1.png" class="img-fluid" alt="Personalized Portfolio Construction">
                         </div>
                     </div>
                 </div>
@@ -434,7 +434,6 @@
                             <img src="./public/assets/image/icon/discovery-call.png" alt="Discovery Call" class="img-fluid mx-auto d-block" style="max-width:110px;">
                         </div>
                         <h5 class="fw-bold">Discovery Call</h5>
-                        <p class="mb-0">We understand your goals, lifestyle, income, and risk profile.</p>
                     </div>
                 </div>
 
@@ -444,19 +443,7 @@
                         <div class="mb-3">
                             <img src="./public/assets/image/icon/customised-strategy.png" alt="Customised Strategy" class="img-fluid mx-auto d-block" style="max-width:110px;">
                         </div>
-                        <h5 class="fw-bold">Customised Strategy</h5>
-                        <p class="mb-0">We build a tailored equity strategy for you.</p>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="col-md-3">
-                    <div class="how-card text-center p-4 h-100 rounded shadow-sm">
-                        <div class="mb-3">
-                            <img src="./public/assets/image/icon/stock-advisory.png" alt="Stock Advisory" class="img-fluid mx-auto d-block" style="max-width:110px;">
-                        </div>
-                        <h5 class="fw-bold">Stock Advisory</h5>
-                        <p class="mb-0">Handpicked stocks with rationale on when to enter, exit, and why.</p>
+                        <h5 class="fw-bold">Expert-curated Portfolios</h5>
                     </div>
                 </div>
 
@@ -467,7 +454,6 @@
                             <img src="./public/assets/image/icon/regular-portfolio.png" alt="Regular Portfolio Review" class="img-fluid mx-auto d-block" style="max-width:110px;">
                         </div>
                         <h5 class="fw-bold">Regular Portfolio Review</h5>
-                        <p class="mb-0">Assess performance, and rebalance if needed.</p>
                     </div>
                 </div>
             </div>
@@ -574,7 +560,7 @@
         <div class="container">
 
             <h2 class="brand-title mb-2">WealthTrust Capital Services</h2>
-            <p class="subtle mb-4">Aikya Signature, Naushir Barucha Marg, Sleater Road, Tardeo, Mumbai – 400007</p>
+            <p class="subtle mb-4">WealthTrust Capital Services LLP Konark Shram, Office No. 309, 3rd Floor, Janata Nagar, Tardeo Road, Mumbai Central – 400034</p>
 
             <h4 class="fw-bold mb-3">Regulatory Disclosure</h4>
             <p class="mb-3">
