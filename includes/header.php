@@ -29,7 +29,7 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
                         <li><a class="dropdown-item" href="./equity.php">Equity Basket</a></li>
-                        <li><a class="dropdown-item" href="./wealth.php">Wealth Management</a></li>
+                        <li><a class="dropdown-item" href="./wealth.php">Wealth</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">

@@ -560,7 +560,7 @@
         <div class="container">
 
             <h2 class="brand-title mb-2">WealthTrust Capital Services</h2>
-            <p class="subtle mb-4">WealthTrust Capital Services LLP Konark Shram, Office No. 309, 3rd Floor, Janata Nagar, Tardeo Road, Mumbai Central – 400034</p>
+            <p class="subtle mb-4">WealthTrust Capital Services Konark Shram, Office No. 309, 3rd Floor, Janata Nagar, Tardeo Road, Mumbai Central – 400034</p>
 
             <h4 class="fw-bold mb-3">Regulatory Disclosure</h4>
             <p class="mb-3">

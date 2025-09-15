@@ -17,7 +17,7 @@
                     <div class="location-info mt-3">
                         <h5 class="footer-label">Our Location</h5>
                         <address class="mb-0 text-black">
-                            WealthTrust Capital Services LLP<br>
+                            WealthTrust Capital Services <br>
                             Konark Shram, Office No. 309,<br>
                             3rd Floor, Janata Nagar, Tardeo Road,<br>
                             Mumbai Central – 400034
@@ -94,7 +94,7 @@
                                 <div class="input-group input-group-sm w-auto">
                                     <img src="./public/assets/img/cert1.jpg" alt="AMFI Logo" style="width: 60px; height: auto;">
                                     <p style="line-height: 15px;font-size: 12px;" class="mb-0 small">
-                                        <strong>WealthTrust Capital Services LLP</strong> |
+                                        <strong>WealthTrust Capital Services</strong> |
                                         CIN – AAF–3245 |
                                         GSTIN – 27AACFW1937A1ZG |
                                         ARN No. – 109017
