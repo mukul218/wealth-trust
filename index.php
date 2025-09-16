@@ -50,8 +50,14 @@
                         </div>
 
                         <div class="mt-4">
-                            <a href="#contact" class="btn btn-primary btn-lg">Schedule a Call</a>
+                            <a href="https://calendly.com/snehajain-wealthtrustcapitalservices/30"
+                                class="btn btn-primary btn-lg"
+                                target="_blank"
+                                rel="noopener">
+                                Schedule a Call
+                            </a>
                         </div>
+
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -63,7 +69,7 @@
                                 <div class="carousel-pane bg-primary-slide text-white">
                                     <div>
                                         <h2>8%</h2>
-                                        <p>Indian Investors in the Market</p>
+                                        <p>Indians Investors in the Market</p>
                                     </div>
                                 </div>
                             </div>
@@ -200,7 +206,7 @@
                             <div class="metrics">
                                 <h3>01</h3>
                             </div>
-                            <button class="card-arrow-btn">
+                            <button class="card-arrow-btn" onclick="window.location.href='./wealth.php';">
                                 <i class="fas fa-arrow-right"></i>
                             </button>
                         </div>
@@ -226,7 +232,7 @@
                             <div class="metrics">
                                 <h3>02</h3>
                             </div>
-                            <button class="card-arrow-btn">
+                            <button class="card-arrow-btn" onclick="window.location.href='./equity.php';">
                                 <i class="fas fa-arrow-right"></i>
                             </button>
                         </div>
@@ -303,7 +309,7 @@
                     <h2 class="text-center text-md-start">Not convinced <span class="color-primary">yet?</span></h2>
                     <h4 style="color: var(--primary-color);">Join our 2-hour Investment Masterclass</h4>
                     <p class="mb-4">Clear all your doubts and take charge of your finances to live a stress-free life. Register for free.</p>
-                    <a href="#masterclass" class="btn btn-outline-primary me-3">Book Your Seat</a>
+                    <a href="./master-class.php" class="btn btn-outline-primary me-3">Book Your Seat</a>
                 </div>
                 <div class="col-lg-6">
                     <img src="./public/assets/image/not-convinced-gif.gif" alt="CTA Image" class="img-fluid">

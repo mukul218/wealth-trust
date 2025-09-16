@@ -1,6 +1,0 @@
-RewriteEngine On
-
-# If the requested file without extension exists as a .php file, serve it
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^([^/]+)$ $1.php [L]
-    

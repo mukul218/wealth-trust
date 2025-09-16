@@ -188,6 +188,66 @@
             text-overflow: ellipsis;
             /* optional: show … if too narrow */
         }
+
+        .btn-pill {
+            border-radius: 9999px;
+        }
+
+        /* Gradient using Guardian colors */
+        .gradient-btn {
+            color: #fff;
+            border: 0;
+            background: linear-gradient(135deg, var(--primary-color), var(--dark-green), var(--light-green));
+            background-size: 200% 200%;
+            box-shadow: 0 8px 20px rgba(58, 139, 127, 0.3);
+            transition: transform .2s ease, box-shadow .2s ease, filter .2s ease;
+            animation: gradientShift 6s ease infinite;
+            position: relative;
+            overflow: visible;
+        }
+
+        .gradient-btn:hover,
+        .gradient-btn:focus {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 28px rgba(45, 90, 79, 0.4);
+            text-decoration: none;
+            filter: brightness(1.05);
+        }
+
+        .gradient-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 6px 16px rgba(45, 90, 79, 0.35);
+        }
+
+        /* Animated pulsing ring */
+        .gradient-btn::after {
+            content: "";
+            position: absolute;
+            inset: -6px;
+            border-radius: inherit;
+            pointer-events: none;
+            box-shadow: 0 0 0 0 rgba(58, 139, 127, 0.35);
+            transition: box-shadow .2s ease;
+        }
+
+        .gradient-btn:hover::after,
+        .gradient-btn:focus::after {
+            box-shadow: 0 0 0 8px rgba(58, 139, 127, 0.18);
+        }
+
+        @keyframes gradientShift {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
     </style>
 </head>
 
@@ -217,7 +277,10 @@
                         All you do is invest, we handle the rest.
                     </p>
 
-                    <a href="#" class="btn btn-primary rounded-pill px-4 py-2">
+                    <a href="https://pickright.in/investment/advisor-detail/60212628fcf0997e93910424"
+                        class="btn btn-primary rounded-pill px-4 py-2"
+                        target="_blank"
+                        rel="noopener">
                         Invest Now
                     </a>
                 </div>
@@ -301,8 +364,11 @@
                         </div>
                     </div>
                     <div class="text-center mt-3">
-                        <button class="btn btn-pill btn-blue">Subscribe</button>
+                        <a href="https://wealthtrustcapitalservices.smallcase.com/" target="_blank" class="btn btn-pill btn-blue">
+                            Subscribe
+                        </a>
                     </div>
+
                 </div>
 
                 <!-- Card 3 -->
@@ -330,8 +396,13 @@
                         </div>
                     </div>
                     <div class="text-center mt-3">
-                        <button class="btn btn-pill btn-cream">Subscribe</button>
+                        <a href="https://pickright.in/investment/advisor-detail/60212628fcf0997e93910424"
+                            target="_blank"
+                            class="btn btn-pill btn-cream">
+                            Subscribe
+                        </a>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -411,8 +482,14 @@
 
             <!-- CTA -->
             <div class="text-center mt-4">
-                <a href="#" class="btn btn-primary rounded-pill px-4 d-sm-inline-block">Invest Now</a>
+                <a href="https://pickright.in/investment/advisor-detail/60212628fcf0997e93910424"
+                    class="btn btn-primary rounded-pill px-4 d-sm-inline-block"
+                    target="_blank"
+                    rel="noopener">
+                    Invest Now
+                </a>
             </div>
+
         </div>
     </section>
 
@@ -458,10 +535,15 @@
                 </div>
             </div>
 
-            <!-- Centered Button -->
             <div class="text-center mt-5">
-                <a href="#" class="btn btn-primary rounded-pill px-5">Get Started</a>
+                <a href="https://pickright.in/investment/advisor-detail/60212628fcf0997e93910424"
+                    class="btn btn-primary rounded-pill px-5"
+                    target="_blank"
+                    rel="noopener">
+                    Get Started
+                </a>
             </div>
+
         </div>
     </section>
 
@@ -526,7 +608,13 @@
                             </li>
                         </ul>
                         <p class="fw-semibold mb-4">This is made for you.</p>
-                        <a href="#" class="btn btn-outline-primary rounded-pill px-4">Invest Now</a>
+                        <a href="https://pickright.in/investment/advisor-detail/60212628fcf0997e93910424"
+                            class="btn btn-outline-primary rounded-pill px-4"
+                            target="_blank"
+                            rel="noopener">
+                            Invest Now
+                        </a>
+
                     </div>
                 </div>
 
@@ -662,6 +750,32 @@
         </div>
     </section>
     <!-- ===== /EQUITY SECTION ===== -->
+
+
+    <!-- Section: Know investor character -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-8">
+                    <h2 class="mb-3">Know your investor character</h2>
+                    <p class="text-muted mb-4">Download a quick guide to understand investor profiles.</p>
+
+                    <!-- Use <a> with download attribute (works when same-origin) -->
+                    <a
+                        id="download-investor-character"
+                        class="btn btn-lg gradient-btn btn-pill px-4"
+                        href="./public/assets/pdf/investor-charter.pdf"
+                        download
+                        aria-label="Download investor character PDF">
+                        Download Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
 
 
     <!-- FAQ Section -->
@@ -1056,6 +1170,39 @@
                 'year', 'carried_forward', 'received', 'resolved', 'pending'
             ]);
         });
+        // JS fallback: if the browser ignores `download` (e.g., cross-origin), force a download via Blob
+        (function() {
+            const link = document.getElementById('download-investor-character');
+            const PDF_URL = link.getAttribute('href'); // 🔁 ensure this is your real PDF path
+
+            link.addEventListener('click', async function(e) {
+                // If same-origin, the 'download' attribute usually works—no need to intercept.
+                // Try a fetch fallback for broader compatibility.
+                try {
+                    e.preventDefault();
+
+                    const res = await fetch(PDF_URL);
+                    if (!res.ok) {
+                        // If fetch fails (CORS or 404), just navigate to the file (opens in-tab)
+                        window.location.href = PDF_URL;
+                        return;
+                    }
+
+                    const blob = await res.blob();
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'investor-character.pdf';
+                    document.body.appendChild(a);
+                    a.click();
+                    a.remove();
+                    URL.revokeObjectURL(url);
+                } catch (err) {
+                    // As a last resort, open the file
+                    window.location.href = PDF_URL;
+                }
+            });
+        })();
     </script>
 
 

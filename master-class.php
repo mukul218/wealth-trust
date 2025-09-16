@@ -273,9 +273,9 @@
                 <div class="col-6 col-md-4 col-lg">
                     <div class="q-card text-center d-block h-100 pt-4">
                         <span class="q-icon">
-                            <img src="./public/assets/image/icon/g2.png" alt="200 Cr">
+                            <img src="./public/assets/image/icon/g2.png" alt="200+ crore">
                         </span><br>
-                        <span class="q-text">Over 200 Cr. under management</span>
+                        <span class="q-text">Over 200+ crore. under management</span>
                     </div>
                 </div>
 

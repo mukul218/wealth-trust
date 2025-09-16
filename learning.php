@@ -29,7 +29,10 @@
                 <div class="col-md-6 mb-4 mb-md-0">
                     <h2 class="fw-bold" style="color: #267C6D;">You might be investing your money well.</h2>
                     <p class="mb-3">But a financial expert can add more. Learn how</p>
-                    <button class="btn btn-success rounded-pill mb-4">Book a free call</button>
+                    <button class="btn btn-success rounded-pill mb-4"
+                        onclick="window.open('https://calendly.com/snehajain-wealthtrustcapitalservices/30', '_blank')">
+                        Book a free call
+                    </button>
 
                     <!-- Feature Boxes -->
                     <div class="mb-2 p-3 rounded" style="background-color: #d9f5e5; display: flex; align-items: center;">
@@ -38,7 +41,7 @@
                     </div>
                     <div class="mb-2 p-3 rounded" style="background-color: #d9f5e5; display: flex; align-items: center;">
                         <img src="icon2.svg" alt="icon" style="width: 24px; height: 24px; margin-right: 10px;">
-                        <strong>Managing <span style="font-weight: 600;">₹200 cr</span></strong>
+                        <strong>Managing <span style="font-weight: 600;">₹200+ crore</span></strong>
                     </div>
                     <div class="p-3 rounded" style="background-color: #d9f5e5; display: flex; align-items: center;">
                         <img src="icon3.svg" alt="icon" style="width: 24px; height: 24px; margin-right: 10px;">
@@ -123,11 +126,11 @@
                     </div>
                 </div>
 
-                <!-- Child Marriage -->
+                <!-- Child's Marriage -->
                 <div class="col-md-4 col-sm-6">
                     <div class="p-4 border rounded h-100">
-                        <img src="icons/marriage.svg" alt="Child Marriage Icon" class="mb-3" style="width: 40px;">
-                        <h5 class="fw-bold">Child Marriage</h5>
+                        <img src="icons/marriage.svg" alt="Child's Marriage Icon" class="mb-3" style="width: 40px;">
+                        <h5 class="fw-bold">Child's Marriage</h5>
                         <p>Plan a worry-free wedding fund that doesn’t strain your future.</p>
                     </div>
                 </div>

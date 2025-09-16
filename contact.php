@@ -168,7 +168,7 @@
                 <div class="col-md-2 col-sm-6">
                     <div class="p-3 border rounded h-100">
                         <i class="bi bi-currency-rupee fs-3 text-success mb-2"></i>
-                        <p class="mb-0">Over 200 Cr. under management</p>
+                        <p class="mb-0">Over 200+ crore. under management</p>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-6">

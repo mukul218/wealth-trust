@@ -49,9 +49,13 @@
                         taxes to real estate, so you can live stress-free.
                     </p>
 
-                    <a href="#" class="btn btn-primary rounded-pill px-4 py-2">
+                    <a href="https://calendly.com/snehajain-wealthtrustcapitalservices/30"
+                        class="btn btn-primary rounded-pill px-4 py-2"
+                        target="_blank"
+                        rel="noopener">
                         Book a call
                     </a>
+
                 </div>
 
                 <!-- Right Image -->
@@ -166,7 +170,7 @@
 
             <!-- CTA -->
             <div class="text-center mt-5">
-                <a href="#" class="btn btn-primary rounded-pill px-5">Get Started</a>
+                <a href="https://mf.wealthtrustcap.com/client/login.asp?arnid=wealthtrust" class="btn btn-primary rounded-pill px-5">Get Started</a>
             </div>
         </div>
     </section>
@@ -245,10 +249,13 @@
                 </div>
             </div>
 
-            <!-- CTA under grid (optional) -->
+            <!-- CTA under grid -->
             <div class="text-center mt-4">
-                <a href="#" class="btn btn-primary rounded-pill px-5">Plan Goal</a>
+                <a id="planGoalBtn" href="./sip-calculator.php" class="btn btn-primary rounded-pill px-5">
+                    Plan My Goal
+                </a>
             </div>
+
         </div>
     </section>
 
@@ -317,10 +324,14 @@
 
             <!-- CTA -->
             <div class="mt-4">
-                <a href="#" class="btn btn-primary rounded-pill px-4">
+                <a href="https://calendly.com/snehajain-wealthtrustcapitalservices/30"
+                    class="btn btn-primary rounded-pill px-4"
+                    target="_blank"
+                    rel="noopener">
                     Book a call
                 </a>
             </div>
+
         </div>
     </section>
 
@@ -534,8 +545,35 @@
             const titleEl = document.getElementById('goalTitle');
             const descEl = document.getElementById('goalDesc');
             const imgEl = document.getElementById('goalImg');
+            const planBtn = document.getElementById('planGoalBtn');
+
+            // Map goal titles -> calculator links
+            const goalToCalculator = {
+                'Wealth building': './sip-calculator.php',
+                'Emergency': './lumpsum-calculator.php',
+                'Dream Car': './car-calculator.php',
+                'Dream Home': './house-calculator.php',
+                'Retirement': './retirement-calculator.php',
+                'Child Education': './target-sip-calculator.php',
+                'Child’s Marriage': './marriage-calculator.php'
+            };
 
             const boxes = document.querySelectorAll('.goal-box');
+
+            function updatePlanLink(title) {
+                // Fallback to SIP if no mapping found
+                planBtn.href = goalToCalculator[title] || './sip-calculator.php';
+            }
+
+            // Initialize link based on the preselected goal
+            const initiallySelected = document.querySelector('.goal-box.selected-goal');
+            if (initiallySelected) {
+                const initData = JSON.parse(initiallySelected.getAttribute('data-goal'));
+                updatePlanLink(initData.title);
+            } else {
+                updatePlanLink(titleEl.textContent.trim());
+            }
+
             boxes.forEach(btn => {
                 btn.addEventListener('click', () => {
                     // update selected state
@@ -548,6 +586,9 @@
                     descEl.textContent = data.desc;
                     imgEl.src = data.img;
                     imgEl.alt = data.title;
+
+                    // update CTA link
+                    updatePlanLink(data.title);
                 });
             });
         });

@@ -29,7 +29,7 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
                         <li><a class="dropdown-item" href="./equity.php">Equity Basket</a></li>
-                        <li><a class="dropdown-item" href="./wealth.php">Wealth</a></li>
+                        <li><a class="dropdown-item" href="./wealth.php">Wealth Management</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -95,6 +95,6 @@
     </div>
 </nav>
 
-<a href="https://wa.me/1234567890" target="_blank" class="whatsapp-float">
+<a href="https://wa.me/+919819039345" target="_blank" class="whatsapp-float">
     <i class="fab fa-whatsapp"></i>
 </a>

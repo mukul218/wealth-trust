@@ -44,7 +44,7 @@
 
                         <div class="mt-4">
                             <h4 class="mb-3 text-primary fw-bold mb-5">What to Expect? <br>
-                                Embark on a valuable, long-lasting partnership with WealthTrust Capital. <br>What you need: Drive to run your own business:</h4>
+                                Embark on a valuable, long-lasting partnership with WealthTrust Capital Services. <br>What you need: Drive to run your own business:</h4>
                             <ul class="ba-list mb-4">
                                 <li class="mb-3">If you are a progressive entrepreneur who wishes to make large strides in business.</li>
                                 <li class="mb-3">Credibility, strong values and strong network of contacts in your community.</li>
@@ -118,9 +118,6 @@
                         <button type="submit" class="btn btn-primary rounded-pill px-4 py-2">
                             Register Now
                         </button>
-                        <a href="#join" class="btn btn-outline-primary rounded-pill px-4 py-2">
-                            Join Now
-                        </a>
                     </div>
                 </div>
             </form>

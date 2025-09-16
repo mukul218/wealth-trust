@@ -59,7 +59,7 @@
                         <div class="p-2 rounded bg-light-green d-flex align-items-center shadow-sm w-auto">
                             <img src="./public/assets/image/icon/o2.png" alt="Managing"
                                 class="me-3" style="width: 40px; height: 40px;">
-                            <strong>Managing <span class="color-primary">₹200 cr</span></strong>
+                            <strong>Managing <span class="color-primary">₹200+ crore</span></strong>
                         </div>
                         <div class="p-2 rounded bg-light-green d-flex align-items-center shadow-sm w-auto">
                             <img src="./public/assets/image/icon/o3.png" alt="Experience"
@@ -69,7 +69,13 @@
                     </div>
 
                     <!-- CTA -->
-                    <a href="#" class="btn btn-success px-4 rounded-pill">Schedule a Free Call</a>
+                    <a href="https://calendly.com/snehajain-wealthtrustcapitalservices/30"
+                        class="btn btn-success px-4 rounded-pill"
+                        target="_blank"
+                        rel="noopener">
+                        Schedule a Free Call
+                    </a>
+
                 </div>
 
                 <!-- Image -->
@@ -110,7 +116,13 @@
             </div>
 
             <p class="mt-4 fw-bold">Even if one answer is "no," it's time to talk to an expert.</p>
-            <a href="#" class="btn btn-success mt-2 px-4 rounded-pill">Book a call</a>
+            <a href="https://calendly.com/snehajain-wealthtrustcapitalservices/30"
+                class="btn btn-success mt-2 px-4 rounded-pill"
+                target="_blank"
+                rel="noopener">
+                Book a call
+            </a>
+
         </div>
     </section>
 
@@ -154,11 +166,11 @@
                     </div>
                 </div>
 
-                <!-- Child Marriage -->
+                <!-- Child's Marriage -->
                 <div class="col-md-4 col-sm-6">
                     <div class="p-4 border rounded h-100 bg-white text-center">
-                        <img src="./public/assets/image/icon/kk4.png" alt="Child Marriage Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
-                        <h4 class="fw-bold">Child Marriage</h4>
+                        <img src="./public/assets/image/icon/kk4.png" alt="Child's Marriage Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
+                        <h4 class="fw-bold">Child's Marriage</h4>
                         <p>Plan a worry-free wedding fund that doesn’t strain your future.</p>
                     </div>
                 </div>
@@ -184,7 +196,13 @@
             </div>
 
             <p class="mt-5 fs-4">Let’s help you plan</p>
-            <a href="#" class="btn btn-success rounded-pill px-4">Schedule a call</a>
+            <a href="https://calendly.com/snehajain-wealthtrustcapitalservices/30"
+                class="btn btn-success rounded-pill px-4"
+                target="_blank"
+                rel="noopener">
+                Schedule a call
+            </a>
+
         </div>
     </section>
 
@@ -205,7 +223,7 @@
                 <img src="./public/assets/image/compound-growth.gif" alt="Compound Growth Chart" class="img-fluid mx-auto d-block" style="max-height: 500px;">
             </d40>
 
-            <a href=40" class="btn btn-success rounded-pill px-4">Learn More</a>
+            <a href="./about.php" class="btn btn-success rounded-pill px-4">Learn More</a>
         </div>
     </section>
 
@@ -284,7 +302,12 @@
             </div>
 
             <!-- Book Button -->
-            <a href="#" class="btn btn-success rounded-pill px-4">Book Now</a>
+            <a href="https://calendly.com/snehajain-wealthtrustcapitalservices/30"
+                class="btn btn-success mt-2 px-4 rounded-pill"
+                target="_blank"
+                rel="noopener">
+                Book Now
+            </a>
         </div>
     </section>
 
