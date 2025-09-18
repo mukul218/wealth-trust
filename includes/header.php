@@ -44,9 +44,9 @@
                         Learning
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="learningDropdown">
-                        <li><a class="dropdown-item" href="./blogs.php">Blogs</a></li>
                         <li><a class="dropdown-item" href="./market-update.php">Market Update</a></li>
                         <li><a class="dropdown-item" href="./youtube.php">YouTube</a></li>
+                        <li><a class="dropdown-item" href="./blogs.php">Blogs</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">

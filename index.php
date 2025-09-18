@@ -166,7 +166,7 @@
                                 <p>At WealthTrust Capital Services, our commitment to excellence has earned the trust of over 500 families who rely on our services for their financial well-being.
                                 <p></p> We take immense pride in being the trusted partner on the financial journey for a diverse community of individuals and families.<p></p> Our holistic approach to wealth management, personalized strategies, and unwavering dedication to our clients' success have solidified our reputation as a reliable and transparent financial partner.<p></p> Join the growing number of families who have entrusted their financial futures to us, and experience the difference that a dedicated and trustworthy financial ally can make in achieving your long-term goals.</p>
                                 <div class="mt-4">
-                                    <a href="#services" class="btn" style="background: #399082; color: #fff; border-radius: 25px; padding: 10px 28px; font-weight: 500;">
+                                    <a href="./about.php" class="btn" style="background: #399082; color: #fff; border-radius: 25px; padding: 10px 28px; font-weight: 500;">
                                         Know More
                                     </a>
                                 </div>
@@ -413,24 +413,33 @@
                 <!-- logos auto-center on small, inline on large -->
                 <div class="col-6 col-md-3 col-lg-2">
                     <div class="media-logo-item">
-                        <img src="./public/assets/img/plogo1.png" alt="Logo 1" class="img-fluid mx-auto d-block">
+                        <a href="https://www.youtube.com/watch?v=HWRQtD7rOu0" target="_blank" rel="noopener noreferrer">
+                            <img src="./public/assets/img/plogo1.png" alt="CNBC AWAAZ" class="img-fluid mx-auto d-block">
+                        </a>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-2">
                     <div class="media-logo-item">
-                        <img src="./public/assets/img/plogo2.png" alt="Logo 2" class="img-fluid mx-auto d-block">
+                        <a href="https://economictimes.indiatimes.com/industry/banking/finance/banking/financial-planning-for-artists-here-are-steps-to-ensure-you-are-on-the-right-track/articleshow/90073918.cms?from=mdr" target="_blank" rel="noopener noreferrer">
+                            <img src="./public/assets/img/plogo2.png" alt="JAGRAN BUSINESS" class="img-fluid mx-auto d-block">
+                        </a>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-2">
                     <div class="media-logo-item">
-                        <img src="./public/assets/img/plogo3.png" alt="Logo 3" class="img-fluid mx-auto d-block">
+                        <a href="https://www.youtube.com/watch?v=7uJzPnG_4IU" target="_blank" rel="noopener noreferrer">
+                            <img src="./public/assets/img/plogo3.png" alt="OUTLOOK MONEY" class="img-fluid mx-auto d-block">
+                        </a>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-2">
                     <div class="media-logo-item">
-                        <img src="./public/assets/img/plogo4.png" alt="Logo 4" class="img-fluid mx-auto d-block">
+                        <a href="https://www.outlookmoney.com/spotlight/planning-for-your-retirement-8740 " target="_blank" rel="noopener noreferrer">
+                            <img src="./public/assets/img/plogo4.png" alt="ECONOMIC TIMES" class="img-fluid mx-auto d-block">
+                        </a>
                     </div>
                 </div>
+
             </div>
 
             <!-- Articles -->

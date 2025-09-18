@@ -277,7 +277,7 @@
                         All you do is invest, we handle the rest.
                     </p>
 
-                    <a href="https://pickright.in/investment/advisor-detail/60212628fcf0997e93910424"
+                    <a href="https://wealthtrustcapitalservices.smallcase.com/"
                         class="btn btn-primary rounded-pill px-4 py-2"
                         target="_blank"
                         rel="noopener">
@@ -482,7 +482,7 @@
 
             <!-- CTA -->
             <div class="text-center mt-4">
-                <a href="https://pickright.in/investment/advisor-detail/60212628fcf0997e93910424"
+                <a href="https://wealthtrustcapitalservices.smallcase.com/"
                     class="btn btn-primary rounded-pill px-4 d-sm-inline-block"
                     target="_blank"
                     rel="noopener">
@@ -536,7 +536,7 @@
             </div>
 
             <div class="text-center mt-5">
-                <a href="https://pickright.in/investment/advisor-detail/60212628fcf0997e93910424"
+                <a href="https://wealthtrustcapitalservices.smallcase.com/"
                     class="btn btn-primary rounded-pill px-5"
                     target="_blank"
                     rel="noopener">
@@ -608,7 +608,7 @@
                             </li>
                         </ul>
                         <p class="fw-semibold mb-4">This is made for you.</p>
-                        <a href="https://pickright.in/investment/advisor-detail/60212628fcf0997e93910424"
+                        <a href="https://wealthtrustcapitalservices.smallcase.com/"
                             class="btn btn-outline-primary rounded-pill px-4"
                             target="_blank"
                             rel="noopener">
