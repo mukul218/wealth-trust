@@ -52,7 +52,7 @@ $debug_messages[] = "STEP 6: Blogs fetched=" . count($blogs);
 $debug_messages[] = "STEP 7: Preparing JSON output";
 
 // Final JSON response only
-echo json_encode([
+var_dump ([
     'status' => 'success',
     'data'   => $blogs,
     'debug'  => $debug_messages
