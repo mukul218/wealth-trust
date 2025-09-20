@@ -44,8 +44,7 @@ $debug = [
     'query' => $query
 ];
 
-header('Content-Type: application/json');
-echo json_encode([
+return json_encode([
     'status' => 'success',
     'data'   => $blogs,
     'debug'  => $debug
