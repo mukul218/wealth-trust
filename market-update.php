@@ -11,6 +11,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
+    <style>
+        /* WebKit Browsers (Chrome, Edge, Safari) */
+        #pdfList::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        #pdfList::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 8px;
+        }
+
+        #pdfList::-webkit-scrollbar-thumb {
+            background-color: #399082;
+            border-radius: 8px;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -39,44 +56,77 @@
     <div class="container-fluid py-5" style="background: #fcf7f3;">
         <div class="container">
             <div class="row g-4">
-                <!-- Main news headline with image -->
-                <div class="col-lg-8">
-                    <div class="position-relative" style="background: #eee; min-height: 400px; border-radius: 8px; overflow: hidden;">
-                        <!-- News background image (replace src with your actual image) -->
-                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
-                            alt="Main news" class="w-100 h-100" style="object-fit: cover; opacity: 0.5; position: absolute; top: 0; left: 0;">
-                        <div class="position-relative p-4" style="z-index: 2;">
-                            <h2 class="fw-bold mb-3" style="font-size: 2.5rem;">Main news - headlines</h2>
-                            <p style="font-size: 1.3rem; font-weight: 500;">
-                                Description about News...<br>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing eli
-                            </p>
-                        </div>
-                    </div>
+                <!-- Latest PDF highlight -->
+                <div class="col-lg-8" id="latestPdfBlock">
+                    <!-- Latest PDF will be injected here -->
                 </div>
-                <!-- Sidebar news cards -->
+
+                <!-- Sidebar PDFs -->
                 <div class="col-lg-4">
-                    <div class="bg-white p-4 rounded-3 shadow-sm h-100">
-                        <h3 class="fw-bold text-center" style="color: #399082; border-bottom: 2px solid #399082; padding-bottom: 0.5rem;">News heading</h3>
-                        <!-- News card 1 -->
-                        <div class="border rounded-3 p-3 my-3">
-                            <div style="color: #399082; font-size: 1.1rem;">Image content-<br>Lorem ipsum dolor</div>
-                            <div class="mt-2"><a href="#" class="fw-semibold" style="color: #399082;">Date by may 15th</a></div>
-                        </div>
-                        <!-- News card 2 -->
-                        <div class="border rounded-3 p-3 my-3">
-                            <div style="color: #399082; font-size: 1.1rem;">Image content-<br>Lorem ipsum dolor</div>
-                            <div class="mt-2"><a href="#" class="fw-semibold" style="color: #399082;">Date by may 15th</a></div>
-                        </div>
+                    <div id="pdfList" class="row g-4 justify-content-center overflow-auto"
+                        style="max-height: 500px; scrollbar-width: thin; scrollbar-color: #399082 #f1f1f1;">
+                        <!-- Older PDFs will be injected here -->
                     </div>
                 </div>
             </div>
+
+
         </div>
     </div>
     <!-- Footer Section (from previous response) -->
     <?php
     include_once 'includes/footer.php';
     ?>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $.getJSON('./api/pdf/get_pdfs.php', function(res) {
+                if (res.status === 'success' && res.data.pdfs.length > 0) {
+                    const pdfs = res.data.pdfs;
+                    const latest = pdfs[0]; // latest comes first (ORDER BY created_at DESC)
+
+                    // --- Latest PDF (big block) ---
+                    $('#latestPdfBlock').html(`
+                <div class="position-relative" style="background: #eee; min-height: 400px; border-radius: 8px; overflow: hidden;">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+                        alt="Main news" class="w-100 h-100"
+                        style="object-fit: cover; opacity: 0.5; position: absolute; top: 0; left: 0;">
+                    <div class="position-relative p-4" style="z-index: 2;">
+                        <h2 class="fw-bold mb-3" style="font-size: 2.5rem;">${latest.title}</h2>
+                        <p style="font-size: 1.3rem; font-weight: 500;">
+                            Published on: ${latest.created_at}
+                        </p>
+                        <a href="${latest.file_path}" target="_blank" class="btn btn-success btn-lg rounded-pill mt-3 px-4 shadow">
+                            View PDF
+                        </a>
+                    </div>
+                </div>
+            `);
+
+                    // --- Other PDFs (sidebar) ---
+                    let sidebarHtml = '';
+                    pdfs.slice(1).forEach(pdf => {
+                        sidebarHtml += `
+                    <div class="col-12">
+                        <div class="border rounded-3 p-3 shadow-sm">
+                            <h6 class="fw-bold mb-2" style="color: #399082;">${pdf.title}</h6>
+                            <small class="text-muted d-block mb-2">Published: ${pdf.created_at}</small>
+                            <a href="${pdf.file_path}" target="_blank" class="btn btn-sm btn-outline-success">View PDF</a>
+                        </div>
+                    </div>
+                `;
+                    });
+
+                    $('#pdfList').html(sidebarHtml);
+                } else {
+                    $('#latestPdfBlock').html('<p class="text-center">No newsletters available.</p>');
+                }
+            }).fail(() => {
+                $('#latestPdfBlock').html('<p class="text-center text-danger">Failed to load PDFs.</p>');
+            });
+        });
+    </script>
+
 
 </body>
 

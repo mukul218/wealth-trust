@@ -48,6 +48,21 @@ if (!isset($_SESSION['admin'])) {
                         </div>
                     </div>
 
+                    <!-- Newsletter (PDF) -->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body text-center">
+                                <i class="bi bi-file-earmark-pdf text-danger fs-1 mb-3"></i>
+                                <h5 class="card-title">Newsletter (PDF)</h5>
+                                <div class="d-grid gap-2 mt-2">
+                                    <a href="upload_pdf.php" class="btn btn-outline-primary btn-sm">Upload PDF</a>
+                                    <a href="list_pdf.php" class="btn btn-outline-secondary btn-sm">View PDFs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                     <!-- Admins -->
                     <div class="col-md-4 col-sm-6">
                         <div class="card border-0 shadow-sm h-100">
