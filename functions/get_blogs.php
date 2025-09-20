@@ -52,7 +52,6 @@ $debug_messages[] = "STEP 6: Blogs fetched=" . count($blogs);
 $debug_messages[] = "STEP 7: Preparing JSON output";
 
 // Final JSON response only
-header('Content-Type: application/json');
 echo json_encode([
     'status' => 'success',
     'data'   => $blogs,
