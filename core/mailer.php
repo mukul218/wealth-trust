@@ -7,29 +7,30 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 function sendMail($to, $subject, $bodyHtml, $bodyAlt = '')
 {
-    $env = parse_ini_file(__DIR__ . '/../.env');
     $mail = new PHPMailer(true);
     try {
+        // --- TEST MODE (GMAIL) ---
         $mail->isSMTP();
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'mukultiwari218@gmail.com'; // Sender Gmail
+        $mail->Password   = 'vgol ygbl lqhu rphq';        // ⚠️ Use Gmail App Password
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port       = 587;
 
-        if ($env['MAIL_DRIVER'] === 'relay') {
-            // --- PRODUCTION: GoDaddy relay (no auth) ---
-            $mail->Host       = $env['MAIL_HOST'] ?? 'localhost';
-            $mail->Port       = $env['MAIL_PORT'] ?? 25;
-            $mail->SMTPAuth   = false;
-            $mail->SMTPSecure = false;
-        } else {
-            // --- DEV/TEST: Gmail or another SMTP ---
-            $mail->Host       = $env['MAIL_HOST'];
-            $mail->SMTPAuth   = true;
-            $mail->Username   = $env['MAIL_USERNAME'];
-            $mail->Password   = $env['MAIL_PASSWORD'];
-            $mail->SMTPSecure = $env['MAIL_ENCRYPTION'];
-            $mail->Port       = $env['MAIL_PORT'];
-        }
+        // --- PRODUCTION MODE (GODADDY, uncomment later) ---
+        /*
+        $mail->isSMTP();
+        $mail->Host       = 'smtp.secureserver.net';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'admin@wealthtrustcap.com';
+        $mail->Password   = 'YOUR_GODADDY_PASSWORD';
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port       = 587;
+        */
 
         // Sender & Receiver
-        $mail->setFrom($env['MAIL_FROM'], $env['MAIL_FROM_NAME']);
+        $mail->setFrom('mukultiwari218@gmail.com', 'WealthTrust Test');
         $mail->addAddress($to);
 
         // Content
