@@ -7,27 +7,28 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 function sendMail($to, $subject, $bodyHtml, $bodyAlt = '')
 {
+    $env = parse_ini_file(__DIR__ . '/../.env');
     $mail = new PHPMailer(true);
     try {
         // --- TEST MODE (GMAIL) ---
-        $mail->isSMTP();
-        $mail->Host       = 'smtp.gmail.com';
-        $mail->SMTPAuth   = true;
-        $mail->Username   = 'mukultiwari218@gmail.com'; // Sender Gmail
-        $mail->Password   = 'vgol ygbl lqhu rphq';        // ⚠️ Use Gmail App Password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port       = 587;
+        // $mail->isSMTP();
+        // $mail->Host       = 'smtp.gmail.com';
+        // $mail->SMTPAuth   = true;
+        // $mail->Username   = 'mukultiwari218@gmail.com'; // Sender Gmail
+        // $mail->Password   = 'vgol ygbl lqhu rphq';        // ⚠️ Use Gmail App Password
+        // $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        // $mail->Port       = 587;
 
         // --- PRODUCTION MODE (GODADDY, uncomment later) ---
-        /*
+        
         $mail->isSMTP();
         $mail->Host       = 'smtp.secureserver.net';
         $mail->SMTPAuth   = true;
         $mail->Username   = 'admin@wealthtrustcap.com';
-        $mail->Password   = 'YOUR_GODADDY_PASSWORD';
+        $mail->Password   = $env['MAIL_PASSWORD'] ;
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
-        */
+        
 
         // Sender & Receiver
         $mail->setFrom('mukultiwari218@gmail.com', 'WealthTrust Test');
