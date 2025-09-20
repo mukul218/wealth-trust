@@ -1,4 +1,7 @@
 <?php
+die( " here to get the data");
+
+
 include_once "../database/config.php"; // Include database configuration
 
 
