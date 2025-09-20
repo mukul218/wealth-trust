@@ -25,7 +25,7 @@ function sendMail($to, $subject, $bodyHtml, $bodyAlt = '')
         $mail->isSMTP();
         $mail->Host       = 'localhost';
         $mail->SMTPAuth   = false;
-        $mail->Username   = $env['SMTP_USER'] ;
+        $mail->Username   = $env['MAIL_USERNAME'] ;
         $mail->Password   = $env['MAIL_PASSWORD'];
         $mail->SMTPSecure = false;
         $mail->Port       = 25;
