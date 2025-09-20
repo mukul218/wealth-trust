@@ -2,6 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
+echo "we are here";
 include_once "../database/config.php"; // Include database configuration
 
 if (!$conn || $conn->connect_error) {
@@ -12,6 +13,8 @@ if (!$conn || $conn->connect_error) {
     ]));
 }
 
+
+echo "now rere";
 $isAdmin = isset($_GET['admin']) && $_GET['admin'] === '1';
 
 // Fetch all blogs if admin, else only published
