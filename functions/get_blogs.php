@@ -1,5 +1,16 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 include_once "../database/config.php"; // Include database configuration
+
+if (!$conn || $conn->connect_error) {
+    die(json_encode([
+        'status' => 'error',
+        'message' => 'DB connection failed',
+        'db_error' => $conn ? $conn->connect_error : 'No connection object'
+    ]));
+}
 
 $isAdmin = isset($_GET['admin']) && $_GET['admin'] === '1';
 
@@ -8,19 +19,23 @@ $query = $isAdmin
     ? "SELECT * FROM blogs ORDER BY created_at DESC"
     : "SELECT * FROM blogs WHERE is_published = 1 ORDER BY created_at DESC";
 
-// Run query with error debug
-$result = $conn->query($query) or die(json_encode([
-    'status'   => 'error',
-    'sql'      => $query,
-    'db_error' => $conn->error
-]));
+// Run query
+$result = $conn->query($query);
+
+if (!$result) {
+    die(json_encode([
+        'status'   => 'error',
+        'sql'      => $query,
+        'db_error' => $conn->error
+    ]));
+}
 
 $blogs = [];
 while ($row = $result->fetch_assoc()) {
     $blogs[] = $row;
 }
 
-// Debug info (only for dev/testing)
+// Debug info
 $debug = [
     'db_host' => $conn->host_info,
     'db_name' => $conn->query("SELECT DATABASE()")->fetch_row()[0],
@@ -29,8 +44,7 @@ $debug = [
     'query' => $query
 ];
 
-// Final response
-// header('Content-Type: application/json');
+header('Content-Type: application/json');
 echo json_encode([
     'status' => 'success',
     'data'   => $blogs,
