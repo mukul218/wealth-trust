@@ -1,9 +1,12 @@
 <?php
-// DB config (replace with your own credentials)
-$host = 'localhost';
-$db   = 'wealth-trust-db';
-$user = 'root';
-$pass = '';
+// Load .env manually
+$env = parse_ini_file('./../.env');
+
+// DB config from .env
+$host = $env['DB_HOST'];
+$db   = $env['DB_NAME'];
+$user = $env['DB_USER'];
+$pass = $env['DB_PASS'];
 
 $conn = new mysqli($host, $user, $pass, $db);
 
