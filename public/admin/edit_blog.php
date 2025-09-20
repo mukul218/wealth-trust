@@ -11,7 +11,7 @@ if (!isset($_GET['id'])) {
 }
 
 $blogId = intval($_GET['id']);
-include_once "./../../database/config.php";
+include_once "./../../core/config.php";
 
 $stmt = $conn->prepare("SELECT * FROM blogs WHERE id = ?");
 $stmt->bind_param("i", $blogId);
@@ -26,9 +26,10 @@ if (!$blog) {
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <title>Edit Blog</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -44,14 +45,11 @@ if (!$blog) {
 </head>
 
 <body class="bg-light">
-
     <?php include_once "./component/navbar.php"; ?>
 
-
-    <div class="container mt-5">
+    <div class="container my-5">
         <h2>Edit Blog (ID: <?= $blogId ?>)</h2>
 
-        <div id="alertBox"></div>
 
         <form id="editBlogForm" enctype="multipart/form-data">
             <input type="hidden" name="id" value="<?= $blog['id'] ?>">
@@ -74,7 +72,7 @@ if (!$blog) {
             <div class="mb-3">
                 <label>Current Image:</label><br>
                 <?php if ($blog['image_url']): ?>
-                    <img src="../../functions/<?= $blog['image_url'] ?>" class="preview-img mb-2" />
+                    <img src="./../../<?= $blog['image_url'] ?>" class="preview-img mb-2" />
                 <?php else: ?>
                     <p>No image uploaded.</p>
                 <?php endif; ?>
@@ -97,16 +95,20 @@ if (!$blog) {
                 <label class="form-check-label">Publish</label>
             </div>
 
+            <div id="alertBox"></div>
+
+
             <button type="submit" class="btn btn-primary">Update Blog</button>
             <a href="./list_blog.php" class="btn btn-secondary ms-2">Back</a>
         </form>
     </div>
 
-    <!-- Summernote JS (place after jQuery) -->
+    <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.20/dist/summernote-lite.min.js"></script>
 
     <script>
+        // Image preview
         $('#image').on('change', function() {
             const file = this.files[0];
             if (file) {
@@ -116,25 +118,38 @@ if (!$blog) {
             }
         });
 
+        // Form submit (AJAX)
         $('#editBlogForm').on('submit', function(e) {
             e.preventDefault();
             const formData = new FormData(this);
 
             $.ajax({
-                url: './../../functions/update_blog.php',
-                method: 'POST',
+                url: './../../api/blog/update_blog.php',
+                type: 'POST',
                 data: formData,
                 processData: false,
                 contentType: false,
+                dataType: 'json',
                 success: function(res) {
-                    $('#alertBox').html(`<div class="alert alert-success">${res}</div>`);
+                    if (res.status === 'success') {
+                        $('#alertBox').html(
+                            `<div class="alert alert-success">${res.data.message}</div>`
+                        );
+                    } else {
+                        $('#alertBox').html(
+                            `<div class="alert alert-danger">${res.data.message || 'Update failed'}</div>`
+                        );
+                    }
                 },
-                error: function() {
-                    $('#alertBox').html(`<div class="alert alert-danger">Update failed.</div>`);
+                error: function(xhr) {
+                    $('#alertBox').html(
+                        `<div class="alert alert-danger">Update failed. ${xhr.responseText || ''}</div>`
+                    );
                 }
             });
         });
 
+        // Init Summernote
         $(document).ready(function() {
             $('#summernote').summernote({
                 placeholder: 'Edit blog content...',
@@ -154,7 +169,6 @@ if (!$blog) {
             });
         });
     </script>
-
 </body>
 
 </html>

@@ -78,10 +78,13 @@
                 <div class="col-lg-2 col-md-12 pt-4">
                     <h4 class="footer-heading primary">Stay Updated</h4>
                     <p class="mb-3 small">Get monthly market insights to your inbox</p>
-                    <form class="newsletter-form d-flex flex-column gap-2">
-                        <input type="email" class="form-control" placeholder="Email" aria-label="Email for updates">
-                        <button class="btn btn-subscribe " type="submit">Subscribe</button>
+                    <form id="newsletterForm" class="newsletter-form d-flex flex-column gap-2">
+                        <input type="email" id="newsletterEmail" class="form-control" placeholder="Email" required>
+                        <button class="btn btn-subscribe" type="submit">Subscribe</button>
                     </form>
+
+                    <div id="newsletterAlert" class="mt-2"></div>
+
                 </div>
             </div>
             <section class="certification-section">
@@ -146,3 +149,35 @@
 <?php
 include_once "./public/assets/js/externalScript.php";
 ?>
+
+<script>
+    $('#newsletterForm').on('submit', function(e) {
+        e.preventDefault();
+
+        const email = $('#newsletterEmail').val().trim();
+        if (!email) {
+            $('#newsletterAlert').html('<div class="alert alert-warning">Please enter an email.</div>');
+            return;
+        }
+
+        $.ajax({
+            url: './api/newsletter/subscribe.php',
+            type: 'POST',
+            data: {
+                email
+            },
+            dataType: 'json',
+            success: function(res) {
+                if (res.status === 'success') {
+                    $('#newsletterAlert').html(`<div class="alert alert-success">${res.data.message}</div>`);
+                    $('#newsletterForm')[0].reset();
+                } else {
+                    $('#newsletterAlert').html(`<div class="alert alert-danger">${res.data.message}</div>`);
+                }
+            },
+            error: function() {
+                $('#newsletterAlert').html('<div class="alert alert-danger">Server error. Please try again later.</div>');
+            }
+        });
+    });
+</script>

@@ -44,7 +44,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(function() {
-            $.getJSON('./functions/get_blogs.php', function(res) {
+            $.getJSON('./api/blog/get_blogs.php', function(res) {
                 const blogs = (res && res.data) ? res.data : [];
                 const $list = $('#blogList');
                 const $fallback = $('#noBlogs');
