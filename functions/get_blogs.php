@@ -9,7 +9,14 @@ $query = $isAdmin
     ? "SELECT * FROM blogs ORDER BY created_at DESC"
     : "SELECT * FROM blogs WHERE is_published = 1 ORDER BY created_at DESC";
 
-$result = $conn->query($query);
+// $result = $conn->query($query);
+
+$result = $conn->query($query) or die(json_encode([
+    'status' => 'error',
+    'sql' => $query,
+    'db_error' => $conn->error
+]));
+
 
 $blogs = [];
 while ($row = $result->fetch_assoc()) {
