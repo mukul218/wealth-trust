@@ -20,15 +20,18 @@ function sendMail($to, $subject, $bodyHtml, $bodyAlt = '')
         // $mail->Port       = 587;
 
         // --- PRODUCTION MODE (GODADDY, uncomment later) ---
-        
+
         $mail->isSMTP();
-        $mail->Host       = 'smtp.secureserver.net';
+
+        // Mail config from env
+        $mail->Host       = $env['MAIL_HOST'];       // e.g. smtp.secureserver.net
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'admin@wealthtrustcap.com';
-        $mail->Password   = $env['MAIL_PASSWORD'] ;
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port       = 587;
-        
+        $mail->Username   = $env['MAIL_USERNAME'];   // e.g. admin@wealthtrustcap.com
+        $mail->Password   = $env['MAIL_PASSWORD'];   // e.g. your password
+        $mail->SMTPSecure = $env['MAIL_ENCRYPTION']; // e.g. tls
+        $mail->Port       = $env['MAIL_PORT'];       // e.g. 587
+
+
 
         // Sender & Receiver
         $mail->setFrom('mukultiwari218@gmail.com', 'WealthTrust Test');
