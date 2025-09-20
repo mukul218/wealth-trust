@@ -2,10 +2,12 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-echo "we are here";
+echo "STEP 1: Script started<br>";
+
 include_once "../database/config.php"; // Include database configuration
 
 if (!$conn || $conn->connect_error) {
+    echo "STEP 2: DB connection failed<br>";
     die(json_encode([
         'status' => 'error',
         'message' => 'DB connection failed',
@@ -13,19 +15,23 @@ if (!$conn || $conn->connect_error) {
     ]));
 }
 
+echo "STEP 2: DB connected successfully<br>";
 
-echo "now rere";
 $isAdmin = isset($_GET['admin']) && $_GET['admin'] === '1';
+echo "STEP 3: isAdmin = " . ($isAdmin ? 'true' : 'false') . "<br>";
 
 // Fetch all blogs if admin, else only published
 $query = $isAdmin
     ? "SELECT * FROM blogs ORDER BY created_at DESC"
     : "SELECT * FROM blogs WHERE is_published = 1 ORDER BY created_at DESC";
 
+echo "STEP 4: Running query → $query <br>";
+
 // Run query
 $result = $conn->query($query);
 
 if (!$result) {
+    echo "STEP 5: Query failed<br>";
     die(json_encode([
         'status'   => 'error',
         'sql'      => $query,
@@ -33,10 +39,14 @@ if (!$result) {
     ]));
 }
 
+echo "STEP 5: Query executed successfully, rows = " . $result->num_rows . "<br>";
+
 $blogs = [];
 while ($row = $result->fetch_assoc()) {
     $blogs[] = $row;
 }
+
+echo "STEP 6: Blogs fetched = " . count($blogs) . "<br>";
 
 // Debug info
 $debug = [
@@ -47,7 +57,11 @@ $debug = [
     'query' => $query
 ];
 
-return json_encode([
+echo "STEP 7: Preparing JSON output<br>";
+
+// Final response
+header('Content-Type: application/json');
+echo json_encode([
     'status' => 'success',
     'data'   => $blogs,
     'debug'  => $debug
