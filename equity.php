@@ -752,27 +752,40 @@
     <!-- ===== /EQUITY SECTION ===== -->
 
 
-    <!-- Section: Know investor character -->
+    <!-- Section: Important Disclosures & Guides -->
     <section class="py-5 bg-light">
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-md-8">
-                    <h2 class="mb-3">Know your investor character</h2>
-                    <p class="text-muted mb-4">Download a quick guide to understand investor profiles.</p>
+                    <h2 class="mb-3">Important Investor Documents</h2>
+                    <p class="text-muted mb-4">
+                        Access key resources to understand your investor profile and review our equity disclosure.
+                    </p>
 
-                    <!-- Use <a> with download attribute (works when same-origin) -->
+                    <!-- Investor Character PDF -->
                     <a
                         id="download-investor-character"
-                        class="btn btn-lg gradient-btn btn-pill px-4"
+                        class="btn btn-lg gradient-btn btn-pill px-4 mb-3"
                         href="./public/assets/pdf/investor-charter.pdf"
                         download
                         aria-label="Download investor character PDF">
-                        Download Now
+                        Download Investor Character
+                    </a>
+
+                    <!-- Equity Disclosure PDF -->
+                    <a
+                        id="download-equity-disclosure"
+                        class="btn btn-lg gradient-btn btn-pill px-4  mb-3"
+                        href="./public/assets/pdf/equity-disclosure.pdf"
+                        download
+                        aria-label="Download equity disclosure PDF">
+                        Download Equity Disclosure
                     </a>
                 </div>
             </div>
         </div>
     </section>
+
 
 
 

@@ -55,7 +55,11 @@
                 <!-- Content -->
                 <div class="leadership-content">
                     <h3 class="mb-1">Sneha Jain</h3>
-                    <h6 class="text-primary mb-3">CEO / Founder</h6>
+                    <a href="https://www.linkedin.com/in/sneha-jain-59a3bb23/" target="_blank" rel="noopener" class=" text-decoration-none">
+                        <h6 class="text-primary mb-3">
+                            CEO / Founder
+                        </h6>
+                    </a>
                     <p>
                         Sneha Jain is the Founder & CEO of WealthTrust Capital Services. With a Master’s degree in Accounting and
                         Finance from London School of Economics, she has worked with reputed asset management companies like Pramerica
@@ -89,7 +93,7 @@
                 <!-- Card -->
                 <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+                        <a href="https://www.linkedin.com/in/shubham-jha-4706321a0/" target="_blank" rel="noopener"
                             class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
                             <i class="fab fa-linkedin"></i>
                         </a>
@@ -112,7 +116,7 @@
 
                 <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+                        <a href="https://www.linkedin.com/in/parth-more-66b4b7237/" target="_blank" rel="noopener"
                             class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
                             <i class="fab fa-linkedin"></i>
                         </a>
@@ -134,7 +138,7 @@
 
                 <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+                        <a href="https://www.linkedin.com/in/akshaymadhasu/" target="_blank" rel="noopener"
                             class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
                             <i class="fab fa-linkedin"></i>
                         </a>
@@ -169,7 +173,7 @@
             <div class="row g-4">
                 <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+                        <a href="https://www.linkedin.com/in/jeel-shah-31867b22a/" target="_blank" rel="noopener"
                             class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
                             <i class="fab fa-linkedin"></i>
                         </a>
@@ -190,7 +194,7 @@
 
                 <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+                        <a href="https://www.linkedin.com/in/purvi-dodiya-632604169/" target="_blank" rel="noopener"
                             class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
                             <i class="fab fa-linkedin"></i>
                         </a>
@@ -211,7 +215,7 @@
 
                 <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+                        <a href="https://www.linkedin.com/in/vignesh-venkatesh-154527110/" target="_blank" rel="noopener"
                             class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
                             <i class="fab fa-linkedin"></i>
                         </a>
@@ -232,7 +236,7 @@
 
                 <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+                        <a href="https://www.linkedin.com/in/purva-bohara-21612618b/" target="_blank" rel="noopener"
                             class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
                             <i class="fab fa-linkedin"></i>
                         </a>
@@ -267,7 +271,7 @@
                 <!-- Shivaji Shinde -->
                 <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+                        <a href="https://www.linkedin.com/in/shivaji-shinde-3083a9113/" target="_blank" rel="noopener"
                             class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
                             <i class="fab fa-linkedin"></i>
                         </a>
@@ -290,7 +294,7 @@
                 <!-- Ankita Yadav -->
                 <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+                        <a href="https://www.linkedin.com/in/ankita-yadav-91355231b/" target="_blank" rel="noopener"
                             class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
                             <i class="fab fa-linkedin"></i>
                         </a>

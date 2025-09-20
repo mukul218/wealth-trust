@@ -141,56 +141,68 @@
 
                 <!-- Retirement -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="p-4 border rounded h-100 bg-white text-center">
-                        <img src="./public/assets/image/icon/kk1.png" alt="Retirement Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
-                        <h4 class="fw-bold">Retirement</h4>
-                        <p>Build a plan that lasts as long as you do. No running out of money.</p>
-                    </div>
+                    <a href="./retirement-calculator.php" class="text-decoration-none text-dark">
+                        <div class="p-4 border rounded h-100 bg-white text-center">
+                            <img src="./public/assets/image/icon/kk1.png" alt="Retirement Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
+                            <h4 class="fw-bold">Retirement</h4>
+                            <p>Build a plan that lasts as long as you do. No running out of money.</p>
+                        </div>
+                    </a>
                 </div>
 
                 <!-- Wealth Building -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="p-4 border rounded h-100 bg-white text-center">
-                        <img src="./public/assets/image/icon/kk2.png" alt="Wealth Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
-                        <h4 class="fw-bold">Wealth Building</h4>
-                        <p>Create a long-term investment strategy that compounds meaningfully.</p>
-                    </div>
+                    <a href="./crorepati-calculator.php" class="text-decoration-none text-dark">
+                        <div class="p-4 border rounded h-100 bg-white text-center">
+                            <img src="./public/assets/image/icon/kk2.png" alt="Wealth Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
+                            <h4 class="fw-bold">Wealth Building</h4>
+                            <p>Create a long-term investment strategy that compounds meaningfully.</p>
+                        </div>
+                    </a>
                 </div>
 
                 <!-- Child Education -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="p-4 border rounded h-100 bg-white text-center">
-                        <img src="./public/assets/image/icon/kk3.png" alt="Child Education Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
-                        <h4 class="fw-bold">Child Education</h4>
-                        <p>Estimate costs, set timelines, and invest accordingly.</p>
-                    </div>
+                    <a href="./target-sip-calculator.php" class="text-decoration-none text-dark">
+                        <div class="p-4 border rounded h-100 bg-white text-center">
+                            <img src="./public/assets/image/icon/kk3.png" alt="Child Education Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
+                            <h4 class="fw-bold">Child Education</h4>
+                            <p>Estimate costs, set timelines, and invest accordingly.</p>
+                        </div>
+                    </a>
                 </div>
 
                 <!-- Child's Marriage -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="p-4 border rounded h-100 bg-white text-center">
-                        <img src="./public/assets/image/icon/kk4.png" alt="Child's Marriage Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
-                        <h4 class="fw-bold">Child's Marriage</h4>
-                        <p>Plan a worry-free wedding fund that doesn’t strain your future.</p>
-                    </div>
+                    <a href="./marriage-calculator.php" class="text-decoration-none text-dark">
+                        <div class="p-4 border rounded h-100 bg-white text-center">
+                            <img src="./public/assets/image/icon/kk4.png" alt="Child's Marriage Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
+                            <h4 class="fw-bold">Child's Marriage</h4>
+                            <p>Plan a worry-free wedding fund that doesn’t strain your future.</p>
+                        </div>
+                    </a>
                 </div>
 
                 <!-- Dream Home -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="p-4 border rounded h-100 bg-white text-center">
-                        <img src="./public/assets/image/icon/kk5.png" alt="Dream Home Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
-                        <h4 class="fw-bold">Dream Home</h4>
-                        <p>Buy without regrets or EMI burdens.</p>
-                    </div>
+                    <a href="./house-calculator.php" class="text-decoration-none text-dark">
+                        <div class="p-4 border rounded h-100 bg-white text-center">
+                            <img src="./public/assets/image/icon/kk5.png" alt="Dream Home Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
+                            <h4 class="fw-bold">Dream Home</h4>
+                            <p>Buy without regrets or EMI burdens.</p>
+                        </div>
+                    </a>
                 </div>
 
                 <!-- Dream Car -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="p-4 border rounded h-100 bg-white text-center">
-                        <img src="./public/assets/image/icon/kk6.png" alt="Dream Car Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
-                        <h4 class="fw-bold">Dream Car</h4>
-                        <p>Make your lifestyle goals a reality.</p>
-                    </div>
+                    <a href="./car-calculator.php" class="text-decoration-none text-dark">
+                        <div class="p-4 border rounded h-100 bg-white text-center">
+                            <img src="./public/assets/image/icon/kk6.png" alt="Dream Car Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
+                            <h4 class="fw-bold">Dream Car</h4>
+                            <p>Make your lifestyle goals a reality.</p>
+                        </div>
+                    </a>
                 </div>
 
             </div>
