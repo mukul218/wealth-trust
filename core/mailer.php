@@ -10,31 +10,26 @@ function sendMail($to, $subject, $bodyHtml, $bodyAlt = '')
     $env = parse_ini_file(__DIR__ . '/../.env');
     $mail = new PHPMailer(true);
     try {
-        // --- TEST MODE (GMAIL) ---
-        // $mail->isSMTP();
-        // $mail->Host       = 'smtp.gmail.com';
-        // $mail->SMTPAuth   = true;
-        // $mail->Username   = 'mukultiwari218@gmail.com'; // Sender Gmail
-        // $mail->Password   = 'vgol ygbl lqhu rphq';        // ⚠️ Use Gmail App Password
-        // $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        // $mail->Port       = 587;
-
-        // --- PRODUCTION MODE (GODADDY, uncomment later) ---
-
         $mail->isSMTP();
 
-        // Mail config from env
-        $mail->Host       = $env['MAIL_HOST'];       // e.g. smtp.secureserver.net
-        $mail->SMTPAuth   = true;
-        $mail->Username   = $env['MAIL_USERNAME'];   // e.g. admin@wealthtrustcap.com
-        $mail->Password   = $env['MAIL_PASSWORD'];   // e.g. your password
-        $mail->SMTPSecure = $env['MAIL_ENCRYPTION']; // e.g. tls
-        $mail->Port       = $env['MAIL_PORT'];       // e.g. 587
-
-
+        if ($env['MAIL_DRIVER'] === 'relay') {
+            // --- PRODUCTION: GoDaddy relay (no auth) ---
+            $mail->Host       = $env['MAIL_HOST'] ?? 'localhost';
+            $mail->Port       = $env['MAIL_PORT'] ?? 25;
+            $mail->SMTPAuth   = false;
+            $mail->SMTPSecure = false;
+        } else {
+            // --- DEV/TEST: Gmail or another SMTP ---
+            $mail->Host       = $env['MAIL_HOST'];
+            $mail->SMTPAuth   = true;
+            $mail->Username   = $env['MAIL_USERNAME'];
+            $mail->Password   = $env['MAIL_PASSWORD'];
+            $mail->SMTPSecure = $env['MAIL_ENCRYPTION'];
+            $mail->Port       = $env['MAIL_PORT'];
+        }
 
         // Sender & Receiver
-        $mail->setFrom('mukultiwari218@gmail.com', 'WealthTrust Test');
+        $mail->setFrom($env['MAIL_FROM'], $env['MAIL_FROM_NAME']);
         $mail->addAddress($to);
 
         // Content
