@@ -8,55 +8,27 @@ require_once __DIR__ . '/../vendor/autoload.php';
 function sendMail($to, $subject, $bodyHtml, $bodyAlt = '')
 {
     $mail = new PHPMailer(true);
-    $env = parse_ini_file(__DIR__ . '/../.env');
 
     try {
         echo "<pre>--- DEBUG: Initializing Mail ---\n</pre>";
 
-        // --- TEST MODE (GMAIL) ---
+        // --- GODADDY LOCAL RELAY (Economy Hosting) ---
         $mail->isSMTP();
-        $mail->Host       = 'smtp.gmail.com';
-        $mail->SMTPAuth   = true;
-        $mail->Username   = 'mukultiwari218@gmail.com'; // Sender Gmail
-        $mail->Password   = 'vgol ygbl lqhu rphq';        // ⚠️ Use Gmail App Password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port       = 587;
-
-        // // --- PRODUCTION MODE (GODADDY, uncomment later) ---
-        // $mail->isSMTP();
-        // $mail->Host       = 'localhost';
-        // $mail->SMTPAuth   = false;
-        // $mail->SMTPSecure = false;
-        // $mail->Port       = 25;
-
-
-
-        // $mail->isSMTP();
-        // $mail->Host       = 'smtpout.secureserver.net';
-        // $mail->SMTPAuth   = true;
-        // $mail->Username   = $env['MAIL_USERNAME'];
-        // $mail->Password   = $env['MAIL_PASSWORD'];   // same as cPanel email pass
-        // $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // use SSL
-        // $mail->Port       = 465;
-
-        // Sender & Recipient
-        // $mail->setFrom('admin@wealthtrustcap.com', 'WealthTrust');
-        $mail->setFrom('mukultiwari218@gmail.com', 'WealthTrust');
-        // $mail->addAddress('enquiry@wealthtrustcap.com');   // official recipient
-        $mail->addAddress('mukultiwari1802@gmail.com');   // test recipient
-        $mail->addReplyTo('admin@wealthtrustcap.com', 'WealthTrust');
-
+        $mail->Host       = 'localhost';
+        $mail->SMTPAuth   = false;
+        $mail->Port       = 25;
+        $mail->SMTPSecure = false; // no TLS/SSL
 
         echo "<pre>SMTP Config:
 Host: {$mail->Host}
 Port: {$mail->Port}
 SMTPAuth: " . ($mail->SMTPAuth ? 'true' : 'false') . "
-Username: {$mail->Username}
 </pre>";
 
-        // Sender & Receiver
-        $mail->setFrom('admin@wealthtrustcap.com', 'WealthTrust Test');
+        // Sender & Recipient
+        $mail->setFrom('admin@wealthtrustcap.com', 'WealthTrust');
         $mail->addAddress($to);
+        $mail->addReplyTo('admin@wealthtrustcap.com', 'WealthTrust');
 
         echo "<pre>Sending mail to: {$to}\nSubject: {$subject}</pre>";
 
@@ -76,6 +48,7 @@ Username: {$mail->Username}
         return false;
     }
 }
+
 
 function loadTemplate($templateFile, $data = [])
 {
