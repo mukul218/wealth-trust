@@ -31,13 +31,13 @@ function sendMail($to, $subject, $bodyHtml, $bodyAlt = '')
 
 
 
-        $mail->isSMTP();
-        $mail->Host       = 'smtpout.secureserver.net';
-        $mail->SMTPAuth   = true;
-        $mail->Username   = $env['MAIL_USERNAME'];
-        $mail->Password   = $env['MAIL_PASSWORD'];   // same as cPanel email pass
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // use SSL
-        $mail->Port       = 465;
+        // $mail->isSMTP();
+        // $mail->Host       = 'smtpout.secureserver.net';
+        // $mail->SMTPAuth   = true;
+        // $mail->Username   = $env['MAIL_USERNAME'];
+        // $mail->Password   = $env['MAIL_PASSWORD'];   // same as cPanel email pass
+        // $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // use SSL
+        // $mail->Port       = 465;
 
         // Sender & Recipient
         $mail->setFrom('admin@wealthtrustcap.com', 'WealthTrust');
