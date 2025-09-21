@@ -14,20 +14,20 @@ function sendMail($to, $subject, $bodyHtml, $bodyAlt = '')
         echo "<pre>--- DEBUG: Initializing Mail ---\n</pre>";
 
         // --- TEST MODE (GMAIL) ---
-        // $mail->isSMTP();
-        // $mail->Host       = 'smtp.gmail.com';
-        // $mail->SMTPAuth   = true;
-        // $mail->Username   = 'mukultiwari218@gmail.com'; // Sender Gmail
-        // $mail->Password   = 'vgol ygbl lqhu rphq';        // ⚠️ Use Gmail App Password
-        // $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        // $mail->Port       = 587;
-
-        // --- PRODUCTION MODE (GODADDY, uncomment later) ---
         $mail->isSMTP();
-        $mail->Host       = 'localhost';
-        $mail->SMTPAuth   = false;
-        $mail->SMTPSecure = false;
-        $mail->Port       = 25;
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'mukultiwari218@gmail.com'; // Sender Gmail
+        $mail->Password   = 'vgol ygbl lqhu rphq';        // ⚠️ Use Gmail App Password
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port       = 587;
+
+        // // --- PRODUCTION MODE (GODADDY, uncomment later) ---
+        // $mail->isSMTP();
+        // $mail->Host       = 'localhost';
+        // $mail->SMTPAuth   = false;
+        // $mail->SMTPSecure = false;
+        // $mail->Port       = 25;
 
 
 
@@ -40,7 +40,8 @@ function sendMail($to, $subject, $bodyHtml, $bodyAlt = '')
         // $mail->Port       = 465;
 
         // Sender & Recipient
-        $mail->setFrom('admin@wealthtrustcap.com', 'WealthTrust');
+        // $mail->setFrom('admin@wealthtrustcap.com', 'WealthTrust');
+        $mail->setFrom('mukultiwari218@gmail.com', 'WealthTrust');
         // $mail->addAddress('enquiry@wealthtrustcap.com');   // official recipient
         $mail->addAddress('mukultiwari1802@gmail.com');   // test recipient
         $mail->addReplyTo('admin@wealthtrustcap.com', 'WealthTrust');
