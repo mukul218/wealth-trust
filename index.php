@@ -443,28 +443,13 @@
             </div>
 
             <!-- Articles -->
-            <div class="row article-cards">
-                <div class="col-12 col-md-6 col-lg-3 mb-3">
-                    <div class="article-card">
-                        <h6>Why is the Global Economy nearing recession in 2023?</h6>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 mb-3">
-                    <div class="article-card">
-                        <h6>Planning For Your Retirement</h6>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 mb-3">
-                    <div class="article-card">
-                        <h6>Shiksha Se Samriddhi: क्या Share Market में आप बिना तैयारी का निवेश करने का सोच रहे हैं? | CNBC Awaaz</h6>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 mb-3">
-                    <div class="article-card">
-                        <h6>Sneha's guide to financial freedom</h6>
-                    </div>
-                </div>
+            <div class="row article-cards" id="blogList"></div>
+
+            <!-- Fallback message -->
+            <div id="noBlogs" class="text-center d-none">
+                <p>No blogs available at the moment.</p>
             </div>
+
         </div>
     </section>
 
@@ -472,6 +457,69 @@
     <?php
     include_once 'includes/footer.php';
     ?>
+    <script>
+        $(function() {
+            $.getJSON('./api/blog/get_blogs.php', function(res) {
+                const blogs = (res && res.data) ? res.data.slice(0, 4) : []; // limit to 4
+                const $list = $('#blogList');
+                const $fallback = $('#noBlogs');
+
+                if (!blogs.length) {
+                    $fallback.removeClass('d-none');
+                    return;
+                }
+
+                const truncate = (html, n = 140) => {
+                    const tmp = document.createElement('div');
+                    tmp.innerHTML = html || '';
+                    const text = (tmp.textContent || tmp.innerText || '').trim();
+                    return text.length > n ? text.slice(0, n).trim() + '…' : text;
+                };
+
+                const fmtDate = (d) => {
+                    try {
+                        return new Date(d).toLocaleDateString('en-IN', {
+                            day: '2-digit',
+                            month: 'short',
+                            year: 'numeric'
+                        });
+                    } catch (e) {
+                        return '';
+                    }
+                };
+
+                blogs.forEach(b => {
+                    const title = (b.title || 'Untitled').toString();
+                    const slug = encodeURIComponent(b.slug || '');
+                    const excerpt = truncate(b.content || '', 140);
+                    const when = fmtDate(b.created_at);
+
+                    const thumb = b.image_url ?
+                        `<div class="blog-thumb"><img src="${b.image_url}" alt="${title}"></div>` :
+                        `<div class="blog-thumb"><div class="thumb-fallback">BLOG</div></div>`;
+
+                    const card = `
+        <div class="col-md-6 col-lg-3 d-flex">
+          <article class="blog-card w-100">
+            ${thumb}
+            <div class="blog-body">
+              <h5 class="blog-title">${title}</h5>
+              <p class="blog-excerpt">${excerpt}</p>
+
+              <div class="blog-meta">
+                <span class="blog-date">${when}</span>
+                <a href="blog-detail.php?slug=${slug}" class="btn btn-outline-primary blog-read">Read More</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      `;
+
+                    $list.append(card);
+                });
+            });
+        });
+    </script>
 
 </body>
 

@@ -63,6 +63,8 @@
                                 <li><a href="target-sip-calculator.php">Target SIP Calculator</a></li>
                                 <li><a href="lumpsum-target-calculator.php">Lumpsum Target Calculator</a></li>
                                 <li><a href="crorepati-calculator.php">Crorepati Calculator</a></li>
+                                <li><a href="./car-calculator.php">Car Calculator</a></li>
+                                <li><a href="./house-calculator.php">House Calculator</a></li>
                             </ul>
 
                             <h4 class="footer-heading mt-4">Download our app</h4>

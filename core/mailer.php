@@ -19,7 +19,6 @@ function sendMail($to, $subject, $bodyHtml, $bodyAlt = '')
     $mail = new PHPMailer(true);
 
     try {
-        echo "<pre>--- DEBUG: Initializing Mail ---\n</pre>";
 
         // --- GoDaddy Economy Hosting Local Relay ---
         $mail->isSMTP();
@@ -27,12 +26,6 @@ function sendMail($to, $subject, $bodyHtml, $bodyAlt = '')
         $mail->SMTPAuth   = false;
         $mail->Port       = 25;
         $mail->SMTPSecure = false; // no TLS/SSL
-
-        echo "<pre>SMTP Config:
-Host: {$mail->Host}
-Port: {$mail->Port}
-SMTPAuth: " . ($mail->SMTPAuth ? 'true' : 'false') . "
-</pre>";
 
         // Sender
         $mail->setFrom('admin@wealthtrustcap.com', 'WealthTrust');
@@ -42,14 +35,11 @@ SMTPAuth: " . ($mail->SMTPAuth ? 'true' : 'false') . "
         if (is_array($to)) {
             foreach ($to as $recipient) {
                 $mail->addAddress($recipient);
-                echo "<pre>Added recipient: {$recipient}</pre>";
             }
         } else {
             $mail->addAddress($to);
-            echo "<pre>Added recipient: {$to}</pre>";
         }
 
-        echo "<pre>Subject: {$subject}</pre>";
 
         // Content
         $mail->isHTML(true);
@@ -59,11 +49,8 @@ SMTPAuth: " . ($mail->SMTPAuth ? 'true' : 'false') . "
 
         $mail->send();
 
-        echo "<pre>--- DEBUG: Mail Sent Successfully ---</pre>";
         return true;
     } catch (Exception $e) {
-        echo "<pre>--- DEBUG: Mailer Error ---\n{$mail->ErrorInfo}\n</pre>";
-        error_log("Mailer Error: {$mail->ErrorInfo}");
         return false;
     }
 }
@@ -79,15 +66,12 @@ function loadTemplate($templateFile, $data = [])
 {
     $templatePath = __DIR__ . "/mail_templates/" . $templateFile;
     if (!file_exists($templatePath)) {
-        echo "<pre>--- DEBUG: Template not found: {$templatePath} ---</pre>";
         return '';
     }
 
     $content = file_get_contents($templatePath);
-    echo "<pre>--- DEBUG: Loaded Template: {$templateFile} ---</pre>";
 
     foreach ($data as $key => $value) {
-        echo "<pre>Replacing {{$key}} with {$value}</pre>";
         $content = str_replace("{{{$key}}}", htmlspecialchars($value), $content);
     }
 
