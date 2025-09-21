@@ -39,7 +39,7 @@ Username: {$mail->Username}
 </pre>";
 
         // Sender & Receiver
-        $mail->setFrom('mukultiwari218@gmail.com', 'WealthTrust Test');
+        $mail->setFrom('admin@wealthtrustcap.com', 'WealthTrust Test');
         $mail->addAddress($to);
 
         echo "<pre>Sending mail to: {$to}\nSubject: {$subject}</pre>";
