@@ -104,7 +104,7 @@
                     <!-- Integrity -->
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="value-icon rounded-pill mx-auto mb-3 d-flex align-items-center justify-content-center">
-                            <img src="./public/assets/image/icon/integrity.png" alt="Integrity" class="img-fluid" style="max-width: 100px;">
+                            <img src="./public/assets/image/icon/Integrity.png" alt="Integrity" class="img-fluid" style="max-width: 100px;">
                         </div>
                         <h6 class="text-primary mb-1 fs-5"><b>Integrity</b></h6>
                         <p class="text-sm mb-0">
