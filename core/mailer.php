@@ -26,10 +26,25 @@ function sendMail($to, $subject, $bodyHtml, $bodyAlt = '')
         $mail->isSMTP();
         $mail->Host       = 'localhost';
         $mail->SMTPAuth   = false;
-        $mail->Username   = $env['MAIL_USERNAME'];
-        $mail->Password   = $env['MAIL_PASSWORD'];
         $mail->SMTPSecure = false;
         $mail->Port       = 25;
+
+
+
+        $mail->isSMTP();
+        $mail->Host       = 'smtpout.secureserver.net';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = $env['MAIL_USERNAME'];
+        $mail->Password   = $env['MAIL_PASSWORD'];   // same as cPanel email pass
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // use SSL
+        $mail->Port       = 465;
+
+        // Sender & Recipient
+        $mail->setFrom('admin@wealthtrustcap.com', 'WealthTrust');
+        // $mail->addAddress('enquiry@wealthtrustcap.com');   // official recipient
+        $mail->addAddress('mukultiwari1802@gmail.com');   // test recipient
+        $mail->addReplyTo('admin@wealthtrustcap.com', 'WealthTrust');
+
 
         echo "<pre>SMTP Config:
 Host: {$mail->Host}
