@@ -117,6 +117,20 @@ if (!isset($_SESSION['admin'])) {
                         </div>
                     </div>
 
+                    <!-- Career Requests -->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body text-center">
+                                <i class="bi bi-briefcase-fill text-primary fs-1 mb-3"></i>
+                                <h5 class="card-title">Career Requests</h5>
+                                <div class="d-grid gap-2 mt-2">
+                                    <a href="view_careers.php" class="btn btn-outline-primary btn-sm">View Applications</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                     <!-- Logout -->
                     <div class="col-md-4 col-sm-6">
                         <div class="card border-0 shadow-sm h-100">

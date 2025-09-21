@@ -13,7 +13,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
- <!-- Favicon -->
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
 </head>
 
@@ -367,29 +367,38 @@
             <div class="row g-4">
                 <!-- FORM -->
                 <div class="col-12 col-lg-7 border-lg-end pe-lg-4">
-                    <form action="/careers/apply" method="post" enctype="multipart/form-data" novalidate>
+                    <form id="careerForm" action="/careers/apply" method="post" enctype="multipart/form-data" novalidate class="needs-validation">
                         <div class="row g-3">
                             <div class="col-sm-6">
                                 <input type="text" name="full_name" class="form-control" placeholder="Enter your full name" required>
+                                <div class="invalid-feedback">Full name is required.</div>
                             </div>
+
                             <div class="col-sm-6">
-                                <input type="tel" name="contact" class="form-control" placeholder="Enter your Contact" required>
+                                <input type="tel" name="contact" class="form-control" placeholder="Enter your contact number" pattern="[0-9+\-\s]{7,15}" required>
+                                <div class="invalid-feedback">Please enter a valid contact number.</div>
                             </div>
 
                             <div class="col-12">
-                                <input type="email" name="email" class="form-control" placeholder="Enter your Email" required>
+                                <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                                <div class="invalid-feedback">Please enter a valid email address.</div>
                             </div>
 
                             <div class="col-12">
                                 <textarea name="description" rows="5" class="form-control" placeholder="Enter your description" required></textarea>
+                                <div class="invalid-feedback">Description is required.</div>
                             </div>
 
                             <div class="col-12">
                                 <input type="file" name="resume" class="form-control" aria-label="Upload your resume" accept=".pdf,.doc,.docx">
+                                <div class="form-text">Accepted formats: PDF, DOC, DOCX (optional)</div>
                             </div>
 
                             <div class="col-12 text-center mt-2">
-                                <button type="submit" class="btn btn-primary rounded-pill px-5">Submit</button>
+                                <button id="careerSubmitBtn" type="submit" class="btn btn-primary rounded-pill px-5">
+                                    Submit
+                                </button>
+                                <div id="careerAlert" class="mt-3"></div> <!-- Alert will show here -->
                             </div>
                         </div>
                     </form>
@@ -409,6 +418,70 @@
     <?php
     include_once 'includes/footer.php';
     ?>
+    <script>
+        (function() {
+            'use strict';
+
+            $("#careerForm").on("submit", function(e) {
+                e.preventDefault();
+
+                var form = this;
+                if (!form.checkValidity()) {
+                    e.stopPropagation();
+                    $(form).addClass("was-validated");
+                    return;
+                }
+
+                var formData = new FormData(form);
+                var $btn = $("#careerSubmitBtn");
+
+                // Reset alert
+                $("#careerAlert").html("").removeClass("alert alert-success alert-danger");
+
+                // Change button to loader
+                $btn.prop("disabled", true).html(`
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            Submitting...
+        `);
+
+                $.ajax({
+                    url: "./api/careers/apply.php",
+                    type: "POST",
+                    data: formData,
+                    contentType: false,
+                    processData: false,
+                    success: function(res) {
+                        if (res.status === "success") {
+                            $("#careerAlert")
+                                .addClass("alert alert-success")
+                                .html(res.data.message);
+
+                            form.reset();
+                            $(form).removeClass("was-validated");
+                        } else {
+                            $("#careerAlert")
+                                .addClass("alert alert-danger")
+                                .html(res.data?.message || "Something went wrong!");
+                        }
+                    },
+                    error: function(xhr) {
+                        let res = {};
+                        try {
+                            res = JSON.parse(xhr.responseText);
+                        } catch (e) {}
+                        $("#careerAlert")
+                            .addClass("alert alert-danger")
+                            .html(res.data?.message || res.message || "Something went wrong!");
+                    },
+                    complete: function() {
+                        // Restore button
+                        $btn.prop("disabled", false).html("Submit");
+                    }
+                });
+            });
+        })();
+    </script>
+
 
 </body>
 
