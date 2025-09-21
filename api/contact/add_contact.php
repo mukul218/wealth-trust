@@ -31,7 +31,7 @@ if ($stmt->execute()) {
 
     // Send notification
     sendMail(
-        "mukultiwari1802@gmail.com", // receiver
+        "enquiry@wealthtrustcap.com", // receiver
         "New Contact Request from $full_name",
         $htmlBody
     );

@@ -32,7 +32,7 @@ if ($stmt->execute()) {
         "email" => $email
     ]);
 
-    sendMail("mukultiwari1802@gmail.com", "New Newsletter Subscriber", $htmlBody);
+    sendMail("enquiry@wealthtrustcap.com", "New Newsletter Subscriber", $htmlBody);
 
     response([
         "message" => "Subscribed successfully!",
