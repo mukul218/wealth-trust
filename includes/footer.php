@@ -1,4 +1,4 @@
-<footer class="site-footer color-primary mt-5">
+<footer class="site-footer color-primary mt-5" id="footer-container">
     <div class="footer-bg container-fluid bg-white">
         <div class="container">
             <div class="row gy-5 align-items-start">

@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
+ <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
     <style>
         .about-title {
             text-shadow: 4px 4px 5px rgb(0 0 0 / 50%);

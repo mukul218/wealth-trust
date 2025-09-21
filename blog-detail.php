@@ -26,6 +26,8 @@ if (!$blog) {
     <meta charset="UTF-8">
     <title><?= htmlspecialchars($blog['title']) ?></title>
     <link rel="stylesheet" href="./public/assets/css/style.css">
+ <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>

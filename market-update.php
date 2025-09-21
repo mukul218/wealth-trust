@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
+ <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
     <style>
         /* WebKit Browsers (Chrome, Edge, Safari) */
         #pdfList::-webkit-scrollbar {
@@ -47,7 +49,7 @@
                         Provides you with an encompassing view of the current economy, equity and debt markets
                         for the month along with the likely impact on investments.
                     </p>
-                    <button class="btn btn-success btn-lg rounded-pill mt-3 px-4 shadow">Subscribe</button>
+                    <button id="scrollSubscribe" class="btn btn-success btn-lg rounded-pill mt-3 px-4 shadow">Subscribe</button>
                 </div>
             </div>
         </div>
@@ -80,6 +82,14 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function() {
+
+            $('#scrollSubscribe').on('click', function(e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $('#footer-container').offset().top
+                }, 600); // 600ms smooth scroll
+            });
+
             $.getJSON('./api/pdf/get_pdfs.php', function(res) {
                 if (res.status === 'success' && res.data.pdfs.length > 0) {
                     const pdfs = res.data.pdfs;

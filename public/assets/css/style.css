@@ -472,6 +472,7 @@ video {
 }
 
 .nav-link {
+    font-size:var(--fs-lg) ;
     color: var(--text-dark) !important;
     font-weight: var(--fw-medium);
     margin: 0 10px;
