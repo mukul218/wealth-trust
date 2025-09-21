@@ -5,6 +5,15 @@ use PHPMailer\PHPMailer\Exception;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
+/**
+ * Send email using GoDaddy Local Relay
+ *
+ * @param string|array $to       Recipient email(s) (string or array)
+ * @param string       $subject  Email subject
+ * @param string       $bodyHtml HTML body content
+ * @param string       $bodyAlt  Optional plain text fallback
+ * @return bool
+ */
 function sendMail($to, $subject, $bodyHtml, $bodyAlt = '')
 {
     $mail = new PHPMailer(true);
@@ -12,7 +21,7 @@ function sendMail($to, $subject, $bodyHtml, $bodyAlt = '')
     try {
         echo "<pre>--- DEBUG: Initializing Mail ---\n</pre>";
 
-        // --- GODADDY LOCAL RELAY (Economy Hosting) ---
+        // --- GoDaddy Economy Hosting Local Relay ---
         $mail->isSMTP();
         $mail->Host       = 'localhost';
         $mail->SMTPAuth   = false;
@@ -25,12 +34,22 @@ Port: {$mail->Port}
 SMTPAuth: " . ($mail->SMTPAuth ? 'true' : 'false') . "
 </pre>";
 
-        // Sender & Recipient
+        // Sender
         $mail->setFrom('admin@wealthtrustcap.com', 'WealthTrust');
-        $mail->addAddress($to);
         $mail->addReplyTo('admin@wealthtrustcap.com', 'WealthTrust');
 
-        echo "<pre>Sending mail to: {$to}\nSubject: {$subject}</pre>";
+        // Recipients (accepts string or array)
+        if (is_array($to)) {
+            foreach ($to as $recipient) {
+                $mail->addAddress($recipient);
+                echo "<pre>Added recipient: {$recipient}</pre>";
+            }
+        } else {
+            $mail->addAddress($to);
+            echo "<pre>Added recipient: {$to}</pre>";
+        }
+
+        echo "<pre>Subject: {$subject}</pre>";
 
         // Content
         $mail->isHTML(true);
@@ -49,7 +68,13 @@ SMTPAuth: " . ($mail->SMTPAuth ? 'true' : 'false') . "
     }
 }
 
-
+/**
+ * Load and parse an email template file
+ *
+ * @param string $templateFile File name in mail_templates directory
+ * @param array  $data         Key-value pairs to replace in template
+ * @return string
+ */
 function loadTemplate($templateFile, $data = [])
 {
     $templatePath = __DIR__ . "/mail_templates/" . $templateFile;
@@ -57,11 +82,14 @@ function loadTemplate($templateFile, $data = [])
         echo "<pre>--- DEBUG: Template not found: {$templatePath} ---</pre>";
         return '';
     }
+
     $content = file_get_contents($templatePath);
     echo "<pre>--- DEBUG: Loaded Template: {$templateFile} ---</pre>";
+
     foreach ($data as $key => $value) {
         echo "<pre>Replacing {{$key}} with {$value}</pre>";
         $content = str_replace("{{{$key}}}", htmlspecialchars($value), $content);
     }
+
     return $content;
 }
