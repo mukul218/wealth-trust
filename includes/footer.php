@@ -1,4 +1,4 @@
-<footer class="site-footer color-primary mt-5">
+<footer class="site-footer color-primary mt-5" id="footer-container">
     <div class="footer-bg container-fluid bg-white">
         <div class="container">
             <div class="row gy-5 align-items-start">
@@ -63,6 +63,8 @@
                                 <li><a href="target-sip-calculator.php">Target SIP Calculator</a></li>
                                 <li><a href="lumpsum-target-calculator.php">Lumpsum Target Calculator</a></li>
                                 <li><a href="crorepati-calculator.php">Crorepati Calculator</a></li>
+                                <li><a href="./car-calculator.php">Car Calculator</a></li>
+                                <li><a href="./house-calculator.php">House Calculator</a></li>
                             </ul>
 
                             <h4 class="footer-heading mt-4">Download our app</h4>
@@ -78,10 +80,17 @@
                 <div class="col-lg-2 col-md-12 pt-4">
                     <h4 class="footer-heading primary">Stay Updated</h4>
                     <p class="mb-3 small">Get monthly market insights to your inbox</p>
-                    <form class="newsletter-form d-flex flex-column gap-2">
-                        <input type="email" class="form-control" placeholder="Email" aria-label="Email for updates">
-                        <button class="btn btn-subscribe " type="submit">Subscribe</button>
+                    <form id="newsletterForm" class="newsletter-form d-flex flex-column gap-2">
+                        <input type="email" id="newsletterEmail" class="form-control" placeholder="Email" required>
+                        <button class="btn btn-subscribe" type="submit" id="newsletterBtn">
+                            <span class="btn-text">Subscribe</span>
+                            <span class="btn-loader spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                        </button>
                     </form>
+
+                    <div id="newsletterAlert" class="mt-2"></div>
+
+
                 </div>
             </div>
             <section class="certification-section">
@@ -146,3 +155,50 @@
 <?php
 include_once "./public/assets/js/externalScript.php";
 ?>
+
+<script>
+    $('#newsletterForm').on('submit', function(e) {
+        e.preventDefault();
+
+        const email = $('#newsletterEmail').val().trim();
+        if (!email) {
+            $('#newsletterAlert').html('<div class="alert alert-warning">Please enter an email.</div>');
+            return;
+        }
+
+        const $btn = $('#newsletterBtn');
+        const $btnText = $btn.find('.btn-text');
+        const $btnLoader = $btn.find('.btn-loader');
+
+        // Show loader, hide text
+        $btn.prop('disabled', true);
+        $btnText.addClass('d-none');
+        $btnLoader.removeClass('d-none');
+
+        $.ajax({
+            url: './api/newsletter/subscribe.php',
+            type: 'POST',
+            data: {
+                email
+            },
+            dataType: 'json',
+            success: function(res) {
+                if (res.status === 'success') {
+                    $('#newsletterAlert').html(`<div class="alert alert-success">${res.data.message}</div>`);
+                    $('#newsletterForm')[0].reset();
+                } else {
+                    $('#newsletterAlert').html(`<div class="alert alert-danger">${res.data.message}</div>`);
+                }
+            },
+            error: function() {
+                $('#newsletterAlert').html('<div class="alert alert-danger">Server error. Please try again later.</div>');
+            },
+            complete: function() {
+                // Hide loader, show text
+                $btn.prop('disabled', false);
+                $btnText.removeClass('d-none');
+                $btnLoader.addClass('d-none');
+            }
+        });
+    });
+</script>

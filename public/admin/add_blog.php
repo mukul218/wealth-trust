@@ -28,12 +28,8 @@ if (!isset($_SESSION['admin'])) {
 <body class="bg-light">
     <?php include_once "./component/navbar.php"; ?>
 
-
-    <div class="container mt-5">
+    <div class="container my-5">
         <h2 class="mb-3">Add New Blog</h2>
-
-        <!-- Alert Box -->
-        <div id="alertBox"></div>
 
         <form id="blogForm" enctype="multipart/form-data">
             <div class="mb-3">
@@ -65,12 +61,14 @@ if (!isset($_SESSION['admin'])) {
                 <input class="form-check-input" type="checkbox" id="is_published" name="is_published" checked>
                 <label class="form-check-label" for="is_published">Publish Immediately</label>
             </div>
+            <!-- Alert Box -->
+            <div id="alertBox"></div>
             <button type="submit" class="btn btn-success">Submit Blog</button>
             <a href="dashboard.php" class="btn btn-secondary ms-2">Back</a>
         </form>
     </div>
 
-    <!-- Summernote JS (place after jQuery) -->
+    <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.20/dist/summernote-lite.min.js"></script>
 
@@ -94,29 +92,42 @@ if (!isset($_SESSION['admin'])) {
             const formData = new FormData(this);
 
             $.ajax({
-                url: './../../functions/submit_blog.php',
+                url: './../../api/blog/submit_blog.php',
                 type: 'POST',
                 data: formData,
                 contentType: false,
                 processData: false,
-                success: function(res) {
-                    $('#alertBox').html(`<div class="alert alert-success">${res}</div>`);
-                    $('#blogForm')[0].reset();
-                    $('#preview').addClass('d-none');
+                dataType: "json",
+                success: function(data) {
+                    if (data.status === 'success') {
+                        $('#alertBox').html(
+                            `<div class="alert alert-success">${data.data.message}</div>`
+                        );
+                        $('#blogForm')[0].reset();
+                        $('#summernote').summernote('reset');
+                        $('#preview').addClass('d-none');
+                    } else {
+                        $('#alertBox').html(
+                            `<div class="alert alert-danger">${data.data.message || 'Failed to add blog'}</div>`
+                        );
+                    }
                 },
-                error: function() {
+                error: function(xhr) {
                     $('#alertBox').html('<div class="alert alert-danger">Something went wrong.</div>');
+                    console.error("Error response:", xhr.responseText);
                 }
             });
+
         });
 
+        // Init Summernote
         $(document).ready(function() {
             $('#summernote').summernote({
                 placeholder: 'Write blog content here...',
                 height: 300,
                 tabsize: 2,
                 toolbar: [
-                    ['style', ['style']], // Heading, blockquote etc.
+                    ['style', ['style']],
                     ['font', ['bold', 'italic', 'underline', 'strikethrough', 'clear']],
                     ['fontname', ['fontname']],
                     ['fontsize', ['fontsize']],
@@ -132,7 +143,6 @@ if (!isset($_SESSION['admin'])) {
             });
         });
     </script>
-
 </body>
 
 </html>
