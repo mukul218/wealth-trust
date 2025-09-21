@@ -5,7 +5,7 @@ if (!isset($_GET['slug'])) {
 }
 
 $slug = $_GET['slug'];
-include_once "./database/config.php";
+include_once "./core/config.php";
 
 $stmt = $conn->prepare("SELECT * FROM blogs WHERE slug = ? AND is_published = 1");
 $stmt->bind_param("s", $slug);
