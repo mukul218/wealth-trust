@@ -44,7 +44,7 @@ if (!$blog) {
             <img src="<?= $blog['image_url'] ?>" class="img-fluid mb-4" alt="<?= $blog['title'] ?>">
         <?php endif; ?>
 
-        <div><?= nl2br(htmlspecialchars($blog['content'])) ?></div>
+        <div><?= $blog['content'] ?></div>
 
         <p class="mt-4">
             <strong>Category:</strong> <?= htmlspecialchars($blog['category']) ?><br>
