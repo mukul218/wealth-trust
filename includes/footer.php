@@ -82,10 +82,14 @@
                     <p class="mb-3 small">Get monthly market insights to your inbox</p>
                     <form id="newsletterForm" class="newsletter-form d-flex flex-column gap-2">
                         <input type="email" id="newsletterEmail" class="form-control" placeholder="Email" required>
-                        <button class="btn btn-subscribe" type="submit">Subscribe</button>
+                        <button class="btn btn-subscribe" type="submit" id="newsletterBtn">
+                            <span class="btn-text">Subscribe</span>
+                            <span class="btn-loader spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                        </button>
                     </form>
 
                     <div id="newsletterAlert" class="mt-2"></div>
+
 
                 </div>
             </div>
@@ -162,6 +166,15 @@ include_once "./public/assets/js/externalScript.php";
             return;
         }
 
+        const $btn = $('#newsletterBtn');
+        const $btnText = $btn.find('.btn-text');
+        const $btnLoader = $btn.find('.btn-loader');
+
+        // Show loader, hide text
+        $btn.prop('disabled', true);
+        $btnText.addClass('d-none');
+        $btnLoader.removeClass('d-none');
+
         $.ajax({
             url: './api/newsletter/subscribe.php',
             type: 'POST',
@@ -179,6 +192,12 @@ include_once "./public/assets/js/externalScript.php";
             },
             error: function() {
                 $('#newsletterAlert').html('<div class="alert alert-danger">Server error. Please try again later.</div>');
+            },
+            complete: function() {
+                // Hide loader, show text
+                $btn.prop('disabled', false);
+                $btnText.removeClass('d-none');
+                $btnLoader.addClass('d-none');
             }
         });
     });

@@ -125,8 +125,12 @@
 
                             <!-- Submit -->
                             <div class="text-center ps-sm-3">
-                                <button type="submit" class="btn btn-primary rounded-pill px-4">Submit</button>
+                                <button type="submit" class="btn btn-primary rounded-pill px-4" id="contactBtn">
+                                    <span class="btn-text">Submit</span>
+                                    <span class="btn-loader spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                                </button>
                             </div>
+
                         </form>
 
                     </div>
@@ -153,6 +157,15 @@
                 return;
             }
 
+            const $btn = $('#contactBtn');
+            const $btnText = $btn.find('.btn-text');
+            const $btnLoader = $btn.find('.btn-loader');
+
+            // Show loader, hide text
+            $btn.prop('disabled', true);
+            $btnText.addClass('d-none');
+            $btnLoader.removeClass('d-none');
+
             // Submit via AJAX
             $.ajax({
                 url: './api/contact/add_contact.php',
@@ -170,6 +183,12 @@
                 },
                 error: function() {
                     $('#alertBox').html('<div class="alert alert-danger">Server error. Please try again.</div>');
+                },
+                complete: function() {
+                    // Hide loader, show text again
+                    $btn.prop('disabled', false);
+                    $btnText.removeClass('d-none');
+                    $btnLoader.addClass('d-none');
                 }
             });
         });
