@@ -1,0 +1,14 @@
+# Disable directory listing
+Options -Indexes
+
+# Only allow PHP files to be accessed directly
+<FilesMatch "\.php$">
+    Order allow,deny
+    Allow from all
+</FilesMatch>
+
+# Deny everything else (like txt, ini, sql, etc.)
+<FilesMatch "\.(env|json|lock|md|sql|yml|yaml|ini)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

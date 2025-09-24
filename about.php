@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
+ <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
     <style>
         .about-title {
             text-shadow: 4px 4px 5px rgb(0 0 0 / 50%);
@@ -102,7 +104,7 @@
                     <!-- Integrity -->
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="value-icon rounded-pill mx-auto mb-3 d-flex align-items-center justify-content-center">
-                            <img src="./public/assets/image/icon/integrity.png" alt="Integrity" class="img-fluid" style="max-width: 100px;">
+                            <img src="./public/assets/image/icon/Integrity.png" alt="Integrity" class="img-fluid" style="max-width: 100px;">
                         </div>
                         <h6 class="text-primary mb-1 fs-5"><b>Integrity</b></h6>
                         <p class="text-sm mb-0">

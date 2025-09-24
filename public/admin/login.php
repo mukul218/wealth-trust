@@ -32,7 +32,6 @@ if (isset($_SESSION['admin'])) {
 </head>
 
 <body>
-
     <div class="container login-box">
         <div class="row justify-content-center">
             <div class="col-md-5">
@@ -69,28 +68,49 @@ if (isset($_SESSION['admin'])) {
             $(this).text(type === 'password' ? 'Show' : 'Hide');
         });
 
-        // Submit form via jQuery
+        // Submit form via AJAX
+        // Submit form via AJAX
         $('#loginForm').on('submit', function(e) {
             e.preventDefault();
+
             $.ajax({
-                url: '../../functions/admin_login.php',
-                method: 'POST',
+                url: './../../api/auth/admin_login.php',
+                type: 'POST',
                 data: $(this).serialize(),
-                success: function(response) {
-                    $('#alertBox').html(response);
-                    if (response.includes('Login successful')) {
+                dataType: 'json',
+                success: function(res) {
+                    console.log("RAW RESPONSE:", res);
+
+                    // If res is a string, parse it
+                    if (typeof res === 'string') {
+                        try {
+                            res = JSON.parse(res);
+                        } catch (e) {
+                            $('#alertBox').html('<div class="alert alert-danger">Invalid JSON response.</div>');
+                            return;
+                        }
+                    }
+
+                    const msg = res.data && res.data.message ? res.data.message : 'Unexpected response';
+
+                    if (res.status === 'success') {
+                        $('#alertBox').html(`<div class="alert alert-success">${msg}</div>`);
                         setTimeout(() => {
                             window.location.href = 'dashboard.php';
-                        }, 2000);
+                        }, 1500);
+                    } else {
+                        $('#alertBox').html(`<div class="alert alert-danger">${msg}</div>`);
                     }
                 },
-                error: function() {
-                    $('#alertBox').html('<div class="alert alert-danger">Server Error</div>');
+
+                error: function(xhr) {
+                    $('#alertBox').html(
+                        `<div class="alert alert-danger">Server Error: ${xhr.responseText || ''}</div>`
+                    );
                 }
             });
         });
     </script>
-
 </body>
 
 </html>

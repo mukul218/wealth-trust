@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
+ <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
 </head>
 
 <body>
@@ -44,7 +46,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(function() {
-            $.getJSON('./functions/get_blogs.php', function(res) {
+            $.getJSON('./api/blog/get_blogs.php', function(res) {
                 const blogs = (res && res.data) ? res.data : [];
                 const $list = $('#blogList');
                 const $fallback = $('#noBlogs');

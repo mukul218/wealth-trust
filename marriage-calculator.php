@@ -12,6 +12,8 @@
 
   <!-- Base + SIP UI styles (reuse SIP look) -->
   <link rel="stylesheet" href="./public/assets/css/style.css">
+ <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
   <link rel="stylesheet" href="./public/assets/css/sip-ui.css">
 
   <!-- Chart.js -->
