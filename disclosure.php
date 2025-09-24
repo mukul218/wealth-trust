@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
 </head>
 
 <body>
@@ -22,7 +24,7 @@
     <section class="hero-section">
         <div class="container">
             <!-- Disclosure Section -->
-            <div class="mb-5">
+            <div class="">
                 <div class="card-body">
                     <h2 class="card-title h4 text-primary mb-4">Disclosure</h2>
                     <h5 class="fw-bold mb-3">Commission Disclosure</h5>
@@ -59,6 +61,19 @@
                     </ul>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Disclosure Image -->
+    <section class="disclosure-image-section mb-5">
+        <div class="container text-center">
+            <!-- Heading -->
+            <h2 class="mb-4">Regulatory Disclosure</h2>
+
+            <!-- Image -->
+            <img src="./public/assets/image/disclosure.jpeg"
+                alt="Disclosure Image"
+                class="img-fluid d-block mx-auto">
         </div>
     </section>
 

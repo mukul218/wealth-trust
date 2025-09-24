@@ -335,7 +335,9 @@
                     </div>
                     <!-- Subscribe button OUTSIDE card -->
                     <div class="text-center mt-3">
-                        <button class="btn btn-pill btn-mint">Subscribe</button>
+                        <a href="https://calendly.com/wealthtrustcapitalservices/new-meeting" target="_blank" class="btn btn-pill btn-mint">
+                            Schedule Call
+                        </a>
                     </div>
                 </div>
 

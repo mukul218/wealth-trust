@@ -86,8 +86,8 @@
                         Login
                     </a>
                     <ul class="dropdown-menu text-nowrap" aria-labelledby="loginDropdown">
-                        <li><a class="dropdown-item" href="https://mf.wealthtrustcap.com/client/login.asp?arnid=wealthtrust">Client</a></li>
-                        <li><a class="dropdown-item" href="https://mf.wealthtrustcap.com/broker/login.asp?arnid=wealthtrust">Associate</a></li>
+                        <li><a class="dropdown-item" href="https://wealthtrustcapital.themfbox.com/">Client</a></li>
+                        <li><a class="dropdown-item" href="https://wealthtrustcapital.themfbox.com/">Associate</a></li>
                     </ul>
                 </div>
             </div>

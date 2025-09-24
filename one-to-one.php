@@ -69,7 +69,7 @@
                     </div>
 
                     <!-- CTA -->
-                    <a href="https://calendly.com/snehajain-wealthtrustcapitalservices/30"
+                    <a href="https://calendly.com/wealthtrustcapitalservices/new-meeting"
                         class="btn btn-success px-4 rounded-pill"
                         target="_blank"
                         rel="noopener">
@@ -116,7 +116,7 @@
             </div>
 
             <p class="mt-4 fw-bold">Even if one answer is "no," it's time to talk to an expert.</p>
-            <a href="https://calendly.com/snehajain-wealthtrustcapitalservices/30"
+            <a href="https://calendly.com/wealthtrustcapitalservices/new-meeting"
                 class="btn btn-success mt-2 px-4 rounded-pill"
                 target="_blank"
                 rel="noopener">
@@ -196,7 +196,7 @@
             </div>
 
             <p class="mt-5 fs-4">Let’s help you plan</p>
-            <a href="https://calendly.com/snehajain-wealthtrustcapitalservices/30"
+            <a href="https://calendly.com/wealthtrustcapitalservices/new-meeting"
                 class="btn btn-success rounded-pill px-4"
                 target="_blank"
                 rel="noopener">
@@ -302,7 +302,7 @@
             </div>
 
             <!-- Book Button -->
-            <a href="https://calendly.com/snehajain-wealthtrustcapitalservices/30"
+            <a href="https://calendly.com/wealthtrustcapitalservices/new-meeting"
                 class="btn btn-success mt-2 px-4 rounded-pill"
                 target="_blank"
                 rel="noopener">

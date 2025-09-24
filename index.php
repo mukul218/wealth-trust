@@ -50,7 +50,7 @@
                         </div>
 
                         <div class="mt-4">
-                            <a href="https://calendly.com/snehajain-wealthtrustcapitalservices/30"
+                            <a href="https://calendly.com/wealthtrustcapitalservices/new-meeting"
                                 class="btn btn-primary btn-lg"
                                 target="_blank"
                                 rel="noopener">

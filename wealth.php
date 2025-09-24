@@ -49,7 +49,7 @@
                         taxes to real estate, so you can live stress-free.
                     </p>
 
-                    <a href="https://calendly.com/snehajain-wealthtrustcapitalservices/30"
+                    <a href="https://calendly.com/wealthtrustcapitalservices/new-meeting"
                         class="btn btn-primary rounded-pill px-4 py-2"
                         target="_blank"
                         rel="noopener">
@@ -170,7 +170,7 @@
 
             <!-- CTA -->
             <div class="text-center mt-5">
-                <a href="https://mf.wealthtrustcap.com/client/login.asp?arnid=wealthtrust" class="btn btn-primary rounded-pill px-5">Get Started</a>
+                <a href="https://wealthtrustcapital.themfbox.com" class="btn btn-primary rounded-pill px-5">Get Started</a>
             </div>
         </div>
     </section>
@@ -324,7 +324,7 @@
 
             <!-- CTA -->
             <div class="mt-4">
-                <a href="https://calendly.com/snehajain-wealthtrustcapitalservices/30"
+                <a href="https://calendly.com/wealthtrustcapitalservices/new-meeting"
                     class="btn btn-primary rounded-pill px-4"
                     target="_blank"
                     rel="noopener">
