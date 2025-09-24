@@ -91,6 +91,21 @@ if (!isset($_SESSION['admin'])) {
                         </div>
                     </div>
 
+                    <!-- Complaints -->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body text-center">
+                                <i class="bi bi-exclamation-triangle-fill text-danger fs-1 mb-3"></i>
+                                <h5 class="card-title">Complaints</h5>
+                                <div class="d-grid gap-2 mt-2">
+                                    <a href="view_complaints.php" class="btn btn-outline-danger btn-sm">View Complaints</a>
+                                    <a href="add_complaint.php" class="btn btn-outline-secondary btn-sm">Add Complaint</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                     <!-- Contact Requests -->
                     <div class="col-md-4 col-sm-6">
                         <div class="card border-0 shadow-sm h-100">
