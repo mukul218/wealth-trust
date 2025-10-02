@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
- <!-- Favicon -->
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
 
     <style>
@@ -753,8 +753,6 @@
             </div>
         </div>
     </section>
-    <!-- ===== /EQUITY SECTION ===== -->
-
 
     <!-- Section: Important Disclosures & Guides -->
     <section class="py-5 bg-light">
@@ -789,10 +787,6 @@
             </div>
         </div>
     </section>
-
-
-
-
 
 
     <!-- FAQ Section -->
@@ -906,249 +900,57 @@
 
     <script>
         // ===== 1) Data (replace with your real numbers) =====
+        // Fetch data from API and render
+        function loadDisclosureData() {
+            // Current Month
+            $.getJSON("./api/disclosure/current.php", function(resp) {
+                if (resp.status === "success") {
+                    const tbody = document.querySelector("#pills-current tbody");
+                    renderTable(tbody, resp.data, [
+                        "source",
+                        "pending_last_month",
+                        "received",
+                        "resolved",
+                        "total_pending",
+                        "pending_over_3m",
+                        "avg_days"
+                    ]);
+                }
+            });
 
-        // Current Month rows
-        const cmRows = [{
-                source: 'Investors',
-                pending_last_month: 0,
-                received: 0,
-                resolved: 0,
-                total_pending: 0,
-                pending_over_3m: 0,
-                avg_days: 0
-            },
-            {
-                source: 'SEBI (Scores)',
-                pending_last_month: 0,
-                received: 0,
-                resolved: 0,
-                total_pending: 0,
-                pending_over_3m: 0,
-                avg_days: 0
-            },
-            {
-                source: 'Others',
-                pending_last_month: 0,
-                received: 0,
-                resolved: 0,
-                total_pending: 0,
-                pending_over_3m: 0,
-                avg_days: 0
-            },
-        ];
+            // Monthly
+            $.getJSON("./api/disclosure/monthly.php", function(resp) {
+                if (resp.status === "success") {
+                    const tbody = document.querySelector("#pills-monthly tbody");
+                    renderTable(tbody, resp.data, [
+                        "month",
+                        "carried_forward",
+                        "received",
+                        "resolved",
+                        "pending"
+                    ]);
+                }
+            });
 
-        // Monthly rows: DEC 2025 → JAN 2024 (newest first), extended to include all of 2024
-        const monthlyRows = [
-            // 2025
-            {
-                month: 'DEC 2025',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'NOV 2025',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'OCT 2025',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'SEP 2025',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'AUG 2025',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'JUL 2025',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'JUN 2025',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'MAY 2025',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'APR 2025',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'MAR 2025',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'FEB 2025',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'JAN 2025',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
+            // Annual
+            $.getJSON("./api/disclosure/annual.php", function(resp) {
+                if (resp.status === "success") {
+                    const tbody = document.querySelector("#pills-annual tbody");
+                    renderTable(tbody, resp.data, [
+                        "year",
+                        "carried_forward",
+                        "received",
+                        "resolved",
+                        "pending"
+                    ]);
+                }
+            });
+        }
 
-            // 2024
-            {
-                month: 'DEC 2024',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'NOV 2024',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'OCT 2024',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'SEP 2024',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'AUG 2024',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'JUL 2024',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'JUN 2024',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'MAY 2024',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'APR 2024',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'MAR 2024',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'FEB 2024',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                month: 'JAN 2024',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            }
-        ];
-
-        // Annual rows
-        const annualRows = [{
-                year: '2025–2024',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                year: '2024–2023',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                year: '2023–2022',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                year: '2022–2021',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-            {
-                year: '2021–2020',
-                carried_forward: 0,
-                received: 0,
-                resolved: 0,
-                pending: 0
-            },
-        ];
+        // Load on page ready
+        $(document).ready(function() {
+            loadDisclosureData();
+        });
 
         // ===== 2) Tiny renderer =====
         function renderTable(tbodyEl, rows, cols) {

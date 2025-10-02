@@ -39,6 +39,25 @@
                     </ul>
                 </li>
 
+                <!-- Complaints -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle px-3" href="#" id="complaintsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-exclamation-triangle-fill me-1"></i>Complaints
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="complaintsDropdown">
+                        <li>
+                            <a class="dropdown-item" href="add_complaint.php">
+                                <i class="bi bi-plus-circle-fill me-1"></i>Add Complaint
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="view_complaints.php">
+                                <i class="bi bi-list-ul me-1"></i>List Complaints
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
                 <!-- YouTube -->
                 <li class="nav-item">
                     <a class="nav-link px-3" href="list_video.php">
