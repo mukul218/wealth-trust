@@ -124,20 +124,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Card 3 -->
-                        <div class="col-md-4">
-                            <div class="cert-card p-3 h-100 d-flex flex-column justify-content-center">
-                                <div class="input-group input-group-sm w-auto">
-                                    <img src="./public/assets/image/icon/sebi.png" alt="SEBI Logo" style="width: 60px; height: auto;">
-                                    <p style="line-height: 15px;font-size: 12px;" class="mb-0 small">
-                                        <strong>WealthTrust Capital Services (Partnership Firm)</strong> –
-                                        SEBI Registered Research Analyst – INH000011149 |
-                                        GSTIN – 27AADFW8285G1ZO |
-                                        Member of BSE With Membership Number – 5705
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </div>
 
                     <!-- Risk Disclaimer -->
