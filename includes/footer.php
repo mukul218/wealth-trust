@@ -94,8 +94,50 @@
                 </div>
             </div>
             <section class="certification-section">
-                <div class="container text-white">p
-                    
+                <div class="container text-white">
+                    <h6 class="mb-4">we are well certified –</h6>
+                    <div class="row g-4">
+                        <!-- Card 1 -->
+                        <div class="col-md-4">
+                            <div class="cert-card p-3 h-100 d-flex flex-column justify-content-center">
+                                <div class="input-group input-group-sm w-auto">
+                                    <p style="line-height: 15px;font-size: 12px;" class="mb-0 small">
+                                        <strong>WealthTrust Capital Services</strong> |
+                                        CIN – AAF–3245 |
+                                        GSTIN – 27AACFW1937A1ZG |
+                                        ARN No. – 109017
+                                        <br>(AMFI Registered Mutual Fund Distributor)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="col-md-4">
+                            <div class="cert-card p-3 h-100 d-flex flex-column justify-content-center">
+                                <div class="input-group input-group-sm w-auto">
+                                    <p style="line-height: 15px;font-size: 12px;" class="mb-0 small">
+                                        <strong>WealthTrust Capital Services (Proprietorship)</strong> –
+                                        Bank and Financial Institution DSA
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col-md-4">
+                            <div class="cert-card p-3 h-100 d-flex flex-column justify-content-center">
+                                <div class="input-group input-group-sm w-auto">
+                                    <p style="line-height: 15px;font-size: 12px;" class="mb-0 small">
+                                        <strong>WealthTrust Capital Services (Partnership Firm)</strong> –
+                                        SEBI Registered Research Analyst – INH000011149 |
+                                        GSTIN – 27AADFW8285G1ZO |
+                                        Member of BSE With Membership Number – 5705
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Risk Disclaimer -->
                     <p class="text-center mt-4 text-black">
                         Mutual fund investments are subject to market risks. Read the scheme information and other related documents carefully, before investing. Past performance is not indicative of future returns.
                     </p>
