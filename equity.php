@@ -315,7 +315,7 @@
                     <div class="offering-card offering--mint h-100 p-4 border rounded d-flex flex-column">
                         <div>
                             <div class="d-flex align-items-start gap-3 mb-3">
-                                <img src="./public/assets/img/logo.png" alt="" class="portfolio-badge bg-white rounded">
+                                <img src="./public/assets/img/logo-new.png" alt="" class="portfolio-badge bg-white rounded">
                                 <h5 class="m-0 fw-bold">Curated Portfolio</h5>
                             </div>
                             <small class="text-muted"><b>Detailed Research Reports</b></small>
