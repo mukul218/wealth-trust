@@ -31,7 +31,7 @@ if (!isset($_SESSION['admin'])) {
                 <label for="source" class="form-label">Source *</label>
                 <select class="form-control" name="source" required>
                     <option value="Investors">Investors</option>
-                    <option value="SEBI (Scores)">SEBI (Scores)	</option>
+                    <option value="SEBI (Scores)">SEBI (Scores) </option>
                     <option value="Others">Others</option>
                 </select>
             </div>

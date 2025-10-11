@@ -5,7 +5,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WealthTrust | Retirement Calculator</title>
+  <!-- seo tag -->
+  <meta name="description" content="Use our Retirement Calculator to plan your post-retirement financial needs responsibly. All projections are for guidance and educational purposes.">
+  <meta name="keywords" content="retirement calculator, retirement planning, future savings tool, pension calculator">
+  <title>Retirement Planning Calculator | Estimate Future Savings</title>
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">

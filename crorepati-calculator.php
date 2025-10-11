@@ -5,7 +5,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WealthTrust | Become A Crorepati</title>
+  <!-- seo tag -->
+  <meta name="description" content="Estimate potential corpus growth through disciplined investing. Our Crorepati Calculator offers illustrative projections, not return assurance.">
+  <meta name="keywords" content="investment growth calculator, goal planner, wealth creation tool, financial calculator">
+  <title>Investment Growth Calculator | Plan Long-Term Financial Goals</title>
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">

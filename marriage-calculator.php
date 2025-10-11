@@ -5,7 +5,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WealthTrust | Marriage Goal Calculator</title>
+  <!-- seo tag -->
+  <meta name="description" content="Calculate the estimated savings needed for marriage expenses. Figures are indicative and for informational use only.">
+  <meta name="keywords" content="marriage calculator, wedding planning finance, goal-based investment, financial estimation">
+  <title>Marriage Goal Calculator | Estimate Financial Requirements</title>
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">

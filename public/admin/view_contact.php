@@ -58,7 +58,7 @@ if (!isset($_SESSION['admin'])) {
             $.getJSON('./../../api/contact/get_contacts.php', function(res) {
 
                 console.log(res);
-                
+
                 let html = '';
                 if (res.status === 'success' && res.data.contacts.length > 0) {
                     res.data.contacts.forEach(c => {

@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WealthTrust Capital Services</title>
+    <!-- seo tag -->
+    <meta name="description" content="Book a personal consultation with our SEBI-registered advisors. Get tailored investment guidance and clarity on your financial goals through a transparent advisory process.">
+    <meta name="keywords" content="financial consultation, personal investment advisory, sebi advisor consultation, portfolio review, customized financial advice">
+    <title>One-to-One Financial Consultation | Personalized Investment Guidance</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for social icons -->

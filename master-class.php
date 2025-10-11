@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WealthTrust Capital Services</title>
+    <!-- seo tag -->
+    <meta name="description" content="Join WealthTrust Capital’s Investment Master Class to learn about responsible investing, mutual funds, and financial planning. For educational and awareness purposes only.">
+    <meta name="keywords" content="investment masterclass, financial education, mutual fund learning, investor awareness program, investing workshops">
+    <title>Investment Master Class | Financial Awareness & Education</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for social icons -->

@@ -5,7 +5,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WealthTrust | Car Goal Calculator</title>
+  <!-- seo tag -->
+  <meta name="description" content="Use our Car Goal Calculator to estimate your future car savings. The tool provides educational projections to help plan responsibly.">
+  <meta name="keywords" content="car calculator, car savings plan, goal-based investment, financial planning tool">
+  <title>Car Goal Calculator | Estimate Future Purchase Planning</title>
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">

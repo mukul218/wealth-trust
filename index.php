@@ -4,7 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WealthTrust Capital Services - Invest with Confidence</title>
+    <!-- SEO Tag -->
+    <meta name="google-site-verification" content="1j7ccPo104QCfSnPKlo0O-_7zDg2ZZvBJ_m4FluR0OA" />
+
+    <meta name="description" content="WealthTrust Capital offers SEBI-registered financial advisory and mutual fund distribution services. We help you plan, invest, and grow responsibly with transparency and research-backed strategies.">
+
+    <meta name="keywords" content="sebi registered financial advisor, mutual fund distributor, wealth management services, financial planning firm, investment advisor">
+
+    <title>WealthTrust Capital | SEBI-Registered Financial Advisor for Smart Investing</title>
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
@@ -13,8 +20,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
 
-    <!-- SEO Tag -->
-    <meta name="google-site-verification" content="1j7ccPo104QCfSnPKlo0O-_7zDg2ZZvBJ_m4FluR0OA" />
+
 
     <style>
         .site-footer {

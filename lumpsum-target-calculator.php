@@ -5,7 +5,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WealthTrust | Lumpsum Target Calculator</title>
+  <!-- seo tag -->
+  <meta name="description" content="Use our Lumpsum Target Calculator to estimate the investment amount needed to achieve your financial goals. Projections are illustrative only.">
+  <meta name="keywords" content="goal calculator, lumpsum target, financial goal planning, investment tool, calculator for mutual funds">
+  <title>Investment Goal Calculator | Estimate Lumpsum Investments</title>
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">

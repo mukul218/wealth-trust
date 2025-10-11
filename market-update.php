@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WealthTrust Capital Services</title>
+    <!-- seo tag -->
+    <meta name="description" content="Stay updated with unbiased market insights and economic trends. WealthTrust Capital provides educational market content for informed financial decision-making.">
+    <meta name="keywords" content="market insights, financial updates, economic trends, investment research, market analysis">
+    <title>Market Insights & Financial Trends | WealthTrust Capital</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
- <!-- Favicon -->
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
     <style>
         /* WebKit Browsers (Chrome, Edge, Safari) */

@@ -5,7 +5,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WealthTrust | Lumpsum Calculator</title>
+  <!-- seo tag -->
+  <meta name="description" content="Use our Lumpsum Calculator to understand potential investment outcomes. Results are for illustration and educational purposes only, not guaranteed.">
+  <meta name="keywords" content="Lumpsum calculator, mutual fund calculator, investment projection, financial calculator, educational tool">
+  <title>Lumpsum Calculator | Estimate Potential Mutual Fund Returns</title>
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">

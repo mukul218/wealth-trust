@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WealthTrust | SIP Calculator</title>
+    <!-- seo tag -->
+    <meta name="description" content="Calculate SIP amounts for your financial goals with WealthTrust Capital’s SIP Calculator. Values are indicative and for educational use only.">
+    <meta name="keywords" content="sip calculator, systematic investment plan, sip planning, mutual fund sip tool, financial calculator">
+    <title>SIP Calculator | Plan Systematic Investment Goals</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for social icons -->

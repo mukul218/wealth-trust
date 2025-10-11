@@ -5,7 +5,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WealthTrust | House Goal Calculator</title>
+  <!-- seo tag -->
+  <meta name="description" content="Estimate potential savings for your dream home using our Home Goal Calculator. Illustrative projections only; not a performance guarantee.">
+  <meta name="keywords" content="home goal calculator, property investment plan, financial calculator, goal-based saving">
+  <title>Home Goal Calculator | Plan Investments for Property</title>
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">

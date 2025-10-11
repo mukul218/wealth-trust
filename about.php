@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WealthTrust Capital Services</title>
+
+    <!-- seo tag -->
+    <meta name="description" content="Learn about WealthTrust Capital — a SEBI-registered advisory firm dedicated to ethical, transparent, and research-driven investment planning. Discover our client-first approach.">
+    <meta name="keywords" content="about wealthtrust capital, financial advisory firm, sebi registered advisor, ethical investment planning, wealth management company">
+
+    <title>About WealthTrust Capital | Trusted Investment & Wealth Advisory</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for social icons -->
@@ -13,6 +18,7 @@
     <link rel="stylesheet" href="./public/assets/css/style.css">
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
+
 
     <script type="application/ld+json">
         {
