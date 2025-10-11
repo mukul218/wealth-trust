@@ -14,6 +14,24 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Equity Investment Advisory",
+            "provider": {
+                "@type": "Organization",
+                "name": "WealthTrust Capital",
+                "url": "https://www.wealthtrustcap.com"
+            },
+            "areaServed": "India",
+            "description": "We provide expert equity advisory backed by research and 
+            data - driven strategies
+            for long - term wealth creation.
+            "
+        }
+    </script>
+
     <style>
         /* ===== Regulatory Disclosure styles (scoped) ===== */
         #equity-regulatory-disclosure {

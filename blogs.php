@@ -11,8 +11,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
- <!-- Favicon -->
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Blog",
+            "name": "WealthTrust Capital Blog",
+            "url": "https://www.wealthtrustcap.com/blogs",
+            "description": "Expert insights on investments, market trends, and 
+            financial planning strategies.
+            ",
+            "publisher": {
+                "@type": "Organization",
+                "name": "WealthTrust Capital",
+                "url": "https://www.wealthtrustcap.com"
+            }
+        }
+    </script>
 </head>
 
 <body>

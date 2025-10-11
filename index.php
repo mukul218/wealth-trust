@@ -13,11 +13,63 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
 
+    <!-- SEO Tag -->
+    <meta name="google-site-verification" content="1j7ccPo104QCfSnPKlo0O-_7zDg2ZZvBJ_m4FluR0OA" />
+
     <style>
         .site-footer {
             background-color: var(--primary-color);
         }
     </style>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [{
+                    "@type": "Organization",
+                    "name": "WealthTrust Capital",
+                    "url": "https://www.wealthtrustcap.com",
+                    "logo": "https://www.wealthtrustcap.com/assets/images/logo.png",
+                    "sameAs": [
+                        "https://www.facebook.com/WealthTrustCapital",
+                        "https://www.linkedin.com/company/wealthtrustcapital",
+                        "https://www.youtube.com/@WealthTrustCapital"
+                    ]
+                },
+                {
+                    "@type": "FinancialService",
+                    "name": "WealthTrust Capital",
+                    "url": "https://www.wealthtrustcap.com",
+                    "telephone": "+91-XXXXXXXXXX",
+                    "priceRange": "₹₹₹",
+                    "description": "WealthTrust Capital is a financial advisory firm
+                    offering expert investment and wealth management services.
+                    ",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Andheri East",
+                        "addressLocality": "Mumbai",
+                        "addressRegion": "Maharashtra",
+                        "postalCode": "400069",
+                        "addressCountry": "IN"
+                    },
+                    "openingHours": "Mo-Fr 10:00-18:00"
+                },
+                {
+                    "@type": "WebSite",
+                    "url": "https://www.wealthtrustcap.com",
+                    "potentialAction": {
+                        "@type": "SearchAction",
+                        1 "target": "https://www.wealthtrustcap.com/search?
+                        q = {
+                            search_term_string
+                        }
+                        ",
+                        "query-input": "required name=search_term_string"
+                    }
+                }
+            ]
+        }
+    </script>
 </head>
 
 

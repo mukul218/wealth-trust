@@ -11,8 +11,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
- <!-- Favicon -->
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WealthTrust Capital YouTube Channel",
+            "description": "Watch expert financial insights and investment tutorials 
+            from WealthTrust Capital.
+            ",
+            4 "url": "https://www.wealthtrustcap.com/youtube"
+        }
+    </script>
 </head>
 
 <body>

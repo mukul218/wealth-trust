@@ -4,19 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WealthTrust Capital Services</title>
+    <title>WealthTrust | SIP Calculator</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
- <!-- Favicon -->
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
     <link rel="stylesheet" href="./public/assets/css/sip-ui.css">
 
     <!-- Add after your existing CSS links -->
     <link rel="stylesheet" href="./public/assets/css/sip-ui.css">
+
+    <script type="application/ld+json">
+        {
+            /retirement-calculator , etc. 
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Investment Calculator Tools | WealthTrust Capital",
+            "description": "Use our free online calculators to plan SIPs, Lumpsum, 
+            Retirement, and other financial goals.
+            ",
+            "url": "https://www.wealthtrustcap.com/sip-calculator"
+        }
+    </script>
 
     <!-- Chart.js for the pie chart -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
@@ -204,7 +217,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Footer Section (from previous response) -->
     <?php
     include_once './includes/footer.php';

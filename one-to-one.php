@@ -13,8 +13,24 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
- <!-- Favicon -->
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Personal Financial Consultation",
+            "provider": {
+                "@type": "Organization",
+                "name": "WealthTrust Capital",
+                "url": "https://www.wealthtrustcap.com"
+            },
+            "description": "Book a one-to-one consultation with our experts for 
+            customized financial and investment advice.
+            "
+        }
+    </script>
     <style>
         .custom-accordion .accordion-button:not(.collapsed) {
             background: var(--secondary-color);

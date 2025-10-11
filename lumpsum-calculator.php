@@ -12,9 +12,22 @@
 
   <!-- Base styles + SIP UI (reused for look) -->
   <link rel="stylesheet" href="./public/assets/css/style.css">
- <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
   <link rel="stylesheet" href="./public/assets/css/sip-ui.css">
+
+  <script type="application/ld+json">
+    {
+      /retirement-calculator , etc. 
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Investment Calculator Tools | WealthTrust Capital",
+      "description": "Use our free online calculators to plan SIPs, Lumpsum, 
+      Retirement, and other financial goals.
+      ",
+      "url": "https://www.wealthtrustcap.com/lumpsum-calculator"
+    }
+  </script>
 
   <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
@@ -96,7 +109,7 @@
                 <input id="period_years_range" type="range" class="form-range"
                   min="1" max="30" step="1" value="10">
                 <div class="d-flex justify-content-between small text-muted">
-                 <span>1 Year</span><span>50 Years</span>
+                  <span>1 Year</span><span>50 Years</span>
                 </div>
                 <!-- backend compatibility -->
                 <input id="period_months" name="years" type="hidden" value="120">
@@ -113,7 +126,7 @@
               </div>
             </form>
             <!-- Quick links to other calculators -->
-                      <div class="calc-links mt-4 d-none d-md-block">
+            <div class="calc-links mt-4 d-none d-md-block">
               <div class="small text-muted mb-2">Explore other calculators</div>
 
               <div class="row row-cols-1 row-cols-md-3 g-2">

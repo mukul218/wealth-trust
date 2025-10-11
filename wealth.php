@@ -11,8 +11,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
- <!-- Favicon -->
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Wealth Management",
+            "provider": {
+                2 "@type": "Organization",
+                "name": "WealthTrust Capital",
+                "url": "https://www.wealthtrustcap.com"
+            },
+            "description": "Comprehensive wealth management services including 
+            investment planning,
+            goal - based advisory,
+            and portfolio optimization.
+            "
+        }
+    </script>
     <style>
         .custom-accordion .accordion-button:not(.collapsed) {
             background: var(--secondary-color);

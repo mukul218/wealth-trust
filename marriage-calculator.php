@@ -12,9 +12,23 @@
 
   <!-- Base + SIP UI styles (reuse SIP look) -->
   <link rel="stylesheet" href="./public/assets/css/style.css">
- <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
   <link rel="stylesheet" href="./public/assets/css/sip-ui.css">
+
+
+  <script type="application/ld+json">
+    {
+      /retirement-calculator , etc. 
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Investment Calculator Tools | WealthTrust Capital",
+      "description": "Use our free online calculators to plan SIPs, Lumpsum, 
+      Retirement, and other financial goals.
+      ",
+      "url": "https://www.wealthtrustcap.com/marriage-calculator"
+    }
+  </script>
 
   <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>

@@ -12,8 +12,34 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
- <!-- Favicon -->
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Event",
+            "name": "Investment Master Class by WealthTrust Capital",
+            "startDate": "2025-11-10T14:00:00+05:30",
+            "endDate": "2025-11-10T16:00:00+05:30",
+            "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "location": {
+                "@type": "VirtualLocation",
+                "url": "https://www.wealthtrustcap.com/master-class"
+            },
+            "image": "https://www.wealthtrustcap.com/assets/images/masterclass.jpg",
+            "description": "Join our exclusive Investment Master Class to learn 
+            advanced investment strategies and wealth creation techniques.
+            ",
+            "organizer": {
+                "@type": "Organization",
+                "name": "WealthTrust Capital",
+                "url": "https://www.wealthtrustcap.com"
+                3
+            }
+        }
+    </script>
     <style>
         .custom-accordion .accordion-button:not(.collapsed) {
             background: var(--secondary-color);
