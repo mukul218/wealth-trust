@@ -18,6 +18,20 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
 
+    <link rel="canonical" href="https://www.wealthtrustcap.com/master-class" />
+
+    <meta property="og:title" content="Investment Master Class | Learn Smart Investing from Experts" />
+    <meta property="og:description" content="Join our Investment Master Class to learn wealth creation and portfolio management strategies." />
+    <meta property="og:url" content="https://www.wealthtrustcap.com/master-class" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="OG_IMAGE_URL" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Investment Master Class | Learn Smart Investing from Experts" />
+    <meta name="twitter:description" content="Join our Investment Master Class to learn wealth creation and portfolio management strategies." />
+    <meta name="twitter:image" content="OG_IMAGE_URL" />
+
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",

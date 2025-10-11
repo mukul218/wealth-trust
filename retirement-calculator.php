@@ -10,6 +10,20 @@
   <meta name="keywords" content="retirement calculator, retirement planning, future savings tool, pension calculator">
   <title>Retirement Planning Calculator | Estimate Future Savings</title>
 
+  <link rel="canonical" href="https://www.wealthtrustcap.com/retirement-calculator" />
+
+  <meta property="og:title" content="Retirement Calculator | Plan a Secure Financial Future" />
+  <meta property="og:description" content="Use our Retirement Calculator to estimate your savings needs and plan for a comfortable retirement." />
+  <meta property="og:url" content="https://www.wealthtrustcap.com/retirement-calculator" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="OG_IMAGE_URL" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Retirement Calculator | Plan a Secure Financial Future" />
+  <meta name="twitter:description" content="Use our Retirement Calculator to estimate your savings needs and plan for a comfortable retirement." />
+  <meta name="twitter:image" content="OG_IMAGE_URL" />
+
+
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 

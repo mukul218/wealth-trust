@@ -10,6 +10,20 @@
   <meta name="keywords" content="goal calculator, lumpsum target, financial goal planning, investment tool, calculator for mutual funds">
   <title>Investment Goal Calculator | Estimate Lumpsum Investments</title>
 
+  <link rel="canonical" href="https://www.wealthtrustcap.com/lumpsum-target-calculator" />
+
+  <meta property="og:title" content="Lumpsum Target Calculator | Plan Smart Investment Goals" />
+  <meta property="og:description" content="Find out how much to invest today to achieve your future goals." />
+  <meta property="og:url" content="https://www.wealthtrustcap.com/lumpsum-target-calculator" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="OG_IMAGE_URL" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Lumpsum Target Calculator | Plan Smart Investment Goals" />
+  <meta name="twitter:description" content="Find out how much to invest today to achieve your future goals." />
+  <meta name="twitter:image" content="OG_IMAGE_URL" />
+
+
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 

@@ -21,6 +21,21 @@
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
 
 
+    <!-- Home Page -->
+    <link rel="canonical" href="https://www.wealthtrustcap.com/" />
+
+    <meta property="og:title" content="WealthTrust Capital | Trusted Wealth Management & Investment Advisory" />
+    <meta property="og:description" content="Grow your wealth with expert financial planning and investment advisory services from WealthTrust Capital." />
+    <meta property="og:url" content="https://www.wealthtrustcap.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="OG_IMAGE_URL" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="WealthTrust Capital | Trusted Wealth Management & Investment Advisory" />
+    <meta name="twitter:description" content="Grow your wealth with expert financial planning and investment advisory services from WealthTrust Capital." />
+    <meta name="twitter:image" content="OG_IMAGE_URL" />
+
+
 
     <style>
         .site-footer {

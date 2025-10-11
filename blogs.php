@@ -8,6 +8,20 @@
     <meta name="description" content="Explore financial planning and investment awareness articles. WealthTrust Capital shares research-backed educational content for informed investors.">
     <meta name="keywords" content="financial blogs, investment awareness, mutual fund education, personal finance tips">
     <title>WealthTrust Capital Blog | Financial Awareness & Investment Insights</title>
+
+    <link rel="canonical" href="https://www.wealthtrustcap.com/blogs" />
+
+    <meta property="og:title" content="WealthTrust Capital Blog | Investment Insights & Financial Tips" />
+    <meta property="og:description" content="Explore blogs on mutual funds, market updates, and wealth management strategies to make smarter financial decisions." />
+    <meta property="og:url" content="https://www.wealthtrustcap.com/blogs" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="OG_IMAGE_URL" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="WealthTrust Capital Blog | Investment Insights & Financial Tips" />
+    <meta name="twitter:description" content="Explore blogs on mutual funds, market updates, and wealth management strategies." />
+    <meta name="twitter:image" content="OG_IMAGE_URL" />
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for social icons -->

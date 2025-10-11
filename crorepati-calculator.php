@@ -10,6 +10,20 @@
   <meta name="keywords" content="investment growth calculator, goal planner, wealth creation tool, financial calculator">
   <title>Investment Growth Calculator | Plan Long-Term Financial Goals</title>
 
+  <link rel="canonical" href="https://www.wealthtrustcap.com/crorepati-calculator" />
+
+  <meta property="og:title" content="Crorepati Calculator | Plan to Build ₹1 Crore and Beyond" />
+  <meta property="og:description" content="Estimate how your investments can grow into crores with our Crorepati Calculator." />
+  <meta property="og:url" content="https://www.wealthtrustcap.com/crorepati-calculator" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="OG_IMAGE_URL" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Crorepati Calculator | Plan to Build ₹1 Crore and Beyond" />
+  <meta name="twitter:description" content="Estimate how your investments can grow into crores with our Crorepati Calculator." />
+  <meta name="twitter:image" content="OG_IMAGE_URL" />
+
+
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 

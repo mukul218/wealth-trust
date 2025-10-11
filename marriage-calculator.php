@@ -10,6 +10,20 @@
   <meta name="keywords" content="marriage calculator, wedding planning finance, goal-based investment, financial estimation">
   <title>Marriage Goal Calculator | Estimate Financial Requirements</title>
 
+  <link rel="canonical" href="https://www.wealthtrustcap.com/marriage-calculator" />
+
+  <meta property="og:title" content="Marriage Goal Calculator | Plan Finances for Your Wedding" />
+  <meta property="og:description" content="Plan your wedding finances with ease using our Marriage Calculator." />
+  <meta property="og:url" content="https://www.wealthtrustcap.com/marriage-calculator" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="OG_IMAGE_URL" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Marriage Goal Calculator | Plan Finances for Your Wedding" />
+  <meta name="twitter:description" content="Plan your wedding finances with ease using our Marriage Calculator." />
+  <meta name="twitter:image" content="OG_IMAGE_URL" />
+
+
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 

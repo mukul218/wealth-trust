@@ -19,6 +19,20 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
 
+    <link rel="canonical" href="https://www.wealthtrustcap.com/one-to-one" />
+
+    <meta property="og:title" content="One-to-One Consultation | Personalized Investment Advisory" />
+    <meta property="og:description" content="Schedule a personal consultation with our expert advisors for tailored investment guidance." />
+    <meta property="og:url" content="https://www.wealthtrustcap.com/one-to-one" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="OG_IMAGE_URL" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="One-to-One Consultation | Personalized Investment Advisory" />
+    <meta name="twitter:description" content="Schedule a personal consultation with our expert advisors for tailored investment guidance." />
+    <meta name="twitter:image" content="OG_IMAGE_URL" />
+
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",

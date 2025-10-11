@@ -19,6 +19,19 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
 
+    <link rel="canonical" href="https://www.wealthtrustcap.com/about" />
+
+    <meta property="og:title" content="About WealthTrust Capital | Leading Investment Advisory Firm" />
+    <meta property="og:description" content="WealthTrust Capital is a trusted investment advisory firm offering expert guidance in wealth creation and financial planning." />
+    <meta property="og:url" content="https://www.wealthtrustcap.com/about" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="OG_IMAGE_URL" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="About WealthTrust Capital | Leading Investment Advisory Firm" />
+    <meta name="twitter:description" content="WealthTrust Capital is a trusted investment advisory firm offering expert guidance in wealth creation and financial planning." />
+    <meta name="twitter:image" content="OG_IMAGE_URL" />
+
 
     <script type="application/ld+json">
         {

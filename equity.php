@@ -17,6 +17,20 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
 
+    <link rel="canonical" href="https://www.wealthtrustcap.com/equity" />
+
+    <meta property="og:title" content="Equity Investment Advisory | Grow Wealth with Expert Insights" />
+    <meta property="og:description" content="WealthTrust Capital offers equity advisory backed by research and strategy for long-term growth." />
+    <meta property="og:url" content="https://www.wealthtrustcap.com/equity" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="OG_IMAGE_URL" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Equity Investment Advisory | Grow Wealth with Expert Insights" />
+    <meta name="twitter:description" content="WealthTrust Capital offers equity advisory backed by research and strategy." />
+    <meta name="twitter:image" content="OG_IMAGE_URL" />
+
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",

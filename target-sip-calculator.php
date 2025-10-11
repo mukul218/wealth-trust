@@ -13,6 +13,20 @@
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
+  <link rel="canonical" href="https://www.wealthtrustcap.com/target-sip-calculator" />
+
+  <meta property="og:title" content="Target SIP Calculator | Plan Systematic Investment Goals" />
+  <meta property="og:description" content="Calculate how much to invest monthly to reach your financial goals." />
+  <meta property="og:url" content="https://www.wealthtrustcap.com/target-sip-calculator" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="OG_IMAGE_URL" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Target SIP Calculator | Plan Systematic Investment Goals" />
+  <meta name="twitter:description" content="Calculate how much to invest monthly to reach your goals." />
+  <meta name="twitter:image" content="OG_IMAGE_URL" />
+
+
   <!-- Base + SIP UI styles (reused look) -->
   <link rel="stylesheet" href="./public/assets/css/style.css">
   <!-- Favicon -->

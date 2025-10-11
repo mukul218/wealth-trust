@@ -10,6 +10,20 @@
   <meta name="keywords" content="vacation calculator, travel savings plan, goal-based calculator, financial planner">
   <title>Vacation Goal Calculator | Plan Travel Savings</title>
 
+  <link rel="canonical" href="https://www.wealthtrustcap.com/vacation-calculator" />
+
+  <meta property="og:title" content="Vacation Goal Calculator | Plan Your Dream Trip" />
+  <meta property="og:description" content="Use our Vacation Goal Calculator to estimate how much to save for your next holiday." />
+  <meta property="og:url" content="https://www.wealthtrustcap.com/vacation-calculator" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="OG_IMAGE_URL" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Vacation Goal Calculator | Plan Your Dream Trip" />
+  <meta name="twitter:description" content="Use our Vacation Goal Calculator to estimate how much to save for your next holiday." />
+  <meta name="twitter:image" content="OG_IMAGE_URL" />
+
+
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 

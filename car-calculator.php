@@ -10,6 +10,20 @@
   <meta name="keywords" content="car calculator, car savings plan, goal-based investment, financial planning tool">
   <title>Car Goal Calculator | Estimate Future Purchase Planning</title>
 
+  <link rel="canonical" href="https://www.wealthtrustcap.com/car-calculator" />
+
+  <meta property="og:title" content="Car Goal Calculator | Plan Investments for Your Dream Car" />
+  <meta property="og:description" content="Calculate the amount needed to buy your dream car using our easy and accurate Car Goal Calculator." />
+  <meta property="og:url" content="https://www.wealthtrustcap.com/car-calculator" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="OG_IMAGE_URL" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Car Goal Calculator | Plan Investments for Your Dream Car" />
+  <meta name="twitter:description" content="Calculate the amount needed to buy your dream car using our easy and accurate Car Goal Calculator." />
+  <meta name="twitter:image" content="OG_IMAGE_URL" />
+
+
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 

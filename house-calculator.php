@@ -10,6 +10,20 @@
   <meta name="keywords" content="home goal calculator, property investment plan, financial calculator, goal-based saving">
   <title>Home Goal Calculator | Plan Investments for Property</title>
 
+  <link rel="canonical" href="https://www.wealthtrustcap.com/house-calculator" />
+
+  <meta property="og:title" content="House Goal Calculator | Plan Smartly for Your Dream Home" />
+  <meta property="og:description" content="Use our House Goal Calculator to plan your investments for buying a home." />
+  <meta property="og:url" content="https://www.wealthtrustcap.com/house-calculator" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="OG_IMAGE_URL" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="House Goal Calculator | Plan Smartly for Your Dream Home" />
+  <meta name="twitter:description" content="Use our House Goal Calculator to plan your investments for buying a home." />
+  <meta name="twitter:image" content="OG_IMAGE_URL" />
+
+
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 

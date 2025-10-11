@@ -16,6 +16,20 @@
     <link rel="stylesheet" href="./public/assets/css/style.css">
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
+
+    <link rel="canonical" href="https://www.wealthtrustcap.com/market-update" />
+
+    <meta property="og:title" content="Market Updates & Insights | WealthTrust Capital" />
+    <meta property="og:description" content="Stay informed with expert market insights and investment updates from WealthTrust Capital." />
+    <meta property="og:url" content="https://www.wealthtrustcap.com/market-update" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="OG_IMAGE_URL" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Market Updates & Insights | WealthTrust Capital" />
+    <meta name="twitter:description" content="Stay informed with expert market insights and investment updates from WealthTrust Capital." />
+    <meta name="twitter:image" content="OG_IMAGE_URL" />
+
     <style>
         /* WebKit Browsers (Chrome, Edge, Safari) */
         #pdfList::-webkit-scrollbar {

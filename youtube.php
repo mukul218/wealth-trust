@@ -8,6 +8,20 @@
     <meta name="description" content="Watch educational videos by WealthTrust Capital on mutual funds, financial planning, and responsible investing. Informational content only.">
     <meta name="keywords" content="financial education, mutual fund insights, investment awareness, investor learning">
     <title>WealthTrust Capital YouTube | Financial Education & Insights</title>
+
+    <link rel="canonical" href="https://www.wealthtrustcap.com/youtube" />
+
+    <meta property="og:title" content="WealthTrust Capital YouTube | Financial Insights & Education" />
+    <meta property="og:description" content="Watch expert videos on investments, mutual funds, and financial planning by WealthTrust Capital." />
+    <meta property="og:url" content="https://www.wealthtrustcap.com/youtube" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="OG_IMAGE_URL" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="WealthTrust Capital YouTube | Financial Insights & Education" />
+    <meta name="twitter:description" content="Watch expert videos on investments, mutual funds, and financial planning by WealthTrust Capital." />
+    <meta name="twitter:image" content="OG_IMAGE_URL" />
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for social icons -->

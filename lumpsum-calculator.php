@@ -10,6 +10,20 @@
   <meta name="keywords" content="Lumpsum calculator, mutual fund calculator, investment projection, financial calculator, educational tool">
   <title>Lumpsum Calculator | Estimate Potential Mutual Fund Returns</title>
 
+  <link rel="canonical" href="https://www.wealthtrustcap.com/lumpsum-calculator" />
+
+  <meta property="og:title" content="Lumpsum Calculator | Estimate Mutual Fund Returns" />
+  <meta property="og:description" content="Use our Lumpsum Calculator to project future returns and plan investments effectively." />
+  <meta property="og:url" content="https://www.wealthtrustcap.com/lumpsum-calculator" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="OG_IMAGE_URL" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Lumpsum Calculator | Estimate Mutual Fund Returns" />
+  <meta name="twitter:description" content="Use our Lumpsum Calculator to project future returns and plan investments effectively." />
+  <meta name="twitter:image" content="OG_IMAGE_URL" />
+
+
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
