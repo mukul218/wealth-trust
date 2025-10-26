@@ -5,16 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WealthTrust Capital Services</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./public/assets/css/style.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
+    <?php
+    include_once './includes/css-lib.php'
+    ?>
 </head>
 
 <body>
@@ -37,7 +30,7 @@
                 </p>
             </div>
 
-            <img src="./public/assets/image/meet-our-team.png"
+            <img loading="lazy" src="./public/assets/image/meet-our-team.png"
                 alt="Meet our team"
                 class="img-fluid rounded w-100">
         </div>
@@ -50,7 +43,7 @@
             <div class="leadership-card">
                 <!-- Profile image -->
                 <div class="profile-image text-center">
-                    <img src="./public/assets/image/team/sneha.png"
+                    <img loading="lazy" src="./public/assets/image/team/sneha.png"
                         alt="Sneha Jain - CEO"
                         class="img-fluid">
                 </div>
@@ -101,7 +94,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="./public/assets/image/team/research-shubham.png" alt="Shubham Jha" class="img-fluid rounded">
+                                <img loading="lazy" src="./public/assets/image/team/research-shubham.png" alt="Shubham Jha" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Shubham Jha</h6>
@@ -124,7 +117,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="./public/assets/image/team/research-parth.jpeg" alt="Parth More" class="img-fluid rounded">
+                                <img loading="lazy" src="./public/assets/image/team/research-parth.jpeg" alt="Parth More" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Parth More</h6>
@@ -146,7 +139,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="./public/assets/image/team/research-akshay.png" alt="Akshay Madhasu" class="img-fluid rounded">
+                                <img loading="lazy" src="./public/assets/image/team/research-akshay.png" alt="Akshay Madhasu" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Akshay Madhasu</h6>
@@ -181,7 +174,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="./public/assets/image/team/jeel.png" alt="Jeel Shah" class="img-fluid rounded">
+                                <img loading="lazy" src="./public/assets/image/team/jeel.png" alt="Jeel Shah" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Jeel Shah</h6>
@@ -202,7 +195,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="./public/assets/image/team/purvi.png" alt="Purvi Dodiya" class="img-fluid rounded">
+                                <img loading="lazy" src="./public/assets/image/team/purvi.png" alt="Purvi Dodiya" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Purvi Dodiya</h6>
@@ -223,7 +216,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="./public/assets/image/team/vignesh.png" alt="Vignesh Venkatesh" class="img-fluid rounded">
+                                <img loading="lazy" src="./public/assets/image/team/vignesh.png" alt="Vignesh Venkatesh" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Vignesh Venkatesh</h6>
@@ -244,7 +237,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="./public/assets/image/team/purva.png" alt="Purva Bohara" class="img-fluid rounded">
+                                <img loading="lazy" src="./public/assets/image/team/purva.png" alt="Purva Bohara" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Purva Bohara</h6>
@@ -279,7 +272,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="./public/assets/image/team/shivaji.png" alt="Shivaji Shinde" class="img-fluid rounded">
+                                <img loading="lazy" src="./public/assets/image/team/shivaji.png" alt="Shivaji Shinde" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Shivaji Shinde</h6>
@@ -302,7 +295,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="./public/assets/image/team/ankita.png" alt="Ankita Yadav" class="img-fluid rounded">
+                                <img loading="lazy" src="./public/assets/image/team/ankita.png" alt="Ankita Yadav" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Ankita Yadav</h6>
@@ -325,7 +318,7 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img src="./public/assets/image/team/pranali.png" alt="Pranali Chalke" class="img-fluid rounded">
+                                <img loading="lazy" src="./public/assets/image/team/pranali.png" alt="Pranali Chalke" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Pranali Chalke</h6>

@@ -8,14 +8,9 @@
     <meta name="description" content="WealthTrust Capital offers goal-based wealth management and personalized investment solutions focused on long-term growth, transparency, and prudent financial planning.">
     <meta name="keywords" content="wealth management, financial planning, portfolio advisory, investment strategy, personal finance solutions">
     <title>Wealth Management Services | Personalized Financial Planning</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./public/assets/css/style.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
+    <?php
+    include_once './includes/css-lib.php'
+    ?>
     <link rel="canonical" href="https://www.wealthtrustcap.com/wealth" />
 
     <meta property="og:title" content="Wealth Management Services | Smart Financial Planning for Investors" />
@@ -96,7 +91,7 @@
 
                 <!-- Right Image -->
                 <div class="col-md-6 text-center">
-                    <img src="./public/assets/image/big-small-goals.gif"
+                    <img loading="lazy" src="./public/assets/image/big-small-goals.gif"
                         alt="Financial Goals"
                         class="img-fluid mx-auto d-block"
                         style="max-width: 100%">
@@ -119,7 +114,7 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="offer-grid-card">
                         <div class="offer-corner">
-                            <img src="./public/assets/image/icon/wl1.png" alt="Mutual funds" class="offer-corner-icon">
+                            <img loading="lazy" src="./public/assets/image/icon/wl1.png" alt="Mutual funds" class="offer-corner-icon">
                         </div>
                         <div class="offer-text">
                             <strong>Mutual funds</strong>
@@ -131,7 +126,7 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="offer-grid-card">
                         <div class="offer-corner">
-                            <img src="./public/assets/image/icon/wl2.png" alt="Insurance" class="offer-corner-icon">
+                            <img loading="lazy" src="./public/assets/image/icon/wl2.png" alt="Insurance" class="offer-corner-icon">
                         </div>
                         <div class="offer-text">
                             <strong>Insurance</strong>
@@ -143,7 +138,7 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="offer-grid-card">
                         <div class="offer-corner">
-                            <img src="./public/assets/image/icon/wl3.png" alt="Tax planning" class="offer-corner-icon">
+                            <img loading="lazy" src="./public/assets/image/icon/wl3.png" alt="Tax planning" class="offer-corner-icon">
                         </div>
                         <div class="offer-text">
                             <strong>Tax planning</strong>
@@ -155,7 +150,7 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="offer-grid-card">
                         <div class="offer-corner">
-                            <img src="./public/assets/image/icon/wl4.png" alt="Fixed income" class="offer-corner-icon">
+                            <img loading="lazy" src="./public/assets/image/icon/wl4.png" alt="Fixed income" class="offer-corner-icon">
                         </div>
                         <div class="offer-text">
                             <strong>Fixed income</strong>
@@ -170,7 +165,7 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="offer-grid-card">
                         <div class="offer-corner">
-                            <img src="./public/assets/image/icon/wl5.png" alt="REITS" class="offer-corner-icon">
+                            <img loading="lazy" src="./public/assets/image/icon/wl5.png" alt="REITS" class="offer-corner-icon">
                         </div>
                         <div class="offer-text">
                             <strong>REITS</strong>
@@ -182,7 +177,7 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="offer-grid-card">
                         <div class="offer-corner">
-                            <img src="./public/assets/image/icon/wl6.png" alt="Loans" class="offer-corner-icon">
+                            <img loading="lazy" src="./public/assets/image/icon/wl6.png" alt="Loans" class="offer-corner-icon">
                         </div>
                         <div class="offer-text">
                             <strong>Loans</strong>
@@ -194,7 +189,7 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="offer-grid-card">
                         <div class="offer-corner">
-                            <img src="./public/assets/image/icon/wl7.png" alt="Private equity, AIFs, PMS" class="offer-corner-icon">
+                            <img loading="lazy" src="./public/assets/image/icon/wl7.png" alt="Private equity, AIFs, PMS" class="offer-corner-icon">
                         </div>
                         <div class="offer-text">
                             <strong>Private equity, AIFs, PMS</strong>
@@ -224,7 +219,7 @@
                     <div class="d-grid gap-3">
                         <button type="button" class="goal-box btn text-start selected-goal"
                             data-goal='{"title":"Wealth building","desc":"Systematic, compounding-led wealth creation aligned to your time horizon.","img":"./public/assets/image/dream.gif"}'>
-                            <img src="./public/assets/image/icon/wealth.png" alt="" class="goal-icon"> Wealth building
+                            <img loading="lazy" src="./public/assets/image/icon/wealth.png" alt="" class="goal-icon"> Wealth building
                         </button>
                     </div>
                 </div>
@@ -236,17 +231,17 @@
                     <div class="d-grid gap-3 goal-stack-left">
                         <button type="button" class="goal-box btn text-start"
                             data-goal='{"title":"Emergency","desc":"Build a buffer to handle unforeseen expenses without selling investments.","img":"./public/assets/image/dream.gif"}'>
-                            <img src="./public/assets/image/icon/emergency.png" alt="" class="goal-icon"> Emergency
+                            <img loading="lazy" src="./public/assets/image/icon/emergency.png" alt="" class="goal-icon"> Emergency
                         </button>
 
                         <button type="button" class="goal-box btn text-start"
                             data-goal='{"title":"Dream Car","desc":"Plan your car purchase with a smart saving and investing path.","img":"./public/assets/image/dream.gif"}'>
-                            <img src="./public/assets/image/icon/car.png" alt="" class="goal-icon"> Dream Car
+                            <img loading="lazy" src="./public/assets/image/icon/car.png" alt="" class="goal-icon"> Dream Car
                         </button>
 
                         <button type="button" class="goal-box btn text-start"
                             data-goal='{"title":"Dream Home","desc":"Move towards your home goal with a disciplined, goal-based plan.","img":"./public/assets/image/dream.gif"}'>
-                            <img src="./public/assets/image/icon/home.png" alt="" class="goal-icon"> Dream Home
+                            <img loading="lazy" src="./public/assets/image/icon/home.png" alt="" class="goal-icon"> Dream Home
                         </button>
                     </div>
                 </div>
@@ -256,7 +251,7 @@
                     <div class="goal-center card shadow-sm border-0">
                         <div class="card-body">
                             <h5 class="card-title mb-3" id="goalTitle">Wealth building</h5>
-                            <img id="goalImg" src="./public/assets/image/dream.gif" alt="Wealth building" class="img-fluid mb-3 rounded">
+                            <img loading="lazy" id="goalImg" src="./public/assets/image/dream.gif" alt="Wealth building" class="img-fluid mb-3 rounded">
                             <p class="card-text text-muted" id="goalDesc">
                                 Systematic, compounding-led wealth creation aligned to your time horizon.
                             </p>
@@ -269,17 +264,17 @@
                     <div class="d-grid gap-3 goal-stack-right">
                         <button type="button" class="goal-box btn text-start"
                             data-goal='{"title":"Retirement","desc":"Secure your post-work life with inflation-aware, risk-fit allocation.","img":"./public/assets/image/dream.gif"}'>
-                            <img src="./public/assets/image/icon/retirement.png" alt="" class="goal-icon"> Retirement
+                            <img loading="lazy" src="./public/assets/image/icon/retirement.png" alt="" class="goal-icon"> Retirement
                         </button>
 
                         <button type="button" class="goal-box btn text-start"
                             data-goal='{"title":"Child Education","desc":"Prepare a financial ladder for your child to achieve their dreams.","img":"./public/assets/image/dream.gif"}'>
-                            <img src="./public/assets/image/icon/education.png" alt="" class="goal-icon"> Child Education
+                            <img loading="lazy" src="./public/assets/image/icon/education.png" alt="" class="goal-icon"> Child Education
                         </button>
 
                         <button type="button" class="goal-box btn text-start"
                             data-goal='{"title":"Child’s Marriage","desc":"Plan large future expenses with a balanced, milestone-based plan.","img":"./public/assets/image/dream.gif"}'>
-                            <img src="./public/assets/image/icon/marriage.png" alt="" class="goal-icon"> Child’s Marriage
+                            <img loading="lazy" src="./public/assets/image/icon/marriage.png" alt="" class="goal-icon"> Child’s Marriage
                         </button>
                     </div>
                 </div>
@@ -305,12 +300,12 @@
             <!-- Background with steps -->
             <div class="hiw-wrapper position-relative mx-auto">
                 <!-- Background with Discovery, Goal Mapping, etc. -->
-                <img src="./public/assets/image/bg.png"
+                <img loading="lazy" src="./public/assets/image/bg.png"
                     alt="Steps background"
                     class="img-fluid">
 
                 <!-- Center animated GIF -->
-                <img src="./public/assets/image/how-it-work.gif"
+                <img loading="lazy" src="./public/assets/image/how-it-work.gif"
                     alt="Central process"
                     class="hiw-center-gif">
             </div>
@@ -318,7 +313,7 @@
             <!-- Mobile/Tablet timeline (hidden on desktop) -->
             <ol class="hiw-mobile list-unstyled text-start mx-auto">
                 <li class="hiw-step">
-                    <img src="./public/assets/image/icon/dc.png" alt="" class="hiw-ico mx-3 my-2">
+                    <img loading="lazy" src="./public/assets/image/icon/dc.png" alt="" class="hiw-ico mx-3 my-2">
                     <div>
                         <h6 class="mb-1 fw-semibold">Discovery Call</h6>
                         <p class="mb-0 text-muted">Understand your life goals and current financial picture</p>
@@ -326,7 +321,7 @@
                 </li>
 
                 <li class="hiw-step">
-                    <img src="./public/assets/image/icon/gm.png" alt="" class="hiw-ico mx-3 my-2">
+                    <img loading="lazy" src="./public/assets/image/icon/gm.png" alt="" class="hiw-ico mx-3 my-2">
                     <div>
                         <h6 class="mb-1 fw-semibold">Goal Mapping</h6>
                         <p class="mb-0 text-muted">Break goals into a timeline, value, and monthly investment</p>
@@ -334,7 +329,7 @@
                 </li>
 
                 <li class="hiw-step">
-                    <img src="./public/assets/image/icon/execute.png" alt="" class="hiw-ico mx-3 my-2">
+                    <img loading="lazy" src="./public/assets/image/icon/execute.png" alt="" class="hiw-ico mx-3 my-2">
                     <div>
                         <h6 class="mb-1 fw-semibold">Execution &amp; Monitoring</h6>
                         <p class="mb-0 text-muted">We invest, track, and rebalance regularly</p>
@@ -342,7 +337,7 @@
                 </li>
 
                 <li class="hiw-step">
-                    <img src="./public/assets/image/icon/design.png" alt="" class="hiw-ico mx-3 my-2">
+                    <img loading="lazy" src="./public/assets/image/icon/design.png" alt="" class="hiw-ico mx-3 my-2">
                     <div>
                         <h6 class="mb-1 fw-semibold">Portfolio Design</h6>
                         <p class="mb-0 text-muted">Choose the right mix of MFs, insurance, and other tools</p>
@@ -350,7 +345,7 @@
                 </li>
 
                 <li class="hiw-step">
-                    <img src="./public/assets/image/icon/review.png" alt="" class="hiw-ico mx-3 my-2">
+                    <img loading="lazy" src="./public/assets/image/icon/review.png" alt="" class="hiw-ico mx-3 my-2">
                     <div>
                         <h6 class="mb-1 fw-semibold">Annual Wealth Review</h6>
                         <p class="mb-0 text-muted">Life evolves. So does your plan.</p>
@@ -380,7 +375,7 @@
             <div class="row align-items-center">
                 <!-- Left: Illustration -->
                 <div class="col-md-6 text-center mb-4 mb-md-0">
-                    <img src="./public/assets/image/who-is-this-for-2.gif"
+                    <img loading="lazy" src="./public/assets/image/who-is-this-for-2.gif"
                         alt="Who is this for"
                         class="img-fluid mx-auto d-block">
                 </div>
@@ -567,7 +562,7 @@
 
                 <!-- Bot illustration (left) -->
                 <div class="col-lg-5 mb-4 mb-lg-0 text-center order-1 order-md-2">
-                    <img src="./public/assets/image/FAQ3.gif" alt="FAQ Bot" class="h-100 mx-auto d-block">
+                    <img loading="lazy" src="./public/assets/image/FAQ3.gif" alt="FAQ Bot" class="h-100 mx-auto d-block">
                 </div>
             </div>
         </div>

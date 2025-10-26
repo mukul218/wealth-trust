@@ -8,15 +8,9 @@
     <meta name="description" content="Description: Our equity investment advisory service focuses on research, diversification, and disciplined financial planning — helping investors make informed decisions aligned with their goals.">
     <meta name="keywords" content="equity advisory, portfolio management, stock market insights, investment planning, equity research advisor">
     <title>Equity Investment Advisory | Research-Driven Financial Planning</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./public/assets/css/style.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
-
+    <?php
+    include_once './includes/css-lib.php'
+    ?>
     <link rel="canonical" href="https://www.wealthtrustcap.com/equity" />
 
     <meta property="og:title" content="Equity Investment Advisory | Grow Wealth with Expert Insights" />
@@ -324,7 +318,7 @@
 
                 <!-- Right Image -->
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
-                    <img src="./public/assets/image/invest-like.gif"
+                    <img loading="lazy" src="./public/assets/image/invest-like.gif"
                         class="img-fluid"
                         alt="Invest illustration"
                         style="max-width: 420px;">
@@ -350,7 +344,7 @@
                     <div class="offering-card offering--mint h-100 p-4 border rounded d-flex flex-column">
                         <div>
                             <div class="d-flex align-items-start gap-3 mb-3">
-                                <img src="./public/assets/img/logo-new.png" alt="" class="portfolio-badge bg-white rounded">
+                                <img loading="lazy" src="./public/assets/img/logo-new.png" alt="" class="portfolio-badge bg-white rounded">
                                 <h5 class="m-0 fw-bold">Curated Portfolio</h5>
                             </div>
                             <small class="text-muted"><b>Detailed Research Reports</b></small>
@@ -383,7 +377,7 @@
                     <div class="offering-card offering--blue h-100 p-4 border rounded d-flex flex-column">
                         <div>
                             <div class="d-flex align-items-start gap-3 mb-3">
-                                <img src="./public/assets/image/icon/small-cap.png" alt="" class="portfolio-badge">
+                                <img loading="lazy" src="./public/assets/image/icon/small-cap.png" alt="" class="portfolio-badge">
                                 <h5 class="m-0 fw-bold">Small Case</h5>
                             </div>
                             <small class="text-muted"><b> Ready stock baskets </b></small>
@@ -415,7 +409,7 @@
                     <div class="offering-card offering--cream h-100 p-4 border rounded d-flex flex-column">
                         <div>
                             <div class="d-flex align-items-start gap-3 mb-3">
-                                <img src="./public/assets/image/icon/right-check.png" alt="" class="portfolio-badge">
+                                <img loading="lazy" src="./public/assets/image/icon/right-check.png" alt="" class="portfolio-badge">
                                 <h5 class="m-0 fw-bold">Pickright</h5>
                             </div>
                             <small class="text-muted"><b> Ready stock baskets </b></small>
@@ -462,7 +456,7 @@
                             <p class="mb-0 text-muted">Because your money should work for you</p>
                         </div>
                         <div class="card-visual">
-                            <img src="./public/assets/img/ss1.png" class="img-fluid" alt="Personalized Portfolio Construction">
+                            <img loading="lazy" src="./public/assets/img/ss1.png" class="img-fluid" alt="Personalized Portfolio Construction">
                         </div>
                     </div>
                 </div>
@@ -474,7 +468,7 @@
                             <p class="mb-0 text-muted">No more random stock tips</p>
                         </div>
                         <div class="card-visual">
-                            <img src="./public/assets/img/ss2.png" class="img-fluid" alt="Actionable Stock Recommendations">
+                            <img loading="lazy" src="./public/assets/img/ss2.png" class="img-fluid" alt="Actionable Stock Recommendations">
                         </div>
                     </div>
                 </div>
@@ -486,7 +480,7 @@
                             <p class="mb-0 text-muted">So you don’t miss any opportunities.</p>
                         </div>
                         <div class="card-visual">
-                            <img src="./public/assets/img/ss3.png" class="img-fluid" alt="Regular Portfolio Reviews">
+                            <img loading="lazy" src="./public/assets/img/ss3.png" class="img-fluid" alt="Regular Portfolio Reviews">
                         </div>
                     </div>
                 </div>
@@ -501,7 +495,7 @@
                             <p class="mb-0 text-muted">No guesswork.</p>
                         </div>
                         <div class="card-visual">
-                            <img src="./public/assets/img/ss4.png" class="img-fluid" alt="Research-Backed Picks">
+                            <img loading="lazy" src="./public/assets/img/ss4.png" class="img-fluid" alt="Research-Backed Picks">
                         </div>
                     </div>
                 </div>
@@ -513,7 +507,7 @@
                             <p class="mb-0 text-muted">Because when you are stuck, Google doesn’t talk back.</p>
                         </div>
                         <div class="card-visual">
-                            <img src="./public/assets/img/ss5.png" class="img-fluid" alt="Real Human Guidance">
+                            <img loading="lazy" src="./public/assets/img/ss5.png" class="img-fluid" alt="Real Human Guidance">
                         </div>
                     </div>
                 </div>
@@ -547,7 +541,7 @@
                 <div class="col-md-3">
                     <div class="how-card text-center p-4 h-100 rounded shadow-sm">
                         <div class="mb-3">
-                            <img src="./public/assets/image/icon/discovery-call.png" alt="Discovery Call" class="img-fluid mx-auto d-block" style="max-width:110px;">
+                            <img loading="lazy" src="./public/assets/image/icon/discovery-call.png" alt="Discovery Call" class="img-fluid mx-auto d-block" style="max-width:110px;">
                         </div>
                         <h5 class="fw-bold">Discovery Call</h5>
                     </div>
@@ -557,7 +551,7 @@
                 <div class="col-md-3">
                     <div class="how-card text-center p-4 h-100 rounded shadow-sm">
                         <div class="mb-3">
-                            <img src="./public/assets/image/icon/customised-strategy.png" alt="Customised Strategy" class="img-fluid mx-auto d-block" style="max-width:110px;">
+                            <img loading="lazy" src="./public/assets/image/icon/customised-strategy.png" alt="Customised Strategy" class="img-fluid mx-auto d-block" style="max-width:110px;">
                         </div>
                         <h5 class="fw-bold">Expert-curated Portfolios</h5>
                     </div>
@@ -567,7 +561,7 @@
                 <div class="col-md-3">
                     <div class="how-card text-center p-4 h-100 rounded shadow-sm">
                         <div class="mb-3">
-                            <img src="./public/assets/image/icon/regular-portfolio.png" alt="Regular Portfolio Review" class="img-fluid mx-auto d-block" style="max-width:110px;">
+                            <img loading="lazy" src="./public/assets/image/icon/regular-portfolio.png" alt="Regular Portfolio Review" class="img-fluid mx-auto d-block" style="max-width:110px;">
                         </div>
                         <h5 class="fw-bold">Regular Portfolio Review</h5>
                     </div>
@@ -659,7 +653,7 @@
 
                 <!-- Right: Illustration -->
                 <div class="col-md-6 text-center">
-                    <img src="./public/assets/image/who-is-this-for.gif"
+                    <img loading="lazy" src="./public/assets/image/who-is-this-for.gif"
                         class="img-fluid mx-auto d-block"
                         alt="Investor Guide"
                         </div>
@@ -922,7 +916,7 @@
 
                 <!-- Bot illustration (left) -->
                 <div class="col-lg-5 mb-4 mb-lg-0 text-center order-1 order-md-2">
-                    <img src="./public/assets/image/FAQ3.gif" alt="Have Questions Bot" class="h-100 mx-auto d-block" style="max-width: 350px;">
+                    <img loading="lazy" src="./public/assets/image/FAQ3.gif" alt="Have Questions Bot" class="h-100 mx-auto d-block" style="max-width: 350px;">
                 </div>
             </div>
         </div>

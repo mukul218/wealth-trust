@@ -5,14 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WealthTrust Capital Services</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./public/assets/css/style.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
+    <?php
+    include_once './includes/css-lib.php'
+    ?>
 </head>
 
 <body>
@@ -36,7 +31,7 @@
                         <!-- Call -->
                         <li class="d-flex align-items-start mb-4">
                             <span class="contact-badge me-3">
-                                <img src="./public/assets/image/icon/phone.png" alt="Phone" />
+                                <img loading="lazy" src="./public/assets/image/icon/phone.png" alt="Phone" />
                             </span>
                             <div>
                                 <h5 class="mb-1 color-primary">Give us a call</h5>
@@ -47,7 +42,7 @@
                         <!-- Mail -->
                         <li class="d-flex align-items-start mb-4">
                             <span class="contact-badge me-3">
-                                <img src="./public/assets/image/icon/mail.png" alt="Email" />
+                                <img loading="lazy" src="./public/assets/image/icon/mail.png" alt="Email" />
                             </span>
                             <div>
                                 <h5 class="mb-1 color-primary">Mail us at</h5>
@@ -61,7 +56,7 @@
                         <!-- Address / Directions -->
                         <li class="d-flex align-items-start">
                             <span class="contact-badge me-3">
-                                <img src="./public/assets/image/icon/map-pin.png" alt="Directions" />
+                                <img loading="lazy" src="./public/assets/image/icon/map-pin.png" alt="Directions" />
                             </span>
                             <div>
                                 <h5 class="mb-1 color-primary">Get directions here</h5>

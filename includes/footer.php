@@ -6,7 +6,7 @@
                 <!-- Left: Logo & Info -->
                 <div class="col-lg-4 col-md-12 footer-col-left pe-lg-4 my-0 footer-left-cont">
                     <a class="navbar-brand d-inline-flex align-items-center pt-4 mt-5" href="./">
-                        <img src="./public/assets/img/logo-new.png" alt="WealthTrustCap" class="footer-logo-img">
+                        <img  loading="lazy"src="./public/assets/img/logo-new.png" alt="WealthTrustCap" class="footer-logo-img">
                     </a>
 
                     <div class="contact-info mt-4">

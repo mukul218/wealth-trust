@@ -12,14 +12,10 @@
     <meta name="keywords" content="sebi registered financial advisor, mutual fund distributor, wealth management services, financial planning firm, investment advisor">
 
     <title>WealthTrust Capital | SEBI-Registered Financial Advisor for Smart Investing</title>
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="./public/assets/css/style.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
-
+    
+    <?php
+    include_once './includes/css-lib.php'
+    ?>
 
     <!-- Home Page -->
     <link rel="canonical" href="https://www.wealthtrustcap.com/" />
@@ -40,6 +36,10 @@
     <style>
         .site-footer {
             background-color: var(--primary-color);
+        }
+
+        .ratio-9x16 {
+            --bs-aspect-ratio: 177.78%;
         }
     </style>
     <script type="application/ld+json">
@@ -92,7 +92,6 @@
         }
     </script>
 </head>
-
 
 <body>
 
@@ -200,22 +199,22 @@
                 <div class="row justify-content-center align-items-center text-center stat-row">
                     <div class="col-12 col-sm-6 col-md-3 mb-4">
                         <div class="stat-item color-primary">
-                            <img class="img-fluid w-75" src="./public/assets/image/ii1.png" alt="SEBI Registered">
+                            <img loading="lazy" class="img-fluid w-75" src="./public/assets/image/ii1.png" alt="SEBI Registered">
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 mb-4">
                         <div class="stat-item color-primary">
-                            <img class="img-fluid w-75" src="./public/assets/image/ii2.png" alt="SEBI Registered">
+                            <img loading="lazy" class="img-fluid w-75" src="./public/assets/image/ii2.png" alt="SEBI Registered">
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 mb-4">
                         <div class="stat-item color-primary">
-                            <img class="img-fluid w-75" src="./public/assets/image/ii3.png" alt="SEBI Registered">
+                            <img loading="lazy" class="img-fluid w-75" src="./public/assets/image/ii3-new.png" alt="SEBI Registered">
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 mb-4">
                         <div class="stat-item color-primary">
-                            <img class="img-fluid w-75" src="./public/assets/image/ii4.png" alt="SEBI Registered">
+                            <img loading="lazy" class="img-fluid w-75" src="./public/assets/image/ii4.png" alt="SEBI Registered">
                         </div>
                     </div>
                 </div>
@@ -230,7 +229,7 @@
                         <!-- Illustration -->
                         <div class="col-lg-6 mb-4 mb-lg-0">
                             <div class="about-illustration text-center">
-                                <img src="./public/assets/image//our_services_5.gif" alt="Wealth advisor illustration"
+                                <img loading="lazy" src="./public/assets/image//our_services_5.gif" alt="Wealth advisor illustration"
                                     style=" height: auto;">
                                 <!-- Replace src with your actual illustration image file -->
                             </div>
@@ -267,7 +266,7 @@
                         <div class="d-flex justify-content-between align-items-start">
                             <h4>Wealth Management: Your Gateway to Financial Freedom</h4>
                             <div style="font-size: 2rem; color: var(--primary-color);">
-                                <img src="./public/assets/img/growth.gif" alt="" class="img-fluid" style="width: 6rem;">
+                                <img loading="lazy" src="./public/assets/img/growth.gif" alt="" class="img-fluid" style="width: 6rem;">
                             </div>
                         </div>
                         <ul class="p-0">
@@ -294,7 +293,7 @@
                         <div class="d-flex justify-content-between align-items-start">
                             <h4>SEBI-Registered Research Analyst</h4>
                             <div style="font-size: 2rem; color: var(--primary-color);">
-                                <img src="./public/assets/img/search.gif" alt="" class="img-fluid" style="width: 4rem;">
+                                <img loading="lazy" src="./public/assets/img/search.gif" alt="" class="img-fluid" style="width: 4rem;">
                             </div>
                         </div>
                         <ul class="p-0">
@@ -336,7 +335,7 @@
                     <a href="#contact" class="btn btn-primary">Book Now</a>
                 </div>
                 <div class="col-lg-6">
-                    <img src="./public/assets/img/herothree.gif" alt="imag" class="img-fluid">
+                    <img  loading="lazy"src="./public/assets/img/herothree.gif" alt="imag" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -377,6 +376,67 @@
         </div>
     </section>
 
+    <!-- Video Testimonials Section -->
+    <section class="testimonials-section video-testimonials py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">
+                Watch What Our <span class="color-primary">Investors Say</span>
+            </h2>
+
+            <div class="row justify-content-center">
+                <!-- Video Testimonial 1 -->
+                <!-- Video Testimonial 1 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="testimonial-card light-green p-3 text-center">
+                        <div class="ratio ratio-9x16 mx-auto" style="max-width: 250px;">
+                            <iframe
+                                src="https://www.youtube.com/embed/BLbDv-23d0Y"
+                                title="Investor Testimonial 1"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="testimonial-author mt-3">
+                            - Yashvi Vira
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Testimonial 2 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="testimonial-card light-green p-3 text-center">
+                        <div class="ratio ratio-9x16 mx-auto" style="max-width: 250px;">
+                            <iframe
+                                src="https://www.youtube.com/embed/m62fT_Fc19c"
+                                title="Investor Testimonial 2"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="testimonial-author mt-3">
+                            - Priti Arora
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Testimonial 3 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="testimonial-card light-green p-3 text-center">
+                        <div class="ratio ratio-9x16 mx-auto" style="max-width: 250px;">
+                            <iframe
+                                src="https://www.youtube.com/embed/KYEBamKOKKk"
+                                title="Investor Testimonial 3"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="testimonial-author mt-3">
+                            - Sushama Digambar
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- CTA Section -->
     <section class="cta-section">
         <div class="container">
@@ -388,7 +448,7 @@
                     <a href="./master-class.php" class="btn btn-outline-primary me-3">Book Your Seat</a>
                 </div>
                 <div class="col-lg-6">
-                    <img src="./public/assets/image/not-convinced-gif.gif" alt="CTA Image" class="img-fluid">
+                    <img loading="lazy" src="./public/assets/image/not-convinced-gif.gif" alt="CTA Image" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -400,7 +460,7 @@
             <div class="row align-items-center">
                 <!-- Bot illustration (left) -->
                 <div class="col-lg-5 mb-4 mb-lg-0 text-center">
-                    <img src="./public/assets/image/faq.gif" alt="Have Questions Bot" style="max-width: 350px; width: 80%;">
+                    <img loading="lazy" src="./public/assets/image/faq.gif" alt="Have Questions Bot" style="max-width: 350px; width: 80%;">
                     <!-- Replace with your SVG/PNG -->
                 </div>
                 <!-- FAQ Accordion (right) -->
@@ -490,28 +550,28 @@
                 <div class="col-6 col-md-3 col-lg-2">
                     <div class="media-logo-item">
                         <a href="https://www.youtube.com/watch?v=HWRQtD7rOu0" target="_blank" rel="noopener noreferrer">
-                            <img src="./public/assets/img/plogo1.png" alt="CNBC AWAAZ" class="img-fluid mx-auto d-block">
+                            <img loading="lazy" src="./public/assets/img/plogo1.png" alt="CNBC AWAAZ" class="img-fluid mx-auto d-block">
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-2">
                     <div class="media-logo-item">
                         <a href="https://economictimes.indiatimes.com/industry/banking/finance/banking/financial-planning-for-artists-here-are-steps-to-ensure-you-are-on-the-right-track/articleshow/90073918.cms?from=mdr" target="_blank" rel="noopener noreferrer">
-                            <img src="./public/assets/img/plogo2.png" alt="JAGRAN BUSINESS" class="img-fluid mx-auto d-block">
+                            <img loading="lazy" src="./public/assets/img/plogo2.png" alt="JAGRAN BUSINESS" class="img-fluid mx-auto d-block">
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-2">
                     <div class="media-logo-item">
                         <a href="https://www.youtube.com/watch?v=7uJzPnG_4IU" target="_blank" rel="noopener noreferrer">
-                            <img src="./public/assets/img/plogo3.png" alt="OUTLOOK MONEY" class="img-fluid mx-auto d-block">
+                            <img loading="lazy" src="./public/assets/img/plogo3.png" alt="OUTLOOK MONEY" class="img-fluid mx-auto d-block">
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-2">
                     <div class="media-logo-item">
                         <a href="https://www.outlookmoney.com/spotlight/planning-for-your-retirement-8740 " target="_blank" rel="noopener noreferrer">
-                            <img src="./public/assets/img/plogo4.png" alt="ECONOMIC TIMES" class="img-fluid mx-auto d-block">
+                            <img loading="lazy" src="./public/assets/img/plogo4.png" alt="ECONOMIC TIMES" class="img-fluid mx-auto d-block">
                         </a>
                     </div>
                 </div>
@@ -571,7 +631,7 @@
                     const when = fmtDate(b.created_at);
 
                     const thumb = b.image_url ?
-                        `<div class="blog-thumb"><img src="${b.image_url}" alt="${title}"></div>` :
+                        `<div class="blog-thumb"><img  loading="lazy"src="${b.image_url}" alt="${title}"></div>` :
                         `<div class="blog-thumb"><div class="thumb-fallback">BLOG</div></div>`;
 
                     const card = `

@@ -10,9 +10,6 @@
   <meta name="keywords" content="sip calculator, systematic investment plan, sip planning, mutual fund sip tool, financial calculator">
   <title>SIP Calculator | Plan Systematic Investment Goals</title>
 
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
   <link rel="canonical" href="https://www.wealthtrustcap.com/target-sip-calculator" />
 
   <meta property="og:title" content="Target SIP Calculator | Plan Systematic Investment Goals" />
@@ -26,11 +23,10 @@
   <meta name="twitter:description" content="Calculate how much to invest monthly to reach your goals." />
   <meta name="twitter:image" content="OG_IMAGE_URL" />
 
+  <?php
+  include_once './includes/css-lib.php'
+  ?>
 
-  <!-- Base + SIP UI styles (reused look) -->
-  <link rel="stylesheet" href="./public/assets/css/style.css">
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
   <link rel="stylesheet" href="./public/assets/css/sip-ui.css">
 
   <script type="application/ld+json">

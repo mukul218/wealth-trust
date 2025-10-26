@@ -8,15 +8,9 @@
     <meta name="description" content="Calculate SIP amounts for your financial goals with WealthTrust Capital’s SIP Calculator. Values are indicative and for educational use only.">
     <meta name="keywords" content="sip calculator, systematic investment plan, sip planning, mutual fund sip tool, financial calculator">
     <title>SIP Calculator | Plan Systematic Investment Goals</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./public/assets/css/style.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
-    <link rel="stylesheet" href="./public/assets/css/sip-ui.css">
+    <?php
+    include_once './includes/css-lib.php'
+    ?>
 
     <!-- Add after your existing CSS links -->
     <link rel="stylesheet" href="./public/assets/css/sip-ui.css">

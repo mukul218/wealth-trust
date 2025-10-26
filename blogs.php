@@ -22,15 +22,9 @@
     <meta name="twitter:description" content="Explore blogs on mutual funds, market updates, and wealth management strategies." />
     <meta name="twitter:image" content="OG_IMAGE_URL" />
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./public/assets/css/style.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
-
+    <?php
+    include_once './includes/css-lib.php'
+    ?>
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -116,7 +110,7 @@
                     const when = fmtDate(b.created_at);
 
                     const thumb = b.image_url ?
-                        `<div class="blog-thumb"><img src="${b.image_url}" alt="${title}"></div>` :
+                        `<div class="blog-thumb"><img  loading="lazy"src="${b.image_url}" alt="${title}"></div>` :
                         `<div class="blog-thumb"><div class="thumb-fallback">BLOG</div></div>`;
 
                     const card = `

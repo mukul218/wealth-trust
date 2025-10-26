@@ -72,12 +72,12 @@ if (!$blog) {
             <div class="mb-3">
                 <label>Current Image:</label><br>
                 <?php if ($blog['image_url']): ?>
-                    <img src="./../../<?= $blog['image_url'] ?>" class="preview-img mb-2" />
+                    <img  loading="lazy"src="./../../<?= $blog['image_url'] ?>" class="preview-img mb-2" />
                 <?php else: ?>
                     <p>No image uploaded.</p>
                 <?php endif; ?>
                 <input type="file" class="form-control" name="image" id="image">
-                <img id="preview" class="preview-img d-none" />
+                <img  loading="lazy"id="preview" class="preview-img d-none" />
             </div>
 
             <div class="mb-3">

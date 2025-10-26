@@ -5,7 +5,7 @@
         <!-- Left: Logo -->
         <a class="navbar-brand" href="./">
             <div class="d-block align-items-center">
-                <img src="./public//assets//img/logo-new.png" alt="">
+                <img  loading="lazy"src="./public//assets//img/logo-new.png" alt="">
             </div>
         </a>
         <!-- Hamburger Button -->

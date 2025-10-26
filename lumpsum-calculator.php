@@ -24,14 +24,9 @@
   <meta name="twitter:image" content="OG_IMAGE_URL" />
 
 
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Base styles + SIP UI (reused for look) -->
-  <link rel="stylesheet" href="./public/assets/css/style.css">
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
-  <link rel="stylesheet" href="./public/assets/css/sip-ui.css">
+  <?php
+  include_once './includes/css-lib.php'
+  ?>
 
   <script type="application/ld+json">
     {

@@ -25,11 +25,9 @@ if (!$blog) {
 <head>
     <meta charset="UTF-8">
     <title><?= htmlspecialchars($blog['title']) ?></title>
-    <link rel="stylesheet" href="./public/assets/css/style.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <?php
+    include_once './includes/css-lib.php'
+    ?>
 </head>
 
 <body class="bg-light">
@@ -43,7 +41,7 @@ if (!$blog) {
         <p class="text-muted">By <?= htmlspecialchars($blog['author']) ?> on <?= date("d M Y", strtotime($blog['created_at'])) ?></p>
 
         <?php if ($blog['image_url']): ?>
-            <img src="<?= $blog['image_url'] ?>" class="img-fluid mb-4" alt="<?= $blog['title'] ?>">
+            <img loading="lazy" src="<?= $blog['image_url'] ?>" class="img-fluid mb-4" alt="<?= $blog['title'] ?>">
         <?php endif; ?>
 
         <div><?= $blog['content'] ?></div>

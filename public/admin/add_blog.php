@@ -47,7 +47,7 @@ if (!isset($_SESSION['admin'])) {
             <div class="mb-3">
                 <label for="image" class="form-label">Image</label>
                 <input type="file" class="form-control" name="image" id="image" accept="image/*">
-                <img id="preview" class="preview-img d-none" />
+                <img  loading="lazy"id="preview" class="preview-img d-none" />
             </div>
             <div class="mb-3">
                 <label for="category" class="form-label">Category</label>

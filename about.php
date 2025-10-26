@@ -10,14 +10,9 @@
     <meta name="keywords" content="about wealthtrust capital, financial advisory firm, sebi registered advisor, ethical investment planning, wealth management company">
 
     <title>About WealthTrust Capital | Trusted Investment & Wealth Advisory</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./public/assets/css/style.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
+    <?php
+    include_once './includes/css-lib.php'
+    ?>
 
     <link rel="canonical" href="https://www.wealthtrustcap.com/about" />
 
@@ -66,7 +61,7 @@
             <div class="container">
                 <div class="position-relative">
                     <!-- Background Image -->
-                    <img src="./public/assets/image/about-us.png" alt="About Us" class="w-100 rounded shadow-sm">
+                    <img loading="lazy" src="./public/assets/image/about-us.png" alt="About Us" class="w-100 rounded shadow-sm">
 
                     <!-- Overlay for desktop -->
                     <div class="d-none d-md-block position-absolute top-50 start-50 translate-middle bg-white bg-opacity-75 rounded-2 shadow-sm p-4 text-center" style="width:75%;">
@@ -135,7 +130,7 @@
                     <!-- Integrity -->
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="value-icon rounded-pill mx-auto mb-3 d-flex align-items-center justify-content-center">
-                            <img src="./public/assets/image/icon/Integrity.png" alt="Integrity" class="img-fluid" style="max-width: 100px;">
+                            <img loading="lazy" src="./public/assets/image/icon/Integrity.png" alt="Integrity" class="img-fluid" style="max-width: 100px;">
                         </div>
                         <h6 class="text-primary mb-1 fs-5"><b>Integrity</b></h6>
                         <p class="text-sm mb-0">
@@ -146,7 +141,7 @@
                     <!-- Quality -->
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="value-icon rounded-pill mx-auto mb-3 d-flex align-items-center justify-content-center">
-                            <img src="./public/assets/image/icon/quality.png" alt="Quality" class="img-fluid" style="max-width: 100px;">
+                            <img loading="lazy" src="./public/assets/image/icon/quality.png" alt="Quality" class="img-fluid" style="max-width: 100px;">
                         </div>
                         <h6 class="text-primary mb-1 fs-5"><b>Quality</b></h6>
                         <p class="text-sm mb-0">
@@ -157,7 +152,7 @@
                     <!-- Honesty -->
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="value-icon rounded-pill mx-auto mb-3 d-flex align-items-center justify-content-center">
-                            <img src="./public/assets/image/icon/honesty.png" alt="Honesty" class="img-fluid" style="max-width: 100px;">
+                            <img loading="lazy" src="./public/assets/image/icon/honesty.png" alt="Honesty" class="img-fluid" style="max-width: 100px;">
                         </div>
                         <h6 class="text-primary mb-1 fs-5"><b>Honesty</b></h6>
                         <p class="text-sm mb-0">
@@ -168,7 +163,7 @@
                     <!-- Commitment -->
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="value-icon rounded-pill mx-auto mb-3 d-flex align-items-center justify-content-center">
-                            <img src="./public/assets/image/icon/commitment.png" alt="Commitment to Customer" class="img-fluid" style="max-width: 100px;">
+                            <img loading="lazy" src="./public/assets/image/icon/commitment.png" alt="Commitment to Customer" class="img-fluid" style="max-width: 100px;">
                         </div>
                         <h6 class="text-primary mb-1 fs-5"><b>Commitment to Customer</b></h6>
                         <p class="text-sm mb-0">
@@ -186,7 +181,7 @@
                     <span class="text-dark ">Our</span> <span class="text-primary">History</span>
                 </h2>
                 <div class="d-flex justify-content-center">
-                    <img src="./public/assets/image/our-history.gif"
+                    <img loading="lazy" src="./public/assets/image/our-history.gif"
                         alt="WealthTrust history chart"
                         class="img-fluid rounded"
                         style="max-width: 100%;">
@@ -198,7 +193,7 @@
         <section class="py-4">
             <div class="container p-0">
                 <div class="position-relative m-auto">
-                    <img src="./public/assets/image/team/group.jpg"
+                    <img loading="lazy" src="./public/assets/image/team/group.jpg"
                         alt="WealthTrust team"
                         class="w-100 rounded shadow-sm">
 
@@ -222,7 +217,7 @@
                     <div class="col-12 col-lg-6">
                         <div class="bg-surface rounded p-4 h-100 text-center">
                             <div class="mb-3">
-                                <img src="./public/assets/image/team/title.jpg"
+                                <img loading="lazy" src="./public/assets/image/team/title.jpg"
                                     alt="WealthTrust office plate"
                                     class="img-fluid rounded">
                             </div>

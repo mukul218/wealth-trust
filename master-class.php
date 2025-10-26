@@ -8,15 +8,9 @@
     <meta name="description" content="Join WealthTrust Capital’s Investment Master Class to learn about responsible investing, mutual funds, and financial planning. For educational and awareness purposes only.">
     <meta name="keywords" content="investment masterclass, financial education, mutual fund learning, investor awareness program, investing workshops">
     <title>Investment Master Class | Financial Awareness & Education</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./public/assets/css/style.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
+    <?php
+    include_once './includes/css-lib.php'
+    ?>
 
     <link rel="canonical" href="https://www.wealthtrustcap.com/master-class" />
 
@@ -91,7 +85,7 @@
                     <!-- Left: photo -->
                     <div class="col-md-5 text-center">
                         <div class="photo-card m-auto">
-                            <img src="./public/assets/img/ceo1.png" class="img-fluid mx-auto d-block" alt="Masterclass Host">
+                            <img loading="lazy" src="./public/assets/img/ceo1.png" class="img-fluid mx-auto d-block" alt="Masterclass Host">
                         </div>
                     </div>
 
@@ -180,7 +174,7 @@
                 <div class="col-md-5 mb-3 color-primary">
                     <div class="q-card">
                         <span class="q-icon">
-                            <img src="./public/assets/image/icon/mc1.png" alt="" />
+                            <img loading="lazy" src="./public/assets/image/icon/mc1.png" alt="" />
                         </span>
                         <span class="q-text">Am I investing the right way?</span>
                     </div>
@@ -190,7 +184,7 @@
                 <div class="col-md-5 mb-3 color-primary">
                     <div class="q-card">
                         <span class="q-icon">
-                            <img src="./public/assets/image/icon/mc2.png" alt="" />
+                            <img loading="lazy" src="./public/assets/image/icon/mc2.png" alt="" />
                         </span>
                         <span class="q-text">Is my portfolio diversified enough?</span>
                     </div>
@@ -200,7 +194,7 @@
                 <div class="col-md-5 mb-3 color-primary">
                     <div class="q-card">
                         <span class="q-icon">
-                            <img src="./public/assets/image/icon/mc3.png" alt="" />
+                            <img loading="lazy" src="./public/assets/image/icon/mc3.png" alt="" />
                         </span>
                         <span class="q-text">Will I have enough to retire comfortably?</span>
                     </div>
@@ -210,7 +204,7 @@
                 <div class="col-md-5 mb-3 color-primary">
                     <div class="q-card">
                         <span class="q-icon">
-                            <img src="./public/assets/image/icon/mc4.png" alt="" />
+                            <img loading="lazy" src="./public/assets/image/icon/mc4.png" alt="" />
                         </span>
                         <span class="q-text">How do I plan my exit?</span>
                     </div>
@@ -220,7 +214,7 @@
                 <div class="col-md-10 mb-4 color-primary">
                     <div class="q-card q-card-wide">
                         <span class="q-icon">
-                            <img src="./public/assets/image/icon/mc5.png" alt="" />
+                            <img loading="lazy" src="./public/assets/image/icon/mc5.png" alt="" />
                         </span>
                         <span class="q-text">Why aren’t my returns matching my expectations?</span>
                     </div>
@@ -244,7 +238,7 @@
                 <div class="col-md-4">
                     <div class="q-card d-flex flex-column align-items-center text-center p-3">
                         <span class="q-icon mb-3">
-                            <img src="./public/assets/image/icon/ml1.png" alt="Mistakes Icon" class="img-fluid" style="max-width:60px;" />
+                            <img loading="lazy" src="./public/assets/image/icon/ml1.png" alt="Mistakes Icon" class="img-fluid" style="max-width:60px;" />
                         </span>
                         <span class="q-text">5 costly mistakes people make with their money &amp; how to avoid them?</span>
                     </div>
@@ -254,7 +248,7 @@
                 <div class="col-md-4">
                     <div class="q-card d-flex flex-column align-items-center text-center p-3">
                         <span class="q-icon mb-3">
-                            <img src="./public/assets/image/icon/ml2.png" alt="Retirement Icon" class="img-fluid" style="max-width:60px;" />
+                            <img loading="lazy" src="./public/assets/image/icon/ml2.png" alt="Retirement Icon" class="img-fluid" style="max-width:60px;" />
                         </span>
                         <span class="q-text">How should you calculate the retirement corpus needed?</span>
                     </div>
@@ -264,7 +258,7 @@
                 <div class="col-md-4">
                     <div class="q-card d-flex flex-column align-items-center text-center p-3">
                         <span class="q-icon mb-3">
-                            <img src="./public/assets/image/icon/ml3.png" alt="Goals Icon" class="img-fluid" style="max-width:60px;" />
+                            <img loading="lazy" src="./public/assets/image/icon/ml3.png" alt="Goals Icon" class="img-fluid" style="max-width:60px;" />
                         </span>
                         <span class="q-text">Where to invest and how much for different life goals?</span>
                     </div>
@@ -274,7 +268,7 @@
                 <div class="col-md-4">
                     <div class="q-card d-flex flex-column align-items-center text-center p-3">
                         <span class="q-icon mb-3">
-                            <img src="./public/assets/image/icon/ml4.png" alt="Exit Icon" class="img-fluid" style="max-width:60px;" />
+                            <img loading="lazy" src="./public/assets/image/icon/ml4.png" alt="Exit Icon" class="img-fluid" style="max-width:60px;" />
                         </span>
                         <span class="q-text">Why does exit planning matter &amp; how to do it right?</span>
                     </div>
@@ -284,7 +278,7 @@
                 <div class="col-md-4">
                     <div class="q-card d-flex flex-column align-items-center text-center p-3">
                         <span class="q-icon mb-3">
-                            <img src="./public/assets/image/icon/ml5.png" alt="Formula Icon" class="img-fluid" style="max-width:60px;" />
+                            <img loading="lazy" src="./public/assets/image/icon/ml5.png" alt="Formula Icon" class="img-fluid" style="max-width:60px;" />
                         </span>
                         <span class="q-text">The secret formula to turn your goals into reality.</span>
                     </div>
@@ -308,7 +302,7 @@
                 <div class="col-6 col-md-4 col-lg">
                     <div class="q-card text-center d-block h-100 pt-4">
                         <span class="q-icon">
-                            <img src="./public/assets/image/icon/g1.png" alt="Guidance">
+                            <img loading="lazy" src="./public/assets/image/icon/g1.png" alt="Guidance">
                         </span><br>
                         <span class="q-text">Guidance when you are stuck</span>
                     </div>
@@ -318,7 +312,7 @@
                 <div class="col-6 col-md-4 col-lg">
                     <div class="q-card text-center d-block h-100 pt-4">
                         <span class="q-icon">
-                            <img src="./public/assets/image/icon/g2.png" alt="200+ crore">
+                            <img loading="lazy" src="./public/assets/image/icon/g2.png" alt="200+ crore">
                         </span><br>
                         <span class="q-text">Over 200+ crore. under management</span>
                     </div>
@@ -328,7 +322,7 @@
                 <div class="col-6 col-md-4 col-lg">
                     <div class="q-card text-center d-block h-100 pt-4">
                         <span class="q-icon">
-                            <img src="./public/assets/image/icon/g3.png" alt="Experience">
+                            <img loading="lazy" src="./public/assets/image/icon/g3.png" alt="Experience">
                         </span><br>
                         <span class="q-text">Veterans with 15+ years of experience</span>
                     </div>
@@ -338,7 +332,7 @@
                 <div class="col-6 col-md-4 col-lg">
                     <div class="q-card text-center d-block h-100 pt-4">
                         <span class="q-icon">
-                            <img src="./public/assets/image/icon/g4.png" alt="Families">
+                            <img loading="lazy" src="./public/assets/image/icon/g4.png" alt="Families">
                         </span><br>
                         <span class="q-text">Trusted by 500+ families</span>
                     </div>
@@ -348,7 +342,7 @@
                 <div class="col-6 col-md-4 col-lg">
                     <div class="q-card text-center d-block h-100 pt-4">
                         <span class="q-icon">
-                            <img src="./public/assets/image/icon/g5.png" alt="Workshops">
+                            <img loading="lazy" src="./public/assets/image/icon/g5.png" alt="Workshops">
                         </span><br>
                         <span class="q-text">80+ workshops delivered &amp; counting</span>
                     </div>
@@ -367,25 +361,25 @@
             <div class="row justify-content-center g-4">
                 <div class="col-md-3 col-sm-6">
                     <div class="p-3 border rounded h-100 bg-white">
-                        <img src="./public/assets/img/o1-new.png" alt="Professional" class="img-fluid mb-2 mx-auto d-block">
+                        <img loading="lazy" src="./public/assets/img/o1-new.png" alt="Professional" class="img-fluid mb-2 mx-auto d-block">
                         <p class="mb-0">People who want professional management</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="p-3 border rounded h-100 bg-white">
-                        <img src="./public/assets/img/o2.png" alt="Passion Focus" class="img-fluid mb-2 mx-auto d-block">
+                        <img loading="lazy" src="./public/assets/img/o2.png" alt="Passion Focus" class="img-fluid mb-2 mx-auto d-block">
                         <p class="mb-0">People who want money to grow & they focus on their passion</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="p-3 border rounded h-100 bg-white">
-                        <img src="./public/assets/img/o3.png" alt="Secure Future" class="img-fluid mb-2 mx-auto d-block">
+                        <img loading="lazy" src="./public/assets/img/o3.png" alt="Secure Future" class="img-fluid mb-2 mx-auto d-block">
                         <p class="mb-0">Individuals who want a secure financial future</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="p-3 border rounded h-100 bg-white">
-                        <img src="./public/assets/img/o4.png" alt="Money Work" class="img-fluid mb-2 mx-auto d-block">
+                        <img loading="lazy" src="./public/assets/img/o4.png" alt="Money Work" class="img-fluid mb-2 mx-auto d-block">
                         <p class="mb-0">Anyone who wants to make their money work for them</p>
                     </div>
                 </div>
@@ -430,7 +424,7 @@
             <div class="row align-items-center justify-content-center g-4">
                 <!-- Speaker Image & Name -->
                 <div class="col-md-4 text-center">
-                    <img src="./public/assets/img/ceo1.png"
+                    <img loading="lazy" src="./public/assets/img/ceo1.png"
                         class="img-fluid rounded-4 border mx-auto"
                         alt="Masterclass Host" style="max-width: 280px;">
                     <h4 class="mt-3 mb-0 fw-bold"><b>Sneha Jain</b></h4>

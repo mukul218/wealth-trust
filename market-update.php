@@ -8,15 +8,9 @@
     <meta name="description" content="Stay updated with unbiased market insights and economic trends. WealthTrust Capital provides educational market content for informed financial decision-making.">
     <meta name="keywords" content="market insights, financial updates, economic trends, investment research, market analysis">
     <title>Market Insights & Financial Trends | WealthTrust Capital</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./public/assets/css/style.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
-
+    <?php
+    include_once './includes/css-lib.php'
+    ?>
     <link rel="canonical" href="https://www.wealthtrustcap.com/market-update" />
 
     <meta property="og:title" content="Market Updates & Insights | WealthTrust Capital" />
@@ -115,7 +109,7 @@
                     // --- Latest PDF (big block) ---
                     $('#latestPdfBlock').html(`
                 <div class="position-relative" style="background: #eee; min-height: 400px; border-radius: 8px; overflow: hidden;">
-                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+                    <img  loading="lazy"src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
                         alt="Main news" class="w-100 h-100"
                         style="object-fit: cover; opacity: 0.5; position: absolute; top: 0; left: 0;">
                     <div class="position-relative p-4" style="z-index: 2;">

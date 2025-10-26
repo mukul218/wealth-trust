@@ -8,16 +8,9 @@
     <meta name="description" content="Book a personal consultation with our SEBI-registered advisors. Get tailored investment guidance and clarity on your financial goals through a transparent advisory process.">
     <meta name="keywords" content="financial consultation, personal investment advisory, sebi advisor consultation, portfolio review, customized financial advice">
     <title>One-to-One Financial Consultation | Personalized Investment Guidance</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./public/assets/css/style.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./public/assets/img/favicon.ico">
+    <?php
+    include_once './includes/css-lib.php'
+    ?>
 
     <link rel="canonical" href="https://www.wealthtrustcap.com/one-to-one" />
 
@@ -87,17 +80,17 @@
                     <!-- Feature Boxes -->
                     <div class="d-flex flex-column gap-3 mb-4">
                         <div class="p-2 rounded bg-light-green d-flex align-items-center shadow-sm w-auto">
-                            <img src="./public/assets/image/icon/o1.png" alt="Trusted"
+                            <img loading="lazy" src="./public/assets/image/icon/o1.png" alt="Trusted"
                                 class="me-3" style="width: 40px; height: 40px;">
                             <strong>Trusted by <span class="color-primary">500+ families</span></strong>
                         </div>
                         <div class="p-2 rounded bg-light-green d-flex align-items-center shadow-sm w-auto">
-                            <img src="./public/assets/image/icon/o2.png" alt="Managing"
+                            <img loading="lazy" src="./public/assets/image/icon/o2.png" alt="Managing"
                                 class="me-3" style="width: 40px; height: 40px;">
                             <strong>Managing <span class="color-primary">₹200+ crore</span></strong>
                         </div>
                         <div class="p-2 rounded bg-light-green d-flex align-items-center shadow-sm w-auto">
-                            <img src="./public/assets/image/icon/o3.png" alt="Experience"
+                            <img loading="lazy" src="./public/assets/image/icon/o3.png" alt="Experience"
                                 class="me-3" style="width: 40px; height: 40px;">
                             <strong><span class="color-primary">15 Years</span> of Experience</strong>
                         </div>
@@ -115,7 +108,7 @@
 
                 <!-- Image -->
                 <div class="col-md-6 text-center">
-                    <img src="./public/assets/image/you-might-be-investing.gif" alt="Financial Expert"
+                    <img loading="lazy" src="./public/assets/image/you-might-be-investing.gif" alt="Financial Expert"
                         class="img-fluid mx-auto d-block">
                 </div>
 
@@ -132,19 +125,19 @@
             <div class="row justify-content-center g-4">
                 <div class="col-md-4">
                     <div class="border rounded p-4 h-100 bg-white">
-                        <img src="./public/assets/image/icon/oo1.png" alt="Time Icon" class="mb-3 mx-auto d-block" style="width:50px; height:50px;">
+                        <img loading="lazy" src="./public/assets/image/icon/oo1.png" alt="Time Icon" class="mb-3 mx-auto d-block" style="width:50px; height:50px;">
                         <p class="mb-0 fw-bold">Do you have the time to manage your investments actively?</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="border rounded p-4 h-100 bg-white">
-                        <img src="./public/assets/image/icon/oo2.png" alt="Expertise Icon" class="mb-3 mx-auto d-block" style="width:50px; height:50px;">
+                        <img loading="lazy" src="./public/assets/image/icon/oo2.png" alt="Expertise Icon" class="mb-3 mx-auto d-block" style="width:50px; height:50px;">
                         <p class="mb-0 fw-bold">Do you have the expertise to pick the right products?</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="border rounded p-4 h-100 bg-white">
-                        <img src="./public/assets/image/icon/oo3.png" alt="Calm Decision Icon" class="mb-3 mx-auto d-block" style="width:50px; height:50px;">
+                        <img loading="lazy" src="./public/assets/image/icon/oo3.png" alt="Calm Decision Icon" class="mb-3 mx-auto d-block" style="width:50px; height:50px;">
                         <p class="mb-0 fw-bold">Can you stay calm and make rational decisions in a volatile market?</p>
                     </div>
                 </div>
@@ -178,7 +171,7 @@
                 <div class="col-md-4 col-sm-6">
                     <a href="./retirement-calculator.php" class="text-decoration-none text-dark">
                         <div class="p-4 border rounded h-100 bg-white text-center">
-                            <img src="./public/assets/image/icon/kk1.png" alt="Retirement Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
+                            <img loading="lazy" src="./public/assets/image/icon/kk1.png" alt="Retirement Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
                             <h4 class="fw-bold">Retirement</h4>
                             <p>Build a plan that lasts as long as you do. No running out of money.</p>
                         </div>
@@ -189,7 +182,7 @@
                 <div class="col-md-4 col-sm-6">
                     <a href="./crorepati-calculator.php" class="text-decoration-none text-dark">
                         <div class="p-4 border rounded h-100 bg-white text-center">
-                            <img src="./public/assets/image/icon/kk2.png" alt="Wealth Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
+                            <img loading="lazy" src="./public/assets/image/icon/kk2.png" alt="Wealth Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
                             <h4 class="fw-bold">Wealth Building</h4>
                             <p>Create a long-term investment strategy that compounds meaningfully.</p>
                         </div>
@@ -200,7 +193,7 @@
                 <div class="col-md-4 col-sm-6">
                     <a href="./target-sip-calculator.php" class="text-decoration-none text-dark">
                         <div class="p-4 border rounded h-100 bg-white text-center">
-                            <img src="./public/assets/image/icon/kk3.png" alt="Child Education Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
+                            <img loading="lazy" src="./public/assets/image/icon/kk3.png" alt="Child Education Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
                             <h4 class="fw-bold">Child Education</h4>
                             <p>Estimate costs, set timelines, and invest accordingly.</p>
                         </div>
@@ -211,7 +204,7 @@
                 <div class="col-md-4 col-sm-6">
                     <a href="./marriage-calculator.php" class="text-decoration-none text-dark">
                         <div class="p-4 border rounded h-100 bg-white text-center">
-                            <img src="./public/assets/image/icon/kk4.png" alt="Child's Marriage Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
+                            <img loading="lazy" src="./public/assets/image/icon/kk4.png" alt="Child's Marriage Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
                             <h4 class="fw-bold">Child's Marriage</h4>
                             <p>Plan a worry-free wedding fund that doesn’t strain your future.</p>
                         </div>
@@ -222,7 +215,7 @@
                 <div class="col-md-4 col-sm-6">
                     <a href="./house-calculator.php" class="text-decoration-none text-dark">
                         <div class="p-4 border rounded h-100 bg-white text-center">
-                            <img src="./public/assets/image/icon/kk5.png" alt="Dream Home Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
+                            <img loading="lazy" src="./public/assets/image/icon/kk5.png" alt="Dream Home Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
                             <h4 class="fw-bold">Dream Home</h4>
                             <p>Buy without regrets or EMI burdens.</p>
                         </div>
@@ -233,7 +226,7 @@
                 <div class="col-md-4 col-sm-6">
                     <a href="./car-calculator.php" class="text-decoration-none text-dark">
                         <div class="p-4 border rounded h-100 bg-white text-center">
-                            <img src="./public/assets/image/icon/kk6.png" alt="Dream Car Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
+                            <img loading="lazy" src="./public/assets/image/icon/kk6.png" alt="Dream Car Icon" class="mb-3 mx-auto d-block" style="width: 50px;">
                             <h4 class="fw-bold">Dream Car</h4>
                             <p>Make your lifestyle goals a reality.</p>
                         </div>
@@ -267,7 +260,7 @@
 
             <!-- Graph Image or Canvas Placeholder -->
             <d40 class="bg-light-green -4">
-                <img src="./public/assets/image/compound-growth.gif" alt="Compound Growth Chart" class="img-fluid mx-auto d-block" style="max-height: 500px;">
+                <img loading="lazy" src="./public/assets/image/compound-growth.gif" alt="Compound Growth Chart" class="img-fluid mx-auto d-block" style="max-height: 500px;">
             </d40>
 
             <a href="./about.php" class="btn btn-success rounded-pill px-4">Learn More</a>
@@ -330,19 +323,19 @@
             <div class="row g-3 justify-content-center mb-4">
                 <div class="col-md-4 col-sm-6 d-flex">
                     <div class="feature-pill border bg-white rounded d-flex align-items-center justify-content-center gap-2 h-100 w-100 p-2">
-                        <img src="./public/assets/image/icon/lk1.png" alt="Expert consultation" style="width:35px; height:35px;">
+                        <img loading="lazy" src="./public/assets/image/icon/lk1.png" alt="Expert consultation" style="width:35px; height:35px;">
                         <span class="fw-semibold">Expert consultation</span>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 d-flex">
                     <div class="feature-pill border bg-white rounded d-flex align-items-center justify-content-center gap-2 h-100 w-100 p-2">
-                        <img src="./public/assets/image/icon/lk2.png" alt="Financial health check" style="width:35px; height:35px;">
+                        <img loading="lazy" src="./public/assets/image/icon/lk2.png" alt="Financial health check" style="width:35px; height:35px;">
                         <span class="fw-semibold">Your financial health check</span>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 d-flex">
                     <div class="feature-pill border bg-white rounded d-flex align-items-center justify-content-center gap-2 h-100 w-100 p-2">
-                        <img src="./public/assets/image/icon/lk3.png" alt="Goal mapping" style="width:35px; height:35px;">
+                        <img loading="lazy" src="./public/assets/image/icon/lk3.png" alt="Goal mapping" style="width:35px; height:35px;">
                         <span class="fw-semibold">Goal mapping and guidance</span>
                     </div>
                 </div>
@@ -473,7 +466,7 @@
 
                 <!-- Bot illustration -->
                 <div class="col-lg-5 text-center order-1 order-md-2">
-                    <img src="./public/assets/image/FAQ3.gif"
+                    <img loading="lazy" src="./public/assets/image/FAQ3.gif"
                         alt="Have Questions Bot"
                         class="img-fluid mb-3 mx-auto d-block"
                         style="max-width:350px; width:80%;">
