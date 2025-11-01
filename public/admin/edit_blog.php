@@ -72,12 +72,12 @@ if (!$blog) {
             <div class="mb-3">
                 <label>Current Image:</label><br>
                 <?php if ($blog['image_url']): ?>
-                    <img  loading="lazy"src="./../../<?= $blog['image_url'] ?>" class="preview-img mb-2" />
+                    <img loading="lazy" src="./../../<?= $blog['image_url'] ?>" class="preview-img mb-2" />
                 <?php else: ?>
                     <p>No image uploaded.</p>
                 <?php endif; ?>
                 <input type="file" class="form-control" name="image" id="image">
-                <img  loading="lazy"id="preview" class="preview-img d-none" />
+                <img loading="lazy" id="preview" class="preview-img d-none" />
             </div>
 
             <div class="mb-3">
@@ -107,6 +107,8 @@ if (!$blog) {
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.20/dist/summernote-lite.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         // Image preview
         $('#image').on('change', function() {

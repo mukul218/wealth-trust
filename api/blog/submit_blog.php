@@ -18,9 +18,23 @@ $tags     = trim($_POST['tags'] ?? '');
 $is_published = isset($_POST['is_published']) ? 1 : 0;
 $author = $_SESSION['admin'];
 
-if (empty($title) || empty($slug) || empty($content)) {
+if (empty($title) || empty($content)) {
     response(['message' => 'Please fill all required fields'], 'error', 400);
 }
+
+// --- Format or generate slug ---
+if (empty($slug)) {
+    $slug = $title;
+}
+
+// Convert to lowercase
+$slug = strtolower($slug);
+
+// Replace non-alphanumeric characters with hyphens
+$slug = preg_replace('/[^a-z0-9]+/i', '-', $slug);
+
+// Trim hyphens from start and end
+$slug = trim($slug, '-');
 
 // --- Handle optional image upload ---
 $image_url = null;
