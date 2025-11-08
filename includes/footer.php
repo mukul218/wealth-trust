@@ -6,7 +6,7 @@
                 <!-- Left: Logo & Info -->
                 <div class="col-lg-4 col-md-12 footer-col-left pe-lg-4 my-0 footer-left-cont">
                     <a class="navbar-brand d-inline-flex align-items-center pt-4 mt-5" href="./">
-                        <img  loading="lazy"src="./public/assets/img/logo-new.png" alt="WealthTrustCap" class="footer-logo-img">
+                        <img loading="lazy" src="./public/assets/img/logo-new.png" alt="WealthTrustCap" class="footer-logo-img">
                     </a>
 
                     <div class="contact-info mt-4">
@@ -138,13 +138,13 @@
                     </div>
 
                     <!-- Risk Disclaimer -->
-                    <p class="text-center mt-4 text-black">
-                        Mutual fund investments are subject to market risks. Read the scheme information and other related documents carefully, before investing. Past performance is not indicative of future returns.
+                    <p class="text-center mt-4 text-black px-0 px-md-5 mx-0 mx-md-5">
+                        <strong>Disclaimer:</strong> Investment in securities market are subject to market risks. Read all the related documents carefully before investing. Registration granted by SEBI, Enlistment of BSE and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors.
                     </p>
                 </div>
             </section>
             <div class="col-12 text-center py-2">
-                <p class="copyright-text">&copy; 2025 WealthTrustCap. All Rights Reserved</p>
+                <p class="copyright-text">&copy; 2025 WealthTrustCap. All Rights Reserved | <a href=" https://smartodr.in/login">Smart ODR</a> | <a href="https://scores.sebi.gov.in/">SEBI Scores</a> </p>
             </div>
         </div>
     </div>
