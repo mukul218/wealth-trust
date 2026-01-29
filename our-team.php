@@ -86,7 +86,7 @@
 
             <div class="row g-4">
                 <!-- Card -->
-                <div class="col-12 col-lg-6">
+                <!-- <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
                         <a href="https://www.linkedin.com/in/shubham-jha-4706321a0/" target="_blank" rel="noopener"
                             class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
@@ -103,6 +103,27 @@
                                     Shubham is “Go-To” Research Analyst, a CFP® with experience in equity research, portfolio
                                     management and quant analysis spanning over 5 years. He deciphers market moves and news flow
                                     into actionable insights for current events plays.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="col-12 col-lg-6">
+                    <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
+                        <a href="https://www.linkedin.com/in/jeel-shah-31867b22a/" target="_blank" rel="noopener"
+                            class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <div class="row g-3 align-items-start">
+                            <div class="col-4 col-sm-3">
+                                <img loading="lazy" src="./public/assets/image/team/jeel.png" alt="Jeel Shah" class="img-fluid rounded">
+                            </div>
+                            <div class="col">
+                                <h6 class="mb-1">Jeel Shah</h6>
+                                <small class="text-primary d-block mb-2">(Senior Research Analyst)</small>
+                                <p class="mb-0 text-sm">
+                                    Dedicated mutual fund expert focused on research & analysis to tailor strategies for client goals.
                                 </p>
                             </div>
                         </div>
@@ -187,7 +208,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-6">
+                <!-- <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
                         <a href="https://www.linkedin.com/in/purvi-dodiya-632604169/" target="_blank" rel="noopener"
                             class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
@@ -206,7 +227,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">

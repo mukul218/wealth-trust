@@ -3,7 +3,7 @@
 $env = parse_ini_file(__DIR__ . '/../../.env');
 
 // Prefer env var; fallback to hardcoded key
-$key = $env['ADVISORKHOJ_API_KEY'];
+$key = $env['ADVISORKHOJ_API_KEY'] ?? "10e7d93b-484b-4756-80f7-350be64a60e5";
 
 
 // Common defaults for all calculators
