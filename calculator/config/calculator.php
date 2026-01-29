@@ -1,12 +1,14 @@
 <?php
 // calculator/config/calculator.php
+$env = parse_ini_file(__DIR__ . '/../../.env');
 
 // Prefer env var; fallback to hardcoded key
-$key = getenv('ADVISORKHOJ_API_KEY') ?: '10e7d93b-484b-4756-80f7-350be64a60e5';
+$key = $env['ADVISORKHOJ_API_KEY'];
+
 
 // Common defaults for all calculators
 $defaults = [
-    'method'  => 'POST',
+    'method'  => 'GET',
     'auth'    => ['key' => $key],
     'timeout' => 8,
 ];
