@@ -7,28 +7,32 @@
     <!-- SEO Tag -->
     <meta name="google-site-verification" content="1j7ccPo104QCfSnPKlo0O-_7zDg2ZZvBJ_m4FluR0OA" />
 
-    <meta name="description" content="Wealthtrust Capital offers expert financial planning in Mumbai with certified financial planners, wealth management solutions, and investment advisory services to help you grow confidently.">
+    <meta name="description"
+        content="Wealthtrust Capital offers expert financial planning in Mumbai with certified financial planners, wealth management solutions, and investment advisory services to help you grow confidently.">
 
-    <meta name="keywords" content="financial planning in mumbai, financial planner in mumbai, wealth management in mumbai, investment advisor in mumbai, wealthtrust capital, financial advisory mumbai, investment planning mumbai, wealth advisor mumbai, certified financial planner mumbai, best financial planner in mumbai">
+    <meta name="keywords"
+        content="financial planning in mumbai, financial planner in mumbai, wealth management in mumbai, investment advisor in mumbai, wealthtrust capital, financial advisory mumbai, investment planning mumbai, wealth advisor mumbai, certified financial planner mumbai, best financial planner in mumbai">
 
     <title>Financial Planning in Mumbai | Wealth Management & Financial Planner – Wealthtrust Capital</title>
 
     <?php
     include_once './includes/css-lib.php'
-    ?>
+        ?>
 
     <!-- Home Page -->
     <link rel="canonical" href="https://www.wealthtrustcap.com/" />
 
     <meta property="og:title" content="WealthTrust Capital | Trusted Wealth Management & Investment Advisory" />
-    <meta property="og:description" content="Grow your wealth with expert financial planning and investment advisory services from WealthTrust Capital." />
+    <meta property="og:description"
+        content="Grow your wealth with expert financial planning and investment advisory services from WealthTrust Capital." />
     <meta property="og:url" content="https://www.wealthtrustcap.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="OG_IMAGE_URL" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="WealthTrust Capital | Trusted Wealth Management & Investment Advisory" />
-    <meta name="twitter:description" content="Grow your wealth with expert financial planning and investment advisory services from WealthTrust Capital." />
+    <meta name="twitter:description"
+        content="Grow your wealth with expert financial planning and investment advisory services from WealthTrust Capital." />
     <meta name="twitter:image" content="OG_IMAGE_URL" />
 
 
@@ -105,30 +109,36 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-6 px-md-5">
                     <div class="hero-content">
-                        <h1><b> Invest with <span class="color-primary">Confidence</span></b> <small><span class="color-primary">Achieve</span> Your <span class="color-primary">Life Goals</span> On Time.</small></h1>
+                        <h1><b> Invest with <span class="color-primary">Confidence</span></b> <small><span
+                                    class="color-primary">Achieve</span> Your <span class="color-primary">Life
+                                    Goals</span> On Time.</small></h1>
                         <p>We simplify investing with expert guidance, so you can focus on what matters most.</p>
 
                         <div class="trust-badge">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-check" viewBox="0 0 16 16">
-                                <path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56" />
-                                <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-shield-check" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56" />
+                                <path
+                                    d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0" />
                             </svg>
                             Trusted by <b>500+ Families.</b>
                         </div>
 
                         <div class="trust-badge">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-check" viewBox="0 0 16 16">
-                                <path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56" />
-                                <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-shield-check" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56" />
+                                <path
+                                    d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0" />
                             </svg>
                             Certified <b>Expert</b>
                         </div>
 
                         <div class="mt-4">
                             <a href="https://calendly.com/wealthtrustcapitalservices/new-meeting"
-                                class="btn btn-primary btn-lg"
-                                target="_blank"
-                                rel="noopener">
+                                class="btn btn-primary btn-lg" target="_blank" rel="noopener">
                                 Schedule a Call
                             </a>
                         </div>
@@ -164,27 +174,33 @@
                                 <div class="carousel-pane bg-primary-slide text-white">
                                     <div>
                                         <h2>Hurry Up</h2>
-                                        <p>Delay and lack of knowledge can cost you thousands crores. Start today, safe tomorrow.</p>
+                                        <p>Delay and lack of knowledge can cost you thousands crores. Start today, safe
+                                            tomorrow.</p>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
 
-                        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel"
+                            data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
 
-                        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel"
+                            data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
 
                         <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
                         </div>
                     </div>
                 </div>
@@ -199,22 +215,26 @@
                 <div class="row justify-content-center align-items-center text-center stat-row">
                     <div class="col-12 col-sm-6 col-md-3 mb-4">
                         <div class="stat-item color-primary">
-                            <img loading="lazy" class="img-fluid w-75" src="./public/assets/image/ii1.png" alt="SEBI Registered">
+                            <img loading="lazy" class="img-fluid w-75" src="./public/assets/image/ii1.png"
+                                alt="SEBI Registered">
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 mb-4">
                         <div class="stat-item color-primary">
-                            <img loading="lazy" class="img-fluid w-75" src="./public/assets/image/ii2.png" alt="SEBI Registered">
+                            <img loading="lazy" class="img-fluid w-75" src="./public/assets/image/ii2.png"
+                                alt="SEBI Registered">
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 mb-4">
                         <div class="stat-item color-primary">
-                            <img loading="lazy" class="img-fluid w-75" src="./public/assets/image/ii3-new.png" alt="SEBI Registered">
+                            <img loading="lazy" class="img-fluid w-75" src="./public/assets/image/ii3-new.png"
+                                alt="SEBI Registered">
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 mb-4">
                         <div class="stat-item color-primary">
-                            <img loading="lazy" class="img-fluid w-75" src="./public/assets/image/ii4.png" alt="SEBI Registered">
+                            <img loading="lazy" class="img-fluid w-75" src="./public/assets/image/ii4.png"
+                                alt="SEBI Registered">
                         </div>
                     </div>
                 </div>
@@ -229,8 +249,8 @@
                         <!-- Illustration -->
                         <div class="col-lg-6 mb-4 mb-lg-0">
                             <div class="about-illustration text-center">
-                                <img loading="lazy" src="./public/assets/image//our_services_5.gif" alt="Wealth advisor illustration"
-                                    style=" height: auto;">
+                                <img loading="lazy" src="./public/assets/image//our_services_5.gif"
+                                    alt="Wealth advisor illustration" style=" height: auto;">
                                 <!-- Replace src with your actual illustration image file -->
                             </div>
                         </div>
@@ -238,10 +258,18 @@
                         <div class="col-lg-6">
                             <div class="about-content" style="color: #424242;">
                                 <h3 class="color-primary"><b>Where trust meets expertise in Wealth Management</b></h3>
-                                <p>At WealthTrust Capital Services, our commitment to excellence has earned the trust of over 500 families who rely on our services for their financial well-being.
-                                <p></p> We take immense pride in being the trusted partner on the financial journey for a diverse community of individuals and families.<p></p> Our holistic approach to wealth management, personalized strategies, and unwavering dedication to our clients' success have solidified our reputation as a reliable and transparent financial partner.<p></p> Join the growing number of families who have entrusted their financial futures to us, and experience the difference that a dedicated and trustworthy financial ally can make in achieving your long-term goals.</p>
+                                <p>At WealthTrust Capital Services, our commitment to excellence has earned the trust of
+                                    over 500 families who rely on our services for their financial well-being.
+                                <p></p> We take immense pride in being the trusted partner on the financial journey for
+                                a diverse community of individuals and families.<p></p> Our holistic approach to wealth
+                                management, personalized strategies, and unwavering dedication to our clients' success
+                                have solidified our reputation as a reliable and transparent financial partner.<p></p>
+                                Join the growing number of families who have entrusted their financial futures to us,
+                                and experience the difference that a dedicated and trustworthy financial ally can make
+                                in achieving your long-term goals.</p>
                                 <div class="mt-4">
-                                    <a href="./about.php" class="btn" style="background: #399082; color: #fff; border-radius: 25px; padding: 10px 28px; font-weight: 500;">
+                                    <a href="./about.php" class="btn"
+                                        style="background: #399082; color: #fff; border-radius: 25px; padding: 10px 28px; font-weight: 500;">
                                         Know More
                                     </a>
                                 </div>
@@ -256,7 +284,8 @@
     <section id="services" class="offerings-section">
         <div class="container">
             <h2 class="text-center">Our <span class="color-primary">Offerings</span></h2>
-            <p class="offerings-subtitle fs-5">Want a roadmap to financial freedom, need research-backed stocks or mutual fund curations?<br>We have got your back:</p>
+            <p class="offerings-subtitle fs-5">Want a roadmap to financial freedom, need research-backed stocks or
+                mutual fund curations?<br>We have got your back:</p>
 
 
 
@@ -266,7 +295,8 @@
                         <div class="d-flex justify-content-between align-items-start">
                             <h4>Wealth Management: Your Gateway to Financial Freedom</h4>
                             <div style="font-size: 2rem; color: var(--primary-color);">
-                                <img loading="lazy" src="./public/assets/img/growth.gif" alt="" class="img-fluid" style="width: 6rem;">
+                                <img loading="lazy" src="./public/assets/img/growth.gif" alt="" class="img-fluid"
+                                    style="width: 6rem;">
                             </div>
                         </div>
                         <ul class="p-0">
@@ -293,7 +323,8 @@
                         <div class="d-flex justify-content-between align-items-start">
                             <h4>SEBI-Registered Research Analyst</h4>
                             <div style="font-size: 2rem; color: var(--primary-color);">
-                                <img loading="lazy" src="./public/assets/img/search.gif" alt="" class="img-fluid" style="width: 4rem;">
+                                <img loading="lazy" src="./public/assets/img/search.gif" alt="" class="img-fluid"
+                                    style="width: 4rem;">
                             </div>
                         </div>
                         <ul class="p-0">
@@ -349,7 +380,10 @@
                 <div class="col-lg-4 mb-4">
                     <div class="testimonial-card light-green">
                         <div class="testimonial-text">
-                            "I am pleased to offer my endorsement for Sneha, a proficient wealth manager. She took the time to understand my long-term and short-term financial goals, crafted a tailored portfolio accordingly. From that point onward, she and her team have capably overseen all aspects. As a newcomer to investments, I greatly appreciated Sneha's expertise."
+                            "I am pleased to offer my endorsement for Sneha, a proficient wealth manager. She took the
+                            time to understand my long-term and short-term financial goals, crafted a tailored portfolio
+                            accordingly. From that point onward, she and her team have capably overseen all aspects. As
+                            a newcomer to investments, I greatly appreciated Sneha's expertise."
                         </div>
                         <div class="testimonial-author">- Ankita Arora</div>
                     </div>
@@ -358,7 +392,10 @@
                 <div class="col-lg-4 mb-4">
                     <div class="testimonial-card light-green">
                         <div class="testimonial-text">
-                            "I am very happy with the financial insights of Sneha and her team. Personal finance is a very ignored aspect in everyone's life, and WTC acts as a perfect bridge in handling and dealing with personal finances and wealth management for you. I don't have to worry about a thing. Everything is managed by Sneha Jain and her team at WTC."
+                            "I am very happy with the financial insights of Sneha and her team. Personal finance is a
+                            very ignored aspect in everyone's life, and WTC acts as a perfect bridge in handling and
+                            dealing with personal finances and wealth management for you. I don't have to worry about a
+                            thing. Everything is managed by Sneha Jain and her team at WTC."
                         </div>
                         <div class="testimonial-author">- Ashish Massey</div>
                     </div>
@@ -367,7 +404,11 @@
                 <div class="col-lg-4 mb-4">
                     <div class="testimonial-card light-green">
                         <div class="testimonial-text">
-                            "I am incredibly grateful to have had Sneha Jain as my trusted financial advisor. Her expertise, dedication, and personalised guidance have been invaluable on my journey toward financial security. There is a plethora of financial advisors, however, the reason I chose to go with her is because she is authentic, honest, resilient, not only as a person but also with her work."
+                            "I am incredibly grateful to have had Sneha Jain as my trusted financial advisor. Her
+                            expertise, dedication, and personalised guidance have been invaluable on my journey toward
+                            financial security. There is a plethora of financial advisors, however, the reason I chose
+                            to go with her is because she is authentic, honest, resilient, not only as a person but also
+                            with her work."
                         </div>
                         <div class="testimonial-author">- Yashvi Vira</div>
                     </div>
@@ -389,9 +430,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="testimonial-card light-green p-3 text-center">
                         <div class="ratio ratio-9x16 mx-auto" style="max-width: 250px;">
-                            <iframe
-                                src="https://www.youtube.com/embed/BLbDv-23d0Y"
-                                title="Investor Testimonial 1"
+                            <iframe src="https://www.youtube.com/embed/BLbDv-23d0Y" title="Investor Testimonial 1"
                                 allowfullscreen>
                             </iframe>
                         </div>
@@ -402,7 +441,7 @@
                 </div>
 
                 <!-- Video Testimonial 2 -->
-                <div class="col-lg-3 col-md-6 mb-4">
+                <!-- <div class="col-lg-3 col-md-6 mb-4">
                     <div class="testimonial-card light-green p-3 text-center">
                         <div class="ratio ratio-9x16 mx-auto" style="max-width: 250px;">
                             <iframe
@@ -415,15 +454,13 @@
                             - Priti Arora
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Video Testimonial 3 -->
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="testimonial-card light-green p-3 text-center">
                         <div class="ratio ratio-9x16 mx-auto" style="max-width: 250px;">
-                            <iframe
-                                src="https://www.youtube.com/embed/KYEBamKOKKk"
-                                title="Investor Testimonial 3"
+                            <iframe src="https://www.youtube.com/embed/KYEBamKOKKk" title="Investor Testimonial 3"
                                 allowfullscreen>
                             </iframe>
                         </div>
@@ -444,11 +481,13 @@
                 <div class="col-lg-6">
                     <h2 class="text-center text-md-start">Not convinced <span class="color-primary">yet?</span></h2>
                     <h4 style="color: var(--primary-color);">Join our 2-hour Investment Masterclass</h4>
-                    <p class="mb-4">Clear all your doubts and take charge of your finances to live a stress-free life. Register for free.</p>
+                    <p class="mb-4">Clear all your doubts and take charge of your finances to live a stress-free life.
+                        Register for free.</p>
                     <a href="./master-class.php" class="btn btn-outline-primary me-3">Book Your Seat</a>
                 </div>
                 <div class="col-lg-6">
-                    <img loading="lazy" src="./public/assets/image/not-convinced-gif.gif" alt="CTA Image" class="img-fluid">
+                    <img loading="lazy" src="./public/assets/image/not-convinced-gif.gif" alt="CTA Image"
+                        class="img-fluid">
                 </div>
             </div>
         </div>
@@ -460,7 +499,8 @@
             <div class="row align-items-center">
                 <!-- Bot illustration (left) -->
                 <div class="col-lg-5 mb-4 mb-lg-0 text-center">
-                    <img loading="lazy" src="./public/assets/image/faq.gif" alt="Have Questions Bot" style="max-width: 350px; width: 80%;">
+                    <img loading="lazy" src="./public/assets/image/faq.gif" alt="Have Questions Bot"
+                        style="max-width: 350px; width: 80%;">
                     <!-- Replace with your SVG/PNG -->
                 </div>
                 <!-- FAQ Accordion (right) -->
@@ -469,65 +509,81 @@
                         <!-- Q1 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faq1-heading">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
                                     1. Who is WealthTrust Capital Services best suited for?
                                 </button>
                             </h2>
-                            <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="faq1-heading" data-bs-parent="#faqAccordion">
+                            <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="faq1-heading"
+                                data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    We cater to professionals, business owners, and families looking to invest smartly, plan taxes efficiently, and secure their financial future, whether you're just starting or managing significant wealth.
+                                    We cater to professionals, business owners, and families looking to invest smartly,
+                                    plan taxes efficiently, and secure their financial future, whether you're just
+                                    starting or managing significant wealth.
                                 </div>
                             </div>
                         </div>
                         <!-- Q2 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faq2-heading">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
                                     2. What makes WealthTrust different from other advisors?
                                 </button>
                             </h2>
-                            <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading" data-bs-parent="#faqAccordion">
+                            <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading"
+                                data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Our advisory is highly personalized, unbiased, and built on a solid track record of helping clients achieve their financial goals.
+                                    Our advisory is highly personalized, unbiased, and built on a solid track record of
+                                    helping clients achieve their financial goals.
                                 </div>
                             </div>
                         </div>
                         <!-- Q3 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faq3-heading">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
                                     3. Can I book a consultation even if I’m new to investing?
                                 </button>
                             </h2>
-                            <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading" data-bs-parent="#faqAccordion">
+                            <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading"
+                                data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Absolutely! We work with both first-time and experienced investors, and will guide you every step of the way.
+                                    Absolutely! We work with both first-time and experienced investors, and will guide
+                                    you every step of the way.
                                 </div>
                             </div>
                         </div>
                         <!-- Q4 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faq4-heading">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
                                     4. What is the minimum investment amount required to start?
                                 </button>
                             </h2>
-                            <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faq4-heading" data-bs-parent="#faqAccordion">
+                            <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faq4-heading"
+                                data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    We recommend a minimum investment of ₹10,000, but our team will help tailor a plan for your specific needs.
+                                    We recommend a minimum investment of ₹10,000, but our team will help tailor a plan
+                                    for your specific needs.
                                 </div>
                             </div>
                         </div>
                         <!-- Q5 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faq5-heading">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
                                     5. Are your services only for people in a specific city or region?
                                 </button>
                             </h2>
-                            <div id="faq5" class="accordion-collapse collapse" aria-labelledby="faq5-heading" data-bs-parent="#faqAccordion">
+                            <div id="faq5" class="accordion-collapse collapse" aria-labelledby="faq5-heading"
+                                data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    No, we work with clients all over India (and NRIs too!). Location is never a barrier.
+                                    No, we work with clients all over India (and NRIs too!). Location is never a
+                                    barrier.
                                 </div>
                             </div>
                         </div>
@@ -550,28 +606,34 @@
                 <div class="col-6 col-md-3 col-lg-2">
                     <div class="media-logo-item">
                         <a href="https://www.youtube.com/watch?v=HWRQtD7rOu0" target="_blank" rel="noopener noreferrer">
-                            <img loading="lazy" src="./public/assets/img/plogo1.png" alt="CNBC AWAAZ" class="img-fluid mx-auto d-block">
+                            <img loading="lazy" src="./public/assets/img/plogo1.png" alt="CNBC AWAAZ"
+                                class="img-fluid mx-auto d-block">
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-2">
                     <div class="media-logo-item">
-                        <a href="https://economictimes.indiatimes.com/industry/banking/finance/banking/financial-planning-for-artists-here-are-steps-to-ensure-you-are-on-the-right-track/articleshow/90073918.cms?from=mdr" target="_blank" rel="noopener noreferrer">
-                            <img loading="lazy" src="./public/assets/img/plogo2.png" alt="JAGRAN BUSINESS" class="img-fluid mx-auto d-block">
+                        <a href="https://economictimes.indiatimes.com/industry/banking/finance/banking/financial-planning-for-artists-here-are-steps-to-ensure-you-are-on-the-right-track/articleshow/90073918.cms?from=mdr"
+                            target="_blank" rel="noopener noreferrer">
+                            <img loading="lazy" src="./public/assets/img/plogo2.png" alt="JAGRAN BUSINESS"
+                                class="img-fluid mx-auto d-block">
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-2">
                     <div class="media-logo-item">
                         <a href="https://www.youtube.com/watch?v=7uJzPnG_4IU" target="_blank" rel="noopener noreferrer">
-                            <img loading="lazy" src="./public/assets/img/plogo3.png" alt="OUTLOOK MONEY" class="img-fluid mx-auto d-block">
+                            <img loading="lazy" src="./public/assets/img/plogo3.png" alt="OUTLOOK MONEY"
+                                class="img-fluid mx-auto d-block">
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 col-lg-2">
                     <div class="media-logo-item">
-                        <a href="https://www.outlookmoney.com/spotlight/planning-for-your-retirement-8740 " target="_blank" rel="noopener noreferrer">
-                            <img loading="lazy" src="./public/assets/img/plogo4.png" alt="ECONOMIC TIMES" class="img-fluid mx-auto d-block">
+                        <a href="https://www.outlookmoney.com/spotlight/planning-for-your-retirement-8740 "
+                            target="_blank" rel="noopener noreferrer">
+                            <img loading="lazy" src="./public/assets/img/plogo4.png" alt="ECONOMIC TIMES"
+                                class="img-fluid mx-auto d-block">
                         </a>
                     </div>
                 </div>
@@ -594,8 +656,8 @@
     include_once 'includes/footer.php';
     ?>
     <script>
-        $(function() {
-            $.getJSON('./api/blog/get_blogs.php', function(res) {
+        $(function () {
+            $.getJSON('./api/blog/get_blogs.php', function (res) {
                 const blogs = (res && res.data) ? res.data.slice(0, 4) : []; // limit to 4
                 const $list = $('#blogList');
                 const $fallback = $('#noBlogs');

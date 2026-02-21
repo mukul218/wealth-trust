@@ -6,12 +6,14 @@
                 <!-- Left: Logo & Info -->
                 <div class="col-lg-4 col-md-12 footer-col-left pe-lg-4 my-0 footer-left-cont">
                     <a class="navbar-brand d-inline-flex align-items-center pt-4 mt-5" href="./">
-                        <img loading="lazy" src="./public/assets/img/logo-new.png" alt="WealthTrustCap" class="footer-logo-img">
+                        <img loading="lazy" src="./public/assets/img/logo-new.png" alt="WealthTrustCap"
+                            class="footer-logo-img">
                     </a>
 
                     <div class="contact-info mt-4">
                         <h5 class="footer-label">Contact us at</h5>
-                        <p class="footer-phone m-0"><a class="text-decoration-none text-black" href="tel:+919819039345">+91 98190 39345</a></p>
+                        <p class="footer-phone m-0"><a class="text-decoration-none text-black"
+                                href="tel:+919819039345">+91 98190 39345</a></p>
                     </div>
 
                     <div class="location-info mt-3">
@@ -26,7 +28,8 @@
 
                     <div class="email-info mt-3">
                         <h5 class="footer-label">Email Us</h5>
-                        <p class="mb-0"><a class="text-black text-decoration-none" href="mailto:enquiry@wealthtrustcap.com">enquiry@wealthtrustcap.com</a></p>
+                        <p class="mb-0"><a class="text-black text-decoration-none"
+                                href="mailto:enquiry@wealthtrustcap.com">enquiry@wealthtrustcap.com</a></p>
                     </div>
                 </div>
 
@@ -47,11 +50,21 @@
 
                             <h4 class="footer-heading mt-4">Follow us on</h4>
                             <div class="d-flex flex-wrap gap-2">
-                                <a aria-label="Twitter" href="https://x.com/wealthtrustcap?s=21&t=eOUzT264wNr7BUKc3YYFEQ" class="social-icon-link"><i class="fab fa-twitter"></i></a>
-                                <a aria-label="LinkedIn" href="https://www.linkedin.com/company/wealthtrust-capital-services/ " class="social-icon-link"><i class="fab fa-linkedin-in"></i></a>
-                                <a aria-label="Facebook" href="https://www.facebook.com/share/1F8ghGJPBE/?mibextid=wwXIfr " class="social-icon-link"><i class="fab fa-facebook-f"></i></a>
-                                <a aria-label="Instagram" href="https://www.instagram.com/wealthtrustcapital?igsh=MWlpYTFraTZpd2ExMQ== " class="social-icon-link"><i class="fab fa-instagram"></i></a>
-                                <a aria-label="YouTube" href="https://youtube.com/@wealthtrustcapital?si=n8RJ6pi_2XUr1JEb" class="social-icon-link"><i class="fab fa-youtube"></i></a>
+                                <a aria-label="Twitter"
+                                    href="https://x.com/wealthtrustcap?s=21&t=eOUzT264wNr7BUKc3YYFEQ"
+                                    class="social-icon-link"><i class="fab fa-twitter"></i></a>
+                                <a aria-label="LinkedIn"
+                                    href="https://www.linkedin.com/company/wealthtrust-capital-services/ "
+                                    class="social-icon-link"><i class="fab fa-linkedin-in"></i></a>
+                                <a aria-label="Facebook"
+                                    href="https://www.facebook.com/share/1F8ghGJPBE/?mibextid=wwXIfr "
+                                    class="social-icon-link"><i class="fab fa-facebook-f"></i></a>
+                                <a aria-label="Instagram"
+                                    href="https://www.instagram.com/wealthtrustcapital?igsh=MWlpYTFraTZpd2ExMQ== "
+                                    class="social-icon-link"><i class="fab fa-instagram"></i></a>
+                                <a aria-label="YouTube"
+                                    href="https://youtube.com/@wealthtrustcapital?si=n8RJ6pi_2XUr1JEb"
+                                    class="social-icon-link"><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
 
@@ -69,8 +82,12 @@
 
                             <h4 class="footer-heading mt-4">Download our app</h4>
                             <div class="d-flex gap-2">
-                                <a aria-label="Android" href="#" class="social-icon-link"><i class="fa-brands fa-google-play"></i></a>
-                                <a aria-label="Apple" href="#" class="social-icon-link"><i class="fab fa-apple"></i></a>
+                                <a aria-label="Android"
+                                    href="https://play.google.com/store/apps/details?id=com.wtcs.app&pcampaignid=web_share"
+                                    class="social-icon-link"><i class="fa-brands fa-google-play"></i></a>
+                                <a aria-label="Apple"
+                                    href="https://apps.apple.com/us/app/wealth-trust-capital-services/id6755182981"
+                                    class="social-icon-link"><i class="fab fa-apple"></i></a>
                             </div>
                         </div>
                     </div>
@@ -84,7 +101,8 @@
                         <input type="email" id="newsletterEmail" class="form-control" placeholder="Email" required>
                         <button class="btn btn-subscribe" type="submit" id="newsletterBtn">
                             <span class="btn-text">Subscribe</span>
-                            <span class="btn-loader spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                            <span class="btn-loader spinner-border spinner-border-sm d-none" role="status"
+                                aria-hidden="true"></span>
                         </button>
                     </form>
 
@@ -139,12 +157,17 @@
 
                     <!-- Risk Disclaimer -->
                     <p class="text-center mt-4 text-black px-0 px-md-5 mx-0 mx-md-5">
-                        <strong>Disclaimer:</strong> Investment in securities market are subject to market risks. Read all the related documents carefully before investing. Registration granted by SEBI, Enlistment of BSE and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors.
+                        <strong>Disclaimer:</strong> Investment in securities market are subject to market risks. Read
+                        all the related documents carefully before investing. Registration granted by SEBI, Enlistment
+                        of BSE and certification from NISM in no way guarantee performance of the intermediary or
+                        provide any assurance of returns to investors.
                     </p>
                 </div>
             </section>
             <div class="col-12 text-center py-2">
-                <p class="copyright-text">&copy; 2025 WealthTrustCap. All Rights Reserved | <a href=" https://smartodr.in/login">Smart ODR</a> | <a href="https://scores.sebi.gov.in/">SEBI Scores</a> </p>
+                <p class="copyright-text">&copy; 2025 WealthTrustCap. All Rights Reserved | <a
+                        href=" https://smartodr.in/login">Smart ODR</a> | <a href="https://scores.sebi.gov.in/">SEBI
+                        Scores</a> </p>
             </div>
         </div>
     </div>
@@ -154,7 +177,7 @@ include_once "./public/assets/js/externalScript.php";
 ?>
 
 <script>
-    $('#newsletterForm').on('submit', function(e) {
+    $('#newsletterForm').on('submit', function (e) {
         e.preventDefault();
 
         const email = $('#newsletterEmail').val().trim();
@@ -179,7 +202,7 @@ include_once "./public/assets/js/externalScript.php";
                 email
             },
             dataType: 'json',
-            success: function(res) {
+            success: function (res) {
                 if (res.status === 'success') {
                     $('#newsletterAlert').html(`<div class="alert alert-success">${res.data.message}</div>`);
                     $('#newsletterForm')[0].reset();
@@ -187,10 +210,10 @@ include_once "./public/assets/js/externalScript.php";
                     $('#newsletterAlert').html(`<div class="alert alert-danger">${res.data.message}</div>`);
                 }
             },
-            error: function() {
+            error: function () {
                 $('#newsletterAlert').html('<div class="alert alert-danger">Server error. Please try again later.</div>');
             },
-            complete: function() {
+            complete: function () {
                 // Hide loader, show text
                 $btn.prop('disabled', false);
                 $btnText.removeClass('d-none');

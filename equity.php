@@ -5,23 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- seo tag -->
-    <meta name="description" content="Description: Our equity investment advisory service focuses on research, diversification, and disciplined financial planning — helping investors make informed decisions aligned with their goals.">
-    <meta name="keywords" content="equity advisory, portfolio management, stock market insights, investment planning, equity research advisor">
+    <meta name="description"
+        content="Description: Our equity investment advisory service focuses on research, diversification, and disciplined financial planning — helping investors make informed decisions aligned with their goals.">
+    <meta name="keywords"
+        content="equity advisory, portfolio management, stock market insights, investment planning, equity research advisor">
     <title>Equity Investment Advisory | Research-Driven Financial Planning</title>
     <?php
     include_once './includes/css-lib.php'
-    ?>
+        ?>
     <link rel="canonical" href="https://www.wealthtrustcap.com/equity" />
 
     <meta property="og:title" content="Equity Investment Advisory | Grow Wealth with Expert Insights" />
-    <meta property="og:description" content="WealthTrust Capital offers equity advisory backed by research and strategy for long-term growth." />
+    <meta property="og:description"
+        content="WealthTrust Capital offers equity advisory backed by research and strategy for long-term growth." />
     <meta property="og:url" content="https://www.wealthtrustcap.com/equity" />
     <meta property="og:type" content="article" />
     <meta property="og:image" content="OG_IMAGE_URL" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Equity Investment Advisory | Grow Wealth with Expert Insights" />
-    <meta name="twitter:description" content="WealthTrust Capital offers equity advisory backed by research and strategy." />
+    <meta name="twitter:description"
+        content="WealthTrust Capital offers equity advisory backed by research and strategy." />
     <meta name="twitter:image" content="OG_IMAGE_URL" />
 
 
@@ -309,19 +313,15 @@
                     </p>
 
                     <a href="https://wealthtrustcapitalservices.smallcase.com/"
-                        class="btn btn-primary rounded-pill px-4 py-2"
-                        target="_blank"
-                        rel="noopener">
+                        class="btn btn-primary rounded-pill px-4 py-2" target="_blank" rel="noopener">
                         Invest Now
                     </a>
                 </div>
 
                 <!-- Right Image -->
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
-                    <img loading="lazy" src="./public/assets/image/invest-like.gif"
-                        class="img-fluid"
-                        alt="Invest illustration"
-                        style="max-width: 420px;">
+                    <img loading="lazy" src="./public/assets/image/invest-like.gif" class="img-fluid"
+                        alt="Invest illustration" style="max-width: 420px;">
                 </div>
 
             </div>
@@ -344,7 +344,8 @@
                     <div class="offering-card offering--mint h-100 p-4 border rounded d-flex flex-column">
                         <div>
                             <div class="d-flex align-items-start gap-3 mb-3">
-                                <img loading="lazy" src="./public/assets/img/logo-new.png" alt="" class="portfolio-badge bg-white rounded">
+                                <img loading="lazy" src="./public/assets/img/logo-new.png" alt=""
+                                    class="portfolio-badge bg-white rounded">
                                 <h5 class="m-0 fw-bold">Curated Portfolio</h5>
                             </div>
                             <small class="text-muted"><b>Detailed Research Reports</b></small>
@@ -366,7 +367,8 @@
                     </div>
                     <!-- Subscribe button OUTSIDE card -->
                     <div class="text-center mt-3">
-                        <a href="https://calendly.com/wealthtrustcapitalservices/new-meeting" target="_blank" class="btn btn-pill btn-mint">
+                        <a href="https://calendly.com/wealthtrustcapitalservices/new-meeting" target="_blank"
+                            class="btn btn-pill btn-mint">
                             Schedule Call
                         </a>
                     </div>
@@ -377,7 +379,8 @@
                     <div class="offering-card offering--blue h-100 p-4 border rounded d-flex flex-column">
                         <div>
                             <div class="d-flex align-items-start gap-3 mb-3">
-                                <img loading="lazy" src="./public/assets/image/icon/small-cap.png" alt="" class="portfolio-badge">
+                                <img loading="lazy" src="./public/assets/image/icon/small-cap.png" alt=""
+                                    class="portfolio-badge">
                                 <h5 class="m-0 fw-bold">Small Case</h5>
                             </div>
                             <small class="text-muted"><b> Ready stock baskets </b></small>
@@ -397,7 +400,8 @@
                         </div>
                     </div>
                     <div class="text-center mt-3">
-                        <a href="https://wealthtrustcapitalservices.smallcase.com/" target="_blank" class="btn btn-pill btn-blue">
+                        <a href="https://wealthtrustcapitalservices.smallcase.com/" target="_blank"
+                            class="btn btn-pill btn-blue">
                             Subscribe
                         </a>
                     </div>
@@ -409,7 +413,8 @@
                     <div class="offering-card offering--cream h-100 p-4 border rounded d-flex flex-column">
                         <div>
                             <div class="d-flex align-items-start gap-3 mb-3">
-                                <img loading="lazy" src="./public/assets/image/icon/right-check.png" alt="" class="portfolio-badge">
+                                <img loading="lazy" src="./public/assets/image/icon/right-check.png" alt=""
+                                    class="portfolio-badge">
                                 <h5 class="m-0 fw-bold">Pickright</h5>
                             </div>
                             <small class="text-muted"><b> Ready stock baskets </b></small>
@@ -430,8 +435,7 @@
                     </div>
                     <div class="text-center mt-3">
                         <a href="https://pickright.in/investment/advisor-detail/60212628fcf0997e93910424"
-                            target="_blank"
-                            class="btn btn-pill btn-cream">
+                            target="_blank" class="btn btn-pill btn-cream">
                             Subscribe
                         </a>
                     </div>
@@ -456,7 +460,8 @@
                             <p class="mb-0 text-muted">Because your money should work for you</p>
                         </div>
                         <div class="card-visual">
-                            <img loading="lazy" src="./public/assets/img/ss1.png" class="img-fluid" alt="Personalized Portfolio Construction">
+                            <img loading="lazy" src="./public/assets/img/ss1.png" class="img-fluid"
+                                alt="Personalized Portfolio Construction">
                         </div>
                     </div>
                 </div>
@@ -468,7 +473,8 @@
                             <p class="mb-0 text-muted">No more random stock tips</p>
                         </div>
                         <div class="card-visual">
-                            <img loading="lazy" src="./public/assets/img/ss2.png" class="img-fluid" alt="Actionable Stock Recommendations">
+                            <img loading="lazy" src="./public/assets/img/ss2.png" class="img-fluid"
+                                alt="Actionable Stock Recommendations">
                         </div>
                     </div>
                 </div>
@@ -480,7 +486,8 @@
                             <p class="mb-0 text-muted">So you don’t miss any opportunities.</p>
                         </div>
                         <div class="card-visual">
-                            <img loading="lazy" src="./public/assets/img/ss3.png" class="img-fluid" alt="Regular Portfolio Reviews">
+                            <img loading="lazy" src="./public/assets/img/ss3.png" class="img-fluid"
+                                alt="Regular Portfolio Reviews">
                         </div>
                     </div>
                 </div>
@@ -495,7 +502,8 @@
                             <p class="mb-0 text-muted">No guesswork.</p>
                         </div>
                         <div class="card-visual">
-                            <img loading="lazy" src="./public/assets/img/ss4.png" class="img-fluid" alt="Research-Backed Picks">
+                            <img loading="lazy" src="./public/assets/img/ss4.png" class="img-fluid"
+                                alt="Research-Backed Picks">
                         </div>
                     </div>
                 </div>
@@ -507,7 +515,8 @@
                             <p class="mb-0 text-muted">Because when you are stuck, Google doesn’t talk back.</p>
                         </div>
                         <div class="card-visual">
-                            <img loading="lazy" src="./public/assets/img/ss5.png" class="img-fluid" alt="Real Human Guidance">
+                            <img loading="lazy" src="./public/assets/img/ss5.png" class="img-fluid"
+                                alt="Real Human Guidance">
                         </div>
                     </div>
                 </div>
@@ -516,9 +525,7 @@
             <!-- CTA -->
             <div class="text-center mt-4">
                 <a href="https://wealthtrustcapitalservices.smallcase.com/"
-                    class="btn btn-primary rounded-pill px-4 d-sm-inline-block"
-                    target="_blank"
-                    rel="noopener">
+                    class="btn btn-primary rounded-pill px-4 d-sm-inline-block" target="_blank" rel="noopener">
                     Invest Now
                 </a>
             </div>
@@ -541,7 +548,8 @@
                 <div class="col-md-3">
                     <div class="how-card text-center p-4 h-100 rounded shadow-sm">
                         <div class="mb-3">
-                            <img loading="lazy" src="./public/assets/image/icon/discovery-call.png" alt="Discovery Call" class="img-fluid mx-auto d-block" style="max-width:110px;">
+                            <img loading="lazy" src="./public/assets/image/icon/discovery-call.png" alt="Discovery Call"
+                                class="img-fluid mx-auto d-block" style="max-width:110px;">
                         </div>
                         <h5 class="fw-bold">Discovery Call</h5>
                     </div>
@@ -551,7 +559,8 @@
                 <div class="col-md-3">
                     <div class="how-card text-center p-4 h-100 rounded shadow-sm">
                         <div class="mb-3">
-                            <img loading="lazy" src="./public/assets/image/icon/customised-strategy.png" alt="Customised Strategy" class="img-fluid mx-auto d-block" style="max-width:110px;">
+                            <img loading="lazy" src="./public/assets/image/icon/customised-strategy.png"
+                                alt="Customised Strategy" class="img-fluid mx-auto d-block" style="max-width:110px;">
                         </div>
                         <h5 class="fw-bold">Expert-curated Portfolios</h5>
                     </div>
@@ -561,7 +570,9 @@
                 <div class="col-md-3">
                     <div class="how-card text-center p-4 h-100 rounded shadow-sm">
                         <div class="mb-3">
-                            <img loading="lazy" src="./public/assets/image/icon/regular-portfolio.png" alt="Regular Portfolio Review" class="img-fluid mx-auto d-block" style="max-width:110px;">
+                            <img loading="lazy" src="./public/assets/image/icon/regular-portfolio.png"
+                                alt="Regular Portfolio Review" class="img-fluid mx-auto d-block"
+                                style="max-width:110px;">
                         </div>
                         <h5 class="fw-bold">Regular Portfolio Review</h5>
                     </div>
@@ -569,10 +580,8 @@
             </div>
 
             <div class="text-center mt-5">
-                <a href="https://wealthtrustcapitalservices.smallcase.com/"
-                    class="btn btn-primary rounded-pill px-5"
-                    target="_blank"
-                    rel="noopener">
+                <a href="https://wealthtrustcapitalservices.smallcase.com/" class="btn btn-primary rounded-pill px-5"
+                    target="_blank" rel="noopener">
                     Get Started
                 </a>
             </div>
@@ -595,56 +604,64 @@
                         <p class="fw-semibold mb-3">If you don't know:</p>
                         <ul class="list-unstyled who-for-list mb-3">
                             <li class="who-for-item mb-2">
-                                <span class="color-primary pe-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
-                                        <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                                <span class="color-primary pe-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="24" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                                        <path
+                                            d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
                                             stroke="currentColor" stroke-width="1" />
-                                        <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                                        <path
+                                            d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
                                             stroke="currentColor" stroke-width="1" />
                                     </svg></span> <span class="px-1"> Which stocks to buy</span>
                             </li>
                             <li class="who-for-item mb-2">
-                                <span class="color-primary pe-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
-                                        <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                                <span class="color-primary pe-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="24" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                                        <path
+                                            d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
                                             stroke="currentColor" stroke-width="1" />
-                                        <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                                        <path
+                                            d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
                                             stroke="currentColor" stroke-width="1" />
                                     </svg></span> <span class="px-1"> How much to invest</span>
                             </li>
                             <li class="who-for-item mb-2">
-                                <span class="color-primary pe-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
-                                        <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                                <span class="color-primary pe-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="24" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                                        <path
+                                            d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
                                             stroke="currentColor" stroke-width="1" />
-                                        <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                                        <path
+                                            d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
                                             stroke="currentColor" stroke-width="1" />
                                     </svg></span> <span class="px-1"> When to exit</span>
                             </li>
                             <li class="who-for-item mb-2">
-                                <span class="color-primary pe-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
-                                        <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                                <span class="color-primary pe-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="24" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                                        <path
+                                            d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
                                             stroke="currentColor" stroke-width="1" />
-                                        <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                                        <path
+                                            d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
                                             stroke="currentColor" stroke-width="1" />
                                     </svg></span> <span class="px-1"> Don’t have time to research</span>
                             </li>
                             <li class="who-for-item mb-0">
-                                <span class="color-primary pe-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
-                                        <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                                <span class="color-primary pe-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="24" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                                        <path
+                                            d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
                                             stroke="currentColor" stroke-width="1" />
-                                        <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                                        <path
+                                            d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
                                             stroke="currentColor" stroke-width="1" />
                                     </svg></span> <span class="px-1"> And you can’t control your emotions</span>
                             </li>
                         </ul>
                         <p class="fw-semibold mb-4">This is made for you.</p>
                         <a href="https://wealthtrustcapitalservices.smallcase.com/"
-                            class="btn btn-outline-primary rounded-pill px-4"
-                            target="_blank"
-                            rel="noopener">
+                            class="btn btn-outline-primary rounded-pill px-4" target="_blank" rel="noopener">
                             Invest Now
                         </a>
 
@@ -654,9 +671,7 @@
                 <!-- Right: Illustration -->
                 <div class="col-md-6 text-center">
                     <img loading="lazy" src="./public/assets/image/who-is-this-for.gif"
-                        class="img-fluid mx-auto d-block"
-                        alt="Investor Guide"
-                        </div>
+                        class="img-fluid mx-auto d-block" alt="Investor Guide" </div>
                 </div>
             </div>
     </section>
@@ -668,7 +683,8 @@
             <h3 class="mb-2"><u>Don’t just read success stories</u></h3>
             <h5 class="mb-3">Be a part of one</h5>
             <p class="testimonial-quote mb-3">
-                “I started as a beginner, unsure and overwhelmed. But Sneha and her team helped me understand, invest, and grow — without sleepless nights.”
+                “I started as a beginner, unsure and overwhelmed. But Sneha and her team helped me understand, invest,
+                and grow — without sleepless nights.”
             </p>
             <div class="testimonial-author text-end text-white fw-bold mt-4">
                 — Yaashvi Vira, Client since 2021
@@ -681,13 +697,15 @@
         <div class="container">
 
             <h2 class="brand-title mb-2">WealthTrust Capital Services</h2>
-            <p class="subtle mb-4">WealthTrust Capital Services Konark Shram, Office No. 309, 3rd Floor, Janata Nagar, Tardeo Road, Mumbai Central – 400034</p>
+            <p class="subtle mb-4">WealthTrust Capital Services Konark Shram, Office No. 309, 3rd Floor, Janata Nagar,
+                Tardeo Road, Mumbai Central – 400034</p>
 
             <h4 class="fw-bold mb-3">Regulatory Disclosure</h4>
             <p class="mb-3">
                 <span class="fw-semibold">WealthTrust Capital Services</span> is a SEBI registered
                 <span class="fw-semibold">Research Analyst</span> (Registration Number:
-                <span class="fw-semibold">INH000011149</span>). SEBI requires <span class="fw-semibold">RA</span> to disclose
+                <span class="fw-semibold">INH000011149</span>). SEBI requires <span class="fw-semibold">RA</span> to
+                disclose
                 complaint status on their homepage. Pursuant to the same, please note:
             </p>
 
@@ -695,25 +713,25 @@
             <ul class="nav nav-pills gap-2 disclosure-pills mb-3" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="pills-current-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-current" type="button" role="tab"
-                        aria-controls="pills-current" aria-selected="true">Current Month</button>
+                        data-bs-target="#pills-current" type="button" role="tab" aria-controls="pills-current"
+                        aria-selected="true">Current Month</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="pills-monthly-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-monthly" type="button" role="tab"
-                        aria-controls="pills-monthly" aria-selected="false">Monthly</button>
+                        data-bs-target="#pills-monthly" type="button" role="tab" aria-controls="pills-monthly"
+                        aria-selected="false">Monthly</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-annual-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-annual" type="button" role="tab"
-                        aria-controls="pills-annual" aria-selected="false">Annual</button>
+                    <button class="nav-link" id="pills-annual-tab" data-bs-toggle="pill" data-bs-target="#pills-annual"
+                        type="button" role="tab" aria-controls="pills-annual" aria-selected="false">Annual</button>
                 </li>
             </ul>
 
             <div class="tab-content">
 
                 <!-- Current Month -->
-                <div class="tab-pane fade show active" id="pills-current" role="tabpanel" aria-labelledby="pills-current-tab" tabindex="0">
+                <div class="tab-pane fade show active" id="pills-current" role="tabpanel"
+                    aria-labelledby="pills-current-tab" tabindex="0">
                     <div class="table-wrap p-2">
                         <div class="table-responsive">
                             <table class="table table-borderless align-middle mb-0">
@@ -736,7 +754,8 @@
                 </div>
 
                 <!-- Monthly -->
-                <div class="tab-pane fade" id="pills-monthly" role="tabpanel" aria-labelledby="pills-monthly-tab" tabindex="0">
+                <div class="tab-pane fade" id="pills-monthly" role="tabpanel" aria-labelledby="pills-monthly-tab"
+                    tabindex="0">
                     <div class="table-wrap p-2">
                         <div class="table-responsive">
                             <table class="table table-borderless align-middle mb-0">
@@ -757,7 +776,8 @@
                 </div>
 
                 <!-- Annual -->
-                <div class="tab-pane fade" id="pills-annual" role="tabpanel" aria-labelledby="pills-annual-tab" tabindex="0">
+                <div class="tab-pane fade" id="pills-annual" role="tabpanel" aria-labelledby="pills-annual-tab"
+                    tabindex="0">
                     <div class="table-wrap p-2">
                         <div class="table-responsive">
                             <table class="table table-borderless align-middle mb-0">
@@ -794,23 +814,26 @@
                     </p>
 
                     <!-- Investor Character PDF -->
-                    <a
-                        id="download-investor-character"
-                        class="btn btn-lg gradient-btn btn-pill px-4 mb-3"
-                        href="./public/assets/pdf/investor-charter.pdf"
-                        download
+                    <a id="download-investor-character" class="btn btn-lg gradient-btn btn-pill px-4 mb-3"
+                        href="./public/assets/pdf/investor-charter.pdf" download
                         aria-label="Download investor character PDF">
                         Download Investor Character
                     </a>
 
                     <!-- Equity Disclosure PDF -->
-                    <a
-                        id="download-equity-disclosure"
-                        class="btn btn-lg gradient-btn btn-pill px-4  mb-3"
-                        href="./public/assets/pdf/equity-disclosure.pdf"
-                        download
+                    <a id="download-equity-disclosure" class="btn btn-lg gradient-btn btn-pill px-4  mb-3"
+                        href="./public/assets/pdf/equity-disclosure.pdf" download
                         aria-label="Download equity disclosure PDF">
                         Download Equity Disclosure
+                    </a>
+                    <a id="download-equity-disclosure" class="btn btn-lg gradient-btn btn-pill px-4  mb-3"
+                        href="./public/assets/pdf/audit-status.pdf" download aria-label="Download audit status PDF">
+                        Download Audit Status
+                    </a>
+                    <a id="download-equity-disclosure" class="btn btn-lg gradient-btn btn-pill px-4  mb-3"
+                        href="./public/assets/pdf/escalation-matrix.pdf" download
+                        aria-label="Download escalation matrix PDF">
+                        Download Escalation Matrix
                     </a>
                 </div>
             </div>
@@ -821,7 +844,8 @@
     <!-- FAQ Section -->
     <section class="faq-section py-5 ">
         <div class="container">
-            <h2 class="text-center fw-bold mb-5" style="color: var(--primary-color); font-size: 2.7rem;">Still Have Questions?</h2>
+            <h2 class="text-center fw-bold mb-5" style="color: var(--primary-color); font-size: 2.7rem;">Still Have
+                Questions?</h2>
             <div class="row align-items-center">
                 <!-- FAQ Accordion (right) -->
                 <div class="col-lg-7 order-2 order-md-1">
@@ -830,11 +854,13 @@
                         <!-- Q1 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faq1-heading">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
                                     1. Do I need a Demat account?
                                 </button>
                             </h2>
-                            <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="faq1-heading" data-bs-parent="#faqAccordion">
+                            <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="faq1-heading"
+                                data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     Yes, you will need a Demat account to start investing in stocks and securities.
                                 </div>
@@ -844,13 +870,16 @@
                         <!-- Q2 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faq2-heading">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
                                     2. What if I’m already investing in stocks?
                                 </button>
                             </h2>
-                            <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading" data-bs-parent="#faqAccordion">
+                            <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading"
+                                data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    That’s great! Our services can complement your existing investments by providing research-backed insights and strategies to maximize returns.
+                                    That’s great! Our services can complement your existing investments by providing
+                                    research-backed insights and strategies to maximize returns.
                                 </div>
                             </div>
                         </div>
@@ -858,13 +887,16 @@
                         <!-- Q3 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faq3-heading">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
                                     3. What’s the risk involved?
                                 </button>
                             </h2>
-                            <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading" data-bs-parent="#faqAccordion">
+                            <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading"
+                                data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    All investments carry some risk. We focus on minimizing risk through diversification and data-driven decisions, but market fluctuations are inevitable.
+                                    All investments carry some risk. We focus on minimizing risk through diversification
+                                    and data-driven decisions, but market fluctuations are inevitable.
                                 </div>
                             </div>
                         </div>
@@ -872,13 +904,16 @@
                         <!-- Q4 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faq4-heading">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
                                     4. What kind of returns can I expect?
                                 </button>
                             </h2>
-                            <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faq4-heading" data-bs-parent="#faqAccordion">
+                            <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faq4-heading"
+                                data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Returns vary depending on market conditions, but our goal is to help you achieve consistent, long-term wealth creation rather than short-term gains.
+                                    Returns vary depending on market conditions, but our goal is to help you achieve
+                                    consistent, long-term wealth creation rather than short-term gains.
                                 </div>
                             </div>
                         </div>
@@ -886,13 +921,17 @@
                         <!-- Q5 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faq5-heading">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
-                                    5. What makes your stock advisory different from tip-based services or Telegram groups?
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                    5. What makes your stock advisory different from tip-based services or Telegram
+                                    groups?
                                 </button>
                             </h2>
-                            <div id="faq5" class="accordion-collapse collapse" aria-labelledby="faq5-heading" data-bs-parent="#faqAccordion">
+                            <div id="faq5" class="accordion-collapse collapse" aria-labelledby="faq5-heading"
+                                data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Unlike tip-based services, our advice is backed by in-depth research, transparency, and a focus on long-term financial success rather than speculation.
+                                    Unlike tip-based services, our advice is backed by in-depth research, transparency,
+                                    and a focus on long-term financial success rather than speculation.
                                 </div>
                             </div>
                         </div>
@@ -900,13 +939,16 @@
                         <!-- Q6 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faq6-heading">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
                                     6. Can I talk to someone before subscribing?
                                 </button>
                             </h2>
-                            <div id="faq6" class="accordion-collapse collapse" aria-labelledby="faq6-heading" data-bs-parent="#faqAccordion">
+                            <div id="faq6" class="accordion-collapse collapse" aria-labelledby="faq6-heading"
+                                data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Absolutely! You can schedule a free consultation with our advisors to understand how we can help before you subscribe.
+                                    Absolutely! You can schedule a free consultation with our advisors to understand how
+                                    we can help before you subscribe.
                                 </div>
                             </div>
                         </div>
@@ -916,7 +958,8 @@
 
                 <!-- Bot illustration (left) -->
                 <div class="col-lg-5 mb-4 mb-lg-0 text-center order-1 order-md-2">
-                    <img loading="lazy" src="./public/assets/image/FAQ3.gif" alt="Have Questions Bot" class="h-100 mx-auto d-block" style="max-width: 350px;">
+                    <img loading="lazy" src="./public/assets/image/FAQ3.gif" alt="Have Questions Bot"
+                        class="h-100 mx-auto d-block" style="max-width: 350px;">
                 </div>
             </div>
         </div>
@@ -932,7 +975,7 @@
         // Fetch data from API and render
         function loadDisclosureData() {
             // Current Month
-            $.getJSON("./api/disclosure/current.php", function(resp) {
+            $.getJSON("./api/disclosure/current.php", function (resp) {
                 if (resp.status === "success") {
                     const tbody = document.querySelector("#pills-current tbody");
                     renderTable(tbody, resp.data, [
@@ -948,7 +991,7 @@
             });
 
             // Monthly
-            $.getJSON("./api/disclosure/monthly.php", function(resp) {
+            $.getJSON("./api/disclosure/monthly.php", function (resp) {
                 if (resp.status === "success") {
                     const tbody = document.querySelector("#pills-monthly tbody");
                     renderTable(tbody, resp.data, [
@@ -962,7 +1005,7 @@
             });
 
             // Annual
-            $.getJSON("./api/disclosure/annual.php", function(resp) {
+            $.getJSON("./api/disclosure/annual.php", function (resp) {
                 if (resp.status === "success") {
                     const tbody = document.querySelector("#pills-annual tbody");
                     renderTable(tbody, resp.data, [
@@ -977,7 +1020,7 @@
         }
 
         // Load on page ready
-        $(document).ready(function() {
+        $(document).ready(function () {
             loadDisclosureData();
         });
 
@@ -1019,11 +1062,11 @@
             ]);
         });
         // JS fallback: if the browser ignores `download` (e.g., cross-origin), force a download via Blob
-        (function() {
+        (function () {
             const link = document.getElementById('download-investor-character');
             const PDF_URL = link.getAttribute('href'); // 🔁 ensure this is your real PDF path
 
-            link.addEventListener('click', async function(e) {
+            link.addEventListener('click', async function (e) {
                 // If same-origin, the 'download' attribute usually works—no need to intercept.
                 // Try a fetch fallback for broader compatibility.
                 try {
