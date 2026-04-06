@@ -94,28 +94,32 @@
 
             <div class="row g-4">
                 <!-- Card -->
-                <!-- <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
-                        <a href="https://www.linkedin.com/in/shubham-jha-4706321a0/" target="_blank" rel="noopener"
+                        <!-- <a href="https://www.linkedin.com/in/shubham-jha-4706321a0/" target="_blank" rel="noopener"
                             class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
                             <i class="fab fa-linkedin"></i>
-                        </a>
+                        </a> -->
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img loading="lazy" src="./public/assets/image/team/research-shubham.png" alt="Shubham Jha" class="img-fluid rounded">
+                                <img loading="lazy" src="./public/assets/image/team/aman.jpg" alt="Aman V."
+                                    class="img-fluid rounded">
                             </div>
                             <div class="col">
-                                <h6 class="mb-1">Shubham Jha</h6>
-                                <small class="text-primary d-block mb-2">(Senior Research Analyst)</small>
+                                <h6 class="mb-1">Aman V.</h6>
+                                <small class="text-primary d-block mb-2">( Head of Research & Portfolio Manager)</small>
                                 <p class="mb-0 text-sm">
-                                    Shubham is “Go-To” Research Analyst, a CFP® with experience in equity research, portfolio
-                                    management and quant analysis spanning over 5 years. He deciphers market moves and news flow
-                                    into actionable insights for current events plays.
+                                    As the Head of Research at WTCS, Aman brings a rigorous, detail-oriented approach to
+                                    our investment strategies. An equity analyst by profession and a macroeconomist by
+                                    passion, he oversees the company’s platform and advisory business while actively
+                                    managing client portfolios. Prior to joining WTCS, Aman served as a Banks and
+                                    Healthcare Analyst on the sell-side at PhillipCapital India. Outside of the office,
+                                    he unwinds through long walks and a love for music.
                                 </p>
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
 
                 <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
@@ -130,10 +134,16 @@
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Jeel Shah</h6>
-                                <small class="text-primary d-block mb-2">(Senior Research Analyst)</small>
+                                <small class="text-primary d-block mb-2">(Senior Analyst & Macroeconomics
+                                    Specialist)</small>
                                 <p class="mb-0 text-sm">
-                                    Dedicated mutual fund expert focused on research & analysis to tailor strategies for
-                                    client goals.
+                                    Jeel plays a critical role in ensuring that all client portfolios are strategically
+                                    aligned with prevailing economic conditions. She oversees research for the wealth
+                                    business and manages our approved fund list, utilizing WTCS’s proprietary mutual
+                                    fund screening model to ensure quality and consistency. Before bringing her
+                                    expertise to WTCS, Jeel was associated with Motilal Oswal. In her free time, she
+                                    enjoys staying active and competitive by playing squash & badminton and also has a
+                                    sweet tooth.
                                 </p>
                             </div>
                         </div>
@@ -148,16 +158,20 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img loading="lazy" src="./public/assets/image/team/research-parth.jpeg"
-                                    alt="Parth More" class="img-fluid rounded">
+                                <img loading="lazy" src="./public/assets/image/team/research-parth.jpg" alt="Parth More"
+                                    class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Parth More</h6>
-                                <small class="text-primary d-block mb-2">(Associate – Research)</small>
+                                <small class="text-primary d-block mb-2">(Equity Research Analyst)</small>
                                 <p class="mb-0 text-sm">
-                                    Dedicated research associate with strong background in investment analysis. Partners
-                                    with the
-                                    research team to deliver personalised, data-led solutions for clients.
+                                    A highly dedicated member of our equity research team, Parth brings exceptional
+                                    focus to financial modelling and deep-dive business analysis. He specializes in
+                                    identifying robust companies that generate predictable cash flows with low upfront
+                                    capital requirements. Having started his career at WTCS, Parth is also a highly
+                                    resourceful problem-solver who was instrumental in building our advisory portfolio
+                                    tracking systems and backend infrastructure. When he isn't analyzing financial
+                                    statements, Parth is an avid PC gamer currently playing GTA V.
                                 </p>
                             </div>
                         </div>
@@ -172,17 +186,20 @@
                         </a>
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img loading="lazy" src="./public/assets/image/team/research-akshay.png"
+                                <img loading="lazy" src="./public/assets/image/team/research-akshay.jpg"
                                     alt="Akshay Madhasu" class="img-fluid rounded">
                             </div>
                             <div class="col">
                                 <h6 class="mb-1">Akshay Madhasu</h6>
-                                <small class="text-primary d-block mb-2">(Associate – Research)</small>
+                                <small class="text-primary d-block mb-2">(Equity Research Analyst)</small>
                                 <p class="mb-0 text-sm">
-                                    Equity Research Associate with strengths in financial modelling, industry & company
-                                    analysis,
-                                    and macro work. Known for structured approach and ability to uncover actionable
-                                    insights.
+                                    Akshay is an emerging equity researcher with a deep focus on analyzing Indian
+                                    equities. A keen student of market cycles and macroeconomic trends, he specializes
+                                    in identifying and capitalizing on special situation opportunities. Akshay began his
+                                    professional career with WTCS, bringing a highly analytical and fresh perspective to
+                                    the research desk. Beyond the markets, he was a football player for Al Najma FC
+                                    previously and now plays it recreationally and is an absolute foodie who loves
+                                    exploring new culinary experiences.
                                 </p>
                             </div>
                         </div>
@@ -202,47 +219,55 @@
             </h3>
 
             <div class="row g-4">
-                <!--     <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
-                        <a href="https://www.linkedin.com/in/jeel-shah-31867b22a/" target="_blank" rel="noopener"
+                        <!-- <a href="https://www.linkedin.com/in/jeel-shah-31867b22a/" target="_blank" rel="noopener"
                             class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
                             <i class="fab fa-linkedin"></i>
-                        </a>
+                        </a> -->
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img loading="lazy" src="./public/assets/image/team/jeel.png" alt="Jeel Shah" class="img-fluid rounded">
+                                <img loading="lazy" src="./public/assets/image/team/shruti.jpg" alt="Shruti Sontakke"
+                                    class="img-fluid rounded">
                             </div>
                             <div class="col">
-                                <h6 class="mb-1">Jeel Shah</h6>
-                                <small class="text-primary d-block mb-2">(Associate – Mutual Fund Research)</small>
+                                <h6 class="mb-1">Shruti Sontakke</h6>
+                                <small class="text-primary d-block mb-2">(Wealth Manager)</small>
                                 <p class="mb-0 text-sm">
-                                    Dedicated mutual fund expert focused on research & analysis to tailor strategies for client goals.
+                                    Results-driven Wealth Manager specializing in financial planning and client
+                                    relationship management. Skilled in designing customized portfolio strategies and
+                                    managing client assets to drive long-term wealth creation through mutual funds,
+                                    insurance, and retirement solutions.
                                 </p>
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
 
-                <!-- <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
-                        <a href="https://www.linkedin.com/in/purvi-dodiya-632604169/" target="_blank" rel="noopener"
+                        <!-- <a href="https://www.linkedin.com/in/purvi-dodiya-632604169/" target="_blank" rel="noopener"
                             class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
                             <i class="fab fa-linkedin"></i>
-                        </a>
+                        </a> -->
                         <div class="row g-3 align-items-start">
                             <div class="col-4 col-sm-3">
-                                <img loading="lazy" src="./public/assets/image/team/purvi.png" alt="Purvi Dodiya" class="img-fluid rounded">
+                                <img loading="lazy" src="./public/assets/image/team/sairaj.jpg" alt="Sairaj Wadkar"
+                                    class="img-fluid rounded">
                             </div>
                             <div class="col">
-                                <h6 class="mb-1">Purvi Dodiya</h6>
-                                <small class="text-primary d-block mb-2">(Wealth Manager &amp; Insurance Expert)</small>
+                                <h6 class="mb-1">Sairaj Wadkar</h6>
+                                <small class="text-primary d-block mb-2">(Wealth Manager)</small>
                                 <p class="mb-0 text-sm">
-                                    Provides one-to-one guidance across mutual funds, goal planning, and insurance with a data-driven approach.
+                                    Sairaj Wadkar is a Financial Planner at Wealth Trust Capital Services with over
+                                    three years of experience in investment advisory and portfolio strategy. He
+                                    specializes in goal-based financial planning, helping clients build disciplined
+                                    investment portfolios aligned with their long-term financial objectives.
                                 </p>
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
 
                 <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
