@@ -246,31 +246,6 @@
 
                 <div class="col-12 col-lg-6">
                     <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
-                        <!-- <a href="https://www.linkedin.com/in/purvi-dodiya-632604169/" target="_blank" rel="noopener"
-                            class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
-                            <i class="fab fa-linkedin"></i>
-                        </a> -->
-                        <div class="row g-3 align-items-start">
-                            <div class="col-4 col-sm-3">
-                                <img loading="lazy" src="./public/assets/image/team/sairaj.jpg" alt="Sairaj Wadkar"
-                                    class="img-fluid rounded">
-                            </div>
-                            <div class="col">
-                                <h6 class="mb-1">Sairaj Wadkar</h6>
-                                <small class="text-primary d-block mb-2">(Wealth Manager)</small>
-                                <p class="mb-0 text-sm">
-                                    Sairaj Wadkar is a Financial Planner at Wealth Trust Capital Services with over
-                                    three years of experience in investment advisory and portfolio strategy. He
-                                    specializes in goal-based financial planning, helping clients build disciplined
-                                    investment portfolios aligned with their long-term financial objectives.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6">
-                    <div class="bg-light-green rounded shadow-sm p-3 position-relative h-100">
                         <a href="https://www.linkedin.com/in/vignesh-venkatesh-154527110/" target="_blank"
                             rel="noopener" class="position-absolute top-0 end-0 mt-2 me-2 social-icon-link">
                             <i class="fab fa-linkedin"></i>

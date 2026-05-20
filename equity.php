@@ -835,6 +835,11 @@
                         aria-label="Download escalation matrix PDF">
                         Download Escalation Matrix
                     </a>
+                    <a id="download-equity-disclosure" class="btn btn-lg gradient-btn btn-pill px-4  mb-3"
+                        href="./public/assets/pdf/complaint-redressal-and-scores.pdf" download
+                        aria-label="Download complaint redressal and scores PDF">
+                        Download Complaint Redressal and Scores
+                    </a>
                 </div>
             </div>
         </div>
