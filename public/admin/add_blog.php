@@ -1,5 +1,3 @@
-<!-- every thing working -->
-
 <?php
 session_start();
 if (!isset($_SESSION['admin'])) {
