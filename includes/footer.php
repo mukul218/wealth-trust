@@ -167,7 +167,7 @@
             <div class="col-12 text-center py-2">
                 <p class="copyright-text">&copy; 2025 WealthTrustCap. All Rights Reserved | <a
                         href=" https://smartodr.in/login">Smart ODR</a> | <a href="https://scores.sebi.gov.in/">SEBI
-                        Scores</a> </p>
+                        Scores</a> | <a href="https://www.sebi.gov.in/">SEBI</a> | <a href="https://www.amfiindia.com/">AMFI</a> </p>
             </div>
         </div>
     </div>
